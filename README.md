@@ -17,8 +17,6 @@
     </a>
 </p>
 
-<p align="center">
-    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and <a href="https://github.com/acemod/ACE3/releases">ACE3</a>.<br/></strong></sup>
-</p>
+
 
 # 183rd Custom Mod
