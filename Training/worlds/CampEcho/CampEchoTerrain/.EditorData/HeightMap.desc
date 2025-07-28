@@ -1,0 +1,7 @@
+HeightMapImportDescClass {
+ FileName "C:/Users/jwise/Downloads/Mountains_and_High_Peaks_Height_Maps_Pack/Mountains and High Peaks Height Map Pack/Mountain Range/Mountain Range Height Map.png"
+ Flags 0
+ MinHeight -1000000
+ ResampleMinHeight 0
+ ResampleMaxHeight 1
+}
