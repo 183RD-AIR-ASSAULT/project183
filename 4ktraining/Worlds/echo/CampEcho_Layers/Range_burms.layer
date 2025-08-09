@@ -1,0 +1,3044 @@
+$grp SplineShapeEntity {
+ burm {
+  coords 125 600 5263.449
+  Points {
+   ShapePoint "{660704DA723AC199}" {
+    Position -120 0 10.771
+   }
+   ShapePoint "{660704DA723AD82C}" {
+    Position 850 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    RoadClearance -8.3
+    RoadWidth 5
+    FalloffStartWidth 5
+    RoadFalloffWidth 30
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position -111.703 0 10.771
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 850 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ burm2 {
+  coords 120.246 600 5840
+  Points {
+   ShapePoint "{660704DA723AC199}" {
+    Position -120 0 10.771
+   }
+   ShapePoint "{660704DA723AD82C}" {
+    Position 850 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    RoadClearance -8.3
+    RoadWidth 5
+    FalloffStartWidth 5
+    RoadFalloffWidth 30
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position -111.703 0 10.771
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 850 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ burm3 {
+  coords 125 600 4200
+  Points {
+   ShapePoint "{660704DA723AC199}" {
+    Position -120 0 10.771
+   }
+   ShapePoint "{660704DA723AD82C}" {
+    Position 850 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    RoadClearance -8.3
+    RoadWidth 5
+    FalloffStartWidth 5
+    RoadFalloffWidth 30
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position -111.703 0 10.771
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 850 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 975 600.001 5842.299
+  Points {
+   ShapePoint "{6608C9107CB04F75}" {
+    Position 5 0 5
+   }
+   ShapePoint "{6608C9107CB04712}" {
+    Position 5 0 200
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords -180.983 -37.092 88.084
+    GenerateRoad 0
+    RoadClearance -8.3
+    RoadWidth 5
+    FalloffStartWidth 5
+    RoadFalloffWidth 30
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position -111.703 0 10.771
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 850 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 979.185 600 6000
+  Points {
+   ShapePoint "{6608C911B8E6BDEA}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6608C911B8E648A8}" {
+    Position 200 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 230.122 -35.208 6.358
+    GenerateRoad 0
+    RoadClearance -8.3
+    RoadWidth 5
+    FalloffStartWidth 5
+    RoadFalloffWidth 30
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position -111.703 0 10.771
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 850 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1175 600 5800
+  Points {
+   ShapePoint "{6608C9107CB04F75}" {
+    Position 5 0 5
+   }
+   ShapePoint "{6608C9107CB04712}" {
+    Position 5 0 200
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords -180.983 -37.092 88.084
+    GenerateRoad 0
+    RoadClearance -8.3
+    RoadWidth 5
+    FalloffStartWidth 5
+    RoadFalloffWidth 30
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position -111.703 0 10.771
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 850 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ burm4 {
+  coords 125 600 3700
+  Points {
+   ShapePoint "{660704DA723AC199}" {
+    Position -120 0 10.771
+   }
+   ShapePoint "{660704DA723AD82C}" {
+    Position 850 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    RoadClearance -8.3
+    RoadWidth 5
+    FalloffStartWidth 5
+    RoadFalloffWidth 30
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position -111.703 0 10.771
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 850 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 950 562.906 5615.395
+  Points {
+   ShapePoint "{6608D091B3057F06}" {
+    Position 0 0.96 148
+   }
+   ShapePoint "{6608D091B30577EC}" {
+    Position 0 0.75 -305
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 1048579
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0.781 148
+       angleY 90
+      }
+      {
+       coords 0 0.781 145.98
+       angleY 90
+      }
+      {
+       coords 0 0.781 143.962
+       angleY 90
+      }
+      {
+       coords 0 0.781 141.943
+       angleY 90
+      }
+      {
+       coords 0 0.781 139.924
+       angleY 90
+      }
+      {
+       coords 0 0.781 137.905
+       angleY 90
+      }
+      {
+       coords 0 0.781 135.886
+       angleY 90
+      }
+      {
+       coords 0 0.781 133.868
+       angleY 90
+      }
+      {
+       coords 0 0.781 131.848
+       angleY 90
+      }
+      {
+       coords 0 0.781 129.831
+       angleY 90
+      }
+      {
+       coords 0 0.781 127.81
+       angleY 90
+      }
+      {
+       coords 0 0.781 125.79
+       angleY 90
+      }
+      {
+       coords 0 0.781 123.769
+       angleY 90
+      }
+      {
+       coords 0 0.781 121.75
+       angleY 90
+      }
+      {
+       coords 0 0.781 119.73
+       angleY 90
+      }
+      {
+       coords 0 0.781 117.71
+       angleY 90
+      }
+      {
+       coords 0 0.781 115.691
+       angleY 90
+      }
+      {
+       coords 0 0.781 113.671
+       angleY 90
+      }
+      {
+       coords 0 0.781 111.651
+       angleY 90
+      }
+      {
+       coords 0 0.781 109.632
+       angleY 90
+      }
+      {
+       coords 0 0.781 107.614
+       angleY 90
+      }
+      {
+       coords 0 0.781 105.592
+       angleY 90
+      }
+      {
+       coords 0 0.781 103.571
+       angleY 90
+      }
+      {
+       coords 0 0.781 101.552
+       angleY 90
+      }
+      {
+       coords 0 0.781 99.532
+       angleY 90
+      }
+      {
+       coords 0 0.781 97.513
+       angleY 90
+      }
+      {
+       coords 0 0.781 95.492
+       angleY 90
+      }
+      {
+       coords 0 0.781 93.472
+       angleY 90
+      }
+      {
+       coords 0 0.781 91.454
+       angleY 90
+      }
+      {
+       coords 0 0.781 89.436
+       angleY 90
+      }
+      {
+       coords 0 0.781 87.418
+       angleY 90
+      }
+      {
+       coords 0 0.781 85.398
+       angleY 90
+      }
+      {
+       coords 0 0.781 83.38
+       angleY 90
+      }
+      {
+       coords 0 0.781 81.361
+       angleY 90
+      }
+      {
+       coords 0 0.781 79.342
+       angleY 90
+      }
+      {
+       coords 0 0.781 77.325
+       angleY 90
+      }
+      {
+       coords 0 0.781 75.305
+       angleY 90
+      }
+      {
+       coords 0 0.781 73.287
+       angleY 90
+      }
+      {
+       coords 0 0.781 71.267
+       angleY 90
+      }
+      {
+       coords 0 0.781 69.247
+       angleY 90
+      }
+      {
+       coords 0 0.781 67.226
+       angleY 90
+      }
+      {
+       coords 0 0.781 65.204
+       angleY 90
+      }
+      {
+       coords 0 0.781 63.185
+       angleY 90
+      }
+      {
+       coords 0 0.781 61.165
+       angleY 90
+      }
+      {
+       coords 0 0.781 59.146
+       angleY 90
+      }
+      {
+       coords 0 0.781 57.127
+       angleY 90
+      }
+      {
+       coords 0 0.781 55.108
+       angleY 90
+      }
+      {
+       coords 0 0.781 53.089
+       angleY 90
+      }
+      {
+       coords 0 0.781 51.07
+       angleY 90
+      }
+      {
+       coords 0 0.781 49.052
+       angleY 90
+      }
+      {
+       coords 0 0.781 47.032
+       angleY 90
+      }
+      {
+       coords 0 0.781 45.012
+       angleY 90
+      }
+      {
+       coords 0 0.781 42.994
+       angleY 90
+      }
+      {
+       coords 0 0.781 40.975
+       angleY 90
+      }
+      {
+       coords 0 0.781 38.955
+       angleY 90
+      }
+      {
+       coords 0 0.781 36.936
+       angleY 90
+      }
+      {
+       coords 0 0.781 34.917
+       angleY 90
+      }
+      {
+       coords 0 0.781 32.898
+       angleY 90
+      }
+      {
+       coords 0 0.781 30.878
+       angleY 90
+      }
+      {
+       coords 0 0.781 28.858
+       angleY 90
+      }
+      {
+       coords 0 0.781 26.838
+       angleY 90
+      }
+      {
+       coords 0 0.781 24.818
+       angleY 90
+      }
+      {
+       coords 0 0.781 22.798
+       angleY 90
+      }
+      {
+       coords 0 0.781 20.778
+       angleY 90
+      }
+      {
+       coords 0 0.781 18.759
+       angleY 90
+      }
+      {
+       coords 0 0.781 16.74
+       angleY 90
+      }
+      {
+       coords 0 0.781 14.722
+       angleY 90
+      }
+      {
+       coords 0 0.781 12.701
+       angleY 90
+      }
+      {
+       coords 0 0.781 10.682
+       angleY 90
+      }
+      {
+       coords 0 0.781 8.663
+       angleY 90
+      }
+      {
+       coords 0 0.781 6.644
+       angleY 90
+      }
+      {
+       coords 0 0.781 4.625
+       angleY 90
+      }
+      {
+       coords 0 0.781 2.604
+       angleY 90
+      }
+      {
+       coords 0 0.781 0.585
+       angleY 90
+      }
+      {
+       coords 0 0.781 -1.435
+       angleY 90
+      }
+      {
+       coords 0 0.781 -3.454
+       angleY 90
+      }
+      {
+       coords 0 0.781 -5.473
+       angleY 90
+      }
+      {
+       coords 0 0.781 -7.493
+       angleY 90
+      }
+      {
+       coords 0 0.781 -9.513
+       angleY 90
+      }
+      {
+       coords 0 0.781 -11.533
+       angleY 90
+      }
+      {
+       coords 0 0.781 -13.553
+       angleY 90
+      }
+      {
+       coords 0 0.781 -15.573
+       angleY 90
+      }
+      {
+       coords 0 0.781 -17.592
+       angleY 90
+      }
+      {
+       coords 0 0.781 -19.611
+       angleY 90
+      }
+      {
+       coords 0 0.781 -21.631
+       angleY 90
+      }
+      {
+       coords 0 0.781 -23.651
+       angleY 90
+      }
+      {
+       coords 0 0.781 -25.67
+       angleY 90
+      }
+      {
+       coords 0 0.781 -27.69
+       angleY 90
+      }
+      {
+       coords 0 0.781 -29.709
+       angleY 90
+      }
+      {
+       coords 0 0.781 -31.729
+       angleY 90
+      }
+      {
+       coords 0 0.781 -33.749
+       angleY 90
+      }
+      {
+       coords 0 0.781 -35.769
+       angleY 90
+      }
+      {
+       coords 0 0.781 -37.788
+       angleY 90
+      }
+      {
+       coords 0 0.781 -39.806
+       angleY 90
+      }
+      {
+       coords 0 0.781 -41.825
+       angleY 90
+      }
+      {
+       coords 0 0.781 -43.844
+       angleY 90
+      }
+      {
+       coords 0 0.781 -45.863
+       angleY 90
+      }
+      {
+       coords 0 0.781 -47.883
+       angleY 90
+      }
+      {
+       coords 0 0.781 -49.902
+       angleY 90
+      }
+      {
+       coords 0 0.781 -51.923
+       angleY 90
+      }
+      {
+       coords 0 0.781 -53.943
+       angleY 90
+      }
+      {
+       coords 0 0.781 -55.963
+       angleY 90
+      }
+      {
+       coords 0 0.781 -57.984
+       angleY 90
+      }
+      {
+       coords 0 0.781 -60.004
+       angleY 90
+      }
+      {
+       coords 0 0.781 -62.024
+       angleY 90
+      }
+      {
+       coords 0 0.781 -64.044
+       angleY 90
+      }
+      {
+       coords 0 0.781 -66.065
+       angleY 90
+      }
+      {
+       coords 0 0.781 -68.085
+       angleY 90
+      }
+      {
+       coords 0 0.781 -70.105
+       angleY 90
+      }
+      {
+       coords 0 0.781 -72.126
+       angleY 90
+      }
+      {
+       coords 0 0.781 -74.147
+       angleY 90
+      }
+      {
+       coords 0 0.781 -76.167
+       angleY 90
+      }
+      {
+       coords 0 0.781 -78.188
+       angleY 90
+      }
+      {
+       coords 0 0.781 -80.208
+       angleY 90
+      }
+      {
+       coords 0 0.781 -82.228
+       angleY 90
+      }
+      {
+       coords 0 0.781 -84.249
+       angleY 90
+      }
+      {
+       coords 0 0.781 -86.269
+       angleY 90
+      }
+      {
+       coords 0 0.781 -88.289
+       angleY 90
+      }
+      {
+       coords 0 0.781 -90.31
+       angleY 90
+      }
+      {
+       coords 0 0.781 -92.331
+       angleY 90
+      }
+      {
+       coords 0 0.781 -94.351
+       angleY 90
+      }
+      {
+       coords 0 0.781 -96.371
+       angleY 90
+      }
+      {
+       coords 0 0.781 -98.391
+       angleY 90
+      }
+      {
+       coords 0 0.781 -100.411
+       angleY 90
+      }
+      {
+       coords 0 0.781 -102.431
+       angleY 90
+      }
+      {
+       coords 0 0.781 -104.451
+       angleY 90
+      }
+      {
+       coords 0 0.781 -106.471
+       angleY 90
+      }
+      {
+       coords 0 0.781 -108.491
+       angleY 90
+      }
+      {
+       coords 0 0.781 -110.512
+       angleY 90
+      }
+      {
+       coords 0 0.781 -112.532
+       angleY 90
+      }
+      {
+       coords 0 0.781 -114.552
+       angleY 90
+      }
+      {
+       coords 0 0.781 -116.572
+       angleY 90
+      }
+      {
+       coords 0 0.781 -118.592
+       angleY 90
+      }
+      {
+       coords 0 0.781 -120.613
+       angleY 90
+      }
+      {
+       coords 0 0.781 -122.633
+       angleY 90
+      }
+      {
+       coords 0 0.781 -124.653
+       angleY 90
+      }
+      {
+       coords 0 0.781 -126.673
+       angleY 90
+      }
+      {
+       coords 0 0.781 -128.694
+       angleY 90
+      }
+      {
+       coords 0 0.781 -130.714
+       angleY 90
+      }
+      {
+       coords 0 0.781 -132.735
+       angleY 90
+      }
+      {
+       coords 0 0.781 -134.755
+       angleY 90
+      }
+      {
+       coords 0 0.781 -136.775
+       angleY 90
+      }
+      {
+       coords 0 0.781 -138.796
+       angleY 90
+      }
+      {
+       coords 0 0.781 -140.816
+       angleY 90
+      }
+      {
+       coords 0 0.781 -142.837
+       angleY 90
+      }
+      {
+       coords 0 0.781 -144.857
+       angleY 90
+      }
+      {
+       coords 0 0.781 -146.878
+       angleY 90
+      }
+      {
+       coords 0 0.781 -148.898
+       angleY 90
+      }
+      {
+       coords 0 0.781 -150.918
+       angleY 90
+      }
+      {
+       coords 0 0.781 -152.938
+       angleY 90
+      }
+      {
+       coords 0 0.781 -154.959
+       angleY 90
+      }
+      {
+       coords 0 0.781 -156.98
+       angleY 90
+      }
+      {
+       coords 0 0.781 -159
+       angleY 90
+      }
+      {
+       coords 0 0.781 -161.021
+       angleY 90
+      }
+      {
+       coords 0 0.781 -163.041
+       angleY 90
+      }
+      {
+       coords 0 0.781 -165.061
+       angleY 90
+      }
+      {
+       coords 0 0.781 -167.082
+       angleY 90
+      }
+      {
+       coords 0 0.781 -169.102
+       angleY 90
+      }
+      {
+       coords 0 0.781 -171.123
+       angleY 90
+      }
+      {
+       coords 0 0.781 -173.143
+       angleY 90
+      }
+      {
+       coords 0 0.781 -175.163
+       angleY 90
+      }
+      {
+       coords 0 0.781 -177.184
+       angleY 90
+      }
+      {
+       coords 0 0.781 -179.204
+       angleY 90
+      }
+      {
+       coords 0 0.781 -181.224
+       angleY 90
+      }
+      {
+       coords 0 0.781 -183.244
+       angleY 90
+      }
+      {
+       coords 0 0.781 -185.264
+       angleY 90
+      }
+      {
+       coords 0 0.781 -187.284
+       angleY 90
+      }
+      {
+       coords 0 0.781 -189.304
+       angleY 90
+      }
+      {
+       coords 0 0.781 -191.325
+       angleY 90
+      }
+      {
+       coords 0 0.781 -193.345
+       angleY 90
+      }
+      {
+       coords 0 0.781 -195.365
+       angleY 90
+      }
+      {
+       coords 0 0.781 -197.385
+       angleY 90
+      }
+      {
+       coords 0 0.781 -199.405
+       angleY 90
+      }
+      {
+       coords 0 0.781 -201.425
+       angleY 90
+      }
+      {
+       coords 0 0.781 -203.446
+       angleY 90
+      }
+      {
+       coords 0 0.781 -205.466
+       angleY 90
+      }
+      {
+       coords 0 0.781 -207.486
+       angleY 90
+      }
+      {
+       coords 0 0.781 -209.506
+       angleY 90
+      }
+      {
+       coords 0 0.781 -211.526
+       angleY 90
+      }
+      {
+       coords 0 0.781 -213.546
+       angleY 90
+      }
+      {
+       coords 0 0.781 -215.566
+       angleY 90
+      }
+      {
+       coords 0 0.781 -217.586
+       angleY 90
+      }
+      {
+       coords 0 0.781 -219.607
+       angleY 90
+      }
+      {
+       coords 0 0.781 -221.627
+       angleY 90
+      }
+      {
+       coords 0 0.781 -223.647
+       angleY 90
+      }
+      {
+       coords 0 0.781 -225.667
+       angleY 90
+      }
+      {
+       coords 0 0.781 -227.687
+       angleY 90
+      }
+      {
+       coords 0 0.781 -229.708
+       angleY 90
+      }
+      {
+       coords 0 0.781 -231.728
+       angleY 90
+      }
+      {
+       coords 0 0.781 -233.748
+       angleY 90
+      }
+      {
+       coords 0 0.781 -235.768
+       angleY 90
+      }
+      {
+       coords 0 0.781 -237.788
+       angleY 90
+      }
+      {
+       coords 0 0.775 -239.809
+       angleY 90
+      }
+      {
+       coords 0 0.75 -241.829
+       angleY 90
+      }
+      {
+       coords 0 0.75 -243.849
+       angleY 90
+      }
+      {
+       coords 0 0.75 -245.869
+       angleY 90
+      }
+      {
+       coords 0 0.75 -247.889
+       angleY 90
+      }
+      {
+       coords 0 0.75 -249.909
+       angleY 90
+      }
+      {
+       coords 0 0.75 -251.929
+       angleY 90
+      }
+      {
+       coords 0 0.75 -253.949
+       angleY 90
+      }
+      {
+       coords 0 0.75 -255.97
+       angleY 90
+      }
+      {
+       coords 0 0.75 -257.99
+       angleY 90
+      }
+      {
+       coords 0 0.75 -260.01
+       angleY 90
+      }
+      {
+       coords 0 0.75 -262.03
+       angleY 90
+      }
+      {
+       coords 0 0.75 -264.05
+       angleY 90
+      }
+      {
+       coords 0 0.75 -266.07
+       angleY 90
+      }
+      {
+       coords 0 0.75 -268.09
+       angleY 90
+      }
+      {
+       coords 0 0.75 -270.111
+       angleY 90
+      }
+      {
+       coords 0 0.75 -272.131
+       angleY 90
+      }
+      {
+       coords 0 0.75 -274.151
+       angleY 90
+      }
+      {
+       coords 0 0.75 -276.171
+       angleY 90
+      }
+      {
+       coords 0 0.75 -278.191
+       angleY 90
+      }
+      {
+       coords 0 0.75 -280.211
+       angleY 90
+      }
+      {
+       coords 0 0.75 -282.232
+       angleY 90
+      }
+      {
+       coords 0 0.75 -284.252
+       angleY 90
+      }
+      {
+       coords 0 0.75 -286.272
+       angleY 90
+      }
+      {
+       coords 0 0.75 -288.292
+       angleY 90
+      }
+      {
+       coords 0 0.75 -290.312
+       angleY 90
+      }
+      {
+       coords 0 0.75 -292.333
+       angleY 90
+      }
+      {
+       coords 0 0.75 -294.353
+       angleY 90
+      }
+      {
+       coords 0 0.75 -296.373
+       angleY 90
+      }
+      {
+       coords 0 0.75 -298.393
+       angleY 90
+      }
+      {
+       coords 0 0.75 -300.414
+       angleY 90
+      }
+      {
+       coords 0 0.75 -302.434
+       angleY 90
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 950 562.906 4115
+  Points {
+   ShapePoint "{6608D091B3057F06}" {
+    Position 0 0 50
+   }
+   ShapePoint "{6608D091B30577EC}" {
+    Position 0 0 -377.596
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 1048579
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0.316 50
+       angleY 90
+      }
+      {
+       coords 0 0.016 47.981
+       angleY 90
+      }
+      {
+       coords 0 -0.001 45.961
+       angleY 90
+      }
+      {
+       coords 0 -0.001 43.941
+       angleY 90
+      }
+      {
+       coords 0 -0.001 41.923
+       angleY 90
+      }
+      {
+       coords 0 -0.001 39.905
+       angleY 90
+      }
+      {
+       coords 0 -0.001 37.884
+       angleY 90
+      }
+      {
+       coords 0 -0.001 35.867
+       angleY 90
+      }
+      {
+       coords 0 -0.001 33.846
+       angleY 90
+      }
+      {
+       coords 0 -0.001 31.827
+       angleY 90
+      }
+      {
+       coords 0 -0.001 29.809
+       angleY 90
+      }
+      {
+       coords 0 -0.001 27.788
+       angleY 90
+      }
+      {
+       coords 0 -0.001 25.77
+       angleY 90
+      }
+      {
+       coords 0 -0.001 23.75
+       angleY 90
+      }
+      {
+       coords 0 -0.001 21.732
+       angleY 90
+      }
+      {
+       coords 0 -0.001 19.714
+       angleY 90
+      }
+      {
+       coords 0 -0.001 17.696
+       angleY 90
+      }
+      {
+       coords 0 -0.001 15.676
+       angleY 90
+      }
+      {
+       coords 0 -0.001 13.655
+       angleY 90
+      }
+      {
+       coords 0 -0.001 11.634
+       angleY 90
+      }
+      {
+       coords 0 -0.001 9.613
+       angleY 90
+      }
+      {
+       coords 0 -0.001 7.594
+       angleY 90
+      }
+      {
+       coords 0 -0.001 5.576
+       angleY 90
+      }
+      {
+       coords 0 -0.001 3.557
+       angleY 90
+      }
+      {
+       coords 0 -0.001 1.536
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -0.482
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -2.503
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -4.522
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -6.543
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -8.563
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -10.583
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -12.604
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -14.622
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -16.64
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -18.659
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -20.678
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -22.698
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -24.717
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -26.736
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -28.757
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -30.776
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -32.795
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -34.813
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -36.833
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -38.853
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -40.872
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -42.891
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -44.912
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -46.931
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -48.95
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -50.969
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -52.988
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -55.008
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -57.027
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -59.047
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -61.066
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -63.085
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -65.105
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -67.125
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -69.146
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -71.166
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -73.186
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -75.205
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -77.225
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -79.245
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -81.263
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -83.284
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -85.302
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -87.321
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -89.34
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -91.359
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -93.378
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -95.398
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -97.418
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -99.437
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -101.455
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -103.474
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -105.494
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -107.514
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -109.534
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -111.553
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -113.572
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -115.591
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -117.61
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -119.63
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -121.649
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -123.669
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -125.69
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -127.71
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -129.73
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -131.751
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -133.771
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -135.792
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -137.812
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -139.833
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -141.853
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -143.874
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -145.894
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -147.915
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -149.935
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -151.956
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -153.977
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -155.997
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -158.018
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -160.038
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -162.058
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -164.079
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -166.099
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -168.119
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -170.139
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -172.159
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -174.18
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -176.2
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -178.22
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -180.241
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -182.261
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -184.282
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -186.302
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -188.323
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -190.343
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -192.363
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -194.382
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -196.403
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -198.423
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -200.443
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -202.464
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -204.484
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -206.504
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -208.525
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -210.545
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -212.566
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -214.586
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -216.606
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -218.627
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -220.647
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -222.668
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -224.688
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -226.708
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -228.729
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -230.75
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -232.77
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -234.79
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -236.811
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -238.831
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -240.852
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -242.872
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -244.893
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -246.913
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -248.934
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -250.954
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -252.974
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -254.994
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -257.014
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -259.034
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -261.055
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -263.075
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -265.095
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -267.115
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -269.135
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -271.156
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -273.176
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -275.196
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -277.216
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -279.236
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -281.256
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -283.276
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -285.296
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -287.317
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -289.337
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -291.357
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -293.377
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -295.397
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -297.417
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -299.437
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -301.458
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -303.478
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -305.498
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -307.518
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -309.538
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -311.559
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -313.579
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -315.599
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -317.619
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -319.639
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -321.659
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -323.679
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -325.7
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -327.72
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -329.74
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -331.76
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -333.78
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -335.801
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -337.821
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -339.841
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -341.861
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -343.881
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -345.901
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -347.921
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -349.942
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -351.962
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -353.982
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -356.002
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -358.022
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -360.042
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -362.063
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -364.083
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -366.103
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -368.123
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -370.143
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -372.164
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -374.184
+       angleY 90
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 950 562.907 4617.376
+  Points {
+   ShapePoint "{6608D091B3057F06}" {
+    Position 0 0 50
+   }
+   ShapePoint "{6608D091B30577EC}" {
+    Position 0 0 -377.596
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 1048579
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0.316 50
+       angleY 90
+      }
+      {
+       coords 0 0.016 47.981
+       angleY 90
+      }
+      {
+       coords 0 -0.001 45.961
+       angleY 90
+      }
+      {
+       coords 0 -0.001 43.941
+       angleY 90
+      }
+      {
+       coords 0 -0.001 41.923
+       angleY 90
+      }
+      {
+       coords 0 -0.001 39.905
+       angleY 90
+      }
+      {
+       coords 0 -0.001 37.884
+       angleY 90
+      }
+      {
+       coords 0 -0.001 35.867
+       angleY 90
+      }
+      {
+       coords 0 -0.001 33.846
+       angleY 90
+      }
+      {
+       coords 0 -0.001 31.827
+       angleY 90
+      }
+      {
+       coords 0 -0.001 29.809
+       angleY 90
+      }
+      {
+       coords 0 -0.001 27.788
+       angleY 90
+      }
+      {
+       coords 0 -0.001 25.77
+       angleY 90
+      }
+      {
+       coords 0 -0.001 23.75
+       angleY 90
+      }
+      {
+       coords 0 -0.001 21.732
+       angleY 90
+      }
+      {
+       coords 0 -0.001 19.714
+       angleY 90
+      }
+      {
+       coords 0 -0.001 17.696
+       angleY 90
+      }
+      {
+       coords 0 -0.001 15.676
+       angleY 90
+      }
+      {
+       coords 0 -0.001 13.655
+       angleY 90
+      }
+      {
+       coords 0 -0.001 11.634
+       angleY 90
+      }
+      {
+       coords 0 -0.001 9.613
+       angleY 90
+      }
+      {
+       coords 0 -0.001 7.594
+       angleY 90
+      }
+      {
+       coords 0 -0.001 5.576
+       angleY 90
+      }
+      {
+       coords 0 -0.001 3.557
+       angleY 90
+      }
+      {
+       coords 0 -0.001 1.536
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -0.482
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -2.503
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -4.522
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -6.543
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -8.563
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -10.583
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -12.604
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -14.622
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -16.64
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -18.659
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -20.678
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -22.698
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -24.717
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -26.736
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -28.757
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -30.776
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -32.795
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -34.813
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -36.833
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -38.853
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -40.872
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -42.891
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -44.912
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -46.931
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -48.95
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -50.969
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -52.988
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -55.008
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -57.027
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -59.047
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -61.066
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -63.085
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -65.105
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -67.125
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -69.146
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -71.166
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -73.186
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -75.205
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -77.225
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -79.245
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -81.263
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -83.284
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -85.302
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -87.321
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -89.34
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -91.359
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -93.378
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -95.398
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -97.418
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -99.437
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -101.455
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -103.474
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -105.494
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -107.514
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -109.534
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -111.553
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -113.572
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -115.591
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -117.61
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -119.63
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -121.649
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -123.669
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -125.69
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -127.71
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -129.73
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -131.751
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -133.771
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -135.792
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -137.812
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -139.833
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -141.853
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -143.874
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -145.894
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -147.915
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -149.935
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -151.956
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -153.977
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -155.997
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -158.018
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -160.038
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -162.058
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -164.079
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -166.099
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -168.119
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -170.139
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -172.159
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -174.18
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -176.2
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -178.22
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -180.241
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -182.261
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -184.282
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -186.302
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -188.323
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -190.343
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -192.363
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -194.382
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -196.403
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -198.423
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -200.443
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -202.464
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -204.484
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -206.504
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -208.525
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -210.545
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -212.566
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -214.586
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -216.606
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -218.627
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -220.647
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -222.668
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -224.688
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -226.708
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -228.729
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -230.75
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -232.77
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -234.79
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -236.811
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -238.831
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -240.852
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -242.872
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -244.893
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -246.913
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -248.934
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -250.954
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -252.974
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -254.994
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -257.014
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -259.034
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -261.055
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -263.075
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -265.095
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -267.115
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -269.135
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -271.156
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -273.176
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -275.196
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -277.216
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -279.236
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -281.256
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -283.276
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -285.296
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -287.317
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -289.337
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -291.357
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -293.377
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -295.397
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -297.417
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -299.437
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -301.458
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -303.478
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -305.498
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -307.518
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -309.538
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -311.559
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -313.579
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -315.599
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -317.619
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -319.639
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -321.659
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -323.679
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -325.7
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -327.72
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -329.74
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -331.76
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -333.78
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -335.801
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -337.821
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -339.841
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -341.861
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -343.881
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -345.901
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -347.921
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -349.942
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -351.962
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -353.982
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -356.002
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -358.022
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -360.042
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -362.063
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -364.083
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -366.103
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -368.123
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -370.143
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -372.164
+       angleY 90
+      }
+      {
+       coords 0 -0.001 -374.184
+       angleY 90
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5.879 600 5810.173
+  Points {
+   ShapePoint "{66091DF1EA3E9F23}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66091DF1EA3EAB3B}" {
+    Position 0 0 -2200
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords -219.235 172.837 -1378.845
+    GenerateRoad 0
+    RoadClearance -8.3
+    RoadWidth 5
+    FalloffStartWidth 5
+    RoadFalloffWidth 100
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 219.235 -172.838 1378.845
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 219.235 -172.837 -121.155
+       }
+      }
+      IsClosedSpline 0
+      Width 5
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6143.382 600 0.669
+  Points {
+   ShapePoint "{660B434DE64D6194}" {
+    Position 0 0 0
+   }
+   ShapePoint "{660B434DE64D7F6C}" {
+    Position 0 0 800
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    RoadFalloffWidth 200
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 0 0 800
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6140.902 599.102 805.366
+  Points {
+   ShapePoint "{660B434D1DA7B54F}" {
+    Position 0 0 0
+   }
+   ShapePoint "{660B434D1DA74C45}" {
+    Position 0 -0.008 4100
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    FalloffStartWidth 50
+    RoadFalloffWidth 300
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 0 -0.008 4100
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6143.198 600 0.927
+  Points {
+   ShapePoint "{660B434D8AE89E60}" {
+    Position 0 0 0
+   }
+   ShapePoint "{660B434D8AE89614}" {
+    Position -2000 0 0
+   }
+   ShapePoint "{660B434DC50B99DD}" {
+    Position -2800 -80 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    FalloffStartWidth 50
+    RoadFalloffWidth 300
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position -2000 0 0
+       }
+       ShapePoint "{660B434DC50BC0F9}" {
+        Position -2800 -80 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+}

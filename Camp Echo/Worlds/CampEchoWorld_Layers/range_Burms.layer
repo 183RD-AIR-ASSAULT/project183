@@ -1,0 +1,102 @@
+$grp SplineShapeEntity {
+ {
+  coords 8184 580.303 2150
+  Points {
+   ShapePoint "{66113695BD69B8B8}" {
+    Position 0 0 -110
+   }
+   ShapePoint "{66113695BD69B3F1}" {
+    Position 0 0 3000
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    FalloffStartWidth 0
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 0 0 3000
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 8180 580 3935
+  Points {
+   ShapePoint "{66114AD990F793AC}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66114AD990F7B9EA}" {
+    Position -1000 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    FalloffStartWidth 10
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position -1000 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 8180 580 4460
+  Points {
+   ShapePoint "{66114AD990F793AC}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66114AD990F7B9EA}" {
+    Position -1000 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    FalloffStartWidth 10
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position -1000 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+}

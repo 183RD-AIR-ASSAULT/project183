@@ -1,0 +1,30 @@
+$grp SCR_DestructibleBuildingEntity : "{11F6A51BF6F04ABB}Prefabs/Structures/Military/Houses/Barracks_E_02/Barracks_E_02.et" {
+ {
+  coords 1150 0 4075
+  angleY 180
+ }
+ {
+  coords 1150 0 4015
+ }
+ {
+  coords 1100 0 4075
+  angleY 180
+ }
+ {
+  coords 1185 0 4045
+  angleY -90
+ }
+}
+SCR_DestructibleBuildingEntity : "{51F233A0BA73532A}Prefabs/Structures/Industrial/Houses/Office_E_01/Office_E_01.et" {
+ coords 1090 0 4015
+}
+SCR_DestructibleBuildingEntity : "{F5F65D19951ED02F}PrefabLibrary/Structures/Industrial/ShedMetal_02.et" {
+ coords 1112.75 0 4016.593
+ scale 0.95
+ {
+  SCR_DestructibleBuildingEntity {
+   ID "55ECD1FB9A457F6C"
+   scale 1.05
+  }
+ }
+}

@@ -1,0 +1,55 @@
+SCR_DestructibleBuildingEntity : "{0EE7AF83D1711461}PrefabLibrary/Structures/Agriculture/WaterTower_01.et" {
+ coords 4079.137 0 698.457
+}
+$grp SCR_DestructibleBuildingEntity : "{39961D803889053B}PrefabLibrary/Structures/Industrial/PortableCabin_E_01/PortableCabin_E_01_beige.et" {
+ {
+  coords 4075.854 0 698.949
+ }
+ {
+  coords 4050.948 0 761.123
+  angleY -180
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{8E3EDA119269CCA6}PrefabLibrary/Structures/Airport/Hangar_01.et" {
+ {
+  coords 3950 0 800
+  {
+   GenericEntity {
+    ID "554AD98811AF5082"
+    coords 0 -11.351 0
+   }
+  }
+ }
+ {
+  coords 3900 0 800
+ }
+ {
+  coords 3850 0 800
+ }
+ {
+  coords 3800 0 800
+ }
+ {
+  coords 3750 0 800
+ }
+ {
+  coords 3700 0 800
+ }
+ {
+  coords 3650 0 800
+ }
+ {
+  coords 3600 0 800
+ }
+ {
+  coords 3550 0 800
+ }
+}
+GenericEntity : "{977461B206979919}Prefabs/Structures/Airport/ControlTower_01/Furniture/ControlTower_01_furniture_01.et" {
+ coords 4097 155.594 905
+ angleY -180
+}
+SCR_DestructibleBuildingEntity : "{9CEC8BB63429FF28}Prefabs/Structures/Airport/ControlTower_01/ControlTower_01.et" {
+ coords 4097 0 905
+ angleY -180
+}

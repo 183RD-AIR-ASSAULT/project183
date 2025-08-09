@@ -1,0 +1,10 @@
+$grp SCR_DestructibleBuildingEntity : "{67418023AB7FB8DA}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_medical_white.et" {
+ {
+  coords 1522 0.031 3939.612
+  angleY 90
+ }
+ {
+  coords 1522 0 3915.743
+  angleY 90
+ }
+}

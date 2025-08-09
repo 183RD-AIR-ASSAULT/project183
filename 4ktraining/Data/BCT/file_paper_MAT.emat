@@ -1,0 +1,16 @@
+MatPBRBasic {
+ EmissiveLV 0.711
+ SpecularMul 0
+ BlendMode None
+ GlobalLayerUVSrc "UV world"
+ GlobalLayerUVTransform MatUVTransform "{660F3AAB9AE2D2C4}" {
+ }
+ RoughnessScale 5
+ AOScale 0.417
+ DielectricReflectance 0.025
+ CavityFromAO 0.572
+ GlobalAOPower 0.622
+ BCRMap "{15E912F42D28130D}Data/BCT/file_paper_MAT_BaseColor.edds"
+ NormalPower 0.922
+ NMOMap "{43AF85EC5853B4C9}Data/BCT/RGB Alpha_1.edds"
+}

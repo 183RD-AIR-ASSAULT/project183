@@ -1,0 +1,103 @@
+SplineShapeEntity runway {
+ coords 6000 490 3170
+ Points {
+  ShapePoint "{6611283645BB59D2}" {
+   Position 0 -0.001 0
+  }
+  ShapePoint "{6611283645BB517F}" {
+   Position 0 0 2000
+  }
+ }
+ {
+  SplineShapeEntity {
+   coords 150 0 300
+   Points {
+    ShapePoint "{6611283645BB59D2}" {
+     Position -120.019 0 -219.721
+    }
+    ShapePoint "{66114AC5FC77E66E}" {
+     Position 0 0 50
+     Data {
+      SplinePointData SplinePointData {
+       InTangent -0.038 0 825.282
+       OutTangent -0.035 0 759.636
+      }
+     }
+    }
+    ShapePoint "{6611283645BB517F}" {
+     Position 0 0 1375
+     Data {
+      SplinePointData SplinePointData {
+       InTangent -0.072 0.047 806.988
+       OutTangent -0.072 0.048 811.609
+      }
+     }
+    }
+    ShapePoint "{66114AC5B1F8E28B}" {
+     Position -117 0 1625
+    }
+   }
+   {
+    RoadGeneratorEntity : "{2A7E54E286DE00A7}PrefabLibrary/Generators/Roads/Concrete/RG_Runway_40m.et" {
+     coords 0 0 0
+     AdjustHeightMap 1
+     RoadFalloffWidth 100
+     {
+      RoadEntity {
+       ID "54C4E8573F9B873B"
+       SplinePoints {
+        ShapePoint "{66112835325E260F}" {
+         Position -120.019 0 -219.721
+        }
+        ShapePoint "{66112835325E26A1}" {
+         Position 0 0 50
+         Data {
+          SplinePointData "{00000000D8F1BA4F}" {
+           InTangent -0.038 0 825.282
+           OutTangent -0.035 0 759.636
+          }
+         }
+        }
+        ShapePoint "{66114AC5B1F8CC3A}" {
+         Position 0 0 1375
+         Data {
+          SplinePointData "{00000000D8F1BA4F}" {
+           InTangent -0.072 0.047 806.988
+           OutTangent -0.072 0.048 811.609
+          }
+         }
+        }
+        ShapePoint "{66114AC5FC77C8B0}" {
+         Position -117 0 1625
+        }
+       }
+       IsClosedSpline 0
+       Width 40
+      }
+     }
+    }
+   }
+  }
+  RoadGeneratorEntity : "{809E3A39348EE6DC}PrefabLibrary/Generators/Roads/Concrete/RG_Runway_60m.et" {
+   coords 0 0 0
+   AdjustHeightMap 1
+   FalloffStartWidth 0
+   RoadFalloffWidth 900
+   {
+    RoadEntity {
+     ID "54C4E8577E07574D"
+     SplinePoints {
+      ShapePoint "{66112836716F21B8}" {
+       Position 802.234 -0.133 921.827
+      }
+      ShapePoint "{66112836716F20E9}" {
+       Position 2734.085 -0.132 404.188
+      }
+     }
+     IsClosedSpline 0
+     Width 60
+    }
+   }
+  }
+ }
+}

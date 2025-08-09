@@ -1,0 +1,307 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C52B51912}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{4C5A461A3520D0F6}Assets/Props/Crates/CrateWooden_01/Data/Target.emat"
+     }
+    }
+   }
+  }
+  coords 4809.108 120.188 700.458
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0F958F6C}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4814.842 120.232 694.373
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FA8D4D1}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4814.841 120.232 706.405
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FAC3C43}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4820.154 120.281 689.022
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C743DBEE6}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{4C5A461A3520D0F6}Assets/Props/Crates/CrateWooden_01/Data/Target.emat"
+     }
+    }
+   }
+  }
+  coords 4807.395 120.188 728.147
+  angleX -0.234
+  angleY 90
+  angleZ 0.234
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C743A5CB9}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{4C5A461A3520D0F6}Assets/Props/Crates/CrateWooden_01/Data/Target.emat"
+     }
+    }
+   }
+  }
+  coords 4824.508 120.32 728.289
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C74309AFA}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{4C5A461A3520D0F6}Assets/Props/Crates/CrateWooden_01/Data/Target.emat"
+     }
+    }
+   }
+  }
+  coords 4799.176 120.156 728.205
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C7426D961}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{4C5A461A3520D0F6}Assets/Props/Crates/CrateWooden_01/Data/Target.emat"
+     }
+    }
+   }
+  }
+  coords 4815.77 120.25 728.205
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FBBEC31}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4806.875 120.201 746.573
+  angleX -0.234
+  angleY 90
+  angleZ 0.234
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FBF32C7}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4823.989 120.313 746.719
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C72A7AC76}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{4C5A461A3520D0F6}Assets/Props/Crates/CrateWooden_01/Data/Target.emat"
+     }
+    }
+   }
+  }
+  coords 4798.656 120.188 758.496
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FB54B05}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4815.25 120.27 758.496
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C791635A8}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{D70DAE5CDEED3153}Assets/Props/Crates/CrateWooden_01/Data/EnemyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4823.437 120.335 785.957
+  angleX 0.086
+  angleY 90
+  angleZ 0.32
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C79298930}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{D70DAE5CDEED3153}Assets/Props/Crates/CrateWooden_01/Data/EnemyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4823.583 120.506 768.844
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C792CD4BB}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{D70DAE5CDEED3153}Assets/Props/Crates/CrateWooden_01/Data/EnemyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4823.498 120.414 794.176
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C79203112}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{D70DAE5CDEED3153}Assets/Props/Crates/CrateWooden_01/Data/EnemyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4823.497 120.336 777.581
+  angleY 90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FC5E512}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4836.023 120.406 823.645
+  angleY -90
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FD8C4F3}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4824.437 120.353 814.233
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FDC1417}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4813.968 120.281 823.524
+  angleY 45
+ }
+ {
+  components {
+   MeshObject "{64A63C1F67AB6946}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6604B85C0FDF70F2}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 4824.448 120.353 834.213
+  angleY -180
+ }
+}

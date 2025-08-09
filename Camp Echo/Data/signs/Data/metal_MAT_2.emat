@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{3A13BC7B7FC24E78}Data/BCT/wedge_paper_MAT_BaseColor.edds"
+ OpacityMap "{43AF85EC5853B4C9}Data/BCT/RGB Alpha_1.edds"
+}

@@ -1,0 +1,81 @@
+PolylineShapeEntity {
+ coords 2884.348 538.983 5303.979
+ Points {
+  ShapePoint "{660CDB4D7FE85D63}" {
+   Position 11.482 0 -1.887
+  }
+  ShapePoint "{660CDB4D7FD7AC8B}" {
+   Position 75.752 0 -71.287
+  }
+  ShapePoint "{660CDB4D7A511072}" {
+   Position 86.994 0 -214.879
+  }
+  ShapePoint "{660CDB4D7BA008BA}" {
+   Position -17.159 0 -497.49
+  }
+  ShapePoint "{660CDB4D65792539}" {
+   Position -37.492 0 -561.265
+  }
+  ShapePoint "{660CDB4D6597CF46}" {
+   Position -143.999 0 -620.886
+  }
+  ShapePoint "{660CDB4D65CBA270}" {
+   Position -244.791 0 -654.96
+  }
+  ShapePoint "{660CDB4D65E06B2B}" {
+   Position -290.267 0 -668.628
+  }
+  ShapePoint "{660CDB4D6603B2BF}" {
+   Position -353.454 0 -686.111
+  }
+  ShapePoint "{660CDB4D6625572F}" {
+   Position -395.497 0 -698.293
+  }
+  ShapePoint "{660CDB4D67185F07}" {
+   Position -460.549 0 -710.489
+  }
+  ShapePoint "{660CDB4D674404AF}" {
+   Position -525.789 0 -632.691
+  }
+  ShapePoint "{660CDB4D677DBB4B}" {
+   Position -520.96 0 -560.492
+  }
+  ShapePoint "{660CDB4D679755EF}" {
+   Position -536.213 0 -430.493
+  }
+  ShapePoint "{660CDB4D67CA7FFC}" {
+   Position -529.404 0 -361.52
+  }
+  ShapePoint "{660CDB4D67EF90CD}" {
+   Position -463.679 0 -307.074
+  }
+  ShapePoint "{660CDB4D60F45C04}" {
+   Position -325.86 12 -46.563
+  }
+  ShapePoint "{660CDB4D61134F75}" {
+   Position -316.937 15.588 -18.631
+  }
+  ShapePoint "{660CDB4C9A596A34}" {
+   Position -302.048 18.495 20.986
+  }
+  ShapePoint "{660CDB4D613345FA}" {
+   Position -276.212 0 58.828
+  }
+  ShapePoint "{660CDB4D6147341E}" {
+   Position -243.039 0 65.413
+  }
+  ShapePoint "{660CDB4D6262863D}" {
+   Position -191.299 0 72.104
+  }
+  ShapePoint "{660CDB4D62865A89}" {
+   Position -110.265 0 66.674
+  }
+ }
+ IsClosed 1
+ {
+  LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
+   coords 0 0 0
+   m_fWaterSurfaceOffset 1
+  }
+ }
+}

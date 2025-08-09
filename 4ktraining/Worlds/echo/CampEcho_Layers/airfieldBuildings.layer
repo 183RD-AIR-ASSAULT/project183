@@ -1,0 +1,38 @@
+SCR_DestructibleBuildingEntity : "{1A4A64AD1C9A15BA}PrefabLibrary/Structures/Airport/ControlTower_01.et" {
+ coords 1580 0 4000
+ angleX -0.895
+ angleY 90
+}
+$grp SCR_DestructibleBuildingEntity : "{8E3EDA119269CCA6}PrefabLibrary/Structures/Airport/Hangar_01.et" {
+ {
+  coords 1560 0 4100
+  angleX -0.895
+  angleY 90
+ }
+ {
+  coords 1560 0 4250
+  angleY 90
+ }
+ {
+  coords 1560 0 4200
+  angleX -0.895
+  angleY 90
+ }
+ {
+  coords 1560 0 4350
+  angleX -0.895
+  angleY 90
+ }
+ {
+  coords 1560 0 4300
+  angleY 90
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CDEFEE1847C0933A}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_03/FuelTank_03_base.et" {
+ {
+  coords 1540 -0 4500
+ }
+ {
+  coords 1570 0 4500
+ }
+}

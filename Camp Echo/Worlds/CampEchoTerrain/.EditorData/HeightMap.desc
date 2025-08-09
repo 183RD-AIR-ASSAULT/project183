@@ -1,0 +1,7 @@
+HeightMapImportDescClass {
+ FileName "C:/Users/jwise/OneDrive/adobe/reforger/Rugged Terrain with Rivers/Rugged Terrain with Rivers/Rugged Terrain Height Map PNG.png"
+ Flags 1
+ MinHeight -1000000
+ ResampleMinHeight 0
+ ResampleMaxHeight 1
+}

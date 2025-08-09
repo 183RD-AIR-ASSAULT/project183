@@ -1,0 +1,1240 @@
+SplineShapeEntity line0 {
+ coords 7200.5 490 4350
+ Points {
+  ShapePoint "{66114AD5E0295651}" {
+   Position 0 -0.001 -300
+  }
+  ShapePoint "{66114AD5E0296382}" {
+   Position 0 0 0
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+   Flags 1048579
+   {
+    $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+     {
+      coords 0 0 -300
+      angleY 270
+     }
+     {
+      coords 0 0 -297.98
+      angleY 270
+     }
+     {
+      coords 0 0 -295.961
+      angleY 270
+     }
+     {
+      coords 0 0 -293.941
+      angleY 270
+     }
+     {
+      coords 0 0 -291.921
+      angleY 270
+     }
+     {
+      coords 0 0 -289.902
+      angleY 270
+     }
+     {
+      coords 0 0 -287.882
+      angleY 270
+     }
+     {
+      coords 0 0 -285.864
+      angleY 270
+     }
+     {
+      coords 0 0 -283.844
+      angleY 270
+     }
+     {
+      coords 0 0 -281.825
+      angleY 270
+     }
+     {
+      coords 0 0 -279.805
+      angleY 270
+     }
+     {
+      coords 0 0 -277.786
+      angleY 270
+     }
+     {
+      coords 0 0 -275.766
+      angleY 270
+     }
+     {
+      coords 0 0 -273.747
+      angleY 270
+     }
+     {
+      coords 0 0 -271.728
+      angleY 270
+     }
+     {
+      coords 0 0 -269.708
+      angleY 270
+     }
+     {
+      coords 0 0 -267.687
+      angleY 270
+     }
+     {
+      coords 0 0 -265.667
+      angleY 270
+     }
+     {
+      coords 0 0 -263.649
+      angleY 270
+     }
+     {
+      coords 0 0 -261.629
+      angleY 270
+     }
+     {
+      coords 0 0 -259.61
+      angleY 270
+     }
+     {
+      coords 0 0 -257.59
+      angleY 270
+     }
+     {
+      coords 0 0 -255.571
+      angleY 270
+     }
+     {
+      coords 0 0 -253.551
+      angleY 270
+     }
+     {
+      coords 0 0 -251.53
+      angleY 270
+     }
+     {
+      coords 0 0 -249.51
+      angleY 270
+     }
+     {
+      coords 0 0 -247.49
+      angleY 270
+     }
+     {
+      coords 0 0 -245.47
+      angleY 270
+     }
+     {
+      coords 0 0 -243.45
+      angleY 270
+     }
+     {
+      coords 0 0 -241.429
+      angleY 270
+     }
+     {
+      coords 0 0 -239.409
+      angleY 270
+     }
+     {
+      coords 0 0 -237.388
+      angleY 270
+     }
+     {
+      coords 0 0 -235.368
+      angleY 270
+     }
+     {
+      coords 0 0 -233.347
+      angleY 270
+     }
+     {
+      coords 0 0 -231.327
+      angleY 270
+     }
+     {
+      coords 0 0 -229.306
+      angleY 270
+     }
+     {
+      coords 0 0 -227.285
+      angleY 270
+     }
+     {
+      coords 0 0 -225.265
+      angleY 270
+     }
+     {
+      coords 0 0 -223.244
+      angleY 270
+     }
+     {
+      coords 0 0 -221.223
+      angleY 270
+     }
+     {
+      coords 0 0 -219.203
+      angleY 270
+     }
+     {
+      coords 0 0 -217.182
+      angleY 270
+     }
+     {
+      coords 0 0 -215.162
+      angleY 270
+     }
+     {
+      coords 0 0 -213.141
+      angleY 270
+     }
+     {
+      coords 0 0 -211.121
+      angleY 270
+     }
+     {
+      coords 0 0 -209.101
+      angleY 270
+     }
+     {
+      coords 0 0 -207.08
+      angleY 270
+     }
+     {
+      coords 0 0 -205.06
+      angleY 270
+     }
+     {
+      coords 0 0 -203.04
+      angleY 270
+     }
+     {
+      coords 0 0 -201.019
+      angleY 270
+     }
+     {
+      coords 0 0 -198.998
+      angleY 270
+     }
+     {
+      coords 0 0 -196.978
+      angleY 270
+     }
+     {
+      coords 0 0 -194.957
+      angleY 270
+     }
+     {
+      coords 0 0 -192.936
+      angleY 270
+     }
+     {
+      coords 0 0 -190.916
+      angleY 270
+     }
+     {
+      coords 0 0 -188.895
+      angleY 270
+     }
+     {
+      coords 0 0 -186.875
+      angleY 270
+     }
+     {
+      coords 0 0 -184.854
+      angleY 270
+     }
+     {
+      coords 0 0 -182.833
+      angleY 270
+     }
+     {
+      coords 0 0 -180.813
+      angleY 270
+     }
+     {
+      coords 0 0 -178.793
+      angleY 270
+     }
+     {
+      coords 0 0 -176.772
+      angleY 270
+     }
+     {
+      coords 0 0 -174.752
+      angleY 270
+     }
+     {
+      coords 0 0 -172.732
+      angleY 270
+     }
+     {
+      coords 0 0 -170.711
+      angleY 270
+     }
+     {
+      coords 0 0 -168.691
+      angleY 270
+     }
+     {
+      coords 0 0 -166.67
+      angleY 270
+     }
+     {
+      coords 0 0 -164.65
+      angleY 270
+     }
+     {
+      coords 0 0 -162.629
+      angleY 270
+     }
+     {
+      coords 0 0 -160.609
+      angleY 270
+     }
+     {
+      coords 0 0 -158.589
+      angleY 270
+     }
+     {
+      coords 0 0 -156.569
+      angleY 270
+     }
+     {
+      coords 0 0 -154.548
+      angleY 270
+     }
+     {
+      coords 0 0 -152.528
+      angleY 270
+     }
+     {
+      coords 0 0 -150.508
+      angleY 270
+     }
+     {
+      coords 0 0 -148.487
+      angleY 270
+     }
+     {
+      coords 0 0 -146.467
+      angleY 270
+     }
+     {
+      coords 0 0 -144.446
+      angleY 270
+     }
+     {
+      coords 0 0 -142.426
+      angleY 270
+     }
+     {
+      coords 0 0 -140.406
+      angleY 270
+     }
+     {
+      coords 0 0 -138.385
+      angleY 270
+     }
+     {
+      coords 0 0 -136.365
+      angleY 270
+     }
+     {
+      coords 0 0 -134.344
+      angleY 270
+     }
+     {
+      coords 0 0 -132.323
+      angleY 270
+     }
+     {
+      coords 0 0 -130.303
+      angleY 270
+     }
+     {
+      coords 0 0 -128.282
+      angleY 270
+     }
+     {
+      coords 0 0 -126.262
+      angleY 270
+     }
+     {
+      coords 0 0 -124.242
+      angleY 270
+     }
+     {
+      coords 0 0 -122.222
+      angleY 270
+     }
+     {
+      coords 0 0 -120.202
+      angleY 270
+     }
+     {
+      coords 0 0 -118.182
+      angleY 270
+     }
+     {
+      coords 0 0 -116.161
+      angleY 270
+     }
+     {
+      coords 0 0 -114.141
+      angleY 270
+     }
+     {
+      coords 0 0 -112.121
+      angleY 270
+     }
+     {
+      coords 0 0 -110.101
+      angleY 270
+     }
+     {
+      coords 0 0 -108.081
+      angleY 270
+     }
+     {
+      coords 0 0 -106.061
+      angleY 270
+     }
+     {
+      coords 0 0 -104.041
+      angleY 270
+     }
+     {
+      coords 0 0 -102.02
+      angleY 270
+     }
+     {
+      coords 0 0 -100
+      angleY 270
+     }
+     {
+      coords 0 0 -97.98
+      angleY 270
+     }
+     {
+      coords 0 0 -95.96
+      angleY 270
+     }
+     {
+      coords 0 0 -93.939
+      angleY 270
+     }
+     {
+      coords 0 0 -91.919
+      angleY 270
+     }
+     {
+      coords 0 0 -89.899
+      angleY 270
+     }
+     {
+      coords 0 0 -87.879
+      angleY 270
+     }
+     {
+      coords 0 0 -85.859
+      angleY 270
+     }
+     {
+      coords 0 0 -83.839
+      angleY 270
+     }
+     {
+      coords 0 0 -81.819
+      angleY 270
+     }
+     {
+      coords 0 0 -79.799
+      angleY 270
+     }
+     {
+      coords 0 0 -77.778
+      angleY 270
+     }
+     {
+      coords 0 0 -75.758
+      angleY 270
+     }
+     {
+      coords 0 0 -73.738
+      angleY 270
+     }
+     {
+      coords 0 0 -71.718
+      angleY 270
+     }
+     {
+      coords 0 0 -69.698
+      angleY 270
+     }
+     {
+      coords 0 0 -67.678
+      angleY 270
+     }
+     {
+      coords 0 0 -65.658
+      angleY 270
+     }
+     {
+      coords 0 0 -63.637
+      angleY 270
+     }
+     {
+      coords 0 0 -61.617
+      angleY 270
+     }
+     {
+      coords 0 0 -59.597
+      angleY 270
+     }
+     {
+      coords 0 0 -57.577
+      angleY 270
+     }
+     {
+      coords 0 0 -55.557
+      angleY 270
+     }
+     {
+      coords 0 0 -53.537
+      angleY 270
+     }
+     {
+      coords 0 0 -51.517
+      angleY 270
+     }
+     {
+      coords 0 0 -49.496
+      angleY 270
+     }
+     {
+      coords 0 0 -47.476
+      angleY 270
+     }
+     {
+      coords 0 0 -45.456
+      angleY 270
+     }
+     {
+      coords 0 0 -43.436
+      angleY 270
+     }
+     {
+      coords 0 0 -41.416
+      angleY 270
+     }
+     {
+      coords 0 0 -39.396
+      angleY 270
+     }
+     {
+      coords 0 0 -37.375
+      angleY 270
+     }
+     {
+      coords 0 0 -35.355
+      angleY 270
+     }
+     {
+      coords 0 0 -33.335
+      angleY 270
+     }
+     {
+      coords 0 0 -31.315
+      angleY 270
+     }
+     {
+      coords 0 0 -29.294
+      angleY 270
+     }
+     {
+      coords 0 0 -27.274
+      angleY 270
+     }
+     {
+      coords 0 0 -25.254
+      angleY 270
+     }
+     {
+      coords 0 0 -23.234
+      angleY 270
+     }
+     {
+      coords 0 0 -21.214
+      angleY 270
+     }
+     {
+      coords 0 0 -19.194
+      angleY 270
+     }
+     {
+      coords 0 0 -17.173
+      angleY 270
+     }
+     {
+      coords 0 0 -15.153
+      angleY 270
+     }
+     {
+      coords 0 0 -13.133
+      angleY 270
+     }
+     {
+      coords 0 0 -11.113
+      angleY 270
+     }
+     {
+      coords 0 0 -9.093
+      angleY 270
+     }
+     {
+      coords 0 0 -7.073
+      angleY 270
+     }
+     {
+      coords 0 0 -5.053
+      angleY 270
+     }
+     {
+      coords 0 0 -3.032
+      angleY 270
+     }
+    }
+   }
+  }
+ }
+}
+SCR_FiringRangeManager : "{33E51BFBD9730340}PrefabLibrary/riflelane.et" {
+ coords 7200 490 4335
+ angleY 45
+ {
+  SCR_FiringRangeController {
+   ID "661145282942F1C5"
+   coords 0 0 0
+   angleY -135
+   {
+    SCR_FiringRangeLineArea {
+     ID "66114528294285E2"
+     coords 0 0 0
+     angleY 0
+    }
+    SCR_FiringRangeTarget marker {
+     ID "66114528294285E0"
+     coords 2.063 0 0.18
+     angleY -43.889
+    }
+    SCR_FiringRangeTarget t200a {
+     ID "6611452829429F38"
+     coords 11 0 -200
+     angleY 0
+     m_iTargetDistance 200
+    }
+    SCR_FiringRangeTarget t250c {
+     ID "6611452829432703"
+     coords 0 0 -250
+     angleY 0
+     m_iTargetDistance 250
+    }
+    SCR_FiringRangeTarget t25a {
+     ID "661145282940EF5F"
+     coords 2 0 -25
+     angleY 0
+     m_iTargetDistance 25
+    }
+    SCR_FiringRangeTarget t50b {
+     ID "6611452829404895"
+     coords -6 0 -50
+     angleY 0
+     m_iTargetDistance 50
+    }
+    SCR_FiringRangeTarget T100B {
+     ID "6611452829404894"
+     coords 5 0 -100
+     angleY 0
+    }
+    SCR_FiringRangeTarget t50a {
+     ID "661145282940030C"
+     coords 6 0 -50
+     angleY 0
+    }
+    SCR_FiringRangeTarget t200d {
+     ID "6611452829424530"
+     coords -11 0 -200
+     angleY 0
+    }
+    SCR_FiringRangeTarget t100 {
+     ID "661145282941CBC1"
+     coords 11 0 -100
+     angleY 0
+    }
+    SCR_FiringRangeTarget t25b {
+     ID "66114528294141A8"
+     coords -2 0 -25
+     angleY 0
+     m_iTargetDistance 25
+    }
+    SCR_FiringRangeTarget t100c {
+     ID "661145282941766E"
+     coords -5 0 -100
+     angleY 0
+    }
+    SCR_FiringRangeTarget t200c {
+     ID "6611452829424531"
+     coords -6 0 -200
+     angleY 0
+     m_iTargetDistance 200
+    }
+    SCR_FiringRangeTarget t100d {
+     ID "661145282941766D"
+     coords -11 0 -100
+     angleY 0
+     m_iTargetDistance 100
+    }
+    SCR_FiringRangeTarget t600b {
+     ID "661145282946C0D0"
+     coords -10 0 -600
+     angleY 0
+     m_iTargetDistance 600
+     m_fTimeInErectedPosition 5.25
+    }
+    SCR_FiringRangeTarget t600a {
+     ID "661145282946CBF1"
+     coords 10 0 -600
+     angleY 0
+     m_iTargetDistance 600
+     m_fTimeInErectedPosition 5.25
+    }
+    SCR_FiringRangeTarget t150 {
+     ID "6611452829424311"
+     coords 1 0 -150
+     angleY 0
+    }
+    SCR_FiringRangeTarget t700b {
+     ID "661145282946E708"
+     coords 12 0 -700
+     angleY 0
+     m_iTargetDistance 700
+     m_fTimeInErectedPosition 5.5
+    }
+    SCR_FiringRangeTarget t500b {
+     ID "661145282946945C"
+     coords -8 0 -500
+     angleY 0
+     m_iTargetDistance 500
+     m_fTimeInErectedPosition 5
+    }
+    SCR_FiringRangeTarget t400a {
+     ID "66114528294690CD"
+     coords 6 0 -400
+     angleY 0
+     m_fTimeInErectedPosition 4.5
+    }
+    SCR_FiringRangeTarget t200b {
+     ID "6611452829427775"
+     coords 6 0 -200
+     angleY 0
+    }
+    SCR_FiringRangeTarget t400b {
+     ID "66114528294690CC"
+     coords 0 0 -400
+     angleY 0
+     m_iTargetDistance 400
+     m_fTimeInErectedPosition 4.5
+    }
+    SCR_FiringRangeTarget t500a {
+     ID "661145282946AA1F"
+     coords 8 0 -500
+     angleY 0
+     m_fTimeInErectedPosition 5
+    }
+    SCR_FiringRangeTarget t350a {
+     ID "661145282946072F"
+     coords 12 0 -350
+     angleY 0
+     m_iTargetDistance 350
+     m_fTimeInErectedPosition 4
+    }
+    SCR_FiringRangeTarget t150a {
+     ID "6611452829422DE9"
+     coords -2 0 -150
+     angleY 0
+     m_iTargetDistance 150
+    }
+    SCR_FiringRangeTarget t400c {
+     ID "6611452829460FDE"
+     coords -6 0 -400
+     angleY 0
+     m_iTargetDistance 400
+     m_fTimeInErectedPosition 4.5
+    }
+    SCR_FiringRangeTarget t800 {
+     ID "661145282947F69E"
+     coords 4 0 -800
+     angleY 0
+     m_iTargetDistance 800
+     m_fTimeInErectedPosition 6
+    }
+    SCR_FiringRangeTarget t800d {
+     ID "661145282947F699"
+     coords -8 0 -800
+     angleY 0
+     m_iTargetDistance 800
+     m_fTimeInErectedPosition 6
+    }
+    SCR_FiringRangeTarget t300c {
+     ID "661145282943A5EA"
+     coords -10 0 -300
+     angleY 0
+     m_iTargetDistance 300
+     m_fTimeInErectedPosition 4.5
+    }
+    SCR_FiringRangeTarget t800c {
+     ID "661145282947B7C9"
+     coords 8 0 -800
+     angleY 0
+     m_iTargetDistance 800
+     m_fTimeInErectedPosition 6
+    }
+    SCR_FiringRangeTarget t700a {
+     ID "66114528294726C2"
+     coords -12 0 -700
+     angleY 0
+     m_fTimeInErectedPosition 5.5
+    }
+    SCR_FiringRangeTarget t800b {
+     ID "6611452829472F01"
+     coords -4 0 -800
+     angleY 0
+     m_fTimeInErectedPosition 6
+    }
+    SCR_FiringRangeTarget t250a {
+     ID "661145282943A5D5"
+     coords 6 0 -250
+     angleY 0
+     m_iTargetDistance 250
+    }
+    SCR_FiringRangeTarget t250b {
+     ID "66114528294378E2"
+     coords -6 0 -250
+     angleY 0
+     m_iTargetDistance 250
+    }
+    SCR_FiringRangeTarget t350b {
+     ID "661145282944AEF9"
+     coords -12 0 -350
+     angleY 0
+     m_iTargetDistance 350
+     m_fTimeInErectedPosition 4
+    }
+    SCR_FiringRangeTarget t300a {
+     ID "661145282944AA9F"
+     coords 11 0 -300
+     angleY 0
+     m_iTargetDistance 300
+     m_fTimeInErectedPosition 4.5
+    }
+    SCR_FiringRangeTarget t300b {
+     ID "661145282944AA9E"
+     coords 1 0 -300
+     angleY 0
+     m_fTimeInErectedPosition 4.5
+    }
+    $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+     t75b {
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords -8 0 -75
+      angleY 0
+      m_iTargetDistance 200
+     }
+     t75a {
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 8 0 -75
+      angleY 0
+      m_iTargetDistance 100
+     }
+    }
+   }
+  }
+  DecalEntity : "{82EAFB1B8237D519}PrefabLibrary/Decals/Dirt/Decal_Dirt_Patch_04.et" {
+   coords -1 0 0
+   angleX -90
+   angleY -45
+   angleZ -180
+   scale 3.319
+  }
+  GenericEntity rr1 : "{A1CF0B4B2F529F6A}PrefabLibrary/range point.et" {
+   components {
+    SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+     m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+      Name "1"
+     }
+    }
+   }
+   coords 0.707 0 -0.707
+   angleY -45
+  }
+ }
+}
+$grp SplineShapeEntity : "{78BA893B2E05910F}PrefabLibrary/rangefence.et" {
+ {
+  coords 7200 490 4350
+  angleY -180
+ }
+ {
+  coords 7200 490 4320
+  angleY -180
+ }
+ {
+  coords 7200 490 4290
+  angleY -180
+ }
+ {
+  coords 7200 490 4260
+  angleY -180
+ }
+ {
+  coords 7200 490 4230
+  angleY -180
+ }
+ {
+  coords 7200 490 4200
+  angleY -180
+ }
+ {
+  coords 7200 490 4170
+  angleY -180
+ }
+ {
+  coords 7200 490 4140
+  angleY -180
+ }
+ {
+  coords 7200 490 4110
+  angleY -180
+ }
+ {
+  coords 7200 490 4080
+  angleY -180
+ }
+ {
+  coords 7200 490 4050
+  angleY -180
+ }
+}
+$grp GenericEntity : "{A1CF0B4B2F529F6A}PrefabLibrary/range point.et" {
+ m0 {
+  components {
+   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+     Name "0m"
+    }
+   }
+  }
+  coords 7200 490 4360
+  angleY 0
+  {
+   $grp GenericEntity : "{A1CF0B4B2F529F6A}PrefabLibrary/range point.et" {
+    m600 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "600m"
+       }
+      }
+     }
+     coords 600 0 0
+     angleY 0
+    }
+    m700 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "700m"
+       }
+      }
+     }
+     coords 700 0 0
+     angleY 0
+    }
+    m500 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "500m"
+       }
+      }
+     }
+     coords 500 0 0
+     angleY 0
+    }
+    m250 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "250m"
+       }
+      }
+     }
+     coords 250 0 0
+     angleY 0
+    }
+    m150 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "150m"
+       }
+      }
+     }
+     coords 150 0 0
+     angleY 0
+    }
+    m350 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "350m"
+       }
+      }
+     }
+     coords 350 0 0.028
+     angleY 0
+    }
+    m400 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "400m"
+       }
+      }
+     }
+     coords 400 0 0
+     angleY 0
+    }
+    m300 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "300m"
+       }
+      }
+     }
+     coords 300 0 0
+     angleY 0
+    }
+    m100 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "100m"
+       }
+      }
+     }
+     coords 100 0 0
+     angleY 0
+    }
+    m200 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "200m"
+       }
+      }
+     }
+     coords 200 0 0
+     angleY 0
+    }
+    m50 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+       }
+      }
+     }
+     coords 50 0 0.066
+     angleY 0
+    }
+    m800 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "800m"
+       }
+      }
+     }
+     coords 800 0 0
+     angleY 0
+    }
+   }
+  }
+ }
+ m2 {
+  components {
+   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+     Name "0m"
+    }
+   }
+  }
+  coords 7200 490 4045
+  angleY 0
+  {
+   $grp GenericEntity : "{A1CF0B4B2F529F6A}PrefabLibrary/range point.et" {
+    m3 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "100m"
+       }
+      }
+     }
+     coords 100 0 0
+     angleY 0
+    }
+    m4 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "150m"
+       }
+      }
+     }
+     coords 150 0 0
+     angleY 0
+    }
+    m5 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "200m"
+       }
+      }
+     }
+     coords 200 0 0
+     angleY 0
+    }
+    m6 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "250m"
+       }
+      }
+     }
+     coords 250 0 0
+     angleY 0
+    }
+    m7 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "300m"
+       }
+      }
+     }
+     coords 300 0 0
+     angleY 0
+    }
+    m8 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "350m"
+       }
+      }
+     }
+     coords 350 0 0.028
+     angleY 0
+    }
+    m9 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "400m"
+       }
+      }
+     }
+     coords 400 0 0
+     angleY 0
+    }
+    m10 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+       }
+      }
+     }
+     coords 50 0 0.066
+     angleY 0
+    }
+    m11 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "500m"
+       }
+      }
+     }
+     coords 500 0 0
+     angleY 0
+    }
+    m12 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "600m"
+       }
+      }
+     }
+     coords 600 0 0
+     angleY 0
+    }
+    m13 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "700m"
+       }
+      }
+     }
+     coords 700 0 0
+     angleY 0
+    }
+    m14 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "800m"
+       }
+      }
+     }
+     coords 800 0 0
+     angleY 0
+    }
+   }
+  }
+ }
+}

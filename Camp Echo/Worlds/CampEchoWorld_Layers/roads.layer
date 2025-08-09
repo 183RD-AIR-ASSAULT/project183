@@ -1,0 +1,400 @@
+$grp SplineShapeEntity {
+ {
+  coords 6515.829 489.998 3457.642
+  Points {
+   ShapePoint "{661203EDB9156E0B}" {
+    Position 0 0.002 0
+   }
+   ShapePoint "{661203EDB9157848}" {
+    Position 0 0 1200
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -1.423 -0.001 993.844
+      OutTangent -1.404 -0.001 980.914
+     }
+    }
+   }
+   ShapePoint "{661203EDF22A7C77}" {
+    Position -275.837 0 1942.342
+   }
+   ShapePoint "{661203EDF9A8C791}" {
+    Position -559.258 -24.325 2393.632
+   }
+   ShapePoint "{661203EDED3E88DD}" {
+    Position -775.603 -46.034 2562.836
+   }
+   ShapePoint "{661203EDEDE8F625}" {
+    Position -1198.014 -46.118 2725.727
+   }
+   ShapePoint "{661203EDE8457165}" {
+    Position -1998.829 -45.417 3066.036
+   }
+   ShapePoint "{661203EDE8DEC53D}" {
+    Position -2524.3 1.831 2780.852
+   }
+   ShapePoint "{661203EDEAEC90A0}" {
+    Position -3114.696 -68.271 2621.642
+   }
+   ShapePoint "{661203ED1222BE7C}" {
+    Position -4587.477 -182.192 1867.191
+   }
+   ShapePoint "{661203ED182766F3}" {
+    Position -4815 -137.016 1356.856
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -24.377 42.616 -456.848
+      OutTangent -38.801 67.832 -727.16
+     }
+    }
+   }
+   ShapePoint "{661203ED18FE0902}" {
+    Position -4815 -101.081 911.088
+   }
+   ShapePoint "{661203ED19AAB5D3}" {
+    Position -4815 -59.568 -208.323
+   }
+   ShapePoint "{661203ED241D3885}" {
+    Position -4776.431 0.933 -756.369
+   }
+   ShapePoint "{661203ED2499405C}" {
+    Position -4421.297 43.363 -1348.46
+   }
+   ShapePoint "{661203ED2520F917}" {
+    Position -3905.384 111.304 -1978.503
+   }
+   ShapePoint "{661203ED22E52C99}" {
+    Position -3684.133 84 -2414.963
+   }
+   ShapePoint "{661203ED2D3CAD9B}" {
+    Position -3377.007 54 -2590.472
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 535.701 -24.525 0.017
+      OutTangent 658.296 -30.138 0.021
+     }
+    }
+   }
+   ShapePoint "{661203ED2E345429}" {
+    Position -2626.501 30.526 -2590
+   }
+   ShapePoint "{661203EC672CA761}" {
+    Position -2302.898 50 -2589.053
+   }
+   ShapePoint "{661203ED5CD0A92E}" {
+    Position -1921.314 64 -2590.572
+   }
+   ShapePoint "{661203ED5D614371}" {
+    Position -1205.752 100 -2591.32
+   }
+   ShapePoint "{661203ED5A9C32C3}" {
+    Position -858.215 154.196 -2573.03
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 209.174 52.062 157.902
+      OutTangent 250.532 62.355 189.122
+     }
+    }
+   }
+   ShapePoint "{661203ED5B234406}" {
+    Position -593.353 229.375 -2364.3
+   }
+   ShapePoint "{661203ED47C04A6C}" {
+    Position -484.062 247.283 -2206.874
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 14.429 -4.345 94.325
+      OutTangent 15.639 -4.71 102.237
+     }
+    }
+   }
+   ShapePoint "{661203ED7604B580}" {
+    Position -475 188.832 -1995.792
+   }
+   ShapePoint "{661203ED7E4C2ED9}" {
+    Position -394.917 140.439 -1809.795
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 83.526 -53.014 194.263
+      OutTangent 79.035 -50.164 183.818
+     }
+    }
+   }
+   ShapePoint "{661203ED78781B83}" {
+    Position -262.364 87.366 -1657.12
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 270.633 -77.902 264.01
+      OutTangent 236.408 -68.05 230.621
+     }
+    }
+   }
+   ShapePoint "{661203ED6B740B15}" {
+    Position -4.134 7.52 -1333.453
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 6.807 -42.301 516.032
+      OutTangent 12.346 -76.725 935.983
+     }
+    }
+   }
+   ShapePoint "{661203EC922742DE}" {
+    Position 0 0 -659.106
+   }
+   ShapePoint "{661203ECB0112C6A}" {
+    Position 0 0 1.858
+   }
+  }
+  {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    RoadWidth 30
+    RoadFalloffWidth 60
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 0.002 0
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 0 0 1200
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -1.423 -0.001 993.843
+          OutTangent -1.404 -0.001 980.914
+         }
+        }
+       }
+       ShapePoint "{661203EDF22A5BD7}" {
+        Position -275.837 0 1942.342
+       }
+       ShapePoint "{661203EDF9A929FF}" {
+        Position -559.258 -24.325 2393.632
+       }
+       ShapePoint "{661203EDED3EDFAB}" {
+        Position -775.603 -46.034 2562.837
+       }
+       ShapePoint "{661203EDEDE8C025}" {
+        Position -1198.014 -46.118 2725.727
+       }
+       ShapePoint "{661203EDE8454252}" {
+        Position -1998.829 -45.417 3066.036
+       }
+       ShapePoint "{661203EDE8DF1D6C}" {
+        Position -2524.3 1.831 2780.852
+       }
+       ShapePoint "{661203EDEAECEA86}" {
+        Position -3114.696 -68.271 2621.642
+       }
+       ShapePoint "{661203ED1222E9BC}" {
+        Position -4587.476 -182.192 1867.191
+       }
+       ShapePoint "{661203ED18279F63}" {
+        Position -4815 -137.016 1356.856
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -24.377 42.616 -456.848
+          OutTangent -38.801 67.832 -727.16
+         }
+        }
+       }
+       ShapePoint "{661203ED18FEBF9E}" {
+        Position -4815 -101.081 911.088
+       }
+       ShapePoint "{661203ED19AADC2F}" {
+        Position -4815 -59.568 -208.323
+       }
+       ShapePoint "{661203ED241D5951}" {
+        Position -4776.431 0.933 -756.369
+       }
+       ShapePoint "{661203ED2499D470}" {
+        Position -4421.297 43.363 -1348.46
+       }
+       ShapePoint "{661203ED25210501}" {
+        Position -3905.384 111.304 -1978.503
+       }
+       ShapePoint "{661203ED22E5B499}" {
+        Position -3684.133 84 -2414.963
+       }
+       ShapePoint "{661203ED2D3CCAD4}" {
+        Position -3377.007 54 -2590.472
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 535.701 -24.525 0.017
+          OutTangent 658.296 -30.138 0.021
+         }
+        }
+       }
+       ShapePoint "{661203ED2E34FBFC}" {
+        Position -2626.501 30.526 -2590
+       }
+       ShapePoint "{661203ED5CD138A8}" {
+        Position -2302.899 50 -2589.053
+       }
+       ShapePoint "{661203ED5D61D9D7}" {
+        Position -1921.314 64 -2590.572
+       }
+       ShapePoint "{661203ED5A1BFAEE}" {
+        Position -1205.752 100 -2591.32
+       }
+       ShapePoint "{661203ED5A9CADF8}" {
+        Position -858.215 154.196 -2573.03
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 209.174 52.062 157.902
+          OutTangent 250.532 62.355 189.122
+         }
+        }
+       }
+       ShapePoint "{661203ED5B23D3B5}" {
+        Position -593.352 229.375 -2364.3
+       }
+       ShapePoint "{661203ED4734A11A}" {
+        Position -484.062 247.283 -2206.874
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 14.429 -4.345 94.325
+          OutTangent 15.639 -4.71 102.237
+         }
+        }
+       }
+       ShapePoint "{661203ED47C13EAD}" {
+        Position -475 188.832 -1995.791
+       }
+       ShapePoint "{661203ED4057CF35}" {
+        Position -394.917 140.439 -1809.795
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 83.526 -53.014 194.263
+          OutTangent 79.035 -50.164 183.818
+         }
+        }
+       }
+       ShapePoint "{661203ED7604C803}" {
+        Position -262.364 87.366 -1657.12
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 270.633 -77.902 264.01
+          OutTangent 236.408 -68.05 230.621
+         }
+        }
+       }
+       ShapePoint "{661203ED7E4C9593}" {
+        Position -4.134 7.52 -1333.453
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 6.807 -42.301 516.032
+          OutTangent 12.346 -76.725 935.983
+         }
+        }
+       }
+       ShapePoint "{661203ED787889A9}" {
+        Position 0 0 -659.106
+       }
+       ShapePoint "{661203ED6B74F692}" {
+        Position 0 0 1.858
+       }
+      }
+      IsClosedSpline 0
+      Width 30
+      BeginningPiece none
+      EndingPiece none
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6515.773 490 4458.044
+  Points {
+   ShapePoint "{661203EFE271F66C}" {
+    Position 0 0 100
+   }
+   ShapePoint "{661203EFE2718394}" {
+    Position 400 -0 100
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 300.842 0 -0.473
+      OutTangent 257.823 0 -0.405
+     }
+    }
+   }
+   ShapePoint "{661203EF124D1D94}" {
+    Position 499.955 0 -40
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.648 0.003 -334.231
+      OutTangent -0.708 0.004 -365.282
+     }
+    }
+   }
+   ShapePoint "{661203EF2F144633}" {
+    Position 500 0.007 -560.941
+   }
+   ShapePoint "{661203EF5801D51D}" {
+    Position 504.128 0 -2098.353
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 1.306 -0.003 -885.346
+      OutTangent 1.042 -0.002 -706.232
+     }
+    }
+   }
+   ShapePoint "{661203EEB9DD8E63}" {
+    Position 7.315 0 -2247.319
+   }
+  }
+  {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 0 100
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 400 -0 100
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 300.842 0 -0.473
+          OutTangent 257.823 0 -0.405
+         }
+        }
+       }
+       ShapePoint "{661203EF4B0C8A46}" {
+        Position 499.955 0 -40
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -0.648 0.003 -334.231
+          OutTangent -0.708 0.004 -365.282
+         }
+        }
+       }
+       ShapePoint "{661203EF4B0C8ACC}" {
+        Position 500 0.007 -560.941
+       }
+       ShapePoint "{661203EF4B0C8A9E}" {
+        Position 504.128 0 -2098.353
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 1.306 -0.003 -885.346
+          OutTangent 1.042 -0.002 -706.232
+         }
+        }
+       }
+       ShapePoint "{661203EEBFFD2F0A}" {
+        Position 7.315 0 -2247.319
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+      BeginningPiece none
+      EndingPiece none
+     }
+    }
+   }
+  }
+ }
+}

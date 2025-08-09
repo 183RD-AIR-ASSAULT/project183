@@ -1,0 +1,6 @@
+MatPBRBasic {
+ GlobalLayerBCRMap "{5CCFCFC91DB8ED08}Data/sign/billboard_18_1_metal_MAT_BaseColor.edds"
+ GlobalLayerNMOMap "{491DC8E08ADC0853}Data/sign/RGB Alpha.edds"
+ BCRMap "{884C38B4DD0DD84A}Assets/_SharedData/Metal/ST_Metal_Worn_01_BCR.edds"
+ OpacityMap "{491DC8E08ADC0853}Data/sign/RGB Alpha.edds"
+}

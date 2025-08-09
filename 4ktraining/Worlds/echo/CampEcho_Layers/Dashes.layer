@@ -1,0 +1,178 @@
+$grp RoadGeneratorEntity : "{0CDA4ABE0A49F91C}PrefabLibrary/Generators/Decals/Runway/RG_SkidMarks_01.et" {
+ {
+  coords 1889.597 563.031 4679.43
+ }
+ {
+  coords 1860.93 563.031 4679.917
+ }
+ {
+  coords 1889.617 563.068 4661.83
+ }
+ {
+  coords 1860.95 563.068 4662.316
+ }
+ {
+  coords 1886.777 563.031 3477.596
+ }
+ {
+  coords 1858.111 563.031 3478.083
+ }
+ {
+  coords 1886.767 563.08 3459.339
+ }
+ {
+  coords 1858.1 563.08 3459.826
+ }
+}
+$grp GenericEntity : "{87E7900B7AB4D3A1}PrefabLibrary/Decals/Runway/Runway_Line_1x30.et" {
+ dash {
+  coords 1876 563.05 4800
+  angleY 90
+  scale 0.4
+ }
+ dash2 {
+  coords 1876 563.05 4750
+  angleY 90
+  scale 0.4
+ }
+ dash3 {
+  coords 1876 563.05 4700
+  angleY 90
+  scale 0.4
+ }
+ dash4 {
+  coords 1876 563.05 4650
+  angleY 90
+  scale 0.4
+ }
+ dash5 {
+  coords 1876 563.05 4600
+  angleY 90
+  scale 0.4
+ }
+ dash6 {
+  coords 1876 563.05 4550
+  angleY 90
+  scale 0.4
+ }
+ dash7 {
+  coords 1876 563.05 4500
+  angleY 90
+  scale 0.4
+ }
+ dash8 {
+  coords 1876 563.05 4450
+  angleY 90
+  scale 0.4
+ }
+ dash9 {
+  coords 1876 563.05 4400
+  angleY 90
+  scale 0.4
+ }
+ dash10 {
+  coords 1876 563.05 4200
+  angleY 90
+  scale 0.4
+ }
+ dash11 {
+  coords 1876 563.05 4300
+  angleY 90
+  scale 0.4
+ }
+ dash12 {
+  coords 1876 563.05 4250
+  angleY 90
+  scale 0.4
+ }
+ dash13 {
+  coords 1876 563.05 4150
+  angleY 90
+  scale 0.4
+ }
+ dash14 {
+  coords 1876 563.05 4100
+  angleY 90
+  scale 0.4
+ }
+ dash15 {
+  coords 1876 563.05 4050
+  angleY 90
+  scale 0.4
+ }
+ dash16 {
+  coords 1876 563.05 4350
+  angleY 90
+  scale 0.4
+ }
+ dash17 {
+  coords 1876 563.05 4000
+  angleY 90
+  scale 0.4
+ }
+ dash18 {
+  coords 1876 563.05 3900
+  angleY 90
+  scale 0.4
+ }
+ dash19 {
+  coords 1876 563.05 3850
+  angleY 90
+  scale 0.4
+ }
+ dash20 {
+  coords 1876 563.05 3800
+  angleY 90
+  scale 0.4
+ }
+ dash21 {
+  coords 1876 563.05 3750
+  angleY 90
+  scale 0.4
+ }
+ dash22 {
+  coords 1876 563.05 3700
+  angleY 90
+  scale 0.4
+ }
+ dash23 {
+  coords 1876 563.05 3650
+  angleY 90
+  scale 0.4
+ }
+ dash24 {
+  coords 1876 563.05 3950
+  angleY 90
+  scale 0.4
+ }
+ dash25 {
+  coords 1876 563.05 3550
+  angleY 90
+  scale 0.4
+ }
+ dash26 {
+  coords 1876 563.05 3600
+  angleY 90
+  scale 0.4
+ }
+ dash27 {
+  coords 1876 563.05 3500
+  angleY 90
+  scale 0.4
+ }
+ dash28 {
+  coords 1876 563.05 3450
+  angleY 90
+  scale 0.4
+ }
+ dash29 {
+  coords 1876 563.05 3400
+  angleY 90
+  scale 0.4
+ }
+ dash30 {
+  coords 1876 563.05 3350
+  angleY 90
+  scale 0.4
+ }
+}

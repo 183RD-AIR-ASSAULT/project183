@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{FEEEC1DA0337565E}Data/BCT/billboard_18_1_plastic_MAT_BaseColor.edds"
+ OpacityMap "{1D47ACAFE7DE3AC6}Data/BCT/RGB Alpha_2.edds"
+}

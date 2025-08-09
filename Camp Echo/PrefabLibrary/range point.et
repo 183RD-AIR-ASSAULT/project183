@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "6611452838170EF3"
+ components {
+  SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+   m_EntityType COMMENT
+   m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+    Name "50m"
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 6200
+  }
+ }
+ coords 900 563.687 5337.777
+ angleY -180
+}

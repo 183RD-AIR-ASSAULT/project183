@@ -1,0 +1,16 @@
+GenericEntity {
+ components {
+  MeshObject "{6604B84E3B40A88A}" {
+   Object "{9AF57FFD74CE4CD4}Data/sign/larger/roadsign.xob"
+   Materials {
+    MaterialAssignClass "{6604B84F2046F3A0}" {
+     SourceMaterial "billboard_Mat"
+     AssignedMaterial "{0E6679E9DDD48B7E}Data/sign/larger/Data/billboard_Mat_campecho.emat"
+    }
+   }
+  }
+ }
+ coords 2868.858 153.944 574.771
+ angleY 90
+ scale 0.05
+}

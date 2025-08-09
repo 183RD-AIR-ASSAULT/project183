@@ -1,0 +1,34 @@
+FrameWidgetClass {
+ {
+  FrameWidgetClass "{5E04A017BD489B2A}" {
+   Prefab "{5E04A017BD489B2A}"
+   {
+    OverlayWidgetClass "{5DFF03E4AD9D1E85}" {
+     Prefab "{5DFF03E4AD9D1E85}"
+     {
+      FrameWidgetClass "{5DFF03E4AD9D1EF7}" {
+       Prefab "{5DFF03E4AD9D1EF7}"
+       {
+        SizeLayoutWidgetClass "{5DFF03E4AD9D1EEA}" {
+         Prefab "{5DFF03E4AD9D1EEA}"
+         {
+          ScaleWidgetClass "{5DFF03E4AD9D1EE8}" {
+           Prefab "{5DFF03E4AD9D1EE8}"
+           {
+            ImageWidgetClass "{5DFF03E4AD9D1EEF}" {
+             Prefab "{5DFF03E4AD9D1EEF}"
+             Texture "{632C869E8C8E5F71}UI/Textures/MissionLoadingScreens/183_GM_Eden_1024x576.edds"
+             Size 1024 576
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

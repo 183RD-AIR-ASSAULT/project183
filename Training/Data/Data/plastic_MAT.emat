@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.427 0.427 0.427 1
+ BCRMap "{BC36FEF21EDD2D80}Data/sign/billboard_18_1_plastic_MAT_BaseColor.edds"
+ OpacityMap "{05C6304980F36D09}Data/sign/RGB Alpha_2.edds"
+ NormalPower 1.444
+}

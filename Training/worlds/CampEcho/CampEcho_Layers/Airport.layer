@@ -1,143 +1,6 @@
-$grp GenericEntity {
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3995 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3945 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3895 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3845 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3745 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3795 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3646.937 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3695 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3495 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3595 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3545 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F490AA617582C3}" {
-    Object "{AAA5FFA82EE431F9}Assets/Structures/Hanger_Base/Hanger_Base.xob"
-   }
-  }
-  coords 3445 150.875 760
-  angleY -180
- }
- {
-  components {
-   MeshObject "{65F62513F22E6438}" {
-    Object "{52C051E97AE87563}Assets/Structures/Hanger_Base/Hanger_2.xob"
-   }
-  }
-  coords 3315 150.875 850
-  angleY -90
- }
- {
-  components {
-   MeshObject "{65F62513F22E6438}" {
-    Object "{52C051E97AE87563}Assets/Structures/Hanger_Base/Hanger_2.xob"
-   }
-  }
-  coords 3315 150.875 900
-  angleY -90
- }
- {
-  components {
-   MeshObject "{65F62513F22E6438}" {
-    Object "{52C051E97AE87563}Assets/Structures/Hanger_Base/Hanger_2.xob"
-   }
-  }
-  coords 3315 150.875 800
-  angleY -90
- }
-}
 $grp SplineShapeEntity {
  {
-  coords 4225.891 150.875 1058.238
+  coords 4225.891 155.594 1058.238
   Points {
    ShapePoint "{64A88E13EE738099}" {
     Position 174.124 -0.101 1.279
@@ -155,10 +18,10 @@ $grp SplineShapeEntity {
       coords 0 0 0
       SplinePoints {
        ShapePoint "{56A8C9FA35C571F9}" {
-        Position 174.124 0.806 1.279
+        Position 174.124 -0.101 1.279
        }
        ShapePoint "{56A8C9FA35C57048}" {
-        Position -1236.605 1.9 1.279
+        Position -1236.605 0.993 1.279
        }
       }
       IsClosedSpline 0
@@ -169,7 +32,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4225.891 150.875 1058.238
+  coords 4225.891 155.594 1058.238
   Points {
    ShapePoint "{64A88E13EE738099}" {
     Position 174.124 -0.708 37.904
@@ -187,10 +50,10 @@ $grp SplineShapeEntity {
       coords 0 0 0
       SplinePoints {
        ShapePoint "{56A8C9FA35C571F9}" {
-        Position 174.124 0.199 37.904
+        Position 174.124 -0.708 37.904
        }
        ShapePoint "{56A8C9FA35C57048}" {
-        Position -1237.141 3.017 37.904
+        Position -1237.141 2.11 37.904
        }
       }
       IsClosedSpline 0
@@ -201,7 +64,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4396.444 150.875 1059.459
+  coords 4396.444 155.594 1059.459
   Points {
    ShapePoint "{64A88E12B6707932}" {
     Position -0.218 0.03 -3.741
@@ -233,10 +96,10 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4396.444 150.875 1059.459
+  coords 4396.444 155.594 1059.459
  }
  {
-  coords 4160.305 150.875 1077.627
+  coords 4160.305 155.594 1077.627
   Points {
    ShapePoint "{64A88E12F5D7F3D8}" {
     Position -30.052 0.095 0
@@ -268,7 +131,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4227.072 150.875 1057.863
+  coords 4227.072 155.594 1057.863
   Points {
    ShapePoint "{64A88E15111FEE25}" {
     Position 0 0 -1.739
@@ -300,7 +163,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4248.866 150.875 1096.368
+  coords 4248.866 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -332,7 +195,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4248.866 150.875 1096.368
+  coords 4248.866 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -364,7 +227,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4259.378 150.875 1096.368
+  coords 4259.377 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -396,7 +259,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4259.378 150.875 1096.368
+  coords 4259.377 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -428,7 +291,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4267.844 150.875 1096.368
+  coords 4267.844 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -460,7 +323,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4267.844 150.875 1096.368
+  coords 4267.844 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -492,7 +355,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4278.354 150.875 1096.368
+  coords 4278.354 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -524,7 +387,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4278.354 150.875 1096.368
+  coords 4278.354 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -556,7 +419,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4288.266 150.875 1096.368
+  coords 4288.266 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -588,7 +451,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4288.266 150.875 1096.368
+  coords 4288.266 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -620,7 +483,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4298.779 150.875 1096.368
+  coords 4298.779 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -652,7 +515,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4298.779 150.875 1096.368
+  coords 4298.779 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -684,7 +547,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4307.243 150.875 1096.368
+  coords 4307.243 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -716,7 +579,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4307.243 150.875 1096.368
+  coords 4307.243 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -748,7 +611,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4317.758 150.875 1096.368
+  coords 4317.758 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -780,7 +643,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4317.758 150.875 1096.368
+  coords 4317.758 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -812,7 +675,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4327.549 150.875 1096.368
+  coords 4327.549 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -844,7 +707,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4327.549 150.875 1096.368
+  coords 4327.549 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -876,7 +739,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4338.063 150.875 1096.368
+  coords 4338.063 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -908,7 +771,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4338.063 150.875 1096.368
+  coords 4338.063 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -940,7 +803,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4346.526 150.875 1096.368
+  coords 4346.526 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -972,7 +835,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4346.526 150.875 1096.368
+  coords 4346.526 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -1004,7 +867,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4357.041 150.875 1096.368
+  coords 4357.041 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -1036,7 +899,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4357.041 150.875 1096.368
+  coords 4357.041 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -1068,7 +931,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4366.125 150.875 1096.368
+  coords 4366.125 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -1100,7 +963,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4366.125 150.875 1096.368
+  coords 4366.125 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -1132,7 +995,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4376.639 150.875 1096.368
+  coords 4376.639 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -1164,7 +1027,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4376.639 150.875 1096.368
+  coords 4376.639 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -1196,7 +1059,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4385.103 150.875 1096.368
+  coords 4385.103 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -1228,7 +1091,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4385.103 150.875 1096.368
+  coords 4385.103 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -1260,7 +1123,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4395.617 150.875 1096.368
+  coords 4395.617 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 0.963 -38.569
@@ -1292,7 +1155,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4395.617 150.875 1096.368
+  coords 4395.617 155.594 1096.368
   Points {
    ShapePoint "{64A88E1542DB9838}" {
     Position 1.656 -0.05 1.576
@@ -1324,7 +1187,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4374.551 150.875 1077.383
+  coords 4374.551 155.594 1077.383
   Points {
    ShapePoint "{64A88E1BD86163DE}" {
     Position -159.781 0.47 -19.521
@@ -1378,10 +1241,10 @@ $grp SplineShapeEntity {
       coords 0 0 0
       SplinePoints {
        ShapePoint "{56A8E422A6B33671}" {
-        Position -159.781 0.906 -19.521
+        Position -159.781 0.47 -19.521
        }
        ShapePoint "{56A8E422A6B3348B}" {
-        Position -159.67 0.906 -54.926
+        Position -159.67 0.47 -54.926
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent -1.136 0 -29.188
@@ -1390,7 +1253,7 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{64A88E14B0D1DD6F}" {
-        Position -222 0.906 -104.235
+        Position -222 0.47 -104.235
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent -187.202 0 0.356
@@ -1399,7 +1262,7 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{64A88E14B0D1DBB5}" {
-        Position -1140.949 0.906 -104.216
+        Position -1140.949 0.47 -104.216
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent -87.484 0 0.327
@@ -1408,7 +1271,7 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{64A88E14B0D1DB4F}" {
-        Position -1195.14 0.906 -55.521
+        Position -1195.14 0.47 -55.521
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent -0.21 0 48.406
@@ -1417,7 +1280,7 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{64A88E14B0D1DAC5}" {
-        Position -1195.23 0.917 -19.41
+        Position -1195.23 0.481 -19.41
        }
       }
       IsClosedSpline 0
@@ -1428,7 +1291,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3879.925 150.875 1077.078
+  coords 3879.925 155.594 1077.078
   Points {
    ShapePoint "{64A88E1DFD817ED6}" {
     Position -112.086 0 -0.357
@@ -1550,7 +1413,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3465.504 150.875 1064.921
+  coords 3465.504 155.594 1064.921
   Points {
    ShapePoint "{64A88E1D1EEED271}" {
     Position 148.128 0.031 11.494
@@ -1690,7 +1553,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3339.036 150.875 984.309
+  coords 3339.036 155.594 984.309
   Points {
    ShapePoint "{64A88E17513EF416}" {
     Position 10.752 0 33.584
@@ -1776,7 +1639,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4067.607 150.875 984.309
+  coords 4067.607 155.594 984.309
   Points {
    ShapePoint "{64A88E17513EF416}" {
     Position -14.049 0 27.806
@@ -1863,7 +1726,7 @@ $grp SplineShapeEntity {
  }
  {
   Flags 67
-  coords 4016.358 145.562 712.686
+  coords 4016.358 155.594 712.686
   Points {
    ShapePoint "{65F490A70CE30D17}" {
     Position 0 0 0
@@ -1901,992 +1764,1002 @@ $grp SplineShapeEntity {
    WallGeneratorEntity : "{4CA251EBE9778336}PrefabLibrary/Generators/Walls/Concrete/WG_ConcreteWall_01.et" {
     Flags 1048579
     {
-     $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
-      {
-       coords 0.002 0 0.108
-       angleY 90.808
-      }
-      {
-       coords -0.079 -0.015 -35.095
-       angleY 175.698
-      }
-     }
-     SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
-      coords -595.554 5.312 -35.772
-      angleY 263.791
-     }
      SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
-      coords -596.902 5.312 57.677
+      coords -596.9 0 57.508
       angleY 269.352
      }
      $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
       {
-       coords -0.082 0 -5.815
+       coords 0.002 0 0.108
+       angleY 90.877
+      }
+      {
+       coords -0.043 0 -2.81
+       angleY 90.743
+      }
+      {
+       coords -0.081 0 -5.728
        angleY 90.689
       }
       {
-       coords -0.117 0 -8.733
+       coords -0.116 0 -8.646
        angleY 90.689
       }
       {
-       coords -0.153 0 -11.651
-       angleY 90.561
+       coords -0.152 0 -11.564
+       angleY 90.567
       }
       {
-       coords -0.181 0 -14.569
+       coords -0.181 0 -14.482
        angleY 90.466
       }
       {
-       coords -0.205 0 -17.487
-       angleY 90.328
+       coords -0.205 0 -17.4
+       angleY 90.335
       }
       {
-       coords -0.222 0 -20.405
+       coords -0.222 0 -20.318
        angleY 90.243
       }
       {
-       coords -0.235 0 -23.323
-       angleY 90.054
+       coords -0.235 0 -23.236
+       angleY 90.064
       }
       {
-       coords -0.238 0 -26.241
+       coords -0.238 0 -26.154
        angleY 89.922
       }
       {
-       coords -0.234 0 -29.159
-       angleY 89.71
+       coords -0.235 0 -29.072
+       angleY 89.72
       }
       {
-       coords -0.22 0 -32.077
-       angleY 89.35
+       coords -0.221 0 -31.99
+       angleY 89.36
       }
       {
-       coords -5.986 5.298 -35.548
+       coords -0.081 0 -34.996
+       angleY 169.25
+      }
+      {
+       coords -2.946 0 -35.561
        angleY 180.246
       }
       {
-       coords -8.904 5.298 -35.535
+       coords -5.864 0 -35.549
        angleY 180.246
       }
       {
-       coords -11.822 5.298 -35.523
+       coords -8.782 0 -35.536
        angleY 180.246
       }
       {
-       coords -14.74 5.298 -35.51
+       coords -11.701 0 -35.523
        angleY 180.246
       }
       {
-       coords -17.658 5.298 -35.498
+       coords -14.619 0 -35.511
        angleY 180.246
       }
       {
-       coords -20.576 5.298 -35.485
+       coords -17.537 0 -35.498
        angleY 180.246
       }
       {
-       coords -23.494 5.298 -35.473
+       coords -20.455 0 -35.486
        angleY 180.246
       }
       {
-       coords -26.413 5.298 -35.46
+       coords -23.373 -0.012 -35.473
        angleY 180.246
       }
       {
-       coords -29.331 5.298 -35.448
+       coords -26.291 -0.012 -35.461
        angleY 180.246
       }
       {
-       coords -32.249 5.298 -35.435
+       coords -29.209 -0.012 -35.448
        angleY 180.246
       }
       {
-       coords -35.167 5.298 -35.423
+       coords -32.127 -0.012 -35.436
        angleY 180.246
       }
       {
-       coords -38.084 5.312 -35.41
-       angleY 180.159
+       coords -35.046 -0.011 -35.423
+       angleY 180.246
       }
       {
-       coords -41.002 5.312 -35.402
+       coords -37.964 -0.011 -35.41
+       angleY 180.163
+      }
+      {
+       coords -40.882 -0.011 -35.402
        angleY 180.157
       }
       {
-       coords -43.92 5.312 -35.394
+       coords -43.8 -0.011 -35.394
        angleY 180.157
       }
       {
-       coords -46.838 5.312 -35.386
+       coords -46.718 -0.011 -35.386
        angleY 180.157
       }
       {
-       coords -49.757 5.312 -35.378
+       coords -49.636 -0.011 -35.378
        angleY 180.157
       }
       {
-       coords -52.675 5.312 -35.37
+       coords -52.554 -0.011 -35.37
        angleY 180.157
       }
       {
-       coords -55.593 5.312 -35.362
+       coords -55.473 -0.01 -35.362
        angleY 180.157
       }
       {
-       coords -58.511 5.312 -35.354
+       coords -58.391 -0.01 -35.354
        angleY 180.157
       }
       {
-       coords -61.429 5.312 -35.346
+       coords -61.309 -0.01 -35.346
        angleY 180.157
       }
       {
-       coords -64.347 5.312 -35.338
+       coords -64.227 -0.01 -35.338
        angleY 180.157
       }
       {
-       coords -67.265 5.312 -35.33
+       coords -67.145 -0.01 -35.33
        angleY 180.157
       }
       {
-       coords -70.184 5.312 -35.322
+       coords -70.063 -0.01 -35.322
        angleY 180.157
       }
       {
-       coords -73.102 5.312 -35.314
+       coords -72.981 -0.01 -35.314
        angleY 180.157
       }
       {
-       coords -76.02 5.312 -35.306
-       angleY 180.137
+       coords -75.899 -0.01 -35.306
+       angleY 180.14
       }
       {
-       coords -78.938 5.312 -35.299
+       coords -78.818 -0.031 -35.299
        angleY 180.085
       }
       {
-       coords -81.856 5.312 -35.295
+       coords -81.736 -0.031 -35.295
        angleY 180.085
       }
       {
-       coords -84.774 5.312 -35.29
+       coords -84.654 -0.041 -35.291
        angleY 180.085
       }
       {
-       coords -87.693 5.312 -35.286
+       coords -87.572 -0.041 -35.286
        angleY 180.085
       }
       {
-       coords -90.611 5.312 -35.282
+       coords -90.49 -0.04 -35.282
        angleY 180.085
       }
       {
-       coords -93.529 5.312 -35.277
+       coords -93.408 -0.04 -35.277
        angleY 180.085
       }
       {
-       coords -96.447 5.312 -35.273
+       coords -96.327 -0.04 -35.273
        angleY 180.085
       }
       {
-       coords -99.365 5.312 -35.269
+       coords -99.245 -0.04 -35.269
        angleY 180.085
       }
       {
-       coords -102.283 5.312 -35.264
+       coords -102.163 -0.04 -35.264
        angleY 180.085
       }
       {
-       coords -105.201 5.312 -35.26
+       coords -105.081 -0.04 -35.26
        angleY 180.085
       }
       {
-       coords -108.12 5.312 -35.256
+       coords -107.999 -0.04 -35.256
        angleY 180.085
       }
       {
-       coords -111.038 5.312 -35.251
+       coords -110.917 -0.04 -35.251
        angleY 180.085
       }
       {
-       coords -113.956 5.312 -35.247
+       coords -113.836 -0.04 -35.247
        angleY 180.085
       }
       {
-       coords -116.874 5.312 -35.243
-       angleY 180.081
+       coords -116.754 -0.04 -35.243
+       angleY 180.084
       }
       {
-       coords -119.792 5.312 -35.238
+       coords -119.672 -0.04 -35.238
        angleY 180.028
       }
       {
-       coords -122.71 5.312 -35.237
+       coords -122.59 -0.04 -35.237
        angleY 180.028
       }
       {
-       coords -125.629 5.312 -35.235
+       coords -125.508 -0.048 -35.236
        angleY 180.028
       }
       {
-       coords -128.547 5.312 -35.234
+       coords -128.426 -0.048 -35.234
        angleY 180.028
       }
       {
-       coords -131.465 5.312 -35.233
+       coords -131.344 -0.048 -35.233
        angleY 180.028
       }
       {
-       coords -134.383 5.312 -35.231
+       coords -134.263 -0.048 -35.231
        angleY 180.028
       }
       {
-       coords -137.301 5.312 -35.23
+       coords -137.181 -0.048 -35.23
        angleY 180.028
       }
       {
-       coords -140.219 5.312 -35.228
+       coords -140.099 -0.048 -35.228
        angleY 180.028
       }
       {
-       coords -143.137 5.312 -35.227
+       coords -143.017 -0.048 -35.227
        angleY 180.028
       }
       {
-       coords -146.056 5.312 -35.225
+       coords -145.935 -0.048 -35.226
        angleY 180.028
       }
       {
-       coords -148.974 5.312 -35.224
+       coords -148.853 -0.048 -35.224
        angleY 180.028
       }
       {
-       coords -151.892 5.312 -35.223
+       coords -151.772 -0.048 -35.223
        angleY 180.028
       }
       {
-       coords -154.81 5.312 -35.221
+       coords -154.69 -0.071 -35.221
        angleY 180.028
       }
       {
-       coords -157.728 5.312 -35.22
+       coords -157.608 -0.071 -35.22
        angleY 180.028
       }
       {
-       coords -160.646 5.312 -35.218
-       angleY 180.005
+       coords -160.526 -0.071 -35.218
+       angleY 180.007
       }
       {
-       coords -163.564 5.312 -35.218
+       coords -163.444 -0.071 -35.218
        angleY 179.982
       }
       {
-       coords -166.483 5.312 -35.219
+       coords -166.362 -0.079 -35.219
        angleY 179.982
       }
       {
-       coords -169.401 5.312 -35.22
+       coords -169.28 -0.079 -35.22
        angleY 179.982
       }
       {
-       coords -172.319 5.312 -35.221
+       coords -172.199 -0.079 -35.221
        angleY 179.982
       }
       {
-       coords -175.237 5.312 -35.222
+       coords -175.117 -0.079 -35.221
        angleY 179.982
       }
       {
-       coords -178.155 5.312 -35.222
+       coords -178.035 -0.079 -35.222
        angleY 179.982
       }
       {
-       coords -181.073 5.312 -35.223
+       coords -180.953 -0.079 -35.223
        angleY 179.982
       }
       {
-       coords -183.991 5.312 -35.224
+       coords -183.871 -0.079 -35.224
        angleY 179.982
       }
       {
-       coords -186.91 5.312 -35.225
+       coords -186.789 -0.079 -35.225
        angleY 179.982
       }
       {
-       coords -189.828 5.312 -35.226
+       coords -189.707 -0.079 -35.226
        angleY 179.982
       }
       {
-       coords -192.746 5.312 -35.227
+       coords -192.626 -0.079 -35.227
        angleY 179.982
       }
       {
-       coords -195.664 5.312 -35.228
+       coords -195.544 -0.079 -35.228
        angleY 179.982
       }
       {
-       coords -198.582 5.312 -35.229
+       coords -198.462 -0.088 -35.229
        angleY 179.982
       }
       {
-       coords -201.5 5.312 -35.23
+       coords -201.38 -0.088 -35.23
        angleY 179.982
       }
       {
-       coords -204.418 5.312 -35.23
-       angleY 179.956
+       coords -204.298 -0.089 -35.23
+       angleY 179.957
       }
       {
-       coords -207.337 5.312 -35.233
+       coords -207.216 -0.111 -35.233
        angleY 179.947
       }
       {
-       coords -210.255 5.312 -35.235
+       coords -210.135 -0.111 -35.235
        angleY 179.947
       }
       {
-       coords -213.173 5.312 -35.238
+       coords -213.053 -0.111 -35.238
        angleY 179.947
       }
       {
-       coords -216.091 5.312 -35.241
+       coords -215.971 -0.111 -35.241
        angleY 179.947
       }
       {
-       coords -219.009 5.312 -35.243
+       coords -218.889 -0.111 -35.243
        angleY 179.947
       }
       {
-       coords -221.928 5.312 -35.246
+       coords -221.807 -0.111 -35.246
        angleY 179.947
       }
       {
-       coords -224.846 5.312 -35.249
+       coords -224.725 -0.12 -35.249
        angleY 179.947
       }
       {
-       coords -227.764 5.312 -35.252
+       coords -227.644 -0.12 -35.252
        angleY 179.947
       }
       {
-       coords -230.682 5.312 -35.254
+       coords -230.562 -0.12 -35.254
        angleY 179.947
       }
       {
-       coords -233.6 5.312 -35.257
+       coords -233.48 -0.12 -35.257
        angleY 179.947
       }
       {
-       coords -236.518 5.312 -35.26
+       coords -236.398 -0.12 -35.26
        angleY 179.947
       }
       {
-       coords -239.437 5.312 -35.263
+       coords -239.316 -0.121 -35.262
        angleY 179.947
       }
       {
-       coords -242.355 5.312 -35.265
+       coords -242.235 -0.121 -35.265
        angleY 179.947
       }
       {
-       coords -245.273 5.312 -35.268
+       coords -245.153 -0.135 -35.268
        angleY 179.947
       }
       {
-       coords -248.191 5.312 -35.271
-       angleY 179.913
+       coords -248.071 -0.143 -35.27
+       angleY 179.914
       }
       {
-       coords -251.109 5.312 -35.275
+       coords -250.989 -0.153 -35.275
        angleY 179.91
       }
       {
-       coords -254.027 5.312 -35.28
+       coords -253.907 -0.153 -35.279
        angleY 179.91
       }
       {
-       coords -256.945 5.312 -35.284
+       coords -256.825 -0.153 -35.284
        angleY 179.91
       }
       {
-       coords -259.863 5.312 -35.289
+       coords -259.743 -0.153 -35.289
        angleY 179.91
       }
       {
-       coords -262.782 5.312 -35.293
+       coords -262.661 -0.153 -35.293
        angleY 179.91
       }
       {
-       coords -265.7 5.312 -35.298
+       coords -265.579 -0.154 -35.298
        angleY 179.91
       }
       {
-       coords -268.618 5.312 -35.303
+       coords -268.497 -0.154 -35.302
        angleY 179.91
       }
       {
-       coords -271.536 5.312 -35.307
+       coords -271.415 -0.154 -35.307
        angleY 179.91
       }
       {
-       coords -274.454 5.312 -35.312
+       coords -274.334 -0.154 -35.312
        angleY 179.91
       }
       {
-       coords -277.372 5.312 -35.316
+       coords -277.252 -0.154 -35.316
        angleY 179.91
       }
       {
-       coords -280.29 5.312 -35.321
+       coords -280.17 -0.155 -35.321
        angleY 179.91
       }
       {
-       coords -283.208 5.312 -35.326
+       coords -283.088 -0.155 -35.325
        angleY 179.91
       }
       {
-       coords -286.126 5.312 -35.33
+       coords -286.006 -0.155 -35.33
        angleY 179.91
       }
       {
-       coords -289.045 5.312 -35.335
+       coords -288.924 -0.155 -35.335
        angleY 179.91
       }
       {
-       coords -291.963 5.312 -35.339
+       coords -291.842 -0.156 -35.339
        angleY 179.91
       }
       {
-       coords -294.881 5.312 -35.344
+       coords -294.76 -0.156 -35.344
        angleY 179.91
       }
       {
-       coords -297.799 5.312 -35.349
+       coords -297.679 -0.157 -35.349
        angleY 179.91
       }
       {
-       coords -300.717 5.312 -35.353
+       coords -300.597 -0.167 -35.353
        angleY 179.91
       }
       {
-       coords -303.635 5.312 -35.358
+       coords -303.515 -0.167 -35.358
        angleY 179.91
       }
       {
-       coords -306.553 5.312 -35.362
+       coords -306.433 -0.167 -35.362
        angleY 179.91
       }
       {
-       coords -309.472 5.312 -35.367
+       coords -309.351 -0.185 -35.367
        angleY 179.91
       }
       {
-       coords -312.39 5.312 -35.372
+       coords -312.269 -0.188 -35.372
        angleY 179.91
       }
       {
-       coords -315.308 5.312 -35.376
+       coords -315.187 -0.188 -35.376
        angleY 179.91
       }
       {
-       coords -318.226 5.312 -35.381
+       coords -318.106 -0.189 -35.381
        angleY 179.91
       }
       {
-       coords -321.144 5.312 -35.386
+       coords -321.024 -0.189 -35.385
        angleY 179.91
       }
       {
-       coords -324.062 5.312 -35.39
+       coords -323.942 -0.189 -35.39
        angleY 179.91
       }
       {
-       coords -326.98 5.312 -35.395
+       coords -326.86 -0.189 -35.395
        angleY 179.91
       }
       {
-       coords -329.899 5.312 -35.399
+       coords -329.778 -0.19 -35.399
        angleY 179.91
       }
       {
-       coords -332.817 5.312 -35.404
-       angleY 179.897
+       coords -332.696 -0.19 -35.404
+       angleY 179.898
       }
       {
-       coords -335.735 5.312 -35.409
+       coords -335.615 -0.19 -35.409
        angleY 179.89
       }
       {
-       coords -338.653 5.312 -35.415
+       coords -338.533 -0.19 -35.415
        angleY 179.89
       }
       {
-       coords -341.572 5.312 -35.42
+       coords -341.452 -0.191 -35.42
        angleY 179.89
       }
       {
-       coords -344.491 5.312 -35.426
+       coords -344.37 -0.191 -35.426
        angleY 179.89
       }
       {
-       coords -347.409 5.312 -35.431
+       coords -347.288 -0.191 -35.431
        angleY 179.89
       }
       {
-       coords -350.328 5.312 -35.437
+       coords -350.207 -0.191 -35.437
        angleY 179.89
       }
       {
-       coords -353.246 5.312 -35.443
+       coords -353.126 -0.192 -35.442
        angleY 179.89
       }
       {
-       coords -356.164 5.312 -35.448
+       coords -356.044 -0.192 -35.448
        angleY 179.89
       }
       {
-       coords -359.084 5.312 -35.454
+       coords -358.963 -0.192 -35.454
        angleY 179.89
       }
       {
-       coords -362.002 5.312 -35.459
+       coords -361.881 -0.192 -35.459
        angleY 179.89
       }
       {
-       coords -364.921 5.312 -35.465
+       coords -364.8 -0.193 -35.465
        angleY 179.89
       }
       {
-       coords -367.839 5.312 -35.471
+       coords -367.718 -0.193 -35.47
        angleY 179.89
       }
       {
-       coords -370.757 5.312 -35.476
+       coords -370.636 -0.193 -35.476
        angleY 179.89
       }
       {
-       coords -373.676 5.312 -35.482
+       coords -373.555 -0.194 -35.481
        angleY 179.89
       }
       {
-       coords -376.594 5.312 -35.487
+       coords -376.473 -0.194 -35.487
        angleY 179.89
       }
       {
-       coords -379.512 5.312 -35.493
+       coords -379.391 -0.194 -35.493
        angleY 179.89
       }
       {
-       coords -382.431 5.312 -35.498
+       coords -382.31 -0.194 -35.498
        angleY 179.89
       }
       {
-       coords -385.349 5.312 -35.504
+       coords -385.228 -0.195 -35.504
        angleY 179.89
       }
       {
-       coords -388.267 5.312 -35.51
+       coords -388.146 -0.195 -35.509
        angleY 179.89
       }
       {
-       coords -391.185 5.312 -35.515
+       coords -391.064 -0.195 -35.515
        angleY 179.89
       }
       {
-       coords -394.104 5.312 -35.521
+       coords -393.983 -0.195 -35.521
        angleY 179.89
       }
       {
-       coords -397.022 5.312 -35.526
+       coords -396.901 -0.196 -35.526
        angleY 179.89
       }
       {
-       coords -399.94 5.312 -35.532
+       coords -399.819 -0.196 -35.532
        angleY 179.89
       }
       {
-       coords -402.858 5.312 -35.538
+       coords -402.737 -0.196 -35.537
        angleY 179.89
       }
       {
-       coords -405.777 5.312 -35.543
+       coords -405.656 -0.196 -35.543
        angleY 179.89
       }
       {
-       coords -408.695 5.312 -35.549
+       coords -408.574 -0.197 -35.549
        angleY 179.89
       }
       {
-       coords -411.613 5.312 -35.554
+       coords -411.492 -0.197 -35.554
        angleY 179.89
       }
       {
-       coords -414.531 5.312 -35.56
+       coords -414.411 -0.197 -35.56
        angleY 179.89
       }
       {
-       coords -417.449 5.312 -35.565
+       coords -417.329 -0.197 -35.565
        angleY 179.89
       }
       {
-       coords -420.368 5.312 -35.571
+       coords -420.247 -0.198 -35.571
        angleY 179.89
       }
       {
-       coords -423.286 5.312 -35.577
+       coords -423.165 -0.198 -35.576
        angleY 179.89
       }
       {
-       coords -426.204 5.312 -35.582
+       coords -426.083 -0.198 -35.582
        angleY 179.89
       }
       {
-       coords -429.122 5.312 -35.588
+       coords -429.002 -0.198 -35.588
        angleY 179.89
       }
       {
-       coords -432.04 5.312 -35.593
+       coords -431.92 -0.199 -35.593
        angleY 179.89
       }
       {
-       coords -434.959 5.312 -35.599
+       coords -434.838 -0.199 -35.599
        angleY 179.89
       }
       {
-       coords -437.877 5.312 -35.605
+       coords -437.756 -0.199 -35.604
        angleY 179.89
       }
       {
-       coords -440.795 5.312 -35.61
+       coords -440.674 -0.2 -35.61
        angleY 179.89
       }
       {
-       coords -443.713 5.312 -35.616
+       coords -443.593 -0.2 -35.615
        angleY 179.89
       }
       {
-       coords -446.631 5.312 -35.621
+       coords -446.511 -0.2 -35.621
        angleY 179.89
       }
       {
-       coords -449.549 5.312 -35.627
+       coords -449.429 -0.2 -35.627
        angleY 179.89
       }
       {
-       coords -452.468 5.312 -35.632
+       coords -452.347 -0.201 -35.632
        angleY 179.89
       }
       {
-       coords -455.386 5.312 -35.638
+       coords -455.265 -0.185 -35.638
        angleY 179.89
       }
       {
-       coords -458.304 5.312 -35.644
+       coords -458.184 -0.185 -35.643
        angleY 179.89
       }
       {
-       coords -461.222 5.312 -35.649
+       coords -461.101 -0.17 -35.649
        angleY 179.89
       }
       {
-       coords -464.141 5.312 -35.655
+       coords -464.02 -0.17 -35.655
        angleY 179.89
       }
       {
-       coords -467.059 5.312 -35.66
+       coords -466.938 -0.171 -35.66
        angleY 179.89
       }
       {
-       coords -469.977 5.312 -35.666
+       coords -469.856 -0.171 -35.666
        angleY 179.89
       }
       {
-       coords -472.895 5.312 -35.671
+       coords -472.774 -0.171 -35.671
        angleY 179.89
       }
       {
-       coords -475.813 5.312 -35.677
+       coords -475.692 -0.171 -35.677
        angleY 179.89
       }
       {
-       coords -478.731 5.312 -35.683
+       coords -478.611 -0.172 -35.682
        angleY 179.89
       }
       {
-       coords -481.649 5.312 -35.688
+       coords -481.529 -0.172 -35.688
        angleY 179.89
       }
       {
-       coords -484.568 5.312 -35.694
+       coords -484.447 -0.172 -35.694
        angleY 179.89
       }
       {
-       coords -487.486 5.312 -35.699
-       angleY 179.929
+       coords -487.365 -0.157 -35.699
+       angleY 179.928
       }
       {
-       coords -490.404 5.312 -35.703
+       coords -490.283 -0.141 -35.703
        angleY 179.931
       }
       {
-       coords -493.322 5.312 -35.707
+       coords -493.201 -0.142 -35.706
        angleY 179.931
       }
       {
-       coords -496.24 5.312 -35.71
+       coords -496.119 -0.142 -35.71
        angleY 179.931
       }
       {
-       coords -499.158 5.312 -35.714
+       coords -499.038 -0.142 -35.713
        angleY 179.931
       }
       {
-       coords -502.076 5.312 -35.717
+       coords -501.955 -0.142 -35.717
        angleY 179.931
       }
       {
-       coords -504.995 5.312 -35.721
+       coords -504.874 -0.142 -35.72
        angleY 179.931
       }
       {
-       coords -507.913 5.312 -35.724
+       coords -507.792 -0.142 -35.724
        angleY 179.931
       }
       {
-       coords -510.831 5.312 -35.728
+       coords -510.71 -0.143 -35.727
        angleY 179.931
       }
       {
-       coords -513.749 5.312 -35.731
+       coords -513.628 -0.136 -35.731
        angleY 179.931
       }
       {
-       coords -516.667 5.312 -35.735
+       coords -516.546 -0.127 -35.734
        angleY 179.931
       }
       {
-       coords -519.585 5.312 -35.738
-       angleY 179.97
+       coords -519.465 -0.127 -35.738
+       angleY 179.968
       }
       {
-       coords -522.503 5.312 -35.74
+       coords -522.383 -0.112 -35.74
        angleY 179.978
       }
       {
-       coords -525.422 5.312 -35.741
+       coords -525.301 -0.112 -35.741
        angleY 179.978
       }
       {
-       coords -528.34 5.312 -35.742
+       coords -528.219 -0.112 -35.742
        angleY 179.978
       }
       {
-       coords -531.258 5.312 -35.743
+       coords -531.137 -0.112 -35.743
        angleY 179.978
       }
       {
-       coords -534.176 5.312 -35.744
+       coords -534.055 -0.096 -35.744
        angleY 179.978
       }
       {
-       coords -537.094 5.312 -35.745
+       coords -536.974 -0.096 -35.745
        angleY 179.978
       }
       {
-       coords -540.012 5.312 -35.747
+       coords -539.892 -0.096 -35.746
        angleY 179.978
       }
       {
-       coords -542.93 5.312 -35.748
+       coords -542.81 -0.096 -35.748
        angleY 179.978
       }
       {
-       coords -545.849 5.312 -35.749
+       coords -545.728 -0.096 -35.749
        angleY 179.978
       }
       {
-       coords -548.767 5.312 -35.75
-       angleY 180.039
+       coords -548.646 -0.081 -35.75
+       angleY 180.036
       }
       {
-       coords -551.685 5.312 -35.748
+       coords -551.564 -0.065 -35.748
        angleY 180.052
       }
       {
-       coords -554.603 5.312 -35.745
+       coords -554.482 -0.064 -35.746
        angleY 180.052
       }
       {
-       coords -557.521 5.312 -35.743
+       coords -557.401 -0.064 -35.743
        angleY 180.052
       }
       {
-       coords -560.439 5.312 -35.74
+       coords -560.319 -0.064 -35.74
        angleY 180.052
       }
       {
-       coords -563.357 5.312 -35.738
+       coords -563.237 -0.064 -35.738
        angleY 180.052
       }
       {
-       coords -566.276 5.312 -35.735
+       coords -566.155 -0.064 -35.735
        angleY 180.052
       }
       {
-       coords -569.194 5.312 -35.732
+       coords -569.073 -0.064 -35.732
        angleY 180.052
       }
       {
-       coords -572.112 5.312 -35.73
-       angleY 180.063
+       coords -571.991 -0.052 -35.73
+       angleY 180.058
       }
       {
-       coords -575.03 5.312 -35.727
+       coords -574.909 -0.048 -35.727
        angleY 180.172
       }
       {
-       coords -577.948 5.312 -35.718
+       coords -577.828 -0.047 -35.718
        angleY 180.172
       }
       {
-       coords -580.866 5.312 -35.709
+       coords -580.746 -0.047 -35.709
        angleY 180.172
       }
       {
-       coords -583.785 5.312 -35.7
+       coords -583.664 -0.047 -35.701
        angleY 180.172
       }
       {
-       coords -586.703 5.312 -35.692
+       coords -586.582 -0.031 -35.692
        angleY 180.172
       }
       {
-       coords -589.621 5.312 -35.683
+       coords -589.5 -0.031 -35.683
        angleY 180.172
       }
       {
-       coords -592.539 5.312 -35.674
+       coords -592.418 -0.031 -35.674
        angleY 180.172
       }
       {
-       coords -596.207 5.312 -29.873
+       coords -595.416 -0.031 -35.77
+       angleY 254.683
+      }
+      {
+       coords -596.216 -0 -32.959
        angleY 270.153
       }
       {
-       coords -596.2 5.312 -26.954
-       angleY 270.147
+       coords -596.208 -0 -30.041
+       angleY 270.153
       }
       {
-       coords -596.192 5.312 -24.036
+       coords -596.2 -0 -27.123
+       angleY 270.153
+      }
+      {
+       coords -596.192 0 -24.204
+       angleY 269.908
+      }
+      {
+       coords -596.196 0 -21.286
        angleY 269.899
       }
       {
-       coords -596.197 5.312 -21.118
-       angleY 269.899
-      }
-      {
-       coords -596.202 5.312 -18.2
+       coords -596.201 0 -18.368
        angleY 269.901
       }
       {
-       coords -596.207 5.312 -15.282
-       angleY 269.889
+       coords -596.207 0 -15.45
+       angleY 269.899
       }
       {
-       coords -596.212 5.312 -12.364
-       angleY 269.688
-      }
-      {
-       coords -596.228 5.312 -9.446
+       coords -596.211 0 -12.532
        angleY 269.69
       }
       {
-       coords -596.244 5.312 -6.527
+       coords -596.227 0 -9.614
        angleY 269.688
       }
       {
-       coords -596.26 5.312 -3.609
-       angleY 269.676
+       coords -596.243 0 -6.696
+       angleY 269.69
       }
       {
-       coords -596.276 5.312 -0.691
-       angleY 269.524
+       coords -596.259 0 -3.777
+       angleY 269.685
       }
       {
-       coords -596.3 5.312 2.227
+       coords -596.274 0 -0.859
        angleY 269.525
       }
       {
-       coords -596.324 5.312 5.145
+       coords -596.299 0 2.059
        angleY 269.525
       }
       {
-       coords -596.348 5.312 8.063
-       angleY 269.512
+       coords -596.323 0 4.977
+       angleY 269.525
       }
       {
-       coords -596.373 5.312 10.981
+       coords -596.347 0 7.895
+       angleY 269.522
+      }
+      {
+       coords -596.371 0 10.813
        angleY 269.352
       }
       {
-       coords -596.406 5.312 13.899
+       coords -596.404 0 13.731
+       angleY 269.352
+      }
+      {
+       coords -596.437 0 16.648
+       angleY 269.352
+      }
+      {
+       coords -596.47 0 19.566
+       angleY 269.352
+      }
+      {
+       coords -596.503 0 22.484
        angleY 269.35
       }
       {
-       coords -596.439 5.312 16.817
+       coords -596.536 0 25.402
        angleY 269.352
       }
       {
-       coords -596.472 5.312 19.734
+       coords -596.569 0 28.32
        angleY 269.352
       }
       {
-       coords -596.505 5.312 22.652
+       coords -596.602 0 31.238
        angleY 269.352
       }
       {
-       coords -596.538 5.312 25.57
+       coords -596.635 0 34.156
        angleY 269.352
       }
       {
-       coords -596.571 5.312 28.488
+       coords -596.668 0 37.074
        angleY 269.352
       }
       {
-       coords -596.604 5.312 31.406
+       coords -596.701 0 39.992
        angleY 269.352
       }
       {
-       coords -596.637 5.312 34.324
+       coords -596.734 0 42.91
        angleY 269.352
       }
       {
-       coords -596.67 5.312 37.242
+       coords -596.767 0 45.828
        angleY 269.352
       }
       {
-       coords -596.703 5.312 40.16
+       coords -596.801 0 48.746
        angleY 269.352
       }
       {
-       coords -596.736 5.312 43.078
+       coords -596.833 0 51.664
        angleY 269.352
       }
       {
-       coords -596.769 5.312 45.996
-       angleY 269.352
-      }
-      {
-       coords -596.802 5.312 48.914
+       coords -596.866 0 54.582
        angleY 269.35
-      }
-      {
-       coords -596.835 5.312 51.832
-       angleY 269.352
-      }
-      {
-       coords -596.868 5.312 54.75
-       angleY 269.352
       }
      }
     }
@@ -2896,36 +2769,36 @@ $grp SplineShapeEntity {
 }
 $grp GenericEntity : "{5561A00DE3C377A3}PrefabLibrary/Decals/Runway/Runway_Line_6x30.et" {
  {
-  coords 4016.7 150.875 1064.863
+  coords 4016.7 155.594 1064.863
   angleX -0.028
  }
  {
-  coords 4016.7 150.875 1090.77
+  coords 4016.7 155.594 1090.77
   angleX -0.624
   angleY -0.001
   angleZ 0.159
  }
  {
-  coords 3369.078 150.875 1064.445
+  coords 3369.078 155.594 1064.445
   angleX -0.624
   angleY 179.999
   angleZ 0.159
  }
  {
-  coords 3369.077 150.875 1090.348
+  coords 3369.077 155.594 1090.348
   angleX -0.028
-  angleY 180
+  angleY -180
  }
 }
 $grp GenericEntity : "{62B812283717D28D}PrefabLibrary/Decals/Runway/Runway_Num7.et" {
  {
-  coords 4185.854 150.875 1080.021
+  coords 4185.854 155.594 1080.021
   angleX -0.095
   angleY -90.003
   angleZ 1.509
  }
  {
-  coords 3202.819 150.875 1075.684
+  coords 3202.819 155.594 1075.684
   angleX -0.095
   angleY 89.997
   angleZ 1.509
@@ -2938,7 +2811,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1097.445
+  coords 3161.56 155.594 1097.445
   angleY -180
  }
  {
@@ -2947,7 +2820,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1092.548
+  coords 3161.56 155.594 1092.548
   angleY -180
  }
  {
@@ -2956,7 +2829,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1090.266
+  coords 3161.56 155.594 1090.266
   angleY -180
  }
  {
@@ -2965,7 +2838,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1060.8
+  coords 3161.56 155.594 1060.8
   angleY -180
  }
  {
@@ -2974,7 +2847,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1067.991
+  coords 3161.56 155.594 1067.991
   angleY -180
  }
  {
@@ -2983,7 +2856,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1063.082
+  coords 3161.56 155.594 1063.082
   angleY -180
  }
  {
@@ -2992,7 +2865,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1075.543
+  coords 3161.56 155.594 1075.543
   angleY -180
  }
  {
@@ -3001,7 +2874,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1080.492
+  coords 3161.56 155.594 1080.492
   angleY -180
  }
  {
@@ -3010,7 +2883,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1072.923
+  coords 3161.56 155.594 1072.923
   angleY -180
  }
  {
@@ -3019,7 +2892,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1065.701
+  coords 3161.56 155.594 1065.701
   angleY -180
  }
  {
@@ -3028,7 +2901,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1077.82
+  coords 3161.56 155.594 1077.82
   angleY -180
  }
  {
@@ -3037,7 +2910,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1070.639
+  coords 3161.56 155.594 1070.639
   angleY -180
  }
  {
@@ -3046,7 +2919,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1085.392
+  coords 3161.56 155.594 1085.392
   angleY -180
  }
  {
@@ -3055,7 +2928,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1082.772
+  coords 3161.56 155.594 1082.772
   angleY -180
  }
  {
@@ -3064,7 +2937,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1087.671
+  coords 3161.56 155.594 1087.671
   angleY -180
  }
  {
@@ -3073,7 +2946,7 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1095.166
+  coords 3161.56 155.594 1095.166
   angleY -180
  }
  {
@@ -3082,13 +2955,13 @@ $grp GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_0
     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
    }
   }
-  coords 3161.56 150.875 1058.237
+  coords 3161.56 155.594 1058.237
   angleY -180
  }
 }
 $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunway_01/LightRunway_01_white.et" {
  {
-  coords 4227.111 150.875 1063.164
+  coords 4227.111 155.594 1063.164
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3097,7 +2970,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1065.445
+  coords 4227.111 155.594 1065.445
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3106,7 +2979,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1058.265
+  coords 4227.111 155.594 1058.265
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3115,7 +2988,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1094.902
+  coords 4227.111 155.594 1094.902
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3124,7 +2997,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1087.721
+  coords 4227.111 155.594 1087.721
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3133,7 +3006,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1092.62
+  coords 4227.111 155.594 1092.62
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3142,7 +3015,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1080.169
+  coords 4227.111 155.594 1080.169
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3151,7 +3024,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1075.22
+  coords 4227.111 155.594 1075.22
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3160,7 +3033,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1082.79
+  coords 4227.111 155.594 1082.79
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3169,7 +3042,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1090
+  coords 4227.111 155.594 1090
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3178,7 +3051,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1077.891
+  coords 4227.111 155.594 1077.891
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3187,7 +3060,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1085.071
+  coords 4227.111 155.594 1085.071
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3196,7 +3069,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1070.32
+  coords 4227.111 155.594 1070.32
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3205,7 +3078,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1072.94
+  coords 4227.111 155.594 1072.94
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3214,7 +3087,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1068.04
+  coords 4227.111 155.594 1068.04
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3223,7 +3096,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1060.545
+  coords 4227.111 155.594 1060.545
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3232,7 +3105,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4227.111 150.875 1097.464
+  coords 4227.111 155.594 1097.464
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3241,7 +3114,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1065.445
+  coords 3161.571 155.594 1065.445
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3250,7 +3123,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1058.265
+  coords 3161.571 155.594 1058.265
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3259,7 +3132,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1094.902
+  coords 3161.571 155.594 1094.902
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3268,7 +3141,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1087.721
+  coords 3161.571 155.594 1087.721
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3277,7 +3150,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1092.62
+  coords 3161.571 155.594 1092.62
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3286,7 +3159,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1080.168
+  coords 3161.571 155.594 1080.168
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3295,7 +3168,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1075.22
+  coords 3161.571 155.594 1075.22
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3304,7 +3177,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1082.789
+  coords 3161.571 155.594 1082.789
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3313,7 +3186,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1090
+  coords 3161.571 155.594 1090
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3322,7 +3195,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1077.891
+  coords 3161.571 155.594 1077.891
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3331,7 +3204,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1085.071
+  coords 3161.571 155.594 1085.071
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3340,7 +3213,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1070.32
+  coords 3161.571 155.594 1070.32
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3349,7 +3222,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1072.94
+  coords 3161.571 155.594 1072.94
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3358,7 +3231,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1068.04
+  coords 3161.571 155.594 1068.04
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3367,7 +3240,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1097.464
+  coords 3161.571 155.594 1097.464
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3376,7 +3249,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1060.545
+  coords 3161.571 155.594 1060.545
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3385,7 +3258,7 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3161.571 150.875 1063.163
+  coords 3161.571 155.594 1063.163
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -3396,189 +3269,189 @@ $grp StaticModelEntity : "{8746DE528BA26F02}Prefabs/Structures/Airport/LightRunw
 }
 $grp GenericEntity : "{8D42C046CCA42026}PrefabLibrary/Decals/Runway/Runway_Line_2x30.et" {
  {
-  coords 4210.902 150.875 1061.756
+  coords 4210.902 155.594 1061.756
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1065.119
+  coords 4210.902 155.594 1065.119
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1068.5
+  coords 4210.902 155.594 1068.5
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1079.965
+  coords 4210.902 155.594 1079.965
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1075.132
+  coords 4210.902 155.594 1075.132
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1071.77
+  coords 4210.902 155.594 1071.77
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1090.244
+  coords 4210.902 155.594 1090.244
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1086.864
+  coords 4210.902 155.594 1086.864
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1083.5
+  coords 4210.902 155.594 1083.5
   angleX -0.895
  }
  {
-  coords 4210.902 150.875 1093.696
+  coords 4210.902 155.594 1093.696
   angleX -0.895
  }
  {
-  coords 4116.938 150.875 1064.632
+  coords 4116.938 155.594 1064.632
   angleX -0.895
  }
  {
-  coords 4116.938 150.875 1067.997
+  coords 4116.938 155.594 1067.997
   angleX -0.895
  }
  {
-  coords 4116.938 150.875 1071.434
+  coords 4116.938 155.594 1071.434
   angleX -0.895
  }
  {
-  coords 4116.938 150.875 1084.22
+  coords 4116.938 155.594 1084.22
   angleX -0.895
  }
  {
-  coords 4116.938 150.875 1087.584
+  coords 4116.938 155.594 1087.584
   angleX -0.895
  }
  {
-  coords 4116.938 150.875 1090.966
+  coords 4116.938 155.594 1090.966
   angleX -0.895
  }
  {
-  coords 3904.228 150.875 1071.434
+  coords 3904.228 155.594 1071.434
   angleX -0.895
  }
  {
-  coords 3904.228 150.875 1084.22
+  coords 3904.228 155.594 1084.22
   angleX -0.895
  }
  {
-  coords 3904.228 150.875 1087.587
+  coords 3904.228 155.594 1087.587
   angleX -0.895
  }
  {
-  coords 3904.228 150.875 1067.996
+  coords 3904.228 155.594 1067.996
   angleX -0.895
  }
  {
-  coords 3177.77 150.875 1062.007
+  coords 3177.77 155.594 1062.007
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1093.952
+  coords 3177.77 155.594 1093.952
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1087.206
+  coords 3177.77 155.594 1087.206
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1090.589
+  coords 3177.77 155.594 1090.589
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1075.739
+  coords 3177.77 155.594 1075.739
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1080.574
+  coords 3177.77 155.594 1080.574
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1083.938
+  coords 3177.77 155.594 1083.938
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1065.457
+  coords 3177.77 155.594 1065.457
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1068.839
+  coords 3177.77 155.594 1068.839
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3177.77 150.875 1072.203
+  coords 3177.77 155.594 1072.203
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3268.84 150.875 1067.627
+  coords 3268.84 155.594 1067.627
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3268.84 150.875 1064.245
+  coords 3268.84 155.594 1064.245
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3481.551 150.875 1083.78
+  coords 3481.551 155.594 1083.78
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3481.551 150.875 1070.994
+  coords 3481.551 155.594 1070.994
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3481.551 150.875 1067.626
+  coords 3481.551 155.594 1067.626
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3481.551 150.875 1087.216
+  coords 3481.551 155.594 1087.216
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3268.84 150.875 1090.584
+  coords 3268.84 155.594 1090.584
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3268.84 150.875 1087.216
+  coords 3268.84 155.594 1087.216
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3268.84 150.875 1083.78
+  coords 3268.84 155.594 1083.78
   angleX -0.895
-  angleY 180
+  angleY -180
  }
  {
-  coords 3268.84 150.875 1070.991
+  coords 3268.84 155.594 1070.991
   angleX -0.895
-  angleY 180
+  angleY -180
  }
 }
 $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunway_02/LightRunway_02.et" {
  {
-  coords 4017 150.875 1127.376
+  coords 4017 155.594 1127.376
   angleY 90
   {
    GenericEntity {
@@ -3594,7 +3467,7 @@ $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4017 150.875 1121.691
+  coords 4017 155.594 1121.691
   angleY 90
   {
    GenericEntity {
@@ -3610,7 +3483,7 @@ $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4017 150.875 1116.385
+  coords 4017 155.594 1116.385
   angleY 90
   {
    GenericEntity {
@@ -3626,7 +3499,7 @@ $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4017 150.875 1132.95
+  coords 4017 155.594 1132.95
   angleY 90
   {
    GenericEntity {
@@ -3642,7 +3515,7 @@ $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3368.898 150.875 1122.247
+  coords 3368.898 155.594 1122.247
   angleY -90
   {
    GenericEntity {
@@ -3658,7 +3531,7 @@ $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3368.898 150.875 1133.24
+  coords 3368.898 155.594 1133.24
   angleY -90
   {
    GenericEntity {
@@ -3674,7 +3547,7 @@ $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3368.898 150.875 1127.934
+  coords 3368.898 155.594 1127.934
   angleY -90
   {
    GenericEntity {
@@ -3690,7 +3563,7 @@ $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3368.898 150.875 1116.675
+  coords 3368.898 155.594 1116.675
   angleY -90
   {
    GenericEntity {
@@ -3708,66 +3581,57 @@ $grp StaticModelEntity : "{A20FED3C5AC21FF9}Prefabs/Structures/Airport/LightRunw
 }
 $grp GenericEntity : "{B5B46A19A002D647}PrefabLibrary/Decals/Runway/Runway_Line_WaitStart.et" {
  {
-  coords 4215.014 150.875 1026.28
+  coords 4215.014 155.594 1026.28
  }
  {
-  coords 4021.852 150.875 1026.905
+  coords 4021.852 155.594 1026.905
   angleY -70.794
  }
  {
-  coords 3179.358 150.875 1026.28
+  coords 3179.358 155.594 1026.28
  }
  {
-  coords 3358.846 150.875 1026.228
+  coords 3358.846 155.594 1026.228
   angleY 57.14
  }
 }
 $grp GenericEntity : "{B5FDCA49E8753CDF}Prefabs/Structures/Decal/HeliPad_military.et" {
  {
-  coords 3995 150.875 850
+  coords 3700 155.594 850
  }
  {
-  coords 3695 150.875 850
+  coords 3750 155.594 850
  }
  {
-  coords 3745 150.875 850
+  coords 3800 155.594 850
  }
  {
-  coords 3795 150.875 850
+  coords 3850 155.594 850
  }
  {
-  coords 3845 150.875 850
+  coords 3600 155.594 850
  }
  {
-  coords 3495 150.875 850
+  coords 3550 155.594 850
  }
  {
-  coords 3595 150.875 850
+  coords 3650 155.594 850
  }
  {
-  coords 3545 150.875 850
+  coords 3900 155.594 850
  }
  {
-  coords 3645 150.875 850
- }
- {
-  coords 3895 150.875 850
- }
- {
-  coords 3445 150.875 850
- }
- {
-  coords 3945 150.875 850
+  coords 3950 155.594 850
  }
 }
 $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunway_03/LightRunway_03_pole.et" {
  {
-  coords 4272.134 150.875 1067.843
+  coords 4272.134 149.041 1067.843
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3777,7 +3641,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3787,7 +3651,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3797,7 +3661,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3808,12 +3672,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4293.011 150.875 1077.864
+  coords 4293.011 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0
+    coords 0.643 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3823,7 +3687,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0
+    coords -1.952 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3833,7 +3697,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0
+    coords -0.653 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3843,7 +3707,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0
+    coords 1.942 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3854,104 +3718,104 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4309.781 150.875 1077.864
+  coords 4309.781 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
   }
  }
  {
-  coords 4309.781 150.875 1067.843
+  coords 4309.781 149.041 1067.843
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
   }
  }
  {
-  coords 4253.146 150.875 1077.864
+  coords 4253.146 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3961,7 +3825,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3971,7 +3835,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3981,7 +3845,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -3992,12 +3856,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4253.146 150.875 1067.843
+  coords 4253.146 149.041 1067.843
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4007,7 +3871,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4017,7 +3881,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4027,7 +3891,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4038,12 +3902,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4272.134 150.875 1077.864
+  coords 4272.134 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4053,7 +3917,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4063,7 +3927,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4073,7 +3937,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4084,12 +3948,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4272.134 150.875 1087.695
+  coords 4272.134 149.041 1087.695
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4099,7 +3963,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4109,7 +3973,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4119,7 +3983,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4130,12 +3994,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4253.146 150.875 1087.695
+  coords 4253.146 149.041 1087.695
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4145,7 +4009,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4155,7 +4019,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4165,7 +4029,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4176,12 +4040,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4328.768 150.875 1067.843
+  coords 4328.768 149.041 1067.843
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4191,7 +4055,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4201,7 +4065,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4211,7 +4075,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4222,12 +4086,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4293.011 150.875 1067.843
+  coords 4293.011 149.041 1067.843
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0
+    coords 0.643 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4237,7 +4101,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0
+    coords -1.952 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4247,7 +4111,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0
+    coords -0.653 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4257,7 +4121,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0
+    coords 1.942 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4268,12 +4132,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4328.768 150.875 1087.695
+  coords 4328.768 149.041 1087.695
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4283,7 +4147,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4293,7 +4157,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4303,7 +4167,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4314,12 +4178,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4293.011 150.875 1087.695
+  coords 4293.011 149.041 1087.695
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0
+    coords 0.643 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4329,7 +4193,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0
+    coords -1.952 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4339,7 +4203,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0
+    coords -0.653 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4349,7 +4213,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0
+    coords 1.942 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4360,12 +4224,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4328.768 150.875 1077.864
+  coords 4328.768 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4375,7 +4239,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4385,7 +4249,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4395,7 +4259,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4406,58 +4270,58 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4309.781 150.875 1087.695
+  coords 4309.781 149.041 1087.695
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
-      coords 0 0 0.03
+      coords 0 0 0.028
      }
     }
    }
   }
  }
  {
-  coords 4347.403 150.875 1077.864
+  coords 4347.403 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4467,7 +4331,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4477,7 +4341,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4487,7 +4351,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4498,12 +4362,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4364.173 150.875 1077.864
+  coords 4364.173 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4513,7 +4377,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4523,7 +4387,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4533,7 +4397,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4544,12 +4408,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4364.173 150.875 1067.843
+  coords 4364.173 149.041 1067.843
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4559,7 +4423,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4569,7 +4433,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4579,7 +4443,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4590,12 +4454,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4347.403 150.875 1087.695
+  coords 4347.403 149.041 1087.695
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4605,7 +4469,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4615,7 +4479,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4625,7 +4489,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4636,12 +4500,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4383.16 150.875 1077.864
+  coords 4383.16 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4651,7 +4515,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4661,7 +4525,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4671,7 +4535,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4682,12 +4546,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4383.16 150.875 1087.695
+  coords 4383.16 149.041 1087.695
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4697,7 +4561,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4707,7 +4571,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4717,7 +4581,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4728,12 +4592,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4364.173 150.875 1087.695
+  coords 4364.173 149.041 1087.695
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4743,7 +4607,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4753,7 +4617,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4763,7 +4627,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4774,12 +4638,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4347.403 150.875 1067.843
+  coords 4347.403 149.041 1067.843
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4789,7 +4653,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4799,7 +4663,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4809,7 +4673,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4820,12 +4684,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4383.16 150.875 1067.843
+  coords 4383.16 149.041 1067.843
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4835,7 +4699,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4845,7 +4709,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4855,7 +4719,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4866,12 +4730,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3095.66 150.875 1077.848
+  coords 3095.66 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4881,7 +4745,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4891,7 +4755,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4901,7 +4765,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4912,12 +4776,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3078.89 150.875 1077.848
+  coords 3078.89 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4927,7 +4791,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4937,7 +4801,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4947,7 +4811,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4958,12 +4822,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3078.89 150.875 1087.869
+  coords 3078.89 149.041 1087.869
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4973,7 +4837,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4983,7 +4847,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -4993,7 +4857,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5004,12 +4868,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3135.524 150.875 1077.848
+  coords 3135.524 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5019,7 +4883,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5029,7 +4893,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5039,7 +4903,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5050,12 +4914,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3135.524 150.875 1087.869
+  coords 3135.524 149.041 1087.869
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5065,7 +4929,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5075,7 +4939,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5085,7 +4949,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5096,12 +4960,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3116.538 150.875 1077.848
+  coords 3116.538 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5111,7 +4975,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5121,7 +4985,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5131,7 +4995,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5142,12 +5006,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3116.538 150.875 1068.017
+  coords 3116.538 149.041 1068.017
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5157,7 +5021,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5167,7 +5031,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5177,7 +5041,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5188,12 +5052,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3135.524 150.875 1068.017
+  coords 3135.524 149.041 1068.017
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5203,7 +5067,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5213,7 +5077,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5223,7 +5087,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5234,12 +5098,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3059.904 150.875 1087.869
+  coords 3059.904 149.041 1087.869
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5249,7 +5113,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5259,7 +5123,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5269,7 +5133,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5280,12 +5144,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3059.904 150.875 1068.017
+  coords 3059.904 149.041 1068.017
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5295,7 +5159,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5305,7 +5169,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5315,7 +5179,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5326,12 +5190,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3041.268 150.875 1068.017
+  coords 3041.268 149.041 1068.017
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5341,7 +5205,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5351,7 +5215,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5361,7 +5225,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5372,12 +5236,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3095.66 150.875 1068.017
+  coords 3095.66 149.041 1068.017
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5387,7 +5251,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5397,7 +5261,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5407,7 +5271,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5418,12 +5282,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3095.66 150.875 1087.869
+  coords 3095.66 149.041 1087.869
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5433,7 +5297,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5443,7 +5307,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5453,7 +5317,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5464,12 +5328,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3005.511 150.875 1068.017
+  coords 3005.511 149.041 1068.017
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5479,7 +5343,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5489,7 +5353,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5499,7 +5363,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5510,12 +5374,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3024.499 150.875 1087.869
+  coords 3024.499 149.041 1087.869
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5525,7 +5389,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5535,7 +5399,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5545,7 +5409,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5556,12 +5420,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3041.268 150.875 1087.869
+  coords 3041.268 149.041 1087.869
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5571,7 +5435,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5581,7 +5445,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5591,7 +5455,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5602,12 +5466,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3024.499 150.875 1068.017
+  coords 3024.499 149.041 1068.017
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5617,7 +5481,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5627,7 +5491,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5637,7 +5501,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5648,12 +5512,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3024.499 150.875 1077.848
+  coords 3024.499 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5663,7 +5527,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5673,7 +5537,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5683,7 +5547,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5694,12 +5558,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3005.511 150.875 1087.869
+  coords 3005.511 149.041 1087.869
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5709,7 +5573,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5719,7 +5583,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5729,7 +5593,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5740,12 +5604,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3078.89 150.875 1068.017
+  coords 3078.89 149.041 1068.017
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5755,7 +5619,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5765,7 +5629,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5775,7 +5639,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5786,12 +5650,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3005.511 150.875 1077.848
+  coords 3005.511 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5801,7 +5665,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5811,7 +5675,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5821,7 +5685,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5832,12 +5696,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3041.268 150.875 1077.848
+  coords 3041.268 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5847,7 +5711,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5857,7 +5721,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5867,7 +5731,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5878,12 +5742,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3059.904 150.875 1077.848
+  coords 3059.904 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5893,7 +5757,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5903,7 +5767,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5913,7 +5777,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5924,12 +5788,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 3116.538 150.875 1087.869
+  coords 3116.538 149.041 1087.869
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5939,7 +5803,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5949,7 +5813,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5959,7 +5823,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5970,12 +5834,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4463.714 150.875 1077.864
+  coords 4463.714 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5985,7 +5849,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -5995,7 +5859,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6005,7 +5869,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6016,12 +5880,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4407.081 150.875 1077.864
+  coords 4407.081 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6031,7 +5895,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6041,7 +5905,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6051,7 +5915,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6062,12 +5926,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4426.067 150.875 1077.864
+  coords 4426.067 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6077,7 +5941,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6087,7 +5951,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6097,7 +5961,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6108,12 +5972,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4518.106 150.875 1077.864
+  coords 4518.106 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6123,7 +5987,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6133,7 +5997,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6143,7 +6007,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6154,12 +6018,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4537.093 150.875 1077.864
+  coords 4537.093 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6169,7 +6033,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6179,7 +6043,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6189,7 +6053,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6200,12 +6064,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4501.335 150.875 1077.864
+  coords 4501.333 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0
+    coords 0.643 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6215,7 +6079,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0
+    coords -1.952 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6225,7 +6089,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0
+    coords -0.653 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6235,7 +6099,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0
+    coords 1.942 7.523 0
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6246,12 +6110,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4482.701 150.875 1077.864
+  coords 4482.701 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6261,7 +6125,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6271,7 +6135,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6281,7 +6145,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6292,12 +6156,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 4446.946 150.875 1077.864
+  coords 4446.946 149.041 1077.864
   angleY 90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6307,7 +6171,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6317,7 +6181,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6327,7 +6191,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6338,12 +6202,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 2930.619 150.875 1077.848
+  coords 2930.619 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6353,7 +6217,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6363,7 +6227,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6373,7 +6237,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6384,12 +6248,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 2987.254 150.875 1077.848
+  coords 2987.254 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6399,7 +6263,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6409,7 +6273,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6419,7 +6283,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6430,12 +6294,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 2968.267 150.875 1077.848
+  coords 2968.267 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6445,7 +6309,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6455,7 +6319,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6465,7 +6329,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6476,12 +6340,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 2876.228 150.875 1077.848
+  coords 2876.228 144.322 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6491,7 +6355,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6501,7 +6365,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6511,7 +6375,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6522,12 +6386,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 2857.241 150.875 1077.848
+  coords 2857.241 144.353 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.524 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6537,7 +6401,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.524 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6547,7 +6411,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.524 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6557,7 +6421,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.524 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6568,12 +6432,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 2892.997 150.875 1077.848
+  coords 2892.997 144.322 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6583,7 +6447,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6593,7 +6457,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6603,7 +6467,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6614,12 +6478,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 2911.633 150.875 1077.848
+  coords 2911.633 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6629,7 +6493,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6639,7 +6503,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6649,7 +6513,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6660,12 +6524,12 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
   }
  }
  {
-  coords 2947.389 150.875 1077.848
+  coords 2947.389 149.041 1077.848
   angleY -90
   {
    StaticModelEntity {
     ID "566CD30704715DAD"
-    coords 0.643 0 -0.002
+    coords 0.643 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6675,7 +6539,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DED"
-    coords -1.952 0 -0.002
+    coords -1.952 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6685,7 +6549,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715DF0"
-    coords -0.653 0 -0.002
+    coords -0.653 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6695,7 +6559,7 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
    }
    StaticModelEntity {
     ID "566CD30704715E6C"
-    coords 1.942 0 -0.002
+    coords 1.942 7.523 -0.002
     {
      GenericEntity {
       ID "5A02CEDB802F0770"
@@ -6708,13 +6572,13 @@ $grp StaticModelEntity : "{CDFBD7F41CCF1FFA}Prefabs/Structures/Airport/LightRunw
 }
 $grp GenericEntity : "{D6444F09F25A43FF}PrefabLibrary/Decals/Runway/Runway_Num2.et" {
  {
-  coords 4185.847 150.875 1075.635
+  coords 4185.847 155.594 1075.635
   angleX 0.035
   angleY -89.999
   angleZ 1.049
  }
  {
-  coords 3202.824 150.875 1080.071
+  coords 3202.824 155.594 1080.071
   angleX 0.035
   angleY 90.001
   angleZ 1.049
@@ -6722,7 +6586,7 @@ $grp GenericEntity : "{D6444F09F25A43FF}PrefabLibrary/Decals/Runway/Runway_Num2.
 }
 $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRunway_01/LightRunway_01_orange.et" {
  {
-  coords 4216.448 150.875 1097.272
+  coords 4216.448 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6731,7 +6595,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4203.885 150.875 1058.581
+  coords 4203.885 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6740,7 +6604,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4203.885 150.875 1097.274
+  coords 4203.885 155.594 1097.274
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6749,7 +6613,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4188.51 150.875 1097.273
+  coords 4188.51 155.594 1097.273
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6758,7 +6622,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4188.51 150.875 1058.581
+  coords 4188.51 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6767,7 +6631,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4172.024 150.875 1097.272
+  coords 4172.024 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6776,7 +6640,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4172.024 150.875 1058.581
+  coords 4172.024 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6785,7 +6649,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4153.504 150.875 1058.581
+  coords 4153.504 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6794,7 +6658,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4153.504 150.875 1097.273
+  coords 4153.504 155.594 1097.273
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6803,7 +6667,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4138.13 150.875 1097.272
+  coords 4138.13 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6812,7 +6676,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4138.13 150.875 1058.581
+  coords 4138.13 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6821,7 +6685,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4121.644 150.875 1097.271
+  coords 4121.644 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6830,7 +6694,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4121.644 150.875 1058.581
+  coords 4121.644 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6839,7 +6703,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4105.698 150.875 1097.273
+  coords 4105.698 155.594 1097.273
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6848,7 +6712,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4090.324 150.875 1097.272
+  coords 4090.324 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6857,7 +6721,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4090.324 150.875 1058.581
+  coords 4090.324 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6866,7 +6730,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4073.841 150.875 1097.271
+  coords 4073.841 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6875,7 +6739,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4073.841 150.875 1058.581
+  coords 4073.841 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6884,7 +6748,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4055.321 150.875 1058.581
+  coords 4055.321 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6893,7 +6757,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4055.321 150.875 1097.272
+  coords 4055.321 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6902,7 +6766,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4039.945 150.875 1097.271
+  coords 4039.945 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6911,7 +6775,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4039.945 150.875 1058.581
+  coords 4039.945 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6920,7 +6784,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4023.459 150.875 1097.27
+  coords 4023.459 155.594 1097.27
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6929,7 +6793,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4023.459 150.875 1058.581
+  coords 4023.459 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6938,7 +6802,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4105.698 150.875 1058.581
+  coords 4105.698 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -6947,97 +6811,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 4007.161 150.875 1097.273
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords -0 0 0
-   }
-  }
- }
- {
-  coords 3991.784 150.875 1097.272
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3991.784 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3975.301 150.875 1097.271
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3975.301 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3956.781 150.875 1097.272
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3941.405 150.875 1097.271
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3924.919 150.875 1097.27
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3908.974 150.875 1097.272
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3893.601 150.875 1097.271
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3877.116 150.875 1097.27
+  coords 4007.161 155.594 1097.273
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7046,7 +6820,88 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3877.116 150.875 1058.581
+  coords 3991.784 155.594 1097.272
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3991.784 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3975.301 155.594 1097.271
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3975.301 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3956.781 155.594 1097.272
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3941.405 155.594 1097.271
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3924.919 155.594 1097.27
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3908.974 155.594 1097.272
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3893.601 155.594 1097.271
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3877.116 155.594 1097.27
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7055,61 +6910,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3858.596 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3858.596 150.875 1097.271
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3843.219 150.875 1097.27
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3843.219 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3826.732 150.875 1097.269
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3826.732 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 4007.161 150.875 1058.581
+  coords 3877.116 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7118,7 +6919,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3810.292 150.875 1097.273
+  coords 3858.596 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7127,7 +6928,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3794.918 150.875 1097.272
+  coords 3858.596 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7136,7 +6937,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3794.918 150.875 1058.581
+  coords 3843.219 155.594 1097.27
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7145,7 +6946,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3778.431 150.875 1097.271
+  coords 3843.219 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7154,7 +6955,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3778.431 150.875 1058.581
+  coords 3826.732 155.594 1097.269
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7163,7 +6964,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3759.911 150.875 1058.581
+  coords 3826.732 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7172,52 +6973,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3759.911 150.875 1097.272
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3744.537 150.875 1097.271
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3744.537 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3728.049 150.875 1097.27
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3728.049 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3712.106 150.875 1097.272
+  coords 4007.161 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7226,7 +6982,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3696.731 150.875 1097.271
+  coords 3810.292 155.594 1097.273
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7235,7 +6991,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3696.731 150.875 1058.581
+  coords 3794.918 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7244,7 +7000,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3680.248 150.875 1097.27
+  coords 3794.918 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7253,7 +7009,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3680.248 150.875 1058.581
+  coords 3778.431 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7262,7 +7018,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3661.728 150.875 1058.581
+  coords 3778.431 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7271,7 +7027,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3661.728 150.875 1097.271
+  coords 3759.911 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7280,7 +7036,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3646.351 150.875 1097.27
+  coords 3759.911 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7289,7 +7045,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3646.351 150.875 1058.581
+  coords 3744.537 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7298,7 +7054,34 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3629.866 150.875 1097.269
+  coords 3744.537 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3728.049 155.594 1097.27
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3728.049 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3712.106 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7307,7 +7090,79 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3629.866 150.875 1058.581
+  coords 3696.731 155.594 1097.271
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3696.731 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3680.248 155.594 1097.27
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3680.248 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3661.728 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3661.728 155.594 1097.271
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3646.351 155.594 1097.27
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3646.351 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3629.866 155.594 1097.269
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7316,7 +7171,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3712.106 150.875 1058.581
+  coords 3629.866 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7325,7 +7180,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3613.567 150.875 1097.272
+  coords 3712.106 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7334,7 +7189,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3598.19 150.875 1097.271
+  coords 3613.567 155.594 1097.272
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7343,7 +7198,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3598.19 150.875 1058.581
+  coords 3598.19 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7352,25 +7207,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3581.708 150.875 1097.27
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3581.708 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3563.188 150.875 1058.581
+  coords 3598.19 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7379,7 +7216,25 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3563.188 150.875 1097.271
+  coords 3581.708 155.594 1097.27
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3581.708 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3563.188 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7388,43 +7243,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3547.812 150.875 1097.27
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3547.812 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3531.326 150.875 1097.269
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3531.326 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3515.38 150.875 1097.271
+  coords 3563.188 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7433,7 +7252,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3500.008 150.875 1097.27
+  coords 3547.812 155.594 1097.27
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7442,7 +7261,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3483.523 150.875 1097.269
+  coords 3547.812 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7451,7 +7270,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3465.003 150.875 1097.27
+  coords 3531.326 155.594 1097.269
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7460,7 +7279,16 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3449.626 150.875 1097.269
+  coords 3531.326 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3515.38 155.594 1097.271
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7469,7 +7297,34 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3433.139 150.875 1097.268
+  coords 3500.008 155.594 1097.27
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3483.523 155.594 1097.269
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3465.003 155.594 1097.27
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3449.626 155.594 1097.269
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7478,7 +7333,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3613.567 150.875 1058.581
+  coords 3433.139 155.594 1097.268
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7487,52 +7342,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3810.292 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3417.076 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3400.589 150.875 1097.268
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3400.589 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3417.076 150.875 1097.269
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3385.187 150.875 1058.581
+  coords 3613.567 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7541,7 +7351,52 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3368.698 150.875 1097.267
+  coords 3810.292 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3417.076 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3400.589 155.594 1097.268
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3400.589 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3417.076 155.594 1097.269
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3385.187 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7550,7 +7405,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3368.698 150.875 1058.581
+  coords 3368.698 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7559,7 +7414,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3385.187 150.875 1097.268
+  coords 3368.698 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7568,43 +7423,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3352.589 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3336.103 150.875 1097.267
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3336.103 150.875 1058.581
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3352.589 150.875 1097.268
-  {
-   GenericEntity {
-    ID "5A046B03610CC35C"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 3320.698 150.875 1058.581
+  coords 3385.187 155.594 1097.268
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7613,7 +7432,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3304.212 150.875 1097.267
+  coords 3352.589 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7622,7 +7441,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3304.212 150.875 1058.581
+  coords 3336.103 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7631,7 +7450,25 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3320.698 150.875 1097.267
+  coords 3336.103 155.594 1058.581
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3352.589 155.594 1097.268
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3320.698 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7640,7 +7477,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3269.35 150.875 1097.267
+  coords 3304.212 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7649,7 +7486,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3269.35 150.875 1058.581
+  coords 3304.212 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7658,7 +7495,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3285.837 150.875 1097.268
+  coords 3320.698 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7667,7 +7504,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3253.947 150.875 1058.581
+  coords 3269.35 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7676,7 +7513,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3237.46 150.875 1097.267
+  coords 3269.35 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7685,7 +7522,16 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3237.46 150.875 1058.581
+  coords 3285.837 155.594 1097.268
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords -0 0 0
+   }
+  }
+ }
+ {
+  coords 3253.947 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7694,7 +7540,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3253.947 150.875 1097.267
+  coords 3237.46 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7703,7 +7549,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3221.35 150.875 1058.581
+  coords 3237.46 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7712,7 +7558,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3204.864 150.875 1097.267
+  coords 3253.947 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7721,7 +7567,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3204.864 150.875 1058.581
+  coords 3221.35 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7730,7 +7576,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3221.35 150.875 1097.267
+  coords 3204.864 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7739,7 +7585,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3189.46 150.875 1058.581
+  coords 3204.864 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7748,7 +7594,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3172.973 150.875 1097.267
+  coords 3221.35 155.594 1097.267
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7757,7 +7603,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3189.46 150.875 1097.267
+  coords 3189.46 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"
@@ -7766,7 +7612,25 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
   }
  }
  {
-  coords 3285.837 150.875 1058.581
+  coords 3172.973 155.594 1097.267
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3189.46 155.594 1097.267
+  {
+   GenericEntity {
+    ID "5A046B03610CC35C"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3285.837 155.594 1058.581
   {
    GenericEntity {
     ID "5A046B03610CC35C"

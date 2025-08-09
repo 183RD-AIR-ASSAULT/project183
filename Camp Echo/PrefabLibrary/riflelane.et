@@ -1,0 +1,704 @@
+SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/FiringRangeManager.et" {
+ ID "5310BE672EC2F1A7"
+ coords 950.5 563.687 5380
+ angleY -90
+ SphereRadius 5.5
+ BoxMins 6.5 3 0
+ BoxMaxs -3.2 0 -5
+ {
+  SCR_FiringRangeController {
+   ID "661145282942F1C5"
+   components {
+    SignalsManagerComponent "{626965E278A32E1A}" {
+    }
+    MeshObject "{626965E278A32D9F}" {
+     Object "{AD51E776526588CC}Assets/Structures/Military/Training/RangeCP_01/RangeCP_01.xob"
+    }
+    RigidBody "{626965E278A32DA6}" {
+     ModelGeometry 1
+     Static 1
+    }
+    ProcAnimComponent "{626965E278A32DF1}" {
+     Parameters {
+      ProcAnimParams "{626965E278A32DF3}" {
+       ResourceName "{45EF0AFFC6C42B29}Assets/Structures/Military/Training/RangeCP_01/RangeCP_01.pap"
+       BoneNames {
+        "Number_04" "Number_03" "Number_02" "Number_01" "Number_08" "Number_07" "Number_06" "Number_05" "Button_start"
+       }
+       SimulationDistance 820
+      }
+     }
+    }
+    SCR_SoundDataComponent "{626965E278A32D00}" {
+     m_aAudioSourceConfiguration {
+      SCR_AudioSourceConfiguration "{626965E278A32D1A}" {
+       m_sSoundProject "{5A46144CB8BFC66B}Sounds/Structures/Military/Training/RangeCP/Structures_RangeCP.acp"
+       m_sSoundEventName "SOUND_RANGECP_ROUNDSTART"
+      }
+      SCR_AudioSourceConfiguration "{626965E278A32D1C}" {
+       m_sSoundProject "{5A46144CB8BFC66B}Sounds/Structures/Military/Training/RangeCP/Structures_RangeCP.acp"
+       m_sSoundEventName "SOUND_RANGECP_ROUNDABORT"
+      }
+      SCR_AudioSourceConfiguration "{626965E278A32D17}" {
+       m_sSoundProject "{5A46144CB8BFC66B}Sounds/Structures/Military/Training/RangeCP/Structures_RangeCP.acp"
+       m_sSoundEventName "SOUND_RANGECP_STARTBUTTON"
+      }
+      SCR_AudioSourceConfiguration "{626965E278A32D09}" {
+       m_sSoundProject "{5A46144CB8BFC66B}Sounds/Structures/Military/Training/RangeCP/Structures_RangeCP.acp"
+       m_sSoundEventName "SOUND_RANGECP_CHANGETARGET"
+      }
+      SCR_AudioSourceConfiguration "{626965E278A32D02}" {
+       m_sSoundProject "{5A46144CB8BFC66B}Sounds/Structures/Military/Training/RangeCP/Structures_RangeCP.acp"
+       m_sSoundEventName "SOUND_RANGECP_CHANGEDISTANCE"
+      }
+     }
+    }
+    SlotManagerComponent "{626965E278A32D23}" {
+     Slots {
+      EntitySlotInfo LightOn {
+       PivotID "light_001_power"
+       Prefab "{56F1E8C98C929662}Prefabs/Structures/Military/Training/RangeCP_01/RangeCP_01_light_white.et"
+      }
+      EntitySlotInfo LightError {
+       PivotID "light_003_malfunction"
+       Prefab "{E1D83AE676A5F192}Prefabs/Structures/Military/Training/RangeCP_01/RangeCP_01_light_red.et"
+      }
+      EntitySlotInfo LightSequence {
+       PivotID "light_002_sequence"
+       Prefab "{98F91DBF4663F101}Prefabs/Structures/Military/Training/RangeCP_01/RangeCP_01_light_green.et"
+      }
+     }
+    }
+    ActionsManagerComponent "{626965E278A32CD3}" {
+     ActionContexts {
+      UserActionContext "{626965E278A32D79}" {
+       ContextName "StartRound"
+       Position PointInfo "{626965E278A32D44}" {
+        PivotID "Button_start"
+       }
+       Radius 2
+      }
+      UserActionContext "{626965E278A32D74}" {
+       ContextName "DistanceUp"
+       Position PointInfo "{626965E278A32D75}" {
+        PivotID "button_left_Up"
+       }
+       Radius 2
+      }
+      UserActionContext "{626965E278A32C9B}" {
+       ContextName "DistanceDown"
+       Position PointInfo "{626965E278A32D64}" {
+        PivotID "button_left_Down"
+       }
+       Radius 2
+      }
+      UserActionContext "{626965E278A32C90}" {
+       ContextName "AddTarget"
+       Position PointInfo "{626965E278A32C91}" {
+        PivotID "button_right_Up"
+       }
+       Radius 2
+      }
+      UserActionContext "{626965E278A32C8E}" {
+       ContextName "RemoveTarget"
+       Position PointInfo "{626965E278A32C8F}" {
+        PivotID "button_right_Down"
+       }
+      }
+     }
+     additionalActions {
+      SCR_SetTargetsModeUserAction "{626965E278A32CB8}" {
+       ParentContextList {
+        "StartRound"
+       }
+       VisibilityRange 2
+       Duration 0.5
+      }
+      SCR_SetTargetDistanceUpUserAction "{626965E278A32CB7}" {
+       ParentContextList {
+        "DistanceUp"
+       }
+       VisibilityRange 2
+      }
+      SCR_SetTargetDistanceDownUserAction "{626965E278A32CA8}" {
+       ParentContextList {
+        "DistanceDown"
+       }
+       VisibilityRange 2
+      }
+      SCR_AddTarget "{626965E278A32CA0}" {
+       ParentContextList {
+        "AddTarget"
+       }
+       VisibilityRange 2
+      }
+      SCR_RemoveTarget "{626965E278A32CDC}" {
+       ParentContextList {
+        "RemoveTarget"
+       }
+       VisibilityRange 2
+      }
+     }
+    }
+    Hierarchy "{626965E278A32CD6}" {
+    }
+   }
+   Flags 1027
+   coords 1.628 0 -0.11
+   angleY -138.67
+   {
+    SCR_FiringRangeLineArea {
+     ID "66114528294285E2"
+     components {
+      Hierarchy "{55BAA4CF86604A5E}" {
+      }
+     }
+     coords 0.097 0 2.202
+     angleY -44.488
+     TriggerShapeType Sphere
+     SphereRadius 2.5
+     TriggerActivationType "Every query"
+     PeriodicQueries 1
+     UpdatePeriod 0.1
+     ClassesFilter {
+      "ChimeraCharacter"
+     }
+    }
+    $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+     Target_100m_36 {
+      ID "661145282940030C"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 42.589 0 -37.876
+      angleY -42.284
+      m_iTargetDistance 100
+     }
+     Target_100m_35 {
+      ID "6611452829404894"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 24.635 0 -30.37
+      angleY -42.284
+      m_iTargetDistance 100
+     }
+     Target_100m_34 {
+      ID "6611452829404895"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 48.509 0 -48.877
+      angleY -42.284
+      m_iTargetDistance 100
+     }
+     Target_100m_33 {
+      ID "661145282940EF5F"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 55.502 0 -60.622
+      angleY -42.284
+      m_iTargetDistance 100
+     }
+     Target_200m_23 {
+      ID "66114528294141A8"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 108.032 0 -113.368
+      angleY -41.876
+      m_iTargetDistance 200
+     }
+     Target_300m_22 {
+      ID "661145282941766D"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 187.629 0 -206.622
+      angleY -42.46
+      m_iTargetDistance 300
+     }
+     Target_200m_24 {
+      ID "661145282941766E"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 85.133 0 -97.008
+      angleY -43.299
+      m_iTargetDistance 200
+     }
+     Target_200m_22 {
+      ID "661145282941CBC1"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 125.543 0 -129.885
+      angleY -41.876
+      m_iTargetDistance 200
+     }
+     Target_600m_21 {
+      ID "6611452829422DE9"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 411.017 0 -443.798
+      angleY -42.459
+      m_iTargetDistance 600
+     }
+     Target_400m_21 {
+      ID "6611452829424311"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 277.252 0 -294.885
+      angleY -42.459
+      m_iTargetDistance 400
+     }
+     Target_200m_21 {
+      ID "6611452829424530"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 136.791 0 -151.038
+      angleY -42.459
+      m_iTargetDistance 200
+     }
+     Target_300m_21 {
+      ID "6611452829424531"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 207.483 0 -222.651
+      angleY -42.459
+      m_iTargetDistance 300
+     }
+     Target_500m_21 {
+      ID "6611452829427775"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 344.229 0 -369.921
+      angleY -42.459
+      m_iTargetDistance 500
+     }
+     {
+      ID "66114528294285E0"
+      coords 2.371 0 2.089
+      angleY -71.103
+      scale 0.5
+      m_bIsIndicator 1
+     }
+     Target_100m_31 {
+      ID "6611452829429F38"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 68.999 0 -77.74
+      angleY -42.459
+      m_iTargetDistance 100
+     }
+     Target_100m_32 {
+      ID "6611452829432703"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 67.863 0 -67.123
+      angleY -42.284
+      m_iTargetDistance 100
+     }
+     Target_800m_27 {
+      ID "66114528294378E2"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 545.773 0 -590.861
+      angleY -43.796
+      m_iTargetDistance 800
+     }
+     Target_800m_26 {
+      ID "661145282943A5D5"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 544.088 0 -592.233
+      angleY -42.459
+      m_iTargetDistance 800
+     }
+     Target_700m_22 {
+      ID "661145282943A5EA"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 479.801 0 -520.65
+      angleY -44.25
+      m_iTargetDistance 700
+     }
+     Target_800m_30 {
+      ID "661145282944AA9E"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 522.601 0 -612.606
+      angleY -44.231
+      m_iTargetDistance 800
+     }
+     Target_800m_29 {
+      ID "661145282944AA9F"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 524.187 0 -611.26
+      angleY -44.231
+      m_iTargetDistance 800
+     }
+     Target_800m_28 {
+      ID "661145282944AEF9"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 535.146 0 -600.731
+      angleY -44.231
+      m_iTargetDistance 800
+     }
+     Target_500m_24 {
+      ID "661145282946072F"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 283.453 0 -305.816
+      angleY -44.491
+      m_iTargetDistance 500
+     }
+     Target_600m_22 {
+      ID "6611452829460FDE"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 394.602 0 -427.859
+      angleY -41.727
+      m_iTargetDistance 600
+     }
+     Target_500m_22 {
+      ID "66114528294690CC"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 319.43 0 -353.792
+      angleY -44.491
+      m_iTargetDistance 500
+     }
+     Target_400m_24 {
+      ID "66114528294690CD"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 217.928 0 -236.284
+      angleY -41.556
+      m_iTargetDistance 400
+     }
+     Target_400m_23 {
+      ID "661145282946945C"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 233.955 0 -260.539
+      angleY -41.556
+      m_iTargetDistance 400
+     }
+     Target_500m_23 {
+      ID "661145282946AA1F"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 299.192 0 -328.914
+      angleY -44.491
+      m_iTargetDistance 500
+     }
+     Target_300m_23 {
+      ID "661145282946C0D0"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 175.504 0 -183.895
+      angleY -42.46
+      m_iTargetDistance 300
+     }
+     Target_300m_24 {
+      ID "661145282946CBF1"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 152.517 0 -170.489
+      angleY -42.46
+      m_iTargetDistance 300
+     }
+     Target_400m_22 {
+      ID "661145282946E708"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 256.706 0 -275.851
+      angleY -41.556
+      m_iTargetDistance 400
+     }
+     Target_700m_24 {
+      ID "66114528294726C2"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 442.642 0 -477.12
+      angleY -41.168
+      m_iTargetDistance 700
+     }
+     Target_700m_25 {
+      ID "6611452829472F01"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 422.263 0 -462.541
+      angleY -41.168
+      m_iTargetDistance 700
+     }
+     Target_700m_23 {
+      ID "661145282947B7C9"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 457.055 0 -504.366
+      angleY -41.168
+      m_iTargetDistance 700
+     }
+     Target_600m_24 {
+      ID "661145282947F699"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 350.935 0 -383.961
+      angleY -41.727
+      m_iTargetDistance 600
+     }
+     Target_600m_23 {
+      ID "661145282947F69E"
+      components {
+       ProcAnimComponent "{51A276D49FB75B53}" {
+        Parameters {
+         ProcAnimParams "{51A276D49AB6138D}" {
+          SimulationDistance 850
+         }
+        }
+       }
+      }
+      coords 367.777 0 -406.788
+      angleY -41.727
+      m_iTargetDistance 600
+     }
+    }
+   }
+  }
+ }
+}

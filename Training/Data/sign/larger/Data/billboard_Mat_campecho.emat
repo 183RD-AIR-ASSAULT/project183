@@ -1,0 +1,13 @@
+MatPBRBasic {
+ Color 0.455 0.455 0.455 1
+ EmissiveLV 0.978
+ SpecularMul 1.31
+ GlobalLayerContrast 0.453
+ RoughnessScale 1.083
+ MetalnessScale 1.375
+ AOScale 1.361
+ DielectricReflectance 0.052
+ BCRMap "{B4473438C01D359D}Data/sign/larger/Data/camp echo/roadsign_billboard_Mat_BaseColor.edds"
+ OpacityMap "{185C2ACCB5B00E83}Data/sign/larger/Data/camp echo/RGB Alpha.edds"
+ NormalPower 1.367
+}

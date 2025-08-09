@@ -2,49 +2,49 @@ PolylineShapeEntity {
  coords 5532.174 293.201 4350.323
  Points {
   ShapePoint "{65F83E8D7D569F9D}" {
-   Position 0 -0.002 0
+   Position 9.389 -21.143 13.13
   }
   ShapePoint "{65F83E8D7D56B8F0}" {
-   Position 19.31 -1.654 -94.035
+   Position 36.459 -19.761 -67.933
   }
   ShapePoint "{65F83E8D7ECE176E}" {
-   Position -3.851 -4.503 -207.74
+   Position 46.833 -10.46 -175.649
   }
   ShapePoint "{65F83E8D7EF6DA26}" {
-   Position -49.865 -1.51 -332.957
+   Position -11.298 -11.227 -325.877
   }
   ShapePoint "{65F83E8D7F3ED5B1}" {
-   Position -121.318 -1.82 -476.407
+   Position -81.511 -7.246 -478.622
   }
   ShapePoint "{65F83E8D7F61A363}" {
-   Position -197.274 -1.072 -561.449
+   Position -164.072 -0.551 -593.384
   }
   ShapePoint "{65F83E8D7FA503F6}" {
-   Position -266.842 2.185 -611.901
+   Position -248.956 -1.298 -641.12
   }
   ShapePoint "{65F83E8D7FE32ACA}" {
-   Position -316.829 0.893 -634.084
+   Position -312.154 -13.538 -647.699
   }
   ShapePoint "{65F83E8D78F8BF3B}" {
-   Position -414.482 -0.397 -655.538
+   Position -382.516 -8.045 -678.383
   }
   ShapePoint "{65F83E8D793D26BD}" {
-   Position -677.35 -1.559 -726.135
+   Position -663.351 -5.382 -749.281
   }
   ShapePoint "{65F83E8D7979D160}" {
    Position -788.209 3.343 -725.066
   }
   ShapePoint "{65F83E8D79B81DAE}" {
-   Position -870.001 5.688 -690.012
+   Position -858.853 -19.517 -694.615
   }
   ShapePoint "{65F83E8D79E07DC1}" {
    Position -926.074 7.396 -648.463
   }
   ShapePoint "{65F83E8D7A27EAD6}" {
-   Position -961.279 6.689 -607.386
+   Position -940.636 -17.232 -632.71
   }
   ShapePoint "{65F83E8D7A6EC4BC}" {
-   Position -979.675 -0.116 -562.821
+   Position -987.054 -13.722 -580.304
   }
   ShapePoint "{65F83E8D7AA10ABC}" {
    Position -1004.797 -8.681 -559.279
@@ -59,7 +59,7 @@ PolylineShapeEntity {
    Position -1009.498 -10.247 -283.846
   }
   ShapePoint "{65F83E8D648CC8F9}" {
-   Position -910.474 -4.4 -186.89
+   Position -950.27 -16.207 -204.367
   }
   ShapePoint "{65F83E8D64B58B65}" {
    Position -884.756 -15.522 -135.206
@@ -80,31 +80,31 @@ PolylineShapeEntity {
    Position -354.822 -18.501 212
   }
   ShapePoint "{65F83E8D65F1A190}" {
-   Position -244.224 -22.26 215.328
+   Position -281.918 -20.021 229.704
   }
   ShapePoint "{65F83E8CF886FE6C}" {
-   Position -195.5 -25.692 196.112
+   Position -222.585 -22.937 226.258
   }
   ShapePoint "{65F83E8CF98B6220}" {
-   Position -178.467 -25.56 191.417
+   Position -187.334 -23.717 224
   }
   ShapePoint "{65F83E8CF9D2DCD5}" {
-   Position -168.097 -25.584 187.189
+   Position -155.995 -23.678 212.653
   }
   ShapePoint "{65F83E8D674BCAB6}" {
-   Position -109.862 -22.801 167.353
+   Position -103.392 -22.433 176.625
   }
   ShapePoint "{65F83E8D60152BD8}" {
-   Position -50.557 -0.961 88.137
+   Position -42.735 -20.697 118.512
   }
   ShapePoint "{65F83E8D606B62B6}" {
-   Position -28.386 -0.229 60.385
+   Position -12.125 -18.309 93.396
   }
   ShapePoint "{65F83E8D60A30B47}" {
-   Position -12.036 0.901 35.892
+   Position 3.803 -18.299 58.079
   }
   ShapePoint "{65F83E8D61085256}" {
-   Position -4.293 1.464 21.123
+   Position 15.295 -17.736 35.913
   }
  }
  IsClosed 1

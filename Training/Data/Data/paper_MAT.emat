@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.851 0.851 0.851 1
+ SpecularMul 0.92
+ RoughnessScale 1.681
+ MetalnessScale 1.472
+ AOScale 1.444
+ DielectricReflectance 0.055
+ BCRMap "{CC16B0960F267E10}Data/sign/billboard_18_1_paper_MAT_BaseColor.edds"
+ OpacityMap "{5B2E190A3F7EE306}Data/sign/RGB Alpha_1.edds"
+}

@@ -1,0 +1,338 @@
+$grp GenericEntity : "{1004D6553BC4D646}PrefabsEditable/Auto/ConflictRHS/E_MortarPlacement_S_USMC_01.et" {
+ {
+  coords 880.02 373.312 923.986
+  angleY -42.721
+  {
+   GenericEntity {
+    ID "6186DB2F33FB321E"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "6186D3A8CE3D24EB"
+      coords -0.048 -0.312 -3.445
+      angleY 90
+      {
+       DecalEntity {
+        ID "56DF08929A14FB98"
+        coords 0 0 0
+        angleX -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D24F0"
+      coords -0.048 -0.262 -2.144
+      angleY 90
+      {
+       DecalEntity {
+        ID "56DF08929A14FB98"
+        coords 0 0 0
+        angleX -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D252F"
+      coords -3.006 0 1.196
+      angleY 95.83
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D253A"
+      coords -3.047 0 -0.306
+      angleY -90.588
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2546"
+      coords 2.759 0 0.978
+      angleY 88.081
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2553"
+      coords -0.963 0 3.237
+      angleY -6.91
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2566"
+      coords 2.739 0 -0.537
+      angleY -86.285
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2577"
+      coords 0.552 0 3.285
+      angleY -174.619
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2583"
+      coords 2 0 2.5
+      angleY 45
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25A8"
+      coords -2.32 0 2.5
+      angleY -45
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25B5"
+      coords -2.32 0 2.5
+      angleY -45
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25B8"
+      coords 2 0 2.5
+      angleY 45
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25C7"
+      coords -2.32 -0.148 -2
+      angleY -135
+      {
+       GenericEntity {
+        ID "6186DB290A91C258"
+        coords -1.505 -0.164 -0.038
+        angleY -65.633
+       }
+       GenericEntity {
+        ID "6186DB290A91C259"
+        coords -1.426 -0.158 -0.45
+        angleX 2.39
+        angleY 167.781
+        angleZ -134.591
+       }
+       GenericEntity {
+        ID "6186DB290A91C25A"
+        coords -0.535 -0.085 0.161
+        angleY -175.36
+       }
+       GenericEntity {
+        ID "6186DB290A91C25B"
+        coords 0.083 -0.014 0.316
+        angleY -119.294
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25E3"
+      coords -0.155 0 0.537
+      angleY 163.319
+      {
+       DecalEntity {
+        ID "56DEFDB4A9499F9B"
+        coords 0 0 0
+        angleX -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2601"
+      coords 2 -0.01 -2
+      angleY 135
+      {
+       GenericEntity {
+        ID "6186DB291A937028"
+        coords 1.169 -0.155 0.464
+        angleY -147.954
+       }
+       GenericEntity {
+        ID "6186DB291A937029"
+        coords 1.546 -0.164 -0.061
+        angleX -23.577
+        angleY 95.88
+        angleZ -2.354
+       }
+       GenericEntity {
+        ID "6186DB291A937056"
+        coords 0.564 -0.075 0.232
+        angleY -171.275
+       }
+       GenericEntity {
+        ID "6186DB291A937057"
+        coords -1.176 0.01 -0.227
+        angleY -36.121
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2672"
+      coords 1.843 0 2.145
+      angleY 150.163
+     }
+     Turret {
+      ID "6186D3A8CE3D250E"
+      coords -0.296 0 0.5
+      angleY 2
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 873.874 373.312 918.597
+  angleY -42.721
+  {
+   GenericEntity {
+    ID "6186DB2F33FB321E"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "6186D3A8CE3D24EB"
+      coords -0.049 -0.096 -3.445
+      angleY 90
+      {
+       DecalEntity {
+        ID "56DF08929A14FB98"
+        coords 0 0 0
+        angleX -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D24F0"
+      coords -0.049 0 -2.144
+      angleY 90
+      {
+       DecalEntity {
+        ID "56DF08929A14FB98"
+        coords 0 0 0
+        angleX -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D252F"
+      coords -3.007 0 1.196
+      angleY 95.83
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D253A"
+      coords -3.048 0 -0.306
+      angleY -90.588
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2546"
+      coords 2.758 0 0.978
+      angleY 88.081
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2553"
+      coords -0.964 0 3.237
+      angleY -6.91
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2566"
+      coords 2.74 0 -0.537
+      angleY -86.285
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2577"
+      coords 0.551 0 3.285
+      angleY -174.619
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2583"
+      coords 2 0 2.5
+      angleY 45
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25A8"
+      coords -2.321 0 2.5
+      angleY -45
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25B5"
+      coords -2.321 0 2.5
+      angleY -45
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25B8"
+      coords 2 0 2.5
+      angleY 45
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25C7"
+      coords -2.321 0 -2
+      angleY -135
+      {
+       GenericEntity {
+        ID "6186DB290A91C258"
+        coords -1.505 0 -0.038
+        angleY -65.633
+       }
+       GenericEntity {
+        ID "6186DB290A91C259"
+        coords -1.426 0 -0.45
+        angleX 2.39
+        angleY 167.781
+        angleZ -134.591
+       }
+       GenericEntity {
+        ID "6186DB290A91C25A"
+        coords -0.535 0 0.161
+        angleY -175.36
+       }
+       GenericEntity {
+        ID "6186DB290A91C25B"
+        coords 0.083 0 0.316
+        angleY -119.294
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D25E3"
+      coords -0.156 0 0.537
+      angleY 163.319
+      {
+       DecalEntity {
+        ID "56DEFDB4A9499F9B"
+        coords 0 0 0
+        angleX -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2601"
+      coords 1.999 0 -2
+      angleY 135
+      {
+       GenericEntity {
+        ID "6186DB291A937028"
+        coords 1.169 -0.114 0.464
+        angleY -147.954
+       }
+       GenericEntity {
+        ID "6186DB291A937029"
+        coords 1.546 -0.073 -0.061
+        angleX -23.577
+        angleY 95.88
+        angleZ -2.354
+       }
+       GenericEntity {
+        ID "6186DB291A937056"
+        coords 0.564 -0.036 0.232
+        angleY -171.275
+       }
+       GenericEntity {
+        ID "6186DB291A937057"
+        coords -1.177 0 -0.227
+        angleY -36.121
+       }
+      }
+     }
+     GenericEntity {
+      ID "6186D3A8CE3D2672"
+      coords 1.844 0 2.145
+      angleY 150.163
+     }
+     Turret {
+      ID "6186D3A8CE3D250E"
+      coords -0.297 0 0.5
+      angleY 2
+     }
+    }
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{1982A8DD680C416B}PrefabLibrary/Structures/Military/GuardTower_01.et" {
+ coords 882.38 0 915.099
+ angleY -45.024
+}

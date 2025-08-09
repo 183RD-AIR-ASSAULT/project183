@@ -1,0 +1,1270 @@
+$grp GenericEntity {
+ tdo4 {
+  components {
+   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+     Name "bct area"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+  }
+  coords 4942.088 120.469 666.543
+  angleY -126.897
+ }
+ sign {
+  components {
+   MeshObject "{6604B840D6556FF8}" {
+    Object "{608F3D9B3C855AFF}Data/billboard_18_1.xob"
+   }
+  }
+  coords 4790.573 120.125 690.723
+  angleY -90
+  scale 0.023
+ }
+ Chairs {
+  components {
+   MeshObject "{64A63C19DBC4B8CF}" {
+    Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+   }
+  }
+  coords 4960.849 120.469 703.101
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 0 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 0.642 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 1.286 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 1.963 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 2.62 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 3.267 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 6.34 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 8.956 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 8.302 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 7.623 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 6.98 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 9.604 -0 5.256
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 6.34 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 8.956 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 8.302 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 7.623 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 6.98 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 9.604 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 3.267 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 2.62 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 1.963 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 1.286 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 0.642 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 0 -0 3.554
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 6.34 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 8.956 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 8.302 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 7.623 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 6.98 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 9.604 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 3.267 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 2.62 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 1.963 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 1.286 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 0.642 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 0 -0 1.803
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 6.34 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 8.956 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 8.302 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 7.623 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 6.98 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 9.604 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 3.267 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 2.62 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 1.963 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 1.286 -0 0
+    }
+    {
+     components {
+      MeshObject "{64A63C19DBC4B8CF}" {
+       Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+      }
+     }
+     coords 0.642 -0 0
+    }
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{660518A87FDC5AD1}" {
+    Object "{3B24EE09C46A2A34}Assets/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short.xob"
+   }
+  }
+  coords 4805 120.25 825
+  angleY 90
+  scale 4.05
+ }
+ {
+  components {
+   MeshObject "{660518A87FDC5AD1}" {
+    Object "{3B24EE09C46A2A34}Assets/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short.xob"
+   }
+  }
+  coords 4805 120.156 695
+  angleY 90
+  scale 4.05
+ }
+ {
+  components {
+   MeshObject "{660518A87FDC5AD1}" {
+    Object "{3B24EE09C46A2A34}Assets/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short.xob"
+   }
+  }
+  coords 4805 120.203 760
+  angleX 0.895
+  angleY 90
+  scale 4.05
+ }
+}
+$grp SplineShapeEntity {
+ {
+  coords 4786.515 120.094 664.59
+  Points {
+   ShapePoint "{6602EE832E8E984D}" {
+    Position -0.275 -0.374 0.173
+   }
+   ShapePoint "{6602EE832E8DD572}" {
+    Position 7 0 452.129
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{4CA251EBE9778336}PrefabLibrary/Generators/Walls/Concrete/WG_ConcreteWall_01.et" {
+    Flags 1048579
+    m_bSculptTerrain 1
+    m_fTerrainSculptingFallOffWidth 60
+    {
+     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
+      coords 6.953 0.373 449.207
+      angleY 270.922
+     }
+     $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
+      {
+       coords -0.277 -0 0.065
+       angleY 270.922
+      }
+      {
+       coords -0.23 -0 2.981
+       angleY 270.922
+      }
+      {
+       coords -0.183 -0 5.893
+       angleY 270.922
+      }
+      {
+       coords -0.136 -0 8.809
+       angleY 270.922
+      }
+      {
+       coords -0.089 -0 11.723
+       angleY 270.922
+      }
+      {
+       coords -0.042 -0 14.635
+       angleY 270.922
+      }
+      {
+       coords 0.005 0.004 17.55
+       angleY 270.922
+      }
+      {
+       coords 0.051 0.031 20.464
+       angleY 270.922
+      }
+      {
+       coords 0.099 0.031 23.379
+       angleY 270.922
+      }
+      {
+       coords 0.146 0.031 26.295
+       angleY 270.922
+      }
+      {
+       coords 0.193 0.031 29.208
+       angleY 270.922
+      }
+      {
+       coords 0.239 0.031 32.124
+       angleY 270.922
+      }
+      {
+       coords 0.286 0.031 35.038
+       angleY 270.922
+      }
+      {
+       coords 0.333 0.031 37.952
+       angleY 270.922
+      }
+      {
+       coords 0.38 0.031 40.869
+       angleY 270.922
+      }
+      {
+       coords 0.427 0.031 43.781
+       angleY 270.922
+      }
+      {
+       coords 0.474 0.031 46.699
+       angleY 270.922
+      }
+      {
+       coords 0.521 0.031 49.615
+       angleY 270.922
+      }
+      {
+       coords 0.568 0.031 52.528
+       angleY 270.922
+      }
+      {
+       coords 0.615 0.033 55.445
+       angleY 270.922
+      }
+      {
+       coords 0.662 0.062 58.361
+       angleY 270.922
+      }
+      {
+       coords 0.709 0.062 61.274
+       angleY 270.922
+      }
+      {
+       coords 0.756 0.062 64.187
+       angleY 270.922
+      }
+      {
+       coords 0.802 0.062 67.099
+       angleY 270.922
+      }
+      {
+       coords 0.849 0.062 70.017
+       angleY 270.922
+      }
+      {
+       coords 0.896 0.062 72.932
+       angleY 270.922
+      }
+      {
+       coords 0.943 0.062 75.844
+       angleY 270.922
+      }
+      {
+       coords 0.99 0.062 78.757
+       angleY 270.922
+      }
+      {
+       coords 1.037 0.062 81.673
+       angleY 270.922
+      }
+      {
+       coords 1.084 0.062 84.588
+       angleY 270.922
+      }
+      {
+       coords 1.131 0.062 87.501
+       angleY 270.922
+      }
+      {
+       coords 1.177 0.062 90.415
+       angleY 270.922
+      }
+      {
+       coords 1.225 0.094 93.331
+       angleY 270.922
+      }
+      {
+       coords 1.272 0.094 96.247
+       angleY 270.922
+      }
+      {
+       coords 1.319 0.094 99.16
+       angleY 270.922
+      }
+      {
+       coords 1.365 0.094 102.075
+       angleY 270.922
+      }
+      {
+       coords 1.412 0.094 104.992
+       angleY 270.922
+      }
+      {
+       coords 1.459 0.094 107.906
+       angleY 270.922
+      }
+      {
+       coords 1.506 0.094 110.822
+       angleY 270.922
+      }
+      {
+       coords 1.553 0.094 113.736
+       angleY 270.922
+      }
+      {
+       coords 1.6 0.094 116.654
+       angleY 270.922
+      }
+      {
+       coords 1.647 0.094 119.571
+       angleY 270.922
+      }
+      {
+       coords 1.694 0.094 122.485
+       angleY 270.922
+      }
+      {
+       coords 1.741 0.094 125.401
+       angleY 270.922
+      }
+      {
+       coords 1.788 0.094 128.318
+       angleY 270.922
+      }
+      {
+       coords 1.835 0.124 131.236
+       angleY 270.922
+      }
+      {
+       coords 1.882 0.125 134.152
+       angleY 270.922
+      }
+      {
+       coords 1.928 0.125 137.065
+       angleY 270.922
+      }
+      {
+       coords 1.975 0.125 139.983
+       angleY 270.922
+      }
+      {
+       coords 2.023 0.125 142.899
+       angleY 270.922
+      }
+      {
+       coords 2.07 0.125 145.814
+       angleY 270.922
+      }
+      {
+       coords 2.116 0.125 148.728
+       angleY 270.922
+      }
+      {
+       coords 2.163 0.125 151.644
+       angleY 270.922
+      }
+      {
+       coords 2.21 0.125 154.561
+       angleY 270.922
+      }
+      {
+       coords 2.257 0.125 157.478
+       angleY 270.922
+      }
+      {
+       coords 2.304 0.125 160.392
+       angleY 270.922
+      }
+      {
+       coords 2.351 0.125 163.309
+       angleY 270.922
+      }
+      {
+       coords 2.398 0.125 166.226
+       angleY 270.922
+      }
+      {
+       coords 2.445 0.154 169.14
+       angleY 270.922
+      }
+      {
+       coords 2.492 0.156 172.056
+       angleY 270.922
+      }
+      {
+       coords 2.539 0.156 174.972
+       angleY 270.922
+      }
+      {
+       coords 2.586 0.156 177.89
+       angleY 270.922
+      }
+      {
+       coords 2.633 0.156 180.807
+       angleY 270.922
+      }
+      {
+       coords 2.679 0.156 183.723
+       angleY 270.922
+      }
+      {
+       coords 2.727 0.156 186.641
+       angleY 270.922
+      }
+      {
+       coords 2.774 0.156 189.558
+       angleY 270.922
+      }
+      {
+       coords 2.821 0.156 192.475
+       angleY 270.922
+      }
+      {
+       coords 2.867 0.156 195.39
+       angleY 270.922
+      }
+      {
+       coords 2.914 0.156 198.307
+       angleY 270.922
+      }
+      {
+       coords 2.961 0.156 201.224
+       angleY 270.922
+      }
+      {
+       coords 3.008 0.156 204.14
+       angleY 270.922
+      }
+      {
+       coords 3.055 0.184 207.057
+       angleY 270.922
+      }
+      {
+       coords 3.102 0.187 209.974
+       angleY 270.922
+      }
+      {
+       coords 3.149 0.187 212.889
+       angleY 270.922
+      }
+      {
+       coords 3.196 0.187 215.805
+       angleY 270.922
+      }
+      {
+       coords 3.243 0.187 218.721
+       angleY 270.922
+      }
+      {
+       coords 3.29 0.187 221.638
+       angleY 270.922
+      }
+      {
+       coords 3.337 0.187 224.555
+       angleY 270.922
+      }
+      {
+       coords 3.384 0.187 227.472
+       angleY 270.922
+      }
+      {
+       coords 3.431 0.187 230.389
+       angleY 270.922
+      }
+      {
+       coords 3.478 0.187 233.306
+       angleY 270.922
+      }
+      {
+       coords 3.525 0.187 236.223
+       angleY 270.922
+      }
+      {
+       coords 3.572 0.187 239.139
+       angleY 270.922
+      }
+      {
+       coords 3.618 0.187 242.056
+       angleY 270.922
+      }
+      {
+       coords 3.666 0.213 244.973
+       angleY 270.922
+      }
+      {
+       coords 3.713 0.219 247.89
+       angleY 270.922
+      }
+      {
+       coords 3.759 0.219 250.807
+       angleY 270.922
+      }
+      {
+       coords 3.806 0.219 253.724
+       angleY 270.922
+      }
+      {
+       coords 3.853 0.219 256.642
+       angleY 270.922
+      }
+      {
+       coords 3.9 0.219 259.558
+       angleY 270.922
+      }
+      {
+       coords 3.947 0.219 262.476
+       angleY 270.922
+      }
+      {
+       coords 3.994 0.219 265.393
+       angleY 270.922
+      }
+      {
+       coords 4.041 0.219 268.31
+       angleY 270.922
+      }
+      {
+       coords 4.088 0.219 271.227
+       angleY 270.922
+      }
+      {
+       coords 4.135 0.219 274.145
+       angleY 270.922
+      }
+      {
+       coords 4.182 0.219 277.062
+       angleY 270.922
+      }
+      {
+       coords 4.229 0.219 279.978
+       angleY 270.922
+      }
+      {
+       coords 4.276 0.244 282.896
+       angleY 270.922
+      }
+      {
+       coords 4.323 0.25 285.813
+       angleY 270.922
+      }
+      {
+       coords 4.37 0.25 288.73
+       angleY 270.922
+      }
+      {
+       coords 4.417 0.25 291.647
+       angleY 270.922
+      }
+      {
+       coords 4.464 0.25 294.564
+       angleY 270.922
+      }
+      {
+       coords 4.511 0.25 297.481
+       angleY 270.922
+      }
+      {
+       coords 4.558 0.25 300.399
+       angleY 270.922
+      }
+      {
+       coords 4.605 0.25 303.316
+       angleY 270.922
+      }
+      {
+       coords 4.652 0.25 306.233
+       angleY 270.922
+      }
+      {
+       coords 4.698 0.25 309.15
+       angleY 270.922
+      }
+      {
+       coords 4.745 0.25 312.068
+       angleY 270.922
+      }
+      {
+       coords 4.793 0.25 314.985
+       angleY 270.922
+      }
+      {
+       coords 4.84 0.25 317.903
+       angleY 270.922
+      }
+      {
+       coords 4.886 0.274 320.82
+       angleY 270.922
+      }
+      {
+       coords 4.933 0.281 323.738
+       angleY 270.922
+      }
+      {
+       coords 4.98 0.281 326.656
+       angleY 270.922
+      }
+      {
+       coords 5.027 0.281 329.573
+       angleY 270.922
+      }
+      {
+       coords 5.074 0.281 332.491
+       angleY 270.922
+      }
+      {
+       coords 5.121 0.281 335.409
+       angleY 270.922
+      }
+      {
+       coords 5.168 0.281 338.326
+       angleY 270.922
+      }
+      {
+       coords 5.215 0.281 341.244
+       angleY 270.922
+      }
+      {
+       coords 5.262 0.281 344.161
+       angleY 270.922
+      }
+      {
+       coords 5.309 0.281 347.079
+       angleY 270.922
+      }
+      {
+       coords 5.356 0.281 349.996
+       angleY 270.922
+      }
+      {
+       coords 5.403 0.281 352.914
+       angleY 270.922
+      }
+      {
+       coords 5.45 0.281 355.831
+       angleY 270.922
+      }
+      {
+       coords 5.497 0.304 358.749
+       angleY 270.922
+      }
+      {
+       coords 5.544 0.312 361.666
+       angleY 270.922
+      }
+      {
+       coords 5.591 0.312 364.584
+       angleY 270.922
+      }
+      {
+       coords 5.638 0.312 367.501
+       angleY 270.922
+      }
+      {
+       coords 5.685 0.312 370.419
+       angleY 270.922
+      }
+      {
+       coords 5.732 0.312 373.337
+       angleY 270.922
+      }
+      {
+       coords 5.779 0.312 376.254
+       angleY 270.922
+      }
+      {
+       coords 5.825 0.312 379.172
+       angleY 270.922
+      }
+      {
+       coords 5.873 0.312 382.09
+       angleY 270.922
+      }
+      {
+       coords 5.92 0.312 385.008
+       angleY 270.922
+      }
+      {
+       coords 5.967 0.312 387.925
+       angleY 270.922
+      }
+      {
+       coords 6.013 0.312 390.843
+       angleY 270.922
+      }
+      {
+       coords 6.06 0.32 393.761
+       angleY 270.922
+      }
+      {
+       coords 6.108 0.344 396.678
+       angleY 270.922
+      }
+      {
+       coords 6.155 0.344 399.596
+       angleY 270.922
+      }
+      {
+       coords 6.201 0.344 402.514
+       angleY 270.922
+      }
+      {
+       coords 6.248 0.344 405.432
+       angleY 270.922
+      }
+      {
+       coords 6.295 0.344 408.349
+       angleY 270.922
+      }
+      {
+       coords 6.343 0.344 411.267
+       angleY 270.922
+      }
+      {
+       coords 6.389 0.344 414.185
+       angleY 270.922
+      }
+      {
+       coords 6.436 0.344 417.103
+       angleY 270.922
+      }
+      {
+       coords 6.483 0.344 420.02
+       angleY 270.922
+      }
+      {
+       coords 6.53 0.344 422.938
+       angleY 270.922
+      }
+      {
+       coords 6.577 0.344 425.856
+       angleY 270.922
+      }
+      {
+       coords 6.624 0.344 428.774
+       angleY 270.922
+      }
+      {
+       coords 6.671 0.35 431.691
+       angleY 270.922
+      }
+      {
+       coords 6.718 0.375 434.609
+       angleY 270.922
+      }
+      {
+       coords 6.765 0.375 437.527
+       angleY 270.922
+      }
+      {
+       coords 6.812 0.375 440.445
+       angleY 270.922
+      }
+      {
+       coords 6.859 0.375 443.363
+       angleY 270.922
+      }
+      {
+       coords 6.906 0.375 446.28
+       angleY 270.922
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4949.771 120.469 664.612
+  Points {
+   ShapePoint "{6602EE833CB3689C}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6602EE8333CDE6EB}" {
+    Position -163.653 0 0.173
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{4CA251EBE9778336}PrefabLibrary/Generators/Walls/Concrete/WG_ConcreteWall_01.et" {
+    Flags 1048579
+    m_bSculptTerrain 1
+    {
+     SCR_DestructibleEntity : "{2BA5C7F599779832}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_D_A.et" {
+      coords -127.309 -0.182 0.135
+      angleY 180.061
+     }
+     $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
+      {
+       coords -2.81 0 0.003
+       angleY 180.061
+      }
+      {
+       coords -26.531 0 0.028
+       angleY 180.061
+      }
+      {
+       coords -32.454 0 0.034
+       angleY 180.061
+      }
+      {
+       coords -38.377 0 0.041
+       angleY 180.061
+      }
+      {
+       coords -50.235 0 0.053
+       angleY 180.061
+      }
+      {
+       coords -68.017 0 0.072
+       angleY 180.061
+      }
+      {
+       coords -73.94 0 0.078
+       angleY 180.061
+      }
+      {
+       coords -79.863 0 0.084
+       angleY 180.061
+      }
+      {
+       coords -97.656 0 0.103
+       angleY 180.061
+      }
+      {
+       coords -115.45 -0.062 0.122
+       angleY 180.061
+      }
+      {
+       coords -139.167 -0.281 0.147
+       angleY 180.061
+      }
+      {
+       coords -145.09 -0.335 0.153
+       angleY 180.061
+      }
+      {
+       coords -151.014 -0.365 0.16
+       angleY 180.061
+      }
+      {
+       coords -156.937 -0.375 0.166
+       angleY 180.061
+      }
+     }
+     $grp SCR_DestructibleEntity : "{47F1F31525B3171C}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_D_B.et" {
+      {
+       coords -14.668 0 0.016
+       angleY 180.061
+      }
+      {
+       coords -62.089 0 0.066
+       angleY 180.061
+      }
+     }
+     $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
+      {
+       coords -8.733 0 0.009
+       angleY 180.061
+      }
+      {
+       coords -20.596 0 0.022
+       angleY 180.061
+      }
+      {
+       coords -44.3 0 0.047
+       angleY 180.061
+      }
+      {
+       coords -85.786 0 0.091
+       angleY 180.061
+      }
+      {
+       coords -91.721 0 0.097
+       angleY 180.061
+      }
+      {
+       coords -103.579 0 0.11
+       angleY 180.061
+      }
+      {
+       coords -109.515 -0.031 0.116
+       angleY 180.061
+      }
+      {
+       coords -121.373 -0.12 0.128
+       angleY 180.061
+      }
+      {
+       coords -133.232 -0.243 0.141
+       angleY 180.061
+      }
+     }
+     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
+      coords -162.869 -0.373 0.172
+      angleY 180.061
+     }
+     SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
+      coords 0.108 0 -0
+      angleY 180.061
+     }
+     SCR_DestructibleEntity : "{D242B6296793D56E}PrefabLibrary/Walls/Concrete/ConcreteWall_01_D.et" {
+      coords -56.159 0 0.059
+      angleY 180.061
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4972.576 121 615.142
+  Points {
+   ShapePoint "{6604B85FC00CEAAC}" {
+    Position -2.078 0 -6.834
+   }
+   ShapePoint "{6604B85FC00C4339}" {
+    Position 0.96 -0.531 52.036
+   }
+  }
+  {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    GenerateRoad 0
+    RoadClearance 20
+    RoadWidth 1
+    {
+     RoadEntity {
+      ID "556C655491CDCD64"
+      coords 0 0 -0
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position -2.078 0 -6.834
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position 0.959 -0.531 52.036
+       }
+      }
+      Type "Road Minor"
+      Width 43.3
+      Material "{DAC8991460675E54}Assets/Structures/Infrastructure/Roads/Data/Road_concret.emat"
+      VScale 1
+     }
+    }
+   }
+  }
+ }
+}

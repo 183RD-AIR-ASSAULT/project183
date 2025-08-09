@@ -1,0 +1,422 @@
+PolylineShapeEntity {
+ coords 8186.07 174.5 1679.469
+ Points {
+  ShapePoint "{65FC95C47EAACCF6}" {
+   Position 0.165 0 -713.648
+  }
+  ShapePoint "{65FC95C47EAAF2C5}" {
+   Position 0 80 1519.132
+  }
+ }
+ {
+  RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+   coords 0 0 0
+   AdjustHeightMap 1
+   GenerateRoad 0
+   FalloffStartWidth 4
+   RoadFalloffWidth 40
+  }
+ }
+}
+$grp SplineShapeEntity {
+ {
+  coords 8187.002 174.505 372.157
+  Points {
+   ShapePoint "{65FC95E3FA6B38D6}" {
+    Position 0 0 0
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{65FC95E3FA6AE401}" {
+    Position -1360 0 0
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    RoadClearance 0
+    RoadWidth 0.1
+    FalloffStartWidth 4
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position -1387.483 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 0.1
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 8186.738 174.5 371.487
+  Points {
+   ShapePoint "{65FC95E289BCCB07}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65FC95E289BCE9A7}" {
+    Position 0 0 -366.381
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    RoadClearance 0
+    RoadWidth 0.1
+    FalloffStartWidth 4
+    RoadFalloffWidth 40
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position 0 0 -366.381
+       }
+      }
+      IsClosedSpline 0
+      Width 0.1
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 8187.099 174.5 8.198
+  Points {
+   ShapePoint "{65FC95E2090FBFD6}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65FC95E2090F5632}" {
+    Position -1981.875 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    RoadClearance 0
+    RoadWidth 0.1
+    FalloffStartWidth 4
+    RoadFalloffWidth 40
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position -1981.875 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 0.1
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 8186.207 174.5 367.987
+  Points {
+   ShapePoint "{65FC95E274768EEF}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65FC95E27476AC05}" {
+    Position 0 0 1312.836
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    RoadClearance 0
+    RoadWidth 0.1
+    FalloffStartWidth 4
+    RoadFalloffWidth 40
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position 0 0 1312.836
+       }
+      }
+      IsClosedSpline 0
+      Width 0.1
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6206.826 174.5 0
+  Points {
+   ShapePoint "{65FC95E58B5D122A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65FC95E58B5D33CC}" {
+    Position 0 0 380
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    FalloffStartWidth 4
+    RoadFalloffWidth 40
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position 0 0 380
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6228.883 174.5 372
+  Points {
+   ShapePoint "{65FC95E492E331FC}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65FC95E492E2EF78}" {
+    Position 380 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    FalloffStartWidth 4
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position 453.04 -49 -40.521
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6454.213 174.498 371.976
+  Points {
+   ShapePoint "{65FC95E475CFDDA9}" {
+    Position -24.594 0.002 0.688
+   }
+   ShapePoint "{65FC95E475CF895E}" {
+    Position 0 0 240
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    FalloffStartWidth 4
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position -24.594 0.002 0.688
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position 0 0 308.687
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6492.887 174.5 605.922
+  Points {
+   ShapePoint "{65FC95E7833F1D4A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65FC95E7833F3505}" {
+    Position 120 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    FalloffStartWidth 4
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position 208.199 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 8186.827 174.5 920.535
+  Points {
+   ShapePoint "{65FC95E7C835E6AA}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65FC95E7C8351E38}" {
+    Position -1360 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    FalloffStartWidth 4
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position -1360 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 8185.755 249.328 3193.619
+  Points {
+   ShapePoint "{65FC95C7A01650C7}" {
+    Position -632.995 0.016 6.499
+   }
+   ShapePoint "{65FC95C7A015C461}" {
+    Position -0.447 0.01 0.656
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    FalloffStartWidth 4
+    RoadFalloffWidth 80
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position -632.995 0.016 6.499
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position -0.447 0.01 0.656
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7540.341 249.343 3194.089
+  Points {
+   ShapePoint "{65FC95C6B897F0F6}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65FC95C6B8974AD1}" {
+    Position -585.041 -40 -1739.034
+   }
+  }
+  {
+   RoadGeneratorEntity : "{D2C4D77B97C898A4}PrefabLibrary/Generators/Decals/Dirt/RG_Dirt_Tracks_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 1
+    GenerateRoad 0
+    FalloffStartWidth 4
+    RoadFalloffWidth 100
+    {
+     RoadEntity {
+      ID "55A486F372F74F68"
+      SplinePoints {
+       ShapePoint "{55A486F3188B45F3}" {
+        Position 0 0 0
+       }
+       ShapePoint "{55A486F3188B4459}" {
+        Position -582.936 0 -1738.631
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,443 +1,32 @@
-$grp SplineShapeEntity {
- {
-  coords 4167.548 150.875 783.842
-  Points {
-   ShapePoint "{65F6250192D898B7}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65F6250192D840E2}" {
-    Position -11.953 0 0.127
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{4CA251EBE9778336}PrefabLibrary/Generators/Walls/Concrete/WG_ConcreteWall_01.et" {
-    Flags 1048579
-    {
-     SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
-      coords 0.108 0 -0.001
-      angleY 180.609
-     }
-     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
-      coords -11.66 0 0.124
-      angleY 180.609
-     }
-     $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
-      {
-       coords -5.815 0 0.062
-       angleY 180.609
-      }
-      {
-       coords -8.733 0 0.093
-       angleY 180.609
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 4142.526 150.875 783.893
-  Points {
-   ShapePoint "{65F6250175CD46DB}" {
-    Position -0.414 0 -5.957
-    Data {
-     SplinePointData SplinePointData {
-      InTangent -10.815 0 -0.086
-      OutTangent -48.423 0 -0.385
-     }
-    }
-   }
-   ShapePoint "{65F625069EA5E87E}" {
-    Position -33.127 0 -6.169
-    Data {
-     SplinePointData SplinePointData {
-      InTangent -69.261 0 -0.98
-      OutTangent -14.784 0 -0.209
-     }
-    }
-   }
-   ShapePoint "{65F625017312639E}" {
-    Position -97.84 0 -7.493
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{4CA251EBE9778336}PrefabLibrary/Generators/Walls/Concrete/WG_ConcreteWall_01.et" {
-    Flags 1048579
-    {
-     $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
-      {
-       coords -0.306 0 -5.957
-       angleY 179.727
-      }
-      {
-       coords -32.492 0 -6.16
-       angleY 178.888
-      }
-     }
-     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
-      coords -96.774 0 -7.471
-      angleY 178.806
-     }
-     $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
-      {
-       coords -6.229 0 -5.985
-       angleY 179.749
-      }
-      {
-       coords -9.147 0 -5.998
-       angleY 180.112
-      }
-      {
-       coords -12.065 0 -5.992
-       angleY 179.999
-      }
-      {
-       coords -14.984 0 -5.992
-       angleY 179.754
-      }
-      {
-       coords -17.902 0 -6.004
-       angleY 179.695
-      }
-      {
-       coords -20.82 0 -6.019
-       angleY 179.304
-      }
-      {
-       coords -23.738 0 -6.055
-       angleY 179.304
-      }
-      {
-       coords -26.656 0 -6.09
-       angleY 179.304
-      }
-      {
-       coords -29.574 0 -6.126
-       angleY 179.304
-      }
-      {
-       coords -38.414 0 -6.275
-       angleY 178.847
-      }
-      {
-       coords -41.331 0 -6.334
-       angleY 178.847
-      }
-      {
-       coords -44.249 0 -6.392
-       angleY 178.847
-      }
-      {
-       coords -47.167 0 -6.451
-       angleY 178.847
-      }
-      {
-       coords -50.084 0 -6.51
-       angleY 178.847
-      }
-      {
-       coords -53.002 0 -6.569
-       angleY 178.847
-      }
-      {
-       coords -55.919 0 -6.627
-       angleY 178.847
-      }
-      {
-       coords -58.837 0 -6.686
-       angleY 178.847
-      }
-      {
-       coords -61.754 0 -6.745
-       angleY 178.847
-      }
-      {
-       coords -64.672 0 -6.803
-       angleY 178.842
-      }
-      {
-       coords -67.59 0 -6.862
-       angleY 178.806
-      }
-      {
-       coords -70.507 0 -6.923
-       angleY 178.806
-      }
-      {
-       coords -73.425 0 -6.984
-       angleY 178.806
-      }
-      {
-       coords -76.342 0 -7.045
-       angleY 178.806
-      }
-      {
-       coords -79.26 0 -7.105
-       angleY 178.806
-      }
-      {
-       coords -82.177 0 -7.166
-       angleY 178.806
-      }
-      {
-       coords -85.095 0 -7.227
-       angleY 178.806
-      }
-      {
-       coords -88.012 0 -7.288
-       angleY 178.806
-      }
-      {
-       coords -90.93 0 -7.349
-       angleY 178.806
-      }
-      {
-       coords -93.847 0 -7.409
-       angleY 178.806
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 4142.232 150.875 783.814
-  Points {
-   ShapePoint "{65F62506D02C1C62}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65F62506D02BCBF2}" {
-    Position -0.139 0 -5.887
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{4CA251EBE9778336}PrefabLibrary/Generators/Walls/Concrete/WG_ConcreteWall_01.et" {
-    Flags 1048579
-    {
-     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
-      coords -0.135 0 -5.736
-      angleY 91.349
-     }
-     $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
-      {
-       coords 0.003 0 0.108
-       angleY 91.349
-      }
-      {
-       coords -0.066 0 -2.809
-       angleY 91.349
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 4028.296 145.562 645.928
-  Points {
-   ShapePoint "{65F62507BE5B044D}" {
-    Position 0.386 5.312 -14.889
-   }
-   ShapePoint "{65F62507BE5AC9E6}" {
-    Position -0.406 0 135.478
-   }
-  }
-  {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
-    coords 0 0 0
-    AdjustHeightMap 0
-    RoadWidth 24
-    {
-     RoadEntity {
-      ID "556C6556FAB8EA7A"
-      SplinePoints {
-       ShapePoint "{556C6556BF2A9CBB}" {
-        Position 0.386 5.313 -14.889
-       }
-       ShapePoint "{556C6556BF2A9DE7}" {
-        Position -0.406 0 135.478
-       }
-      }
-      IsClosedSpline 0
-      Width 24
-     }
-    }
-   }
-  }
- }
- {
-  coords 4045.498 150.875 776.747
-  Points {
-   ShapePoint "{65F6250741B9CA02}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65F6250741B9ED40}" {
-    Position -0.377 0 -91.423
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{4CA251EBE9778336}PrefabLibrary/Generators/Walls/Concrete/WG_ConcreteWall_01.et" {
-    Flags 1048579
-    {
-     SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
-      coords 0 0 0.108
-      angleY 90.236
-     }
-     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
-      coords -0.373 0 -90.45
-      angleY 90.236
-     }
-     $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
-      {
-       coords -0.024 0 -5.815
-       angleY 90.236
-      }
-      {
-       coords -0.036 0 -8.733
-       angleY 90.236
-      }
-      {
-       coords -0.048 0 -11.651
-       angleY 90.236
-      }
-      {
-       coords -0.06 0 -14.57
-       angleY 90.236
-      }
-      {
-       coords -0.072 0 -17.488
-       angleY 90.236
-      }
-      {
-       coords -0.084 0 -20.406
-       angleY 90.236
-      }
-      {
-       coords -0.096 0 -23.324
-       angleY 90.236
-      }
-      {
-       coords -0.108 0 -26.242
-       angleY 90.236
-      }
-      {
-       coords -0.12 0 -29.16
-       angleY 90.236
-      }
-      {
-       coords -0.132 0 -32.078
-       angleY 90.236
-      }
-      {
-       coords -0.144 0 -34.996
-       angleY 90.236
-      }
-      {
-       coords -0.156 0 -37.915
-       angleY 90.236
-      }
-      {
-       coords -0.168 0 -40.833
-       angleY 90.236
-      }
-      {
-       coords -0.18 0 -43.751
-       angleY 90.236
-      }
-      {
-       coords -0.192 0 -46.669
-       angleY 90.236
-      }
-      {
-       coords -0.204 0 -49.587
-       angleY 90.236
-      }
-      {
-       coords -0.217 0 -52.505
-       angleY 90.236
-      }
-      {
-       coords -0.229 0 -55.423
-       angleY 90.236
-      }
-      {
-       coords -0.241 0 -58.341
-       angleY 90.236
-      }
-      {
-       coords -0.252 0 -61.259
-       angleY 90.236
-      }
-      {
-       coords -0.265 0 -64.178
-       angleY 90.236
-      }
-      {
-       coords -0.277 0 -67.096
-       angleY 90.236
-      }
-      {
-       coords -0.289 0 -70.014
-       angleY 90.236
-      }
-      {
-       coords -0.301 0 -72.932
-       angleY 90.236
-      }
-      {
-       coords -0.313 0 -75.85
-       angleY 90.236
-      }
-      {
-       coords -0.325 0 -78.768
-       angleY 90.236
-      }
-      {
-       coords -0.337 0 -81.686
-       angleY 90.236
-      }
-      {
-       coords -0.349 0 -84.605
-       angleY 90.236
-      }
-      {
-       coords -0.361 0 -87.523
-       angleY 90.236
-      }
-     }
-    }
-   }
-  }
- }
-}
 $grp StaticModelEntity : "{5472624DA4EB5B45}PrefabLibrary/Walls/Pipe/BarGate_01.et" {
  {
   coords 4033.465 0 672.747
+  angleX 0.895
   {
    GenericEntity {
     ID "5EE111167686B083"
-    coords 0 0 0
+    coords -1.353 0 0
+    angleZ 90.895
    }
   }
  }
  {
   coords 4023.105 0 674.511
+  angleX -0.895
   angleY 179.441
+  angleZ 0.009
   {
    GenericEntity {
     ID "5EE111167686B083"
-    coords 0 0 0
+    coords -1.34 0 0
+    angleZ 90
    }
   }
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structures/Military/Barracks_01/Barracks_01_medical_base.et" {
  {
-  coords 4175 0 800
+  coords 4175 0.5 800
   {
    Building {
     ID "5570936056ED3523"
@@ -462,10 +51,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -476,10 +67,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -490,10 +83,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -504,10 +99,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -518,10 +115,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -532,10 +131,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -546,24 +147,28 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
    Building {
     ID "5570936056ED3439"
-    coords 0 -1.861 0
+    coords 0 -1.859 0
     {
      GenericEntity {
       ID "5564931AFC45B3BA"
-      coords 0 0.013 0
+      coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
-      coords 0 0.02 0
+      coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -574,10 +179,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -588,10 +195,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -602,10 +211,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -616,10 +227,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -630,10 +243,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -644,16 +259,18 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
    EnvironmentProbeEntity {
     ID "521A8209BCB8D50A"
-    coords 0.756 2.46 9.074
+    coords 0.756 0 9.074
    }
    GenericEntity {
     ID "5570936056ED0B42"
@@ -718,7 +335,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362C46"
     coords -4.454 0 13.377
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "5570936056ED0A18"
@@ -812,7 +429,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362EBF"
     coords -4.919 0 5.461
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D3623DA"
@@ -825,17 +442,17 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362C74"
     coords -4.455 0 13.377
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362D83"
     coords -5.802 0 13.377
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E1F"
     coords -3.076 0 13.377
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "5E3CF9CCBB2D0F8E"
@@ -860,22 +477,22 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362106"
     coords 3.484 0 9.344
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362115"
     coords 5.185 0 12.936
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D36215E"
     coords 3.55 0 12.936
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362163"
     coords 5.122 0 9.344
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362170"
@@ -904,7 +521,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362CB2"
     coords 3.39 0 -7.295
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362DD9"
@@ -913,32 +530,32 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362E0E"
     coords 5.559 0 -7.295
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E21"
     coords 3.39 0 -2.952
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E4F"
     coords 5.631 0 -10.245
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E51"
     coords 5.58 0 -2.952
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E6F"
     coords 3.323 0 -14.433
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E7F"
     coords 5.631 0 -14.433
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362F12"
@@ -951,22 +568,22 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362F4C"
     coords -5.535 0 -2.859
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362F51"
     coords -5.535 0 -7.405
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362F5E"
     coords -3.535 0 -7.405
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362F7A"
     coords -3.535 0 -2.848
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362804"
@@ -975,7 +592,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362817"
     coords -5.038 0 -12.893
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362822"
@@ -991,7 +608,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D36286C"
-    coords -6.693 -0.019 -15.521
+    coords -6.693 0 -15.521
    }
    GenericEntity {
     ID "557280C63D362870"
@@ -999,37 +616,37 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D36287E"
-    coords -5.963 -0.007 -15.521
+    coords -5.963 0 -15.521
    }
    GenericEntity {
     ID "557280C63D3628A0"
     coords -6.527 0 -9.15
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628CD"
     coords -4.307 0 -9.15
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628D1"
     coords -5.777 0 -9.15
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628DC"
     coords -5.037 0 -9.15
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628E8"
     coords -5.777 0 -12.893
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628FA"
     coords -6.527 0 -12.893
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362F21"
@@ -1088,13 +705,13 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D36233E"
     coords -6.99 0 6.894
-    angleX 3.827
+    angleX 0
     angleY 88.283
    }
    GenericEntity {
     ID "557280C63D362D09"
     coords -4.625 0 0.932
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362EFD"
@@ -1160,11 +777,11 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
     {
      GenericEntity {
       ID "58689E19F6D84399"
-      coords 0 -0.031 0
+      coords 0 -0.03 0
       {
        GenericEntity {
         ID "58B0CC7A0363C019"
-        coords 0 -1.588 0
+        coords 0 -1.59 0
        }
       }
      }
@@ -1223,7 +840,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D3629AD"
     coords -2.24 0 -9.931
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D36220B"
@@ -1353,7 +970,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362D6A"
     coords -5.056 0 -1.367
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D36239B"
@@ -1367,7 +984,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362884"
     coords -2.738 0 -1.784
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362896"
@@ -1376,7 +993,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D3628B2"
     coords -4.738 0 -1.784
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362C01"
@@ -1385,12 +1002,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362C24"
     coords 6.4 0 -1.836
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362C9A"
     coords 6.274 0 5.294
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362CA0"
@@ -1411,7 +1028,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362E5F"
     coords 4.217 0 -1.836
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362F69"
@@ -1420,7 +1037,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362FDD"
     coords 4.788 0 -9.109
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "5A887111E447B14E"
@@ -1467,10 +1084,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -1481,10 +1100,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -1495,10 +1116,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -1509,10 +1132,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -1523,10 +1148,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -1537,66 +1164,76 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
    Building {
     ID "5570936056ED3402"
-    coords 0 -1.89 0
+    coords 0 -1.859 0
     {
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
    Building {
     ID "5570936056ED3439"
-    coords 0 -1.89 0
+    coords 0 -1.859 0
     {
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
    Building {
     ID "5570936056ED3459"
-    coords 0 -1.89 0
+    coords 0 -1.859 0
     {
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
    Building {
     ID "5570936056ED3476"
-    coords 0 -1.869 0
+    coords 0 -1.859 0
     {
      GenericEntity {
       ID "5564931AFC45B3BA"
-      coords 0 0.02 0
+      coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
-      coords 0 0.01 0
+      coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -1607,10 +1244,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -1621,10 +1260,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
@@ -1635,30 +1276,34 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
    Building {
     ID "5570936056ED34E5"
-    coords 0 -1.89 0
+    coords 0 -1.859 0
     {
      GenericEntity {
       ID "5564931AFC45B3BA"
       coords 0 0.015 0
+      angleZ -180
      }
      GenericEntity {
       ID "5564931AFC45B3C7"
       coords 0 0.015 0
+      angleZ -180
      }
     }
    }
    EnvironmentProbeEntity {
     ID "521A8209BCB8D50A"
-    coords 0.756 2.46 9.074
+    coords 0.756 0 9.074
    }
    GenericEntity {
     ID "5570936056ED0B42"
@@ -1688,7 +1333,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D3629BB"
-    coords -2.021 -0.031 -9.589
+    coords -2.021 0 -9.589
    }
    GenericEntity {
     ID "557280C63D362FE1"
@@ -1740,7 +1385,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "5570936056ED0ACD"
-    coords 0 -0.15 0
+    coords 0 -0.119 0
     {
      GenericEntity {
       ID "55649319921183B4"
@@ -1750,7 +1395,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "5570936056ED0AD4"
-    coords 0 -0.15 0
+    coords 0 -0.119 0
     {
      GenericEntity {
       ID "55649319921183B4"
@@ -1789,7 +1434,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D362CE1"
-    coords -1.497 -0.031 -9.529
+    coords -1.497 0 -9.529
     angleY 90
    }
    GenericEntity {
@@ -1800,7 +1445,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362EBF"
     coords -4.919 0 5.461
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D3623DA"
@@ -1813,17 +1458,17 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362C74"
     coords -4.455 0 13.377
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362D83"
     coords -5.802 0 13.377
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E1F"
     coords -3.076 0 13.377
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "5E3CF9CCBB2D0F8E"
@@ -1843,27 +1488,27 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "5E3CF9CE93963A5D"
-    coords 3.5 -0.031 -12.191
+    coords 3.5 0 -12.191
    }
    GenericEntity {
     ID "557280C63D362106"
     coords 3.484 0 9.344
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362115"
     coords 5.185 0 12.936
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D36215E"
     coords 3.55 0 12.936
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362163"
     coords 5.122 0 9.344
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362170"
@@ -1892,7 +1537,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362CB2"
     coords 3.39 0 -7.295
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362DD9"
@@ -1901,32 +1546,32 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362E0E"
     coords 5.559 0 -7.295
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E21"
     coords 3.39 0 -2.952
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E4F"
-    coords 5.631 -0.01 -10.245
-    angleY -180
+    coords 5.631 0 -10.245
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E51"
     coords 5.58 0 -2.952
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E6F"
-    coords 3.323 -0.031 -14.433
-    angleY -180
+    coords 3.323 0 -14.433
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362E7F"
-    coords 5.631 -0.031 -14.433
-    angleY -180
+    coords 5.631 0 -14.433
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362F12"
@@ -1939,89 +1584,89 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362F4C"
     coords -5.535 0 -2.859
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362F51"
-    coords -5.535 -0.031 -7.405
-    angleY -180
+    coords -5.535 0 -7.405
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362F5E"
-    coords -3.535 -0.022 -7.405
-    angleY -180
+    coords -3.535 0 -7.405
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362F7A"
     coords -3.535 0 -2.848
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362804"
-    coords -5.046 -0.031 -12.399
+    coords -5.046 0 -12.399
    }
    GenericEntity {
     ID "557280C63D362817"
-    coords -5.038 -0.031 -12.893
-    angleY 180
+    coords -5.038 0 -12.893
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362822"
-    coords -5.785 -0.031 -12.39
+    coords -5.785 0 -12.39
    }
    GenericEntity {
     ID "557280C63D362845"
-    coords -4.473 -0.031 -15.521
+    coords -4.473 0 -15.521
    }
    GenericEntity {
     ID "557280C63D362852"
-    coords -6.522 -0.031 -12.39
+    coords -6.522 0 -12.39
    }
    GenericEntity {
     ID "557280C63D36286C"
-    coords -6.693 -0.031 -15.521
+    coords -6.693 0 -15.521
    }
    GenericEntity {
     ID "557280C63D362870"
-    coords -5.223 -0.031 -15.521
+    coords -5.223 0 -15.521
    }
    GenericEntity {
     ID "557280C63D36287E"
-    coords -5.963 -0.031 -15.521
+    coords -5.963 0 -15.521
    }
    GenericEntity {
     ID "557280C63D3628A0"
-    coords -6.527 -0.031 -9.15
-    angleY 180
+    coords -6.527 0 -9.15
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628CD"
-    coords -4.307 -0.031 -9.15
-    angleY 180
+    coords -4.307 0 -9.15
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628D1"
-    coords -5.777 -0.031 -9.15
-    angleY 180
+    coords -5.777 0 -9.15
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628DC"
-    coords -5.037 -0.031 -9.15
-    angleY 180
+    coords -5.037 0 -9.15
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628E8"
-    coords -5.777 -0.031 -12.893
-    angleY 180
+    coords -5.777 0 -12.893
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D3628FA"
-    coords -6.527 -0.031 -12.893
-    angleY 180
+    coords -6.527 0 -12.893
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362F21"
-    coords 2.153 -0.031 -10.792
+    coords 2.153 0 -10.792
     angleY 90
    }
    GenericEntity {
@@ -2066,7 +1711,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D3629FD"
-    coords -4.502 -0.031 -14.967
+    coords -4.502 0 -14.967
    }
    GenericEntity {
     ID "557280C63D36218E"
@@ -2076,13 +1721,13 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D36233E"
     coords -6.99 0 6.894
-    angleX 3.827
+    angleX 0
     angleY 88.283
    }
    GenericEntity {
     ID "557280C63D362D09"
     coords -4.625 0 0.932
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D36212F"
@@ -2115,7 +1760,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D3622C8"
-    coords 0.011 -0.031 -12.374
+    coords 0.011 0 -12.374
     angleY 90
    }
    GenericEntity {
@@ -2140,7 +1785,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "5570936056ED0B2A"
-    coords 0 -0.14 0
+    coords 0 -0.109 0
     {
      GenericEntity {
       ID "58689E19F6D84399"
@@ -2201,13 +1846,13 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D36299D"
-    coords -3.681 -0.031 -15.46
+    coords -3.681 0 -15.46
     angleY -90
    }
    GenericEntity {
     ID "557280C63D3629AD"
-    coords -2.24 -0.031 -9.931
-    angleY -180
+    coords -2.24 0 -9.931
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D36220B"
@@ -2259,17 +1904,17 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D362F8A"
-    coords 2.775 -0.023 -9.447
+    coords 2.775 0 -9.447
     angleY 98.69
    }
    GenericEntity {
     ID "557280C63D362FAD"
-    coords 4.004 -0.022 -9.413
+    coords 4.004 0 -9.413
     angleY -90
    }
    GenericEntity {
     ID "557280C63D362FBB"
-    coords 3.476 -0.031 -9.981
+    coords 3.476 0 -9.981
    }
    GenericEntity {
     ID "557280C63D36213A"
@@ -2283,12 +1928,12 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D362B0B"
-    coords 7.096 -0.031 -14.185
+    coords 7.096 0 -14.185
     angleY -90
    }
    GenericEntity {
     ID "557280C63D362B1D"
-    coords 7.065 -0.011 -10.688
+    coords 7.065 0 -10.688
     angleY -90
    }
    GenericEntity {
@@ -2313,7 +1958,7 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D362BEF"
-    coords -7.1 -0.031 -6.846
+    coords -7.1 0 -6.846
     angleY 90
    }
    GenericEntity {
@@ -2331,13 +1976,13 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D362F9A"
-    coords 3.5 -0.023 -9.448
+    coords 3.5 0 -9.448
     angleY 90
    }
    GenericEntity {
     ID "557280C63D362D6A"
     coords -5.056 0 -1.367
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362378"
@@ -2346,16 +1991,16 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362884"
     coords -2.738 0 -1.784
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362896"
-    coords -4.69 -0.031 -8.45
+    coords -4.69 0 -8.45
    }
    GenericEntity {
     ID "557280C63D3628B2"
     coords -4.738 0 -1.784
-    angleY -180
+    angleY 180
    }
    GenericEntity {
     ID "557280C63D362C01"
@@ -2364,16 +2009,16 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    GenericEntity {
     ID "557280C63D362C24"
     coords 6.4 0 -1.836
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362C9A"
     coords 6.274 0 5.294
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362CA0"
-    coords 2.427 -0.031 -15.596
+    coords 2.427 0 -15.596
    }
    GenericEntity {
     ID "557280C63D362CC0"
@@ -2381,25 +2026,25 @@ $grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/Structure
    }
    GenericEntity {
     ID "557280C63D362CD0"
-    coords 4.738 -0.031 -15.575
+    coords 4.738 0 -15.575
    }
    GenericEntity {
     ID "557280C63D362CF1"
-    coords 2.574 -0.007 -8.464
+    coords 2.574 0 -8.464
    }
    GenericEntity {
     ID "557280C63D362E5F"
     coords 4.217 0 -1.836
-    angleY 180
+    angleY -180
    }
    GenericEntity {
     ID "557280C63D362F69"
-    coords -2.69 -0.031 -8.45
+    coords -2.69 0 -8.45
    }
    GenericEntity {
     ID "557280C63D362FDD"
-    coords 4.788 -0.005 -9.109
-    angleY -180
+    coords 4.788 0 -9.109
+    angleY 180
    }
    GenericEntity {
     ID "5A887111E447B14E"
@@ -2427,9 +2072,9 @@ SCR_DestructibleBuildingEntity : "{A988976BDD1DC9A5}PrefabLibrary/Structures/Mil
 }
 $grp GenericEntity : "{B5FDCA49E8753CDF}Prefabs/Structures/Decal/HeliPad_military.et" {
  {
-  coords 4175 150.875 840
+  coords 4175 155.594 840
  }
  {
-  coords 4150 150.875 840
+  coords 4150 155.594 840
  }
 }
