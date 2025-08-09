@@ -1,6 +1,6 @@
 $grp SplineShapeEntity {
  {
-  coords 8184 580.303 2150
+  coords 8184 560 2150
   Points {
    ShapePoint "{66113695BD69B8B8}" {
     Position 0 0 -110
@@ -34,7 +34,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 8180 580 3935
+  coords 8180 560 3935
   Points {
    ShapePoint "{66114AD990F793AC}" {
     Position 0 0 0
@@ -67,7 +67,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 8180 580 4460
+  coords 8180 560 4460
   Points {
    ShapePoint "{66114AD990F793AC}" {
     Position 0 0 0
