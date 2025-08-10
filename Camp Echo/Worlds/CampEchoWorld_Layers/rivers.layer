@@ -1,3 +1,57 @@
+PolylineShapeEntity {
+ coords 5927.442 379.156 6408.519
+ scale 2.15
+ Points {
+  ShapePoint "{6612F6DC401E50A4}" {
+   Position 0 0.001 0
+  }
+  ShapePoint "{6612F6DC401E0473}" {
+   Position 83.834 0 -5.242
+  }
+  ShapePoint "{6612F6DC41681C8B}" {
+   Position 187.646 0 19.466
+  }
+  ShapePoint "{6612F6DC41A15DE0}" {
+   Position 260.716 0 85.392
+  }
+  ShapePoint "{6612F6DC41EBF07A}" {
+   Position 289.608 0 185.86
+  }
+  ShapePoint "{6612F6DC422DFEE7}" {
+   Position 205.021 0 321.197
+  }
+  ShapePoint "{6612F6DC4259360E}" {
+   Position 84.153 0 349.745
+  }
+  ShapePoint "{6612F6DC42768E1C}" {
+   Position -58.501 0 316.583
+  }
+  ShapePoint "{6612F6DC42A21B06}" {
+   Position -122.501 0 270.441
+  }
+  ShapePoint "{6612F6DC42D0BF7E}" {
+   Position -150 0 207.586
+  }
+  ShapePoint "{6612F6DC4300652D}" {
+   Position -195.484 0 123.817
+  }
+  ShapePoint "{6612F6DC433A1B59}" {
+   Position -150 0 85.872
+  }
+  ShapePoint "{6612F6DC435130B2}" {
+   Position -90.988 0 28.786
+  }
+  ShapePoint "{6612F6DC439D291A}" {
+   Position 0 0.381 0
+  }
+ }
+ {
+  LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
+   coords 0 8.605 0
+   m_fMinDepth 50
+  }
+ }
+}
 SplineShapeEntity {
  coords 3083.93 388 3876.109
  Points {
