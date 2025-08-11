@@ -343,6 +343,7 @@ SplineShapeEntity {
    coords 0 0 0
    Width 62.3
    ReverseFlow 1
+   Clearance 24
    GUID "6612F6F46E25BF03"
    MinDepth 5
   }
