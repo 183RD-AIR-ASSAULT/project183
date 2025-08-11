@@ -355,7 +355,7 @@ PolylineShapeEntity {
       scale 1.189
      }
      {
-      coords 1.139 -0.001 -151.413
+      coords 2.777 0.284 -147.72
       angleX -4.252
       angleY -107.559
       angleZ -1.629
@@ -383,7 +383,7 @@ PolylineShapeEntity {
       scale 1.058
      }
      {
-      coords -18.166 -0.001 -151.358
+      coords -16.433 -0.725 -161.606
       angleX -4.758
       angleY 80.071
       angleZ 4
@@ -922,7 +922,7 @@ PolylineShapeEntity {
       scale 1.134
      }
      {
-      coords 10.827 -0.001 -153.956
+      coords 11.198 0.025 -156.354
       angleX 4.113
       angleY 81.147
       angleZ -0.596
@@ -957,7 +957,7 @@ PolylineShapeEntity {
       scale 1.049
      }
      {
-      coords 13.532 -0.001 -150.938
+      coords 9.323 0.16 -147.073
       angleX -1.253
       angleY 89.816
       angleZ 1.019
@@ -3085,7 +3085,7 @@ PolylineShapeEntity {
     }
     $grp Tree : "{727831E6D77F3360}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3f.et" {
      {
-      coords -15.265 -0.001 -154.197
+      coords -15.614 -0.032 -156.726
       angleX -1.783
       angleY -82.114
       angleZ -0.701
@@ -3113,7 +3113,7 @@ PolylineShapeEntity {
       scale 0.725
      }
      {
-      coords -3.979 -0.001 -150.758
+      coords -3.347 0.004 -150.041
       angleX -0.285
       angleY -138.641
       angleZ -0.065
@@ -3127,7 +3127,7 @@ PolylineShapeEntity {
       scale 0.731
      }
      {
-      coords -9.616 -0.001 -154.225
+      coords -9.083 0.077 -157.075
       angleX -0.679
       angleY 79.423
       angleZ -1.549
@@ -3358,7 +3358,7 @@ PolylineShapeEntity {
       scale 0.72
      }
      {
-      coords 6.104 -0.001 -153.234
+      coords 6.856 -0.052 -156.302
       angleX -0.889
       angleY 139.739
       angleZ 0.28
@@ -6251,7 +6251,7 @@ PolylineShapeEntity {
       scale 0.881
      }
      {
-      coords -23.255 -0.001 -151.708
+      coords -17.698 0.186 -145.379
       angleX -1.274
       angleY -138.718
       angleZ 2.382
@@ -7335,7 +7335,7 @@ PolylineShapeEntity {
       scale 0.949
      }
      {
-      coords 3.449 -0.001 -151.69
+      coords 2.687 -0.308 -162.193
       angleX 1.55
       angleY -85.894
       angleZ -1.671
@@ -9886,7 +9886,7 @@ PolylineShapeEntity {
       scale 0.919
      }
      {
-      coords 16.775 -0.001 -152.549
+      coords 19.019 -0.168 -158.3
       angleX -1.551
       angleY 158.68
       angleZ 3.827
@@ -13320,13 +13320,13 @@ $grp GenericEntity : "{7B4CD0B54AA169AA}Prefabs/Props/Military/Sandbags/Sandbag_
 SCR_DestructibleEntity : "{B5D06FC85B2C3873}Prefabs/Props/Decorations/Flowerpots/FlowerpotStreet_01/FlowerpotStreet_01_rect_short_Tagetes_yellow.et" {
  coords 7386.865 490 3467.885
  angleY 90
- scale 3.23
+ scale 6.395
 }
 GenericEntity : "{E86E2C320BF1F524}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_base.et" {
- coords 7388.146 490 3534.126
+ coords 7382.274 490 3535.705
  angleY -105
 }
 GenericEntity : "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap.et" {
- coords 7388.885 489.999 3540.463
+ coords 7383.013 489.999 3542.042
  angleY -60
 }

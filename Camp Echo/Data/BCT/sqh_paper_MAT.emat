@@ -13,7 +13,7 @@ MatPBRBasic {
  DielectricReflectance 0.031
  CavityFromAO 0.688
  GlobalAOPower 0.312
- BCRMap "{15E912F42D28130D}Data/BCT/file_paper_MAT_BaseColor.edds"
+ BCRMap "{8310E07AFDC42884}Data/BCT/squadhalt_paper_MAT_BaseColor.edds"
  NormalPower 1.756
  NMOMap "{43AF85EC5853B4C9}Data/BCT/RGB Alpha_1.edds"
 }

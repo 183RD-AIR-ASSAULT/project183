@@ -1888,4 +1888,90 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 7030.723 490 4415.519
+  Points {
+   ShapePoint "{6616C79468AD09DA}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6616C79468AD3E95}" {
+    Position 60 0 -1.448
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 65.137 0 0.226
+      OutTangent 136.59 0.001 0.473
+     }
+    }
+   }
+   ShapePoint "{6616C79595989C20}" {
+    Position 100 0 -88.75
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 9.701 -0.001 -197.709
+      OutTangent 6.527 -0.001 -133.023
+     }
+    }
+   }
+   ShapePoint "{6616C7959E040938}" {
+    Position 100 -0.002 -322.137
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0.141 0 -231.187
+      OutTangent 0.097 0 -158.995
+     }
+    }
+   }
+   ShapePoint "{6616C7958ED60808}" {
+    Position -2.544 0 -389.753
+   }
+  }
+  {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+    coords 0 0 0
+    RoadWidth 12
+    {
+     RoadEntity {
+      ID "55F85D16D1C7EB8E"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position 60 0 -1.448
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 65.137 0 0.226
+          OutTangent 136.59 0.001 0.473
+         }
+        }
+       }
+       ShapePoint "{6616C795B72CC01E}" {
+        Position 100 0 -88.75
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 9.701 -0.001 -197.709
+          OutTangent 6.527 -0.001 -133.023
+         }
+        }
+       }
+       ShapePoint "{6616C795B72CC09F}" {
+        Position 100 -0.002 -322.137
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 0.141 0 -231.187
+          OutTangent 0.097 0 -158.995
+         }
+        }
+       }
+       ShapePoint "{6616C795B72CC0AD}" {
+        Position -2.544 0 -389.753
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
 }
