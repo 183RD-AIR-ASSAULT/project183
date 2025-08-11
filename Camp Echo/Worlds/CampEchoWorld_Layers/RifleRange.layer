@@ -613,7 +613,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 7173.604 490 4197.532
+  coords 7174.089 490 4196.241
   angleY 180
   Points {
    ShapePoint "{6616C795154F863D}" {
