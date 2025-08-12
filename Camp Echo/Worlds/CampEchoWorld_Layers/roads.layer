@@ -1,86 +1,67 @@
-SCR_MapEntity MapEntity_Default1 : "{21C189074DAB7E90}Prefabs/World/DefaultWorld/MapEntity_Default.et" {
- coords 6987.749 489.881 3911.625
-}
-$grp GenericEntity {
- bridge {
-  components {
-   MeshObject "{6612F6D6C512FFBC}" {
-    Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
-   }
-  }
-  coords 1780.524 315.7 5179.403
-  angleY -49.44
-  scale 2.5
-  {
-   $grp GenericEntity {
-    {
-     components {
-      MeshObject "{6612F6D6C512FFBC}" {
-       Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
-      }
-     }
-     coords 25.888 0 -0.027
-    }
-    {
-     components {
-      MeshObject "{6612F6D6C512FFBC}" {
-       Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
-      }
-     }
-     coords 51.886 0 -0.042
-    }
-    {
-     components {
-      MeshObject "{6612F6D5C0946AD7}" {
-       Object "{BA2378C07811816D}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.xob"
-      }
-     }
-     coords 47.117 -4.78 2.897
-     scale 0.5
-    }
-    {
-     components {
-      MeshObject "{6612F6D5C0946AD7}" {
-       Object "{BA2378C07811816D}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.xob"
-      }
-     }
-     coords 28.311 -4.78 -3.022
-     scale 0.5
-    }
-    {
-     components {
-      MeshObject "{6612F6D5C0946AD7}" {
-       Object "{BA2378C07811816D}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.xob"
-      }
-     }
-     coords 47.145 -4.78 -3.186
-     scale 0.5
-    }
-    {
-     components {
-      MeshObject "{6612F6D5C0946AD7}" {
-       Object "{BA2378C07811816D}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.xob"
-      }
-     }
-     coords 28.302 -4.78 2.947
-     scale 0.5
-    }
-   }
+GenericEntity bridge {
+ components {
+  MeshObject "{6612F6D6C512FFBC}" {
+   Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
   }
  }
- BCT {
-  components {
-   SCR_EditableCommentComponent "{6616C790BE642589}" {
-    m_EntityType COMMENT
-    m_sIconBoneName "BCT"
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
+ coords 1780.524 315.7 5179.403
+ angleY -49.44
+ scale 2.5
+ {
+  $grp GenericEntity {
+   {
+    components {
+     MeshObject "{6612F6D6C512FFBC}" {
+      Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
+     }
+    }
+    coords 25.888 0 -0.027
    }
-   SCR_MapDescriptorComponent "{6616C7974C3A809E}" {
-    DisplayName "BCT"
+   {
+    components {
+     MeshObject "{6612F6D6C512FFBC}" {
+      Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
+     }
+    }
+    coords 51.886 0 -0.042
+   }
+   {
+    components {
+     MeshObject "{6612F6D5C0946AD7}" {
+      Object "{BA2378C07811816D}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.xob"
+     }
+    }
+    coords 47.117 -4.78 2.897
+    scale 0.5
+   }
+   {
+    components {
+     MeshObject "{6612F6D5C0946AD7}" {
+      Object "{BA2378C07811816D}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.xob"
+     }
+    }
+    coords 28.311 -4.78 -3.022
+    scale 0.5
+   }
+   {
+    components {
+     MeshObject "{6612F6D5C0946AD7}" {
+      Object "{BA2378C07811816D}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.xob"
+     }
+    }
+    coords 47.145 -4.78 -3.186
+    scale 0.5
+   }
+   {
+    components {
+     MeshObject "{6612F6D5C0946AD7}" {
+      Object "{BA2378C07811816D}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.xob"
+     }
+    }
+    coords 28.302 -4.78 2.947
+    scale 0.5
    }
   }
-  coords 6987.47 489.886 3911.321
  }
 }
 $grp SplineShapeEntity {
@@ -1876,7 +1857,7 @@ $grp SplineShapeEntity {
   coords 6525.233 489.875 3928.92
   Points {
    ShapePoint "{6616C7AD2CCAFC58}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6616C7AD2CCA69FF}" {
     Position 485 0 0
@@ -1892,7 +1873,7 @@ $grp SplineShapeEntity {
       ID "556C6556FAB8EA7A"
       SplinePoints {
        ShapePoint "{556C6556BF2A9CBB}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{556C6556BF2A9DE7}" {
         Position 485 0 0
@@ -2005,8 +1986,8 @@ $grp SplineShapeEntity {
     Position 40 0 0.053
     Data {
      SplinePointData SplinePointData {
-      InTangent 58.134 -0 -0.051
-      OutTangent 201.848 -0 -0.175
+      InTangent 58.134 0 -0.051
+      OutTangent 201.848 0 -0.175
      }
     }
    }
@@ -2050,8 +2031,8 @@ $grp SplineShapeEntity {
         Position 40 0 0.053
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
-          InTangent 58.134 -0 -0.051
-          OutTangent 201.848 -0 -0.175
+          InTangent 58.134 0 -0.051
+          OutTangent 201.848 0 -0.175
          }
         }
        }

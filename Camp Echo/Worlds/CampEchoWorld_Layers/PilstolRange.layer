@@ -19,7 +19,7 @@ $grp SplineShapeEntity {
       angleY 359.934
      }
      SCR_DestructibleEntity : "{79BB355CA784598B}PrefabLibrary/Walls/Pole/PoleFence_01_6m.et" {
-      coords -0.083 -0.001 -0
+      coords -0.083 -0.001 0
       angleY 359.934
      }
      $grp SCR_DestructibleEntity : "{90681E1C28473DA8}PrefabLibrary/Walls/Pole/PoleFence_01_3m.et" {
@@ -76,7 +76,7 @@ $grp SplineShapeEntity {
       angleY 359.934
      }
      SCR_DestructibleEntity : "{79BB355CA784598B}PrefabLibrary/Walls/Pole/PoleFence_01_6m.et" {
-      coords -0.083 -0.001 -0
+      coords -0.083 -0.001 0
       angleY 359.934
      }
      $grp SCR_DestructibleEntity : "{90681E1C28473DA8}PrefabLibrary/Walls/Pole/PoleFence_01_3m.et" {
@@ -113,8 +113,4 @@ $grp SplineShapeEntity {
    }
   }
  }
-}
-SCR_FiringRangeManager : "{551BC237A7504FA5}PrefabLibrary/prange.et" {
- coords 7123.287 490 4476.906
- angleY 180
 }
