@@ -1,0 +1,127 @@
+GenericEntity {
+ components {
+  MeshObject "{661A119EE2A7C812}" {
+   Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
+  }
+ }
+ coords 1846.714 431.74 5305.572
+ angleY 99.878
+ scale 2
+}
+SplineShapeEntity {
+ coords 1861.65 429.124 5301.694
+ Points {
+  ShapePoint "{661A119F82A382D5}" {
+   Position -14.72 2.5 2.4
+  }
+  ShapePoint "{661A119F82A385E3}" {
+   Position 18.261 6.758 56.2
+   Data {
+    SplinePointData SplinePointData {
+     InTangent 85.528 8.4 62.443
+     OutTangent 89.272 8.768 65.177
+    }
+   }
+  }
+  ShapePoint "{661A119F83C6481D}" {
+   Position 146.371 18.963 139.895
+  }
+  ShapePoint "{661A119F8C14F174}" {
+   Position 215.605 29.977 221.964
+  }
+  ShapePoint "{661A119F8CDEA46C}" {
+   Position 312.76 47.047 306.891
+  }
+  ShapePoint "{661A119F8F167581}" {
+   Position 415.026 61.421 397.871
+  }
+  ShapePoint "{661A119F8F7D1676}" {
+   Position 592.388 80.307 517.588
+  }
+  ShapePoint "{661A119F8FB1A910}" {
+   Position 1048.698 94.698 674.093
+  }
+  ShapePoint "{661A119F89A078ED}" {
+   Position 2138.936 169.506 604.056
+  }
+  ShapePoint "{661A119FB411B16D}" {
+   Position 3070.011 187.914 339.44
+  }
+  ShapePoint "{661A119FB46F0515}" {
+   Position 3442.861 147.832 665.278
+  }
+  ShapePoint "{661A119FB4AB7A14}" {
+   Position 3965.235 140.508 679.763
+  }
+  ShapePoint "{661A119FB505AB26}" {
+   Position 4536.114 204.61 170.662
+  }
+  ShapePoint "{661A119FB5D4F3E0}" {
+   Position 4520.217 232.845 -175.2
+  }
+ }
+ {
+  RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   coords 0 0 0
+   RoadWidth 24
+   RoadFalloffWidth 30
+   {
+    RoadEntity {
+     ID "556C6556FAB8EA7A"
+     SplinePoints {
+      ShapePoint "{556C6556BF2A9CBB}" {
+       Position -14.72 2.5 2.4
+      }
+      ShapePoint "{556C6556BF2A9DE7}" {
+       Position 18.261 6.758 56.2
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent 85.528 8.4 62.443
+         OutTangent 89.272 8.768 65.177
+        }
+       }
+      }
+      ShapePoint "{661A119FA4F42384}" {
+       Position 146.371 18.963 139.895
+      }
+      ShapePoint "{661A119FA4F42242}" {
+       Position 215.605 29.977 221.964
+      }
+      ShapePoint "{661A119FA4F42212}" {
+       Position 312.76 47.047 306.891
+      }
+      ShapePoint "{661A119FA4F42221}" {
+       Position 415.026 61.421 397.871
+      }
+      ShapePoint "{661A119FA4F422FD}" {
+       Position 592.388 80.307 517.588
+      }
+      ShapePoint "{661A119FA4F42281}" {
+       Position 1048.698 94.698 674.093
+      }
+      ShapePoint "{661A119FA4F42D5F}" {
+       Position 2138.935 169.506 604.056
+      }
+      ShapePoint "{661A119FA4F42D6F}" {
+       Position 3070.011 187.914 339.44
+      }
+      ShapePoint "{661A119FA4F42D3B}" {
+       Position 3442.861 147.832 665.278
+      }
+      ShapePoint "{661A119FA4F42DCD}" {
+       Position 3965.235 140.508 679.763
+      }
+      ShapePoint "{661A119FA4F42D9D}" {
+       Position 4536.114 204.61 170.662
+      }
+      ShapePoint "{661A119FA4F42DAB}" {
+       Position 4520.217 232.845 -175.2
+      }
+     }
+     IsClosedSpline 0
+     Width 24
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "C:/Users/jwise/OneDrive/adobe/reforger/Rugged Terrain with Rivers/Rugged Terrain with Rivers/Rugged Terrain Diffuse PNG.png"
+ sRGBOutput 0
+ RenderRoads 1
+ Interpolation bilinear
+ RoadsAA "8x"
+}
