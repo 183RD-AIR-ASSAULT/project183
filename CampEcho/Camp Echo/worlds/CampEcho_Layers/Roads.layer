@@ -1,25 +1,47 @@
-GenericEntity {
- components {
-  MeshObject "{661A119EE2A7C812}" {
-   Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
+SCR_MapEntity MapEntity_Default1 : "{21C189074DAB7E90}Prefabs/World/DefaultWorld/MapEntity_Default.et" {
+ coords 1817.436 427.167 5275.662
+}
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{661A119EE2A7C812}" {
+    Object "{A32F2DBAFC42B4CC}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide.xob"
+   }
   }
+  coords 1846.714 431.74 5305.572
+  angleY 99.878
+  scale 2
  }
- coords 1846.714 431.74 5305.572
- angleY 99.878
- scale 2
+ Bridge {
+  components {
+   SCR_EditableCommentComponent "{661B090F60C3777E}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{661B090CB62AB665}" {
+     Name "Bridge"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{661B090C943AC3CA}" {
+    DisplayName "Bridge"
+    MainType "Name Local"
+   }
+  }
+  coords 1859.829 431.491 5294.85
+ }
 }
 SplineShapeEntity {
  coords 1861.65 429.124 5301.694
  Points {
   ShapePoint "{661A119F82A382D5}" {
-   Position -14.72 2.5 2.4
+   Position -15.138 2.632 0.924
   }
   ShapePoint "{661A119F82A385E3}" {
    Position 18.261 6.758 56.2
    Data {
     SplinePointData SplinePointData {
-     InTangent 85.528 8.4 62.443
-     OutTangent 89.272 8.768 65.177
+     InTangent 94.942 8.27 46.778
+     OutTangent 99.161 8.638 48.857
     }
    }
   }
@@ -40,6 +62,15 @@ SplineShapeEntity {
   }
   ShapePoint "{661A119F8FB1A910}" {
    Position 1048.698 94.698 674.093
+  }
+  ShapePoint "{661B090E789401C2}" {
+   Position 1394.001 95.333 668.76
+  }
+  ShapePoint "{661B090E7BFA89E8}" {
+   Position 1592.908 113.007 678.053
+  }
+  ShapePoint "{661B090F941DDCF0}" {
+   Position 1898.586 134.23 652.802
   }
   ShapePoint "{661A119F89A078ED}" {
    Position 2138.936 169.506 604.056
@@ -64,20 +95,20 @@ SplineShapeEntity {
   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
    coords 0 0 0
    RoadWidth 24
-   RoadFalloffWidth 30
+   RoadFalloffWidth 40
    {
     RoadEntity {
      ID "556C6556FAB8EA7A"
      SplinePoints {
       ShapePoint "{556C6556BF2A9CBB}" {
-       Position -14.72 2.5 2.4
+       Position -15.138 2.632 0.924
       }
       ShapePoint "{556C6556BF2A9DE7}" {
        Position 18.261 6.758 56.2
        Data {
         SplinePointData "{00000000D8F1BA4F}" {
-         InTangent 85.528 8.4 62.443
-         OutTangent 89.272 8.768 65.177
+         InTangent 94.942 8.27 46.778
+         OutTangent 99.161 8.638 48.857
         }
        }
       }
@@ -100,26 +131,37 @@ SplineShapeEntity {
        Position 1048.698 94.698 674.093
       }
       ShapePoint "{661A119FA4F42D5F}" {
-       Position 2138.935 169.506 604.056
+       Position 1394.001 95.333 668.76
       }
       ShapePoint "{661A119FA4F42D6F}" {
-       Position 3070.011 187.914 339.44
+       Position 1592.908 113.007 678.053
       }
       ShapePoint "{661A119FA4F42D3B}" {
-       Position 3442.861 147.832 665.278
+       Position 1898.586 134.23 652.802
       }
       ShapePoint "{661A119FA4F42DCD}" {
-       Position 3965.235 140.508 679.763
+       Position 2138.936 169.506 604.056
       }
       ShapePoint "{661A119FA4F42D9D}" {
-       Position 4536.114 204.61 170.662
+       Position 3070.011 187.914 339.44
       }
       ShapePoint "{661A119FA4F42DAB}" {
-       Position 4520.217 232.845 -175.2
+       Position 3442.861 147.832 665.278
+      }
+      ShapePoint "{661B090E7894AEC9}" {
+       Position 3965.235 140.508 679.763
+      }
+      ShapePoint "{661B090E7BFB348A}" {
+       Position 4536.113 204.61 170.662
+      }
+      ShapePoint "{661B090F941E0581}" {
+       Position 4520.216 232.845 -175.2
       }
      }
      IsClosedSpline 0
      Width 24
+     BeginningPiece none
+     EndingPiece none
     }
    }
   }
