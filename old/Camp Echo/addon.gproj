@@ -1,13 +1,18 @@
 GameProject {
- ID "CampEcho"
+ ID "CampAlpha"
  GUID "6610311A82BF2247"
- TITLE "Camp Echo"
+ TITLE "Camp Alpha"
  Dependencies {
-  "5E329785BB8B38F2" "58D0FB3206B6F859"
+  "58D0FB3206B6F859"
  }
  Configurations {
   GameProjectConfig PC {
    DefaultSettings EngineUserSettings "{5702F087A781A9FC}" {
+    DisplayUserSettings DisplayUserSettings "{F1B1E6EA2D4A7B39}" {
+     PPQuality PPEffectsSettings "{6624C5AAF6C73927}" {
+     }
+     OverallQuality 2
+    }
     GraphicsQualitySettings GraphicsQualitySettings "{52E103D890868E2C}" {
      ObjectDrawDistanceScale High
     }
