@@ -1,0 +1,19 @@
+MatPBRBasic {
+ DiffuseIBL 0 0 0 1
+ SpecularIBL 0 0 0 1
+ EmissiveLV 2.361
+ SpecularMul 0
+ BlendMode None
+ GlobalLayerUVSrc "UV world"
+ GlobalLayerUVTransform MatUVTransform "{660F3AAB9AE2D2C4}" {
+ }
+ RoughnessScale 5
+ MetalnessScale 3.122
+ AOScale 0.417
+ DielectricReflectance 0.031
+ CavityFromAO 0.688
+ GlobalAOPower 0.312
+ BCRMap "{8310E07AFDC42884}Data/BCT/squadhalt_paper_MAT_BaseColor.edds"
+ NormalPower 1.756
+ NMOMap "{43AF85EC5853B4C9}Data/BCT/RGB Alpha_1.edds"
+}

@@ -1,0 +1,127 @@
+SCR_FiringRangeManager : "{4E79356AF4204F88}Prefabs/Props/Military/Training/FiringRangeBasePrefab.et" {
+ ID "5310BE672EC2F1A7"
+ coords 1073.842 562.906 5810.595
+ angleY -180
+ {
+  GenericEntity {
+   ID "55C49C58312351EB"
+   coords -2.771 0 2.142
+   angleY -19.015
+  }
+  GenericEntity {
+   ID "55C49C58857F13FD"
+   coords 6.21 0 1.997
+   angleY -19.015
+  }
+  SCR_FiringRangeController {
+   ID "55C49C589D0D20AA"
+   coords 2.988 0 1.788
+   angleY 23.263
+   {
+    LightEntity {
+     ID "55C2E377B2174450"
+     coords 0.01 0 0
+    }
+    SCR_FiringRangeLineArea {
+     ID "55C49C589326C3EA"
+     coords 1.393 0 0.982
+     angleY -23.263
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C589326C04D"
+     coords 9.481 0 -18.427
+     angleY -20.767
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C589326C059"
+     coords 11.322 0 -17.729
+     angleY -20.767
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C589326C065"
+     coords 7.437 0 -8.456
+     angleY -23.263
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C589326C39D"
+     coords 5.627 0 -9.207
+     angleY -23.263
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C589326C3AA"
+     coords 2.802 0.7 1.485
+     angleY -64.903
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C589326C3B1"
+     coords 3.754 0 -9.983
+     angleY -23.263
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C589F8C573F"
+     coords 7.663 0 -19.188
+     angleY -20.767
+    }
+   }
+  }
+  SCR_FiringRangeController {
+   ID "55C49C58E9ED9959"
+   coords -5.594 0 2.018
+   angleY 23.263
+   {
+    LightEntity {
+     ID "55C2E377B2174450"
+     coords 0.01 0 0
+    }
+    SCR_FiringRangeLineArea {
+     ID "55C49C583A58DC9E"
+     coords 1.188 0 0.909
+     angleY -23.263
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C58353C0BD0"
+     coords 2.614 0.7 1.281
+     angleY -64.903
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C583C258252"
+     coords 7.227 0 -8.539
+     angleY -23.263
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C583C258260"
+     coords 3.543 0 -10.069
+     angleY -23.263
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C583F6ED272"
+     coords 11.13 0 -17.886
+     angleY -20.376
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C583F6ED59B"
+     coords 9.283 0 -18.573
+     angleY -20.376
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C583F6ED5B1"
+     coords 7.451 0 -19.3
+     angleY -20.376
+    }
+    SCR_FiringRangeTarget {
+     ID "55C49C58C051960F"
+     coords 5.416 0 -9.29
+     angleY -23.263
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "55C49C583123523A"
+   coords -5.318 0 1.759
+  }
+  StaticModelEntity {
+   ID "55C49C58857F13AA"
+   coords 3.602 0 1.788
+  }
+ }
+}

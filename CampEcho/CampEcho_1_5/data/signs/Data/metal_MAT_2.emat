@@ -1,0 +1,8 @@
+MatPBRBasic {
+ DiffuseIBL 0.086 0.086 0.086 1
+ SpecularIBL 0.263 0.263 0.263 1
+ Diffuse 0.29 0.29 0.29 1
+ BCRMap "{B90407FA577EE4A5}Data/BCT/billboard_18_1_metal_MAT_BaseColor.edds"
+ OpacityMap "{1D47ACAFE7DE3AC6}Data/BCT/RGB Alpha_2.edds"
+ NMOMap "{43AF85EC5853B4C9}Data/BCT/RGB Alpha_1.edds"
+}

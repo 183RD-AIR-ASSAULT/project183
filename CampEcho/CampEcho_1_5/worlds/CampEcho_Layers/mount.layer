@@ -1,0 +1,3824 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{662CDA92F2747901}" {
+    Object "{D1406291881F5A65}Assets/Vegetation/Tree/Malus_Domestica/t_malus_domestica_2s.xob"
+   }
+  }
+  coords 3748.702 538.853 5918.554
+ }
+ {
+  components {
+   MeshObject "{662CDA92F9699637}" {
+    Object "{E4FA549CC74BD1F1}Assets/Vegetation/Tree/Carpinus_Betulus/T_Carpinus_betulus_2f.xob"
+   }
+  }
+  coords 3728.982 538.781 5917.978
+ }
+ {
+  components {
+   MeshObject "{662CDA92E40B68AC}" {
+    Object "{07A5F4B2FB079DCC}Assets/Vegetation/Tree/Carpinus_Betulus/T_Carpinus_betulus_3s.xob"
+   }
+  }
+  coords 3710.875 538.75 5917.199
+ }
+ {
+  components {
+   MeshObject "{662CDA92E1565B69}" {
+    Object "{F3ADB32AF6DAF5B8}Assets/Vegetation/Tree/Carpinus_Betulus/T_Carpinus_betulus_2s.xob"
+   }
+  }
+  coords 3692.102 538.678 5918.71
+ }
+ {
+  components {
+   MeshObject "{662CDA92EC9CD070}" {
+    Object "{51DBDE241A9CA04B}Assets/Vegetation/Tree/Alnus_Glutinosa/T_Alnus_glutinosa_2s.xob"
+   }
+  }
+  coords 3672.596 538.688 5919.937
+ }
+ {
+  components {
+   MeshObject "{662CDA92EC9CD070}" {
+    Object "{51DBDE241A9CA04B}Assets/Vegetation/Tree/Alnus_Glutinosa/T_Alnus_glutinosa_2s.xob"
+   }
+  }
+  coords 3683.926 538.688 5919.858
+ }
+ {
+  components {
+   MeshObject "{662CDA92169E0665}" {
+    Object "{847A517466B4C2CD}Assets/Vegetation/Tree/Pinus_Sylvestris/t_pinus_sylvestris_2s.xob"
+   }
+  }
+  coords 3655.26 538.656 5917.671
+ }
+ {
+  components {
+   MeshObject "{662CDA9211A6C3CF}" {
+    Object "{897C243204969C20}Assets/Vegetation/Tree/Pinus_Sylvestris/t_pinus_sylvestris_3f_higher.xob"
+   }
+  }
+  coords 3666.976 538.656 5919.068
+ }
+ {
+  components {
+   MeshObject "{662CDA921AAE5032}" {
+    Object "{707216EC6B69AAB9}Assets/Vegetation/Tree/Pinus_Sylvestris/t_pinus_sylvestris_3s.xob"
+   }
+  }
+  coords 3670.109 539 5869.788
+ }
+ {
+  components {
+   MeshObject "{662CDA9205C0F512}" {
+    Object "{1824106AE1763F90}Assets/Vegetation/Tree/Betula_Pendula/t_betula_pendula_2s.xob"
+   }
+  }
+  coords 3662.793 539.031 5865.962
+ }
+ {
+  components {
+   MeshObject "{662CDA9200251E44}" {
+    Object "{DCD0BDC5996E34B2}Assets/Vegetation/Tree/Picea_Abies/t_picea_abies_1s.xob"
+   }
+  }
+  coords 3665.667 539 5873.802
+ }
+ {
+  components {
+   MeshObject "{662CDA920363FDA2}" {
+    Object "{8238948626E3BABD}Assets/Vegetation/Tree/Picea_Abies/t_picea_abies_2s.xob"
+   }
+  }
+  coords 3588.999 538.938 5892.299
+ }
+ {
+  components {
+   MeshObject "{662CDA920DF0936C}" {
+    Object "{F3ADB32AF6DAF5B8}Assets/Vegetation/Tree/Carpinus_Betulus/T_Carpinus_betulus_2s.xob"
+   }
+  }
+  coords 3577.286 539.062 5866.182
+ }
+ {
+  components {
+   MeshObject "{662CDA92089C56B0}" {
+    Object "{2E9A3FAFD4E424B6}Assets/Vegetation/Tree/Pinus_Sylvestris/t_pinus_sylvestris_0s.xob"
+   }
+  }
+  coords 3557.412 539.063 5874.486
+ }
+ {
+  components {
+   MeshObject "{662CDA920A7CFDE9}" {
+    Object "{DA927837D9394CC2}Assets/Vegetation/Tree/Pinus_Sylvestris/t_pinus_sylvestris_1s.xob"
+   }
+  }
+  coords 3561.968 539.078 5871.008
+ }
+ {
+  components {
+   MeshObject "{662CDA92351B2666}" {
+    Object "{3A468ECB208BF1F2}Assets/Vegetation/Tree/Sorbus_Aucuparia/T_Sorbus_Aucuparia_2f.xob"
+   }
+  }
+  coords 3548.942 539.094 5874.31
+ }
+ {
+  components {
+   MeshObject "{662CDA9236F5C21D}" {
+    Object "{FACA7CB7F58AABB4}Assets/Vegetation/Tree/Tilia_Cordata/t_tilia_cordata_3s.xob"
+   }
+  }
+  coords 3567.066 539.062 5872.228
+ }
+ {
+  components {
+   MeshObject "{662CDA92EC9CD070}" {
+    Object "{51DBDE241A9CA04B}Assets/Vegetation/Tree/Alnus_Glutinosa/T_Alnus_glutinosa_2s.xob"
+   }
+  }
+  coords 3539.353 538.969 5917.546
+ }
+ {
+  components {
+   MeshObject "{662CDA92EC9CD070}" {
+    Object "{51DBDE241A9CA04B}Assets/Vegetation/Tree/Alnus_Glutinosa/T_Alnus_glutinosa_2s.xob"
+   }
+  }
+  coords 3510.496 539.031 5917.826
+ }
+ {
+  components {
+   MeshObject "{662CDA92E40B68AC}" {
+    Object "{07A5F4B2FB079DCC}Assets/Vegetation/Tree/Carpinus_Betulus/T_Carpinus_betulus_3s.xob"
+   }
+  }
+  coords 3520.22 539.001 5918.37
+ }
+ {
+  components {
+   MeshObject "{662CDA95AC17911B}" {
+    Object "{FACA7CB7F58AABB4}Assets/Vegetation/Tree/Tilia_Cordata/t_tilia_cordata_3s.xob"
+   }
+  }
+  coords 3698.619 538.906 5861.755
+ }
+}
+$grp PolylineShapeEntity {
+ {
+  coords 3637.375 538.633 5922
+  Points {
+   ShapePoint "{662CDA9CE47FAE84}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA9CE47FBCA3}" {
+    Position -132.916 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{74F7EAF5AB1137D2}PrefabLibrary/DefaultLibrary/Generators/Walls/Wooden/WG_WoodenWall_02_Green.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 20891
+    {
+     SCR_DestructibleEntity : "{3959F534B9C165EA}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_B_green.et" {
+      coords -67.991 0.211 0
+      angles 0 -180 0
+     }
+     $grp SCR_DestructibleEntity : "{39DFFF624E601D22}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_A_green.et" {
+      {
+       coords 0.03 0 0
+       angles 0 -180 0
+      }
+      {
+       coords -23.991 0.055 0
+       angles 0 -180 0
+      }
+      {
+       coords -48.012 0.117 0
+       angles 0 -180 0
+      }
+      {
+       coords -55.991 0.148 0
+       angles 0 -180 0
+      }
+      {
+       coords -84.019 0.273 0
+       angles 0 -180 0
+      }
+      {
+       coords -91.999 0.305 0
+       angles 0 -180 0
+      }
+      {
+       coords -108.019 0.336 0
+       angles 0 -180 0
+      }
+     }
+     SCR_DestructibleEntity : "{6BB2540CAAD4120B}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_Pole.et" {
+      coords -132.01 0.398 0
+      angles 0 -180 0
+     }
+     $grp SCR_DestructibleEntity : "{792FDE47F87C9F65}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_B_green.et" {
+      {
+       coords -15.991 0.023 0
+       angles 0 -180 0
+      }
+      {
+       coords -35.991 0.086 0
+       angles 0 -180 0
+      }
+      {
+       coords -71.998 0.211 0
+       angles 0 -180 0
+      }
+      {
+       coords -115.999 0.367 0
+       angles 0 -180 0
+      }
+      {
+       coords -123.999 0.367 0
+       angles 0 -180 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{79A9D4110FDDE7AD}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_A_green.et" {
+      {
+       coords -7.949 0.021 0
+       angles 0 -180 0
+      }
+      {
+       coords -11.97 0.023 0
+       angles 0 -180 0
+      }
+      {
+       coords -31.97 0.062 0
+       angles 0 -180 0
+      }
+      {
+       coords -43.991 0.115 0
+       angles 0 -180 0
+      }
+      {
+       coords -63.971 0.18 0
+       angles 0 -180 0
+      }
+      {
+       coords -99.978 0.312 0
+       angles 0 -180 0
+      }
+      {
+       coords -103.999 0.336 0
+       angles 0 -180 0
+      }
+     }
+     SCR_DestructibleEntity : "{9988D509653039DD}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_D_green.et" {
+      coords -79.998 0.242 0
+      angles 0 -180 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3778.634 538.633 5922
+  Points {
+   ShapePoint "{662CDA9CE47FAE84}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA9CE47FBCA3}" {
+    Position -132.916 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{74F7EAF5AB1137D2}PrefabLibrary/DefaultLibrary/Generators/Walls/Wooden/WG_WoodenWall_02_Green.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 20891
+    {
+     SCR_DestructibleEntity : "{3959F534B9C165EA}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_B_green.et" {
+      coords -67.991 0.211 0
+      angles 0 -180 0
+     }
+     $grp SCR_DestructibleEntity : "{39DFFF624E601D22}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_A_green.et" {
+      {
+       coords 0.03 0 0
+       angles 0 -180 0
+      }
+      {
+       coords -23.991 0.055 0
+       angles 0 -180 0
+      }
+      {
+       coords -48.012 0.117 0
+       angles 0 -180 0
+      }
+      {
+       coords -55.991 0.148 0
+       angles 0 -180 0
+      }
+      {
+       coords -84.019 0.273 0
+       angles 0 -180 0
+      }
+      {
+       coords -91.999 0.305 0
+       angles 0 -180 0
+      }
+      {
+       coords -108.019 0.336 0
+       angles 0 -180 0
+      }
+     }
+     SCR_DestructibleEntity : "{6BB2540CAAD4120B}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_Pole.et" {
+      coords -132.01 0.398 0
+      angles 0 -180 0
+     }
+     $grp SCR_DestructibleEntity : "{792FDE47F87C9F65}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_B_green.et" {
+      {
+       coords -15.991 0.023 0
+       angles 0 -180 0
+      }
+      {
+       coords -35.991 0.086 0
+       angles 0 -180 0
+      }
+      {
+       coords -71.998 0.211 0
+       angles 0 -180 0
+      }
+      {
+       coords -115.999 0.367 0
+       angles 0 -180 0
+      }
+      {
+       coords -123.999 0.367 0
+       angles 0 -180 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{79A9D4110FDDE7AD}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_A_green.et" {
+      {
+       coords -7.949 0.021 0
+       angles 0 -180 0
+      }
+      {
+       coords -11.97 0.023 0
+       angles 0 -180 0
+      }
+      {
+       coords -31.97 0.062 0
+       angles 0 -180 0
+      }
+      {
+       coords -43.991 0.115 0
+       angles 0 -180 0
+      }
+      {
+       coords -63.971 0.18 0
+       angles 0 -180 0
+      }
+      {
+       coords -99.978 0.312 0
+       angles 0 -180 0
+      }
+      {
+       coords -103.999 0.336 0
+       angles 0 -180 0
+      }
+     }
+     SCR_DestructibleEntity : "{9988D509653039DD}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_D_green.et" {
+      coords -79.998 0.242 0
+      angles 0 -180 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3766.688 539 5886.656
+  Points {
+   ShapePoint "{662CDA9EFC04719B}" {
+    Position -3.72 0 -3.074
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{662CDA9EFC038BF3}" {
+    Position -17.382 0 -16.769
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{662CDA9EFBFE6190}" {
+    Position -37.386 0.026 -23.647
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{662CDA9EE4AFC3A5}" {
+    Position -61.105 0.031 -25.9
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{662CDA9EE71A1F5F}" {
+    Position -115.81 0.062 -28.999
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{662CDA9EE7D68594}" {
+    Position -115.155 -0.063 -4.153
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+  }
+  IsClosed 1
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{C4FECA6CC44F5E08}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 16752
+    m_PrefabNames {
+     ""
+     ""
+     "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+     "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+     "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+     "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et"
+     "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et"
+    }
+    {
+     $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      {
+       coords -5.14 0 -1.658
+       angles 1.932 -135.07 357.834
+       scale 0.841
+      }
+      {
+       coords -23.693 0 -16.537
+       angles 1.854 -108.976 1.225
+       scale 0.898
+      }
+      {
+       coords -24.656 0 -17.442
+       angles 359.472 -108.976 358.619
+       scale 0.87
+      }
+      {
+       coords -39.745 0.02 -21.952
+       angles 1.463 -95.427 2.734
+       scale 0.915
+      }
+      {
+       coords -43.38 0.031 -25.951
+       angles 0.944 -95.427 357.017
+       scale 0.806
+      }
+      {
+       coords -49.83 0.031 -22.365
+       angles 2.406 -95.427 359.815
+       scale 0.778
+      }
+      {
+       coords -64.979 0.06 -28.537
+       angles 359.914 -93.242 0.23
+       scale 0.839
+      }
+      {
+       coords -74.769 0.062 -28.288
+       angles 357.448 -93.242 357.638
+       scale 0.853
+      }
+      {
+       coords -86.989 0.037 -25.059
+       angles 357.978 -93.242 357.379
+       scale 1.055
+      }
+      {
+       coords -93.974 0.062 -30.105
+       angles 358.582 -93.242 2.309
+       scale 0.95
+      }
+      {
+       coords -101.085 0.062 -30.343
+       angles 0.553 -93.242 359.277
+       scale 0.903
+      }
+      {
+       coords -105.85 0.062 -26.629
+       angles 1.63 -93.242 0.839
+       scale 1.151
+      }
+      {
+       coords -112.295 0.061 -26.588
+       angles 358.653 -93.242 0.511
+       scale 1.097
+      }
+      {
+       coords -113.463 0 -15.823
+       angles 2.89 1.51 357.79
+       scale 0.972
+      }
+      {
+       coords -113.235 -0.031 -12.298
+       angles 0.342 1.51 359.917
+       scale 0.965
+      }
+      {
+       coords -113.29 -0.039 -8.16
+       angles 2.265 1.51 2.334
+       scale 1.072
+      }
+      {
+       coords -110.111 -0.069 -2.279
+       angles 1.96 89.445 1.53
+       scale 0.934
+      }
+      {
+       coords -106.416 -0.063 -2.218
+       angles 2.445 89.445 358.642
+       scale 0.801
+      }
+      {
+       coords -92.477 -0.05 -5.489
+       angles 2.055 89.445 359.662
+       scale 0.967
+      }
+      {
+       coords -83.939 -0.031 -5.993
+       angles 359.989 89.445 2.129
+       scale 0.96
+      }
+      {
+       coords -79.566 -0.04 -2.125
+       angles 0.389 89.445 358.582
+       scale 0.794
+      }
+      {
+       coords -58.931 -0.031 -1.985
+       angles 2.116 89.445 1.307
+       scale 0.988
+      }
+      {
+       coords -48.931 -0.014 -1.772
+       angles 358.354 89.445 1.305
+       scale 0.916
+      }
+      {
+       coords -47.239 0 -5.089
+       angles 357.658 89.445 1.006
+       scale 0.911
+      }
+      {
+       coords -32.223 0 -5.422
+       angles 1.184 89.445 358.363
+       scale 1.152
+      }
+      {
+       coords -22.521 0 -1.59
+       angles 359.499 89.445 0.459
+       scale 0.764
+      }
+      {
+       coords -13.251 0 -5.493
+       angles 1.273 89.445 358.565
+       scale 1.169
+      }
+     }
+     $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      {
+       coords -12.414 0 -15.033
+       angles 0.611 -135.07 358.471
+       scale 1.247
+      }
+      {
+       coords -30.175 0 -19.421
+       angles 0.655 -108.976 358.375
+       scale 0.917
+      }
+      {
+       coords -32.11 0 -24.216
+       angles 0.238 -108.976 1.783
+       scale 1.042
+      }
+      {
+       coords -33.726 0.016 -24.667
+       angles 0.084 -108.976 1.745
+       scale 1.238
+      }
+      {
+       coords -68.148 0.031 -24.088
+       angles 1.633 -93.242 1.542
+       scale 0.808
+      }
+      {
+       coords -72.628 0.031 -24.291
+       angles 0.979 -93.242 0.314
+       scale 1.126
+      }
+      {
+       coords -96.527 0.062 -29.988
+       angles 0.858 -93.242 0.85
+       scale 0.907
+      }
+      {
+       coords -97.853 0.048 -25.763
+       angles 358.129 -93.242 0.215
+       scale 0.946
+      }
+      {
+       coords -114.952 0.072 -31.285
+       angles 358.735 -93.242 0.073
+       scale 1.143
+      }
+      {
+       coords -117.948 0.031 -21.877
+       angles 0.656 1.51 359.298
+       scale 1.069
+      }
+      {
+       coords -108.109 -0.063 -1.829
+       angles 358.596 89.445 359.433
+       scale 1.097
+      }
+      {
+       coords -94.912 -0.039 -6.16
+       angles 0.555 89.445 0.842
+       scale 0.945
+      }
+      {
+       coords -86.812 -0.063 -2.374
+       angles 359.277 89.445 358.844
+       scale 1.082
+      }
+      {
+       coords -77.755 -0.045 -1.805
+       angles 1.165 89.445 359.81
+       scale 1.113
+      }
+      {
+       coords -74.406 -0.031 -5.398
+       angles 0.792 89.445 1.622
+       scale 0.938
+      }
+      {
+       coords -67.741 -0.031 -2.123
+       angles 0.938 89.445 0.207
+       scale 0.947
+      }
+      {
+       coords -66.152 -0.031 -5.896
+       angles 358.527 89.445 358.45
+       scale 0.816
+      }
+      {
+       coords -65.135 -0.031 -5.419
+       angles 359.995 89.445 358.262
+       scale 0.852
+      }
+      {
+       coords -56.911 -0.031 -1.651
+       angles 0.33 89.445 1.222
+       scale 1.241
+      }
+      {
+       coords -40.531 0 -5.866
+       angles 1.475 89.445 358.665
+       scale 0.979
+      }
+      {
+       coords -8.994 0 -0.914
+       angles 1.922 89.445 0.111
+       scale 1.128
+      }
+      {
+       coords -4.787 0 -4.712
+       angles 358.661 89.445 359.487
+       scale 0.945
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -6.688 0 -3.421
+       angles 358.081 -135.07 1.802
+       scale 0.814
+      }
+      {
+       coords -8.961 0 -5.405
+       angles 358.168 -135.07 359.256
+       scale 0.762
+      }
+      {
+       coords -12.204 0 -8.861
+       angles 359.339 -135.07 359.471
+       scale 0.891
+      }
+      {
+       coords -15.582 0 -17.58
+       angles 359.204 -135.07 0.728
+       scale 1.109
+      }
+      {
+       coords -47.147 0.031 -26.791
+       angles 0.515 -95.427 359.744
+       scale 1.062
+      }
+      {
+       coords -70.484 0.031 -24.333
+       angles 358.514 -93.242 0.054
+       scale 0.969
+      }
+      {
+       coords -78.609 0.062 -29.375
+       angles 1.567 -93.242 359.94
+       scale 0.84
+      }
+      {
+       coords -84.559 0.034 -24.869
+       angles 358.523 -93.242 0.769
+       scale 0.977
+      }
+      {
+       coords -98.906 0.062 -29.659
+       angles 1.382 -93.242 358.879
+       scale 0.989
+      }
+      {
+       coords -117.545 -0.031 -10.04
+       angles 0.087 1.51 0.117
+       scale 0.848
+      }
+      {
+       coords -102.38 -0.046 -5.729
+       angles 358.749 89.445 359.118
+       scale 1.048
+      }
+      {
+       coords -96.395 -0.037 -6.284
+       angles 0.473 89.445 358.765
+       scale 0.883
+      }
+      {
+       coords -85.556 -0.063 -1.665
+       angles 359.978 89.445 0.249
+       scale 0.733
+      }
+      {
+       coords -70.454 -0.031 -1.63
+       angles 1.474 89.445 1.88
+       scale 0.985
+      }
+      {
+       coords -17.911 0 -4.765
+       angles 1.588 89.445 358.039
+       scale 0.726
+      }
+      {
+       coords -11.292 0 -1.461
+       angles 1.803 89.445 358.563
+       scale 0.838
+      }
+     }
+     $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      {
+       coords -8.412 0 -10.116
+       angles 358.338 -135.07 358.397
+       scale 0.957
+      }
+      {
+       coords -14.274 0 -15.928
+       angles 358.546 -135.07 359.18
+       scale 1.013
+      }
+      {
+       coords -21.799 0 -16.659
+       angles 357.622 -108.976 0.376
+       scale 0.975
+      }
+      {
+       coords -26.218 0 -22.094
+       angles 3.863 -108.976 359.466
+       scale 1.117
+      }
+      {
+       coords -46.108 0.031 -26.133
+       angles 359.362 -95.427 0.186
+       scale 0.91
+      }
+      {
+       coords -51.672 0.031 -23.288
+       angles 358.667 -95.427 3.798
+       scale 0.957
+      }
+      {
+       coords -54.528 0.031 -23.679
+       angles 357.652 -95.427 3.986
+       scale 0.837
+      }
+      {
+       coords -55.535 0.031 -23.73
+       angles 357.811 -95.427 359.918
+       scale 0.88
+      }
+      {
+       coords -58.61 0.031 -27.327
+       angles 359.145 -95.427 3.805
+       scale 0.89
+      }
+      {
+       coords -102.333 0.061 -26.56
+       angles 357.891 -93.242 1.214
+       scale 0.878
+      }
+      {
+       coords -104.548 0.052 -25.996
+       angles 357.656 -93.242 357.143
+      }
+      {
+       coords -110.264 0.068 -31.002
+       angles 1.696 -93.242 2.597
+       scale 1.029
+      }
+      {
+       coords -118.27 0.062 -28.208
+       angles 356.435 1.51 1.909
+       scale 0.938
+      }
+      {
+       coords -113.48 0 -17.244
+       angles 0.085 1.51 2.577
+       scale 0.892
+      }
+      {
+       coords -98.785 -0.063 -2.415
+       angles 3.259 89.445 1.068
+       scale 1.071
+      }
+      {
+       coords -89.225 -0.063 -2.307
+       angles 359.531 89.445 2.776
+       scale 1.023
+      }
+      {
+       coords -81.778 -0.039 -2.16
+       angles 2.339 89.445 2.914
+       scale 0.844
+      }
+      {
+       coords -72.136 -0.031 -5.746
+       angles 1.272 89.445 356.381
+       scale 1.152
+      }
+      {
+       coords -61.039 -0.031 -1.386
+       angles 357.571 89.445 3.369
+       scale 0.847
+      }
+      {
+       coords -52.114 0 -5.644
+       angles 358.406 89.445 356.771
+       scale 1.08
+      }
+      {
+       coords -51.041 -0.019 -1.474
+       angles 2.079 89.445 356.816
+       scale 0.818
+      }
+      {
+       coords -43.096 0 -1.229
+       angles 2.38 89.445 357.649
+       scale 1.121
+      }
+      {
+       coords -37.912 0 -5.566
+       angles 3.515 89.445 1.626
+       scale 1.018
+      }
+      {
+       coords -19.773 0 -1.071
+       angles 2.368 89.445 358.603
+       scale 1.18
+      }
+      {
+       coords -16.9 0 -0.974
+       angles 356.876 89.445 356.147
+       scale 1.081
+      }
+      {
+       coords -6.539 0 -5.591
+       angles 358.446 89.445 359.755
+       scale 0.953
+      }
+     }
+     $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      {
+       coords -8.007 0 -3.936
+       angles 358.413 -135.07 2.485
+       scale 1.18
+      }
+      {
+       coords -11.091 0 -13.711
+       angles 359.467 -135.07 1.95
+       scale 1.09
+      }
+      {
+       coords -19.84 0 -15.809
+       angles 357.286 -108.976 359.009
+       scale 1.066
+      }
+      {
+       coords -30.556 0 -22.901
+       angles 359.353 -108.976 2.999
+       scale 0.86
+      }
+      {
+       coords -34.781 0.031 -24.744
+       angles 358.858 -108.976 358.733
+       scale 0.924
+      }
+      {
+       coords -38.771 0.024 -22.217
+       angles 357.86 -108.976 357.053
+       scale 0.907
+      }
+      {
+       coords -41.009 0.031 -25.578
+       angles 0.048 -95.427 2.317
+       scale 1.135
+      }
+      {
+       coords -57.479 0.031 -23.394
+       angles 359.921 -95.427 359.901
+       scale 1.023
+      }
+      {
+       coords -62.237 0.031 -24.088
+       angles 2.219 -93.242 2.391
+       scale 0.849
+      }
+      {
+       coords -77.024 0.062 -28.628
+       angles 0.921 -93.242 359.691
+       scale 0.803
+      }
+      {
+       coords -81.488 0.062 -28.783
+       angles 359.656 -93.242 2.86
+       scale 0.907
+      }
+      {
+       coords -89.125 0.045 -25.578
+       angles 2.812 -93.242 1.09
+       scale 1.051
+      }
+      {
+       coords -91.689 0.041 -25.311
+       angles 358.776 -93.242 2.434
+       scale 0.953
+      }
+      {
+       coords -108.532 0.062 -30.225
+       angles 357.566 -93.242 357.306
+       scale 1.088
+      }
+      {
+       coords -117.778 0.044 -25.489
+       angles 358.956 1.51 357.28
+       scale 0.928
+      }
+      {
+       coords -117.922 0.031 -24.481
+       angles 357.364 1.51 357.559
+       scale 0.81
+      }
+      {
+       coords -117.567 0.029 -20.556
+       angles 2.313 1.51 2.414
+       scale 0.923
+      }
+      {
+       coords -113.584 0.012 -19.411
+       angles 357.073 1.51 2.929
+       scale 1.002
+      }
+      {
+       coords -117.58 -0.023 -13.196
+       angles 357.672 1.51 1.81
+       scale 1.131
+      }
+      {
+       coords -113.506 -0.063 -5.685
+       angles 1.74 1.51 359.153
+       scale 0.947
+      }
+      {
+       coords -113.926 -0.077 -1.716
+       angles 2.506 89.445 358.316
+       scale 0.883
+      }
+      {
+       coords -111.365 -0.063 -6.138
+       angles 357.169 89.445 359.564
+       scale 0.815
+      }
+      {
+       coords -105.022 -0.036 -6.359
+       angles 359.349 89.445 357.866
+       scale 1.175
+      }
+      {
+       coords -100.803 -0.063 -1.654
+       angles 1.417 89.445 357.838
+       scale 0.894
+      }
+      {
+       coords -91.471 -0.063 -1.885
+       angles 1.557 89.445 357.758
+       scale 1.037
+      }
+      {
+       coords -76.525 -0.031 -5.356
+       angles 357.45 89.445 0.88
+       scale 0.973
+      }
+      {
+       coords -63.794 -0.031 -2.111
+       angles 358.623 89.445 2.259
+       scale 1.087
+      }
+      {
+       coords -54.849 -0.031 -2.045
+       angles 357.07 89.445 1.687
+       scale 1.142
+      }
+      {
+       coords -44.553 0 -1.939
+       angles 358.633 89.445 358.452
+       scale 1.025
+      }
+      {
+       coords -41.819 0 -0.985
+       angles 359.48 89.445 358.697
+       scale 0.888
+      }
+      {
+       coords -39.208 0 -1.37
+       angles 358.559 89.445 359.105
+       scale 1.162
+      }
+      {
+       coords -35.022 0 -5.78
+       angles 358.148 89.445 359.786
+       scale 1.062
+      }
+      {
+       coords -30.696 0 -5.441
+       angles 358.849 89.445 2.735
+       scale 1.053
+      }
+      {
+       coords -28.505 0 -0.833
+       angles 358.708 89.445 2.015
+       scale 0.97
+      }
+      {
+       coords -26.855 0 -5.352
+       angles 357.035 89.445 358.872
+       scale 1.167
+      }
+      {
+       coords -25.335 0 -0.874
+       angles 1.447 89.445 359.09
+       scale 0.858
+      }
+      {
+       coords -15.345 0 -1.62
+       angles 2.055 89.445 359.611
+       scale 0.899
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3793.292 539.052 5927.468
+  Points {
+   ShapePoint "{662CDABFB4AF3F97}" {
+    Position 0 -0.001 0
+   }
+   ShapePoint "{662CDABFB4AECC73}" {
+    Position 32.351 0.435 0.398
+   }
+   ShapePoint "{662CDABFB13B90A1}" {
+    Position 31.225 0.575 -67.728
+   }
+   ShapePoint "{662CDABFB26DE0F3}" {
+    Position -13.933 -0.052 -44.289
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{F5F26A55D657F34C}PrefabLibrary/DefaultLibrary/Generators/Walls/Pole/WG_PoleFence_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 19709
+    {
+     $grp SCR_DestructibleEntity : "{035E7D477B6F1F64}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_C.et" {
+      {
+       coords 31.349 0.042 -31.172
+       angles 0 -269.806 0
+      }
+      {
+       coords 24.184 -0.114 -63.519
+       angles 0 -153.228 0
+      }
+      {
+       coords 16.934 -0.083 -59.862
+       angles 0 -153.228 0
+      }
+     }
+     SCR_DestructibleEntity : "{5D8CDA67B81B1FC3}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_D.et" {
+      coords 0 0 0
+      angles 0 -0.705 0
+     }
+     $grp SCR_DestructibleEntity : "{8A96055ECB4E0721}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_A.et" {
+      {
+       coords 7.778 0.083 0.096
+       angles 0 -0.705 0
+      }
+      {
+       coords 31.456 0.407 0.387
+       angles 0 -269.806 0
+      }
+      {
+       coords 31.429 0.303 -7.503
+       angles 0 -269.806 0
+      }
+      {
+       coords 31.403 0.198 -15.393
+       angles 0 -269.806 0
+      }
+      {
+       coords 31.376 0.104 -23.283
+       angles 0 -269.806 0
+      }
+      {
+       coords 31.322 0.051 -39.293
+       angles 0 -269.806 0
+      }
+      {
+       coords 31.295 0.149 -47.182
+       angles 0 -269.806 0
+      }
+      {
+       coords 31.268 0.27 -55.072
+       angles 0 -269.806 0
+      }
+      {
+       coords 31.228 0.555 -67.073
+       angles 0 -153.228 0
+      }
+      {
+       coords 2.635 -0.052 -52.647
+       angles 0 -153.228 0
+      }
+      {
+       coords -4.409 -0.052 -49.094
+       angles 0 -153.228 0
+      }
+     }
+     SCR_DestructibleEntity : "{A0034468130DC93D}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_4m_A.et" {
+      coords 31.241 0.388 -62.962
+      angles 0 -269.806 0
+     }
+     $grp SCR_DestructibleEntity : "{E6C231BE778A880F}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_B.et" {
+      {
+       coords 15.416 0.167 0.19
+       angles 0 -0.705 0
+      }
+      {
+       coords 23.311 0.261 0.287
+       angles 0 -0.705 0
+      }
+      {
+       coords 9.908 -0.083 -56.317
+       angles 0 -153.228 0
+      }
+     }
+     SCR_DestructibleEntity : "{F260C6128FD34953}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_Pole.et" {
+      coords -11.453 -0.052 -45.54
+      angles 0 -153.228 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3760.201 539 5857.494
+  Points {
+   ShapePoint "{662CDABFA2F4D460}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDABFA2F4F025}" {
+    Position 41.539 -0.125 -44.204
+   }
+   ShapePoint "{662CDABFAF0AADD2}" {
+    Position 65.35 0.67 3.552
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{F5F26A55D657F34C}PrefabLibrary/DefaultLibrary/Generators/Walls/Pole/WG_PoleFence_02.et" {
+    Flags 0x100003 0
+    m_iSeed 46
+    {
+     $grp SCR_DestructibleEntity : "{035E7D477B6F1F64}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_C.et" {
+      {
+       coords 10.806 0 -11.499
+       angles 0 46.78 0
+      }
+      {
+       coords 16.367 -0.031 -17.417
+       angles 0 46.78 0
+      }
+      {
+       coords 21.928 -0.031 -23.334
+       angles 0 46.78 0
+      }
+      {
+       coords 27.489 -0.062 -29.252
+       angles 0 46.78 0
+      }
+      {
+       coords 33.05 -0.094 -35.169
+       angles 0 46.78 0
+      }
+     }
+     SCR_DestructibleEntity : "{3E6A587F0E039653}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_D.et" {
+      coords 52.001 0.514 -23.027
+      angles 0 -63.332 0
+     }
+     SCR_DestructibleEntity : "{5D8CDA67B81B1FC3}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_D.et" {
+      coords 48.51 0.211 -29.977
+      angles 0 -63.332 0
+     }
+     $grp SCR_DestructibleEntity : "{8A96055ECB4E0721}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_A.et" {
+      {
+       coords 0 0 0
+       angles 0 46.78 0
+      }
+      {
+       coords 5.403 0 -5.75
+       angles 0 46.78 0
+      }
+      {
+       coords 44.969 0.042 -37.027
+       angles 0 -63.332 0
+      }
+      {
+       coords 55.703 0.62 -15.655
+       angles 0 -63.332 0
+      }
+      {
+       coords 59.244 0.623 -8.605
+       angles 0 -63.332 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{A0034468130DC93D}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_4m_A.et" {
+      {
+       coords 38.61 -0.106 -41.087
+       angles 0 46.78 0
+      }
+      {
+       coords 62.785 0.662 -1.555
+       angles 0 -63.332 0
+      }
+     }
+     SCR_DestructibleEntity : "{E6C231BE778A880F}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_B.et" {
+      coords 41.313 -0.125 -44.306
+      angles 0 -63.332 0
+     }
+     SCR_DestructibleEntity : "{F260C6128FD34953}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_Pole.et" {
+      coords 64.63 0.636 2.118
+      angles 0 -63.332 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3801.576 538.875 5812.986
+  Points {
+   ShapePoint "{662CDABFC3D90EA6}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDABFC3D90484}" {
+    Position -18.531 1.081 -32.844
+   }
+   ShapePoint "{662CDABFCDF110D1}" {
+    Position -64.865 1.21 -57.209
+   }
+   ShapePoint "{662CDABFF7612F94}" {
+    Position -212.233 0.341 -56.806
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{F5F26A55D657F34C}PrefabLibrary/DefaultLibrary/Generators/Walls/Pole/WG_PoleFence_02.et" {
+    Flags 0x100003 0
+    m_iSeed 29511
+    {
+     $grp SCR_DestructibleEntity : "{035E7D477B6F1F64}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_C.et" {
+      {
+       coords 0 0 0
+       angles 0 -240.568 0
+      }
+      {
+       coords -7.864 0.437 -13.938
+       angles 0 -240.568 0
+      }
+      {
+       coords -11.853 0.745 -21.008
+       angles 0 -240.568 0
+      }
+      {
+       coords -24.798 0.732 -35.428
+       angles 0 -208.53 0
+      }
+      {
+       coords -45.796 0.905 -46.843
+       angles 0 -208.53 0
+      }
+      {
+       coords -71.724 0.879 -56.473
+       angles 0 -180.136 0
+      }
+      {
+       coords -167.01 0.335 -56.698
+       angles 0 -180.136 0
+      }
+      {
+       coords -182.91 0.367 -56.736
+       angles 0 -180.136 0
+      }
+      {
+       coords -191.03 0.396 -56.755
+       angles 0 -180.136 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{3E6A587F0E039653}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_D.et" {
+      {
+       coords -63.474 1.164 -56.453
+       angles 0 -180.136 0
+      }
+      {
+       coords -158.76 0.333 -56.679
+       angles 0 -180.136 0
+      }
+     }
+     SCR_DestructibleEntity : "{5D8CDA67B81B1FC3}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_D.et" {
+      coords -175.131 0.367 -56.718
+      angles 0 -180.136 0
+     }
+     $grp SCR_DestructibleEntity : "{8A96055ECB4E0721}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_A.et" {
+      {
+       coords -3.989 0.38 -7.069
+       angles 0 -240.568 0
+      }
+      {
+       coords -31.932 0.903 -39.306
+       angles 0 -208.53 0
+      }
+      {
+       coords -38.864 0.902 -43.074
+       angles 0 -208.53 0
+      }
+      {
+       coords -52.93 0.922 -50.721
+       angles 0 -208.53 0
+      }
+      {
+       coords -79.844 0.731 -56.492
+       angles 0 -180.136 0
+      }
+      {
+       coords -87.734 0.552 -56.511
+       angles 0 -180.136 0
+      }
+      {
+       coords -95.623 0.322 -56.529
+       angles 0 -180.136 0
+      }
+      {
+       coords -119.305 0.273 -56.585
+       angles 0 -180.136 0
+      }
+      {
+       coords -127.195 0.295 -56.604
+       angles 0 -180.136 0
+      }
+      {
+       coords -142.981 0.364 -56.642
+       angles 0 -180.136 0
+      }
+      {
+       coords -150.871 0.391 -56.66
+       angles 0 -180.136 0
+      }
+      {
+       coords -199.15 0.341 -56.775
+       angles 0 -180.136 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{A0034468130DC93D}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_4m_A.et" {
+      {
+       coords -15.841 0.908 -28.077
+       angles 0 -240.568 0
+      }
+      {
+       coords -59.862 1.062 -54.49
+       angles 0 -208.53 0
+      }
+      {
+       coords -207.04 0.335 -56.793
+       angles 0 -180.136 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{E6C231BE778A880F}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_B.et" {
+      {
+       coords -17.641 1.061 -31.537
+       angles 0 -208.53 0
+      }
+      {
+       coords -103.263 0.299 -56.547
+       angles 0 -180.136 0
+      }
+      {
+       coords -111.159 0.268 -56.566
+       angles 0 -180.136 0
+      }
+      {
+       coords -134.835 0.333 -56.622
+       angles 0 -180.136 0
+      }
+     }
+     SCR_DestructibleEntity : "{F260C6128FD34953}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_Pole.et" {
+      coords -211.151 0.329 -56.803
+      angles 0 -180.136 0
+     }
+    }
+   }
+  }
+ }
+}
+$grp RoadEntity {
+ {
+  coords 3734.302 538.968 5900.015
+  SplinePoints {
+   ShapePoint "{56F07CB28583E030}" {
+    Position 0 -0.011 0
+   }
+   ShapePoint "{56F07CB28583FED6}" {
+    Position 5 -0.011 0
+   }
+  }
+  IsClosedSpline 0
+  Type "Road Minor"
+  Width 8
+  Material "{4389E34D96AC00AF}Assets/Structures/Infrastructure/Roads/Data/Road_CobbleStone_01.emat"
+  RandomSeed 16935
+ }
+ {
+  coords 3715.654 538.968 5900.015
+  SplinePoints {
+   ShapePoint "{56F07CB28583E030}" {
+    Position 0 -0.011 0
+   }
+   ShapePoint "{56F07CB28583FED6}" {
+    Position 5 -0.011 0
+   }
+  }
+  IsClosedSpline 0
+  Type "Road Minor"
+  Width 8
+  Material "{4389E34D96AC00AF}Assets/Structures/Infrastructure/Roads/Data/Road_CobbleStone_01.emat"
+  RandomSeed 17175
+ }
+ {
+  coords 3697.535 538.968 5900.015
+  SplinePoints {
+   ShapePoint "{56F07CB28583E030}" {
+    Position 0 -0.011 0
+   }
+   ShapePoint "{56F07CB28583FED6}" {
+    Position 5 -0.011 0
+   }
+  }
+  IsClosedSpline 0
+  Type "Road Minor"
+  Width 8
+  Material "{4389E34D96AC00AF}Assets/Structures/Infrastructure/Roads/Data/Road_CobbleStone_01.emat"
+  RandomSeed 7422
+ }
+ {
+  coords 3679.17 538.968 5900.015
+  SplinePoints {
+   ShapePoint "{56F07CB28583E030}" {
+    Position 0 -0.011 0
+   }
+   ShapePoint "{56F07CB28583FED6}" {
+    Position 5 -0.011 0
+   }
+  }
+  IsClosedSpline 0
+  Type "Road Minor"
+  Width 8
+  Material "{4389E34D96AC00AF}Assets/Structures/Infrastructure/Roads/Data/Road_CobbleStone_01.emat"
+  RandomSeed 24966
+ }
+ {
+  coords 3660.985 538.968 5900.015
+  SplinePoints {
+   ShapePoint "{56F07CB28583E030}" {
+    Position 0 -0.011 0
+   }
+   ShapePoint "{56F07CB28583FED6}" {
+    Position 5 -0.011 0
+   }
+  }
+  IsClosedSpline 0
+  Type "Road Minor"
+  Width 8
+  Material "{4389E34D96AC00AF}Assets/Structures/Infrastructure/Roads/Data/Road_CobbleStone_01.emat"
+  RandomSeed 1393
+ }
+}
+$grp SplineShapeEntity {
+ {
+  coords 3788.472 539.007 5967.259
+  Points {
+   ShapePoint "{662B7663755BAEE6}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662B76637185B400}" {
+    Position -40 0 -110
+   }
+   ShapePoint "{662B766084089360}" {
+    Position -250.015 0.18 -110
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -138.1 0.044 35.009
+      OutTangent -138.1 0.044 35.009
+     }
+    }
+   }
+   ShapePoint "{662B7660B473C5A3}" {
+    Position -292.532 0.087 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{8B67F44381CD2216}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_03.et" {
+    coords 0 0 0
+    RoadWidth 12
+    RoadFalloffWidth 100
+    {
+     RoadEntity {
+      ID "556C655534397360"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position -40 0 -110
+       }
+       ShapePoint "{662B766016A908C3}" {
+        Position -250.015 0.18 -110
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -138.1 0.044 35.009
+          OutTangent -138.1 0.044 35.009
+         }
+        }
+       }
+       ShapePoint "{662B766016A9088C}" {
+        Position -292.532 0.087 0
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+      BeginningPiece none
+      EndingPiece none
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3786.349 539.001 5926.004
+  Points {
+   ShapePoint "{662B76600B1F5181}" {
+    Position 0 -0.001 0
+   }
+   ShapePoint "{662B76600B1F1FFE}" {
+    Position -288.199 0.03 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{8B67F44381CD2216}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_03.et" {
+    coords 0 0 0
+    RoadFalloffWidth 100
+    {
+     RoadEntity {
+      ID "556C655534397360"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 -0.001 0
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position -288.199 0.03 0
+       }
+      }
+      IsClosedSpline 0
+      Width 8
+      BeginningPiece none
+      EndingPiece none
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3642.17 538.5 5968.916
+  Points {
+   ShapePoint "{662B766044BDC9AF}" {
+    Position 0 0 -0.058
+   }
+   ShapePoint "{662B766044BDC1C3}" {
+    Position 0 0.631 -124.362
+   }
+  }
+  {
+   RoadGeneratorEntity : "{8B67F44381CD2216}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_03.et" {
+    coords 0 0 0
+    RoadWidth 10
+    RoadFalloffWidth 100
+    {
+     RoadEntity {
+      ID "556C655534397360"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 0 -0.058
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 0 0.631 -124.362
+       }
+      }
+      IsClosedSpline 0
+      Width 10
+      BeginningPiece none
+      EndingPiece none
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3761.484 538.898 5912.923
+  Points {
+   ShapePoint "{662CDA9FD8196147}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA9FD818CD20}" {
+    Position 0 0 9
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{D25B78B4CAD5A4E9}PrefabLibrary/DefaultLibrary/Generators/Walls/Wooden/WG_WoodenFence_02.et" {
+    Flags 0x100003 0
+    m_iSeed 30165
+    {
+     SCR_DestructibleEntity : "{83786C36D543C6CE}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_Pole.et" {
+      coords 0 -0.052 8.641
+      angles 0 270 0
+     }
+     SCR_DestructibleEntity : "{F909092008F1BB97}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_8m.et" {
+      coords 0 0.001 -0.248
+      angles 0 270 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3646.598 538.875 5892.042
+  Points {
+   ShapePoint "{662CDA9F23032F65}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA9F230333AA}" {
+    Position 126.665 0.125 0
+   }
+  }
+ }
+ {
+  coords 3754.857 538.968 5900.015
+  Points {
+   ShapePoint "{662CDA9F62FC7140}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA9F62FC0082}" {
+    Position 0 0 -4.126
+   }
+  }
+ }
+ {
+  coords 3778.531 538.821 5964.452
+  Points {
+   ShapePoint "{662CDA9083262505}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA908325D013}" {
+    Position -1.682 0.044 -31.814
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{C4FECA6CC44F5E08}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 4272
+    m_PrefabNames {
+     ""
+     ""
+     "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+     "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+     "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+     "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et"
+     "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et"
+    }
+    {
+     $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      {
+       coords -2.115 -0.033 -1.745
+       angles 358.748 -176.974 359.214
+       scale 1.093
+      }
+      {
+       coords 1.451 0.023 -6.213
+       angles 0.57 -176.974 357.035
+       scale 1.192
+      }
+      {
+       coords -2.54 -0.039 -12.049
+       angles 0.441 -176.974 357.014
+       scale 0.828
+      }
+      {
+       coords -3.201 -0.01 -22.299
+       angles 357.898 -176.974 358.492
+       scale 0.852
+      }
+     }
+     Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      coords 0.824 0.076 -26.326
+      angles 1.454 -176.974 358.018
+      scale 0.818
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords 2.092 0.033 -4.004
+       angles 358.361 -176.974 0.433
+       scale 0.856
+      }
+      {
+       coords 1.558 0.026 -7.69
+       angles 359.406 -176.974 1.562
+       scale 1.09
+      }
+      {
+       coords -3.145 -0.018 -17.696
+       angles 359.897 -176.974 359.677
+       scale 0.988
+      }
+      {
+       coords -2.561 -0.008 -19.537
+       angles 1.379 -176.974 1.358
+       scale 1.066
+      }
+      {
+       coords -3.938 0.001 -27.418
+       angles 358.53 -176.974 0.828
+       scale 1.029
+      }
+     }
+     $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      {
+       coords 1.626 0.026 -0.086
+       angles 2.115 -176.974 359.08
+       scale 1.157
+      }
+      {
+       coords 1.426 0.053 -10.672
+       angles 358.078 -176.974 1.795
+       scale 0.841
+      }
+      {
+       coords -2.289 -0.025 -13.122
+       angles 358.053 -176.974 0.015
+       scale 0.843
+      }
+     }
+     $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      {
+       coords -2.592 -0.009 -14.815
+       angles 357.889 -176.974 0.011
+       scale 0.871
+      }
+      {
+       coords -3.166 0.013 -24.504
+       angles 357.606 -176.974 2.491
+       scale 1.156
+      }
+      {
+       coords 0.327 0.068 -30.334
+       angles 0.505 -176.974 358.509
+       scale 0.898
+      }
+      {
+       coords -4.179 0.029 -32.843
+       angles 2.24 -176.974 358.106
+       scale 0.849
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3582.269 538.709 5934.614
+  Points {
+   ShapePoint "{662CDA90C08FF2B8}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA90C08F843C}" {
+    Position 3.237 -0.053 14.336
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{C4FECA6CC44F5E08}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 1616
+    m_PrefabNames {
+     ""
+     ""
+     "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+     "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+     "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+     "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et"
+     "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et"
+    }
+    {
+     Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      coords 4.841 -0.053 10.935
+      angles 358.243 12.724 357.01
+      scale 0.835
+     }
+     $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      {
+       coords 2.173 -0.021 2.524
+       angles 0.401 12.724 0.447
+       scale 0.997
+      }
+      {
+       coords 1.217 -0.053 14.316
+       angles 359.202 12.724 0.018
+       scale 1.181
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -1.844 -0.003 1.774
+       angles 358.258 12.724 0.153
+       scale 1.12
+      }
+      {
+       coords 0.082 -0.036 7.99
+       angles 359.213 12.724 358.282
+       scale 0.903
+      }
+     }
+     Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      coords 4.692 -0.053 9.918
+      angles 3.198 12.724 358.663
+      scale 0.841
+     }
+     $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      {
+       coords -1.702 0.01 0.384
+       angles 1.402 12.724 2.307
+       scale 0.812
+      }
+      {
+       coords 3.321 -0.034 4.613
+       angles 1.377 12.724 359.518
+       scale 1.097
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3549.346 538.875 5934.646
+  Points {
+   ShapePoint "{662CDA90F14BC1FB}" {
+    Position 0.279 0 -3.726
+   }
+   ShapePoint "{662CDA90F14BEE8E}" {
+    Position -0.056 -0.051 13.156
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{A8AAFE8C788BD126}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 2508
+    {
+     Tree : "{0A56ED2CC73ABB23}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
+      coords 0.656 -0.062 14.285
+      angles 358.988 -1.136 359.833
+      scale 1.25
+     }
+     Tree : "{6602D9CC7BFE340D}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      coords -0.615 -0.031 8.259
+      angles 1.483 -1.136 358.134
+      scale 1.15
+     }
+     Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
+      coords -0.596 -0.041 11.26
+      angles 358.889 -1.136 2.837
+      scale 1.2
+     }
+     Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      coords -0.671 -0.01 2.257
+      angles -0.174 -1.136 0
+      scale 0.7
+     }
+     Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      coords -0.219 0 -3.735
+      angles 3.501 -1.136 2.675
+      scale 0.8
+     }
+     Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      coords 0.816 -0.031 5.287
+      angles 0.008 -1.136 359.731
+      scale 1.15
+     }
+     Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      coords 0.675 0 -0.717
+      angles 359.858 -1.136 2.624
+      scale 1.032
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3527.559 538.944 5934.77
+  Points {
+   ShapePoint "{662CDA90FB0CA642}" {
+    Position -4.086 0.024 -3.151
+   }
+   ShapePoint "{662CDA90FB0BC8EB}" {
+    Position -2.857 -0.007 15.395
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{A8AAFE8C788BD126}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 9068
+    {
+     $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
+      {
+       coords -3.279 0.024 -3.205
+       angles 359.044 3.791 358.788
+       scale 0.75
+      }
+      {
+       coords -2.879 -0.007 8.795
+       angles 0.851 3.791 0.04
+       scale 0.75
+      }
+     }
+     Tree : "{6602D9CC7BFE340D}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      coords -3.435 0.024 2.819
+      angles 358.992 3.791 358.187
+      scale 1.15
+     }
+     Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      coords -2.509 -0.007 14.784
+      angles -0.096 3.791 0
+      scale 0.7
+     }
+     $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      {
+       coords -3.574 0.024 -0.178
+       angles 0.298 3.791 1.642
+       scale 0.853
+      }
+      {
+       coords -2.712 -0.007 11.791
+       angles 1.06 3.791 1.856
+       scale 0.853
+      }
+     }
+     Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      coords -3.289 0.02 5.816
+      angles 2.636 3.791 0.088
+      scale 1.2
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3408.689 538.875 5934.646
+  Points {
+   ShapePoint "{662CDA90F14BC1FB}" {
+    Position 0.279 0 -3.726
+   }
+   ShapePoint "{662CDA90F14BEE8E}" {
+    Position -0.056 -0.051 13.156
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{A8AAFE8C788BD126}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 2508
+    {
+     Tree : "{0A56ED2CC73ABB23}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
+      coords 0.656 -0.062 14.285
+      angles 358.988 -1.136 359.833
+      scale 1.25
+     }
+     Tree : "{6602D9CC7BFE340D}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      coords -0.615 -0.031 8.259
+      angles 1.483 -1.136 358.134
+      scale 1.15
+     }
+     Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
+      coords -0.596 -0.041 11.26
+      angles 358.889 -1.136 2.837
+      scale 1.2
+     }
+     Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      coords -0.671 -0.01 2.257
+      angles -0.174 -1.136 0
+      scale 0.7
+     }
+     Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      coords -0.219 0 -3.735
+      angles 3.501 -1.136 2.675
+      scale 0.8
+     }
+     Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      coords 0.816 -0.031 5.287
+      angles 0.008 -1.136 359.731
+      scale 1.15
+     }
+     Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      coords 0.675 0 -0.717
+      angles 359.858 -1.136 2.624
+      scale 1.032
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3508.09 538.875 5892.042
+  Points {
+   ShapePoint "{662CDA9F23032F65}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA9F230333AA}" {
+    Position 62.08 0.122 -0.021
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 71.028 0.16 0.192
+      OutTangent 71.028 0.16 0.192
+     }
+    }
+   }
+   ShapePoint "{662CDA905D063BAD}" {
+    Position 78.821 0.219 -37.774
+   }
+  }
+ }
+ {
+  coords 3579.273 539.094 5858.29
+  Points {
+   ShapePoint "{662CDA939CE23FB6}" {
+    Position -4.836 -0.063 22.999
+   }
+   ShapePoint "{662CDA9398AE251A}" {
+    Position -37.244 -0.032 24.812
+   }
+   ShapePoint "{662CDA93985D1EE7}" {
+    Position -53.748 -0.024 23.186
+   }
+   ShapePoint "{662CDA939FB279FF}" {
+    Position -38.587 0.022 10.282
+   }
+   ShapePoint "{662CDA9381BD4F25}" {
+    Position 1.03 -0.024 4.895
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 5.22 0 -5.739
+      OutTangent 5.22 0 -5.739
+     }
+    }
+   }
+   ShapePoint "{662CDA93F7AF7425}" {
+    Position -8.997 -0.063 17.816
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{A8AAFE8C788BD126}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_02.et" {
+    Flags 0x100003 0
+    m_iSeed 18030
+    {
+     $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
+      {
+       coords -28.72 0 8.392
+       angles 359.725 97.729 1.246
+       scale 1.25
+      }
+      {
+       coords -16.6 0 6.336
+       angles 1.284 95.102 358.241
+       scale 1.25
+      }
+     }
+     Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      coords -34.164 0.023 8.208
+      angles 1.411 102.6 357.172
+      scale 1.2
+     }
+     $grp Tree : "{6602D9CC7BFE340D}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      {
+       coords -25.765 -0.032 24.842
+       angles 359.161 -86.877 358.518
+       scale 1.036
+      }
+      {
+       coords -7.068 -0.032 15.333
+       angles 0.282 -38.288 358.967
+       scale 1.036
+      }
+     }
+     Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      coords -50.195 0 16.741
+      angles 359.195 138.026 0.001
+      scale 1.25
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -4.794 -0.069 23.593
+       angles 358.343 -85.929 359.912
+       scale 0.7
+      }
+      {
+       coords -13.808 -0.063 23.718
+       angles 359.853 -86.177 359.829
+       scale 0.7
+      }
+      {
+       coords -48.169 0 14.428
+       angles 359.71 132.069 0.112
+       scale 0.7
+      }
+     }
+     $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
+      {
+       coords -7.803 -0.063 23.567
+       angles 2.602 -85.929 358.441
+       scale 1.011
+      }
+      {
+       coords -16.823 -0.063 23.594
+       angles 359.294 -86.177 359.782
+       scale 1.011
+      }
+     }
+     $grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      {
+       coords -36.938 0.027 9.63
+       angles 0.3 109.395 0
+       scale 0.7
+      }
+      {
+       coords -25.703 0 9.005
+       angles 0 96.579 0
+       scale 0.7
+      }
+      {
+       coords -22.62 0 8.74
+       angles 0 95.794 0
+       scale 0.7
+      }
+      {
+       coords -13.087 0 6.786
+       angles 0 94.896 0
+       scale 0.7
+      }
+     }
+     $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      {
+       coords -10.819 -0.063 23.462
+       angles 1.184 -86.177 358.374
+      }
+      {
+       coords -19.76 -0.063 24.646
+       angles 359.193 -86.177 359.784
+      }
+      {
+       coords -28.807 -0.032 24.169
+       angles 358.688 -86.877 1.66
+      }
+      {
+       coords -51.948 0 19.209
+       angles 359.913 141.346 358.877
+      }
+      {
+       coords -10.006 0 7.603
+       angles 1.44 94.896 0.095
+      }
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords -55.595 -0.032 23.875
+       angles 1.603 -112.477 1.951
+       scale 0.79
+      }
+      {
+       coords -45.62 0 12.675
+       angles 0.777 126.343 358.608
+       scale 0.79
+      }
+      {
+       coords -40.178 0.03 9.749
+       angles 1.174 114.737 358.245
+       scale 0.79
+      }
+      {
+       coords -30.948 0.007 8.938
+       angles 0.37 98.906 359.329
+       scale 0.79
+      }
+      {
+       coords -19.595 0 6.529
+       angles 359.184 95.102 1.281
+       scale 0.79
+      }
+     }
+     $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      {
+       coords -20.967 -0.063 24.249
+       angles 0.15 -86.508 0.096
+       scale 1.2
+      }
+      {
+       coords -42.641 0 11.65
+       angles 1.541 121.149 1.838
+       scale 1.2
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3594.633 539.094 5856.155
+  Points {
+   ShapePoint "{662CDA93A4617264}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA93A4611491}" {
+    Position 0 -0.355 67.018
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{74F7EAF5AB1137D2}PrefabLibrary/DefaultLibrary/Generators/Walls/Wooden/WG_WoodenWall_02_Green.et" {
+    Flags 0x100003 0
+    m_iSeed 9769
+    {
+     SCR_DestructibleEntity : "{3959F534B9C165EA}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_B_green.et" {
+      coords 0 0 -0.03
+      angles 0 270 0
+     }
+     SCR_DestructibleEntity : "{6BB2540CAAD4120B}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_Pole.et" {
+      coords 0 -0.348 65.676
+      angles 0 270 0
+     }
+     $grp SCR_DestructibleEntity : "{82E05DC9AB962EB3}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_2m_green.et" {
+      {
+       coords 0 -0.031 3.977
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.031 5.967
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.035 7.957
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.062 9.947
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.062 11.937
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.062 13.927
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.066 15.917
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.094 17.907
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.094 19.896
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.094 21.887
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.097 23.876
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.125 25.866
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.125 27.856
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.125 29.846
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.137 31.836
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.156 33.826
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.158 35.816
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.187 37.806
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.187 39.796
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.199 41.786
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.219 43.776
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.22 45.766
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.25 47.756
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.251 49.745
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.281 51.736
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.281 53.725
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.292 55.715
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.312 57.705
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.313 59.695
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.344 61.685
+       angles 0 270 0
+      }
+      {
+       coords 0 -0.344 63.675
+       angles 0 270 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3591.071 538.781 5917.605
+  Points {
+   ShapePoint "{662CDA93D8E00EA9}" {
+    Position 0.395 -0.021 1.76
+   }
+   ShapePoint "{662CDA93D8E014BB}" {
+    Position 0.793 0.127 -21.745
+   }
+   ShapePoint "{662CDA9326F3451F}" {
+    Position -5.812 0.156 -22.752
+   }
+   ShapePoint "{662CDA9327892F88}" {
+    Position 0.265 0.177 -28.933
+   }
+   ShapePoint "{662CDA932004BEA1}" {
+    Position 2.194 0.219 -39.507
+   }
+   ShapePoint "{662CDA9320BB904E}" {
+    Position 2.153 0.25 -46.795
+   }
+   ShapePoint "{662CDA9321B68C3E}" {
+    Position -0.137 0.187 -31.626
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{A8AAFE8C788BD126}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 5386
+    {
+     $grp Tree : "{531BB93086610CA1}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
+      {
+       coords 0.953 0.094 -15.516
+       angles 1.921 178.907 1.479
+       scale 1.3
+      }
+      {
+       coords 1.645 0.219 -40.835
+       angles 0.499 -8.486 358.471
+       scale 1.3
+      }
+      {
+       coords -0.753 0.187 -33.734
+       angles 357.234 -8.02 0.736
+       scale 1.3
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords 1.466 0.062 -10.201
+       angles 359.137 177.208 359.253
+       scale 1.2
+      }
+      {
+       coords 1.322 0.232 -42.828
+       angles 359.657 -9.34 0.487
+       scale 1.2
+      }
+     }
+     Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
+      coords 1.584 0.219 -38.629
+      angles 0.953 173.879 357.068
+      scale 0.84
+     }
+     $grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      {
+       coords 1.19 0.009 -4.204
+       angles 0.309 176.65 0
+       scale 0.7
+      }
+      {
+       coords 2.705 0.25 -45.584
+       angles 0.885 179.318 0
+       scale 0.7
+      }
+      {
+       coords -1.033 0.187 -30.744
+       angles -0.25 -8.02 0
+       scale 0.7
+      }
+     }
+     Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      coords 2.499 0.25 -48.599
+      angles 3.154 -176.157 1.914
+      scale 1.2
+     }
+     Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      coords 0.187 0.031 -7.26
+      angles 1.802 177.208 0.759
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords 2.08 0.062 -11.424
+       angles 1.921 178.026 0.156
+       scale 1.15
+      }
+      {
+       coords 1.487 0.119 -19.225
+       angles 1.267 -179.1 0.524
+       scale 1.15
+      }
+      {
+       coords 1.082 0.133 -22.247
+       angles 1.349 -171.509 1.826
+       scale 1.15
+      }
+     }
+     $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      {
+       coords 0.32 -0.021 1.755
+       angles 2.643 176.163 358.832
+       scale 0.8
+      }
+      {
+       coords 1.111 0.201 -36.501
+       angles 1.742 -8.02 357.174
+       scale 0.8
+      }
+     }
+     $grp Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
+      {
+       coords 0.291 0 -1.254
+       angles 2.733 176.163 2.687
+       scale 1.011
+      }
+      {
+       coords 3.347 0.219 -42.556
+       angles 0.69 178.066 359.177
+       scale 1.011
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3582.197 538.906 5900.012
+  Points {
+   ShapePoint "{662CDA93718FD826}" {
+    Position -0.337 0 0
+   }
+   ShapePoint "{662CDA93718FEF21}" {
+    Position -0.51 0.031 -3.924
+   }
+   ShapePoint "{662CDA937FBEAAF6}" {
+    Position -1.773 0.043 -6.76
+   }
+  }
+ }
+ {
+  coords 3563.834 538.969 5900.673
+  Points {
+   ShapePoint "{662CDA9286339403}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA928633BE10}" {
+    Position 0 0.004 -4.787
+   }
+  }
+ }
+ {
+  coords 3545.158 538.969 5900.673
+  Points {
+   ShapePoint "{662CDA9286339403}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA928633BE10}" {
+    Position 0 0.004 -4.787
+   }
+  }
+ }
+ {
+  coords 3527.139 538.969 5900.673
+  Points {
+   ShapePoint "{662CDA9286339403}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA928633BE10}" {
+    Position 0 0.004 -4.787
+   }
+  }
+ }
+ {
+  coords 3770.393 538.78 5940.092
+  Points {
+   ShapePoint "{662CDA94AEAB45F1}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA94AEAB65B0}" {
+    Position -19.216 -0.096 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 9195
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angles 0 180 0
+      }
+      {
+       coords -2.02 -0.024 0
+       angles 0 180 0
+      }
+      {
+       coords -4.04 -0.03 0
+       angles 0 180 0
+      }
+      {
+       coords -6.061 -0.031 0
+       angles 0 180 0
+      }
+      {
+       coords -8.081 -0.056 0
+       angles 0 180 0
+      }
+      {
+       coords -10.101 -0.061 0
+       angles 0 180 0
+      }
+      {
+       coords -12.121 -0.063 0
+       angles 0 180 0
+      }
+      {
+       coords -14.141 -0.063 0
+       angles 0 180 0
+      }
+      {
+       coords -16.161 -0.089 0
+       angles 0 180 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3769.777 538.686 5958.931
+  Points {
+   ShapePoint "{662CDA94AEAB45F1}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA94AEAB65B0}" {
+    Position -17.661 -0.09 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 15988
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0.029 0
+       angles 0 180 0
+      }
+      {
+       coords -2.02 0.002 0
+       angles 0 180 0
+      }
+      {
+       coords -4.04 0.002 0
+       angles 0 180 0
+      }
+      {
+       coords -6.061 -0.003 0
+       angles 0 180 0
+      }
+      {
+       coords -8.081 -0.03 0
+       angles 0 180 0
+      }
+      {
+       coords -10.101 -0.035 0
+       angles 0 180 0
+      }
+      {
+       coords -12.121 -0.061 0
+       angles 0 180 0
+      }
+      {
+       coords -14.141 -0.061 0
+       angles 0 180 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3628.821 539 5873.481
+  Points {
+   ShapePoint "{662CDA94AEAB45F1}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDA94AEAB65B0}" {
+    Position -19.216 -0.096 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 9195
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angles 0 180 0
+      }
+      {
+       coords -2.02 -0.024 0
+       angles 0 180 0
+      }
+      {
+       coords -4.04 -0.03 0
+       angles 0 180 0
+      }
+      {
+       coords -6.061 -0.031 0
+       angles 0 180 0
+      }
+      {
+       coords -8.081 -0.056 0
+       angles 0 180 0
+      }
+      {
+       coords -10.101 -0.061 0
+       angles 0 180 0
+      }
+      {
+       coords -12.121 -0.063 0
+       angles 0 180 0
+      }
+      {
+       coords -14.141 -0.063 0
+       angles 0 180 0
+      }
+      {
+       coords -16.161 -0.089 0
+       angles 0 180 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3626.648 539.062 5855.568
+  Points {
+   ShapePoint "{662CDA90FB0CA642}" {
+    Position 9.314 0 0.876
+   }
+   ShapePoint "{662CDA90FB0BC8EB}" {
+    Position -10.735 0 1.415
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{A8AAFE8C788BD126}PrefabLibrary/DefaultLibrary/Generators/Bushlines/PG_Treeline_Birch_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 4313
+    {
+     $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
+      {
+       coords 3.322 0 1.263
+       angles 0.844 -88.463 0.62
+       scale 1.25
+      }
+      {
+       coords -8.672 0 1.641
+       angles 0.247 -88.463 0.544
+       scale 1.25
+      }
+     }
+     Tree : "{6602D9CC7BFE340D}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      coords -5.698 0 0.63
+      angles 1.789 -88.463 358.272
+      scale 1.15
+     }
+     $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
+      {
+       coords 9.31 0 0.739
+       angles 3.774 -88.463 358.747
+       scale 0.75
+      }
+      {
+       coords -2.702 0 0.437
+       angles 356.44 -88.463 2.556
+       scale 0.75
+      }
+     }
+     Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      coords 0.291 0.005 0.128
+      angles 0.884 -88.463 0.524
+      scale 1.2
+     }
+     Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      coords -11.673 0 1.627
+      angles 358.264 -88.463 358.341
+      scale 0.886
+     }
+     Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      coords 6.336 0 1.753
+      angles 1.693 -88.463 0.762
+      scale 0.961
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3737.759 539.984 5756.933
+  Points {
+   ShapePoint "{662CDABFF351A068}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDABFF3516364}" {
+    Position -12.59 -0.953 85.896
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{F5F26A55D657F34C}PrefabLibrary/DefaultLibrary/Generators/Walls/Pole/WG_PoleFence_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 28629
+    {
+     SCR_DestructibleEntity : "{035E7D477B6F1F64}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_C.et" {
+      coords 0 0 0
+      angles 0 261.661 0
+     }
+     $grp SCR_DestructibleEntity : "{A0034468130DC93D}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_4m_A.et" {
+      {
+       coords -1.178 -0.761 8.035
+       angles 0 261.661 0
+      }
+      {
+       coords -1.774 -0.923 12.102
+       angles 0 261.661 0
+      }
+      {
+       coords -2.37 -1.033 16.17
+       angles 0 261.661 0
+      }
+      {
+       coords -2.966 -1.096 20.237
+       angles 0 261.661 0
+      }
+      {
+       coords -3.563 -1.109 24.305
+       angles 0 261.661 0
+      }
+      {
+       coords -4.159 -1.089 28.373
+       angles 0 261.661 0
+      }
+      {
+       coords -4.755 -1.078 32.44
+       angles 0 261.661 0
+      }
+      {
+       coords -5.351 -1.055 36.508
+       angles 0 261.661 0
+      }
+      {
+       coords -5.947 -1.047 40.575
+       angles 0 261.661 0
+      }
+      {
+       coords -6.543 -1.022 44.643
+       angles 0 261.661 0
+      }
+      {
+       coords -7.14 -1.015 48.71
+       angles 0 261.661 0
+      }
+      {
+       coords -7.736 -0.989 52.778
+       angles 0 261.661 0
+      }
+      {
+       coords -8.332 -0.984 56.846
+       angles 0 261.661 0
+      }
+      {
+       coords -8.928 -0.966 60.913
+       angles 0 261.661 0
+      }
+      {
+       coords -9.525 -0.954 64.981
+       angles 0 261.661 0
+      }
+      {
+       coords -10.121 -0.953 69.048
+       angles 0 261.661 0
+      }
+      {
+       coords -10.717 -0.953 73.116
+       angles 0 261.661 0
+      }
+      {
+       coords -11.313 -0.953 77.184
+       angles 0 261.661 0
+      }
+      {
+       coords -11.909 -0.953 81.251
+       angles 0 261.661 0
+      }
+     }
+     SCR_DestructibleEntity : "{F260C6128FD34953}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_Pole.et" {
+      coords -12.506 -0.947 85.319
+      angles 0 261.661 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3674.332 539.119 5757.459
+  Points {
+   ShapePoint "{662CDABFFAC2BFFC}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDABFFAC20A12}" {
+    Position 0.635 0.037 75.585
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{F5F26A55D657F34C}PrefabLibrary/DefaultLibrary/Generators/Walls/Pole/WG_PoleFence_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 5407
+    {
+     SCR_DestructibleEntity : "{035E7D477B6F1F64}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_C.et" {
+      coords 0 0 0
+      angles 0 270.481 0
+     }
+     $grp SCR_DestructibleEntity : "{A0034468130DC93D}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_4m_A.et" {
+      {
+       coords 0.068 -0.119 8.12
+       angles 0 270.481 0
+      }
+      {
+       coords 0.103 -0.119 12.231
+       angles 0 270.481 0
+      }
+      {
+       coords 0.137 -0.091 16.342
+       angles 0 270.481 0
+      }
+      {
+       coords 0.172 -0.064 20.453
+       angles 0 270.481 0
+      }
+      {
+       coords 0.206 -0.034 24.563
+       angles 0 270.481 0
+      }
+      {
+       coords 0.241 -0.003 28.674
+       angles 0 270.481 0
+      }
+      {
+       coords 0.275 0.01 32.785
+       angles 0 270.481 0
+      }
+      {
+       coords 0.31 0.037 36.896
+       angles 0 270.481 0
+      }
+      {
+       coords 0.344 0.058 41.007
+       angles 0 270.481 0
+      }
+      {
+       coords 0.379 0.068 45.118
+       angles 0 270.481 0
+      }
+      {
+       coords 0.414 0.079 49.229
+       angles 0 270.481 0
+      }
+      {
+       coords 0.448 0.087 53.339
+       angles 0 270.481 0
+      }
+      {
+       coords 0.483 0.087 57.45
+       angles 0 270.481 0
+      }
+      {
+       coords 0.517 0.086 61.561
+       angles 0 270.481 0
+      }
+      {
+       coords 0.552 0.068 65.672
+       angles 0 270.481 0
+      }
+      {
+       coords 0.586 0.068 69.783
+       angles 0 270.481 0
+      }
+     }
+     SCR_DestructibleEntity : "{F260C6128FD34953}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_Pole.et" {
+      coords 0.621 0.036 73.894
+      angles 0 270.481 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3626.144 539.187 5783.229
+  Points {
+   ShapePoint "{662CDABF5659BD75}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDABF56594FAA}" {
+    Position -36 -0.113 0.254
+   }
+  }
+  {
+   RoadGeneratorEntity : "{5D1631C1DC145E79}PrefabLibrary/DefaultLibrary/Generators/Decals/PlowedField/RG_FlowerBed_01_TEMP.et" {
+    coords 0 0 -5.91
+    RoadWidth 15
+    {
+     RoadEntity {
+      ID "532C82060C9FEDF5"
+      SplinePoints {
+       ShapePoint "{532C82062D45BC05}" {
+        Position 0 0 5.91
+       }
+       ShapePoint "{532C82062D45BB49}" {
+        Position -36 -0.113 6.164
+       }
+      }
+      IsClosedSpline 0
+      Width 15
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3590.311 539.209 5756.113
+  Points {
+   ShapePoint "{662CDABF71352FFD}" {
+    Position 0 -0.001 0
+   }
+   ShapePoint "{662CDABF7134C9B5}" {
+    Position -1.371 -0.028 74.269
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{F5F26A55D657F34C}PrefabLibrary/DefaultLibrary/Generators/Walls/Pole/WG_PoleFence_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 13332
+    {
+     SCR_DestructibleEntity : "{8A96055ECB4E0721}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_A.et" {
+      coords 0 -0.001 0
+      angles 0 268.942 0
+     }
+     $grp SCR_DestructibleEntity : "{A0034468130DC93D}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_4m_A.et" {
+      {
+       coords -0.146 -0.209 7.889
+       angles 0 268.942 0
+      }
+      {
+       coords -0.221 -0.241 11.999
+       angles 0 268.942 0
+      }
+      {
+       coords -0.297 -0.241 16.109
+       angles 0 268.942 0
+      }
+      {
+       coords -0.373 -0.235 20.22
+       angles 0 268.942 0
+      }
+      {
+       coords -0.449 -0.205 24.33
+       angles 0 268.942 0
+      }
+      {
+       coords -0.525 -0.173 28.44
+       angles 0 268.942 0
+      }
+      {
+       coords -0.601 -0.147 32.551
+       angles 0 268.942 0
+      }
+      {
+       coords -0.677 -0.116 36.661
+       angles 0 268.942 0
+      }
+      {
+       coords -0.753 -0.084 40.771
+       angles 0 268.942 0
+      }
+      {
+       coords -0.829 -0.077 44.882
+       angles 0 268.942 0
+      }
+      {
+       coords -0.905 -0.053 48.992
+       angles 0 268.942 0
+      }
+      {
+       coords -0.98 -0.053 53.103
+       angles 0 268.942 0
+      }
+      {
+       coords -1.056 -0.022 57.212
+       angles 0 268.942 0
+      }
+      {
+       coords -1.132 -0.022 61.323
+       angles 0 268.942 0
+      }
+      {
+       coords -1.208 -0.022 65.433
+       angles 0 268.942 0
+      }
+      {
+       coords -1.284 -0.022 69.543
+       angles 0 268.942 0
+      }
+     }
+     SCR_DestructibleEntity : "{F260C6128FD34953}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_Pole.et" {
+      coords -1.36 -0.028 73.654
+      angles 0 268.942 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3705.698 538.469 6019.552
+  Points {
+   ShapePoint "{662CDABE3E2D7A78}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDABE3E2D1A82}" {
+    Position 2.148 -0.094 -33.725
+   }
+  }
+  {
+   RoadGeneratorEntity : "{8B67F44381CD2216}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_03.et" {
+    coords 0 0 0
+    RoadWidth 20
+    {
+     RoadEntity {
+      ID "556C655534397360"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 2.148 -0.094 -33.725
+       }
+      }
+      IsClosedSpline 0
+      Width 20
+      BeginningPiece none
+      EndingPiece none
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3599.965 538.812 6089.606
+  Points {
+   ShapePoint "{662CDABE4137DB15}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDABE4137100C}" {
+    Position 0 -0.219 -102.597
+   }
+  }
+  {
+   RoadGeneratorEntity : "{8B67F44381CD2216}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_03.et" {
+    coords 0 0 0
+    RoadWidth 16
+    {
+     RoadEntity {
+      ID "556C655534397360"
+      coords 2.326 0 1.485
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 0 -0.219 -102.597
+       }
+      }
+      IsClosedSpline 0
+      Width 16
+      BeginningPiece none
+      EndingPiece none
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3707.176 539.094 5818.715
+  Points {
+   ShapePoint "{662CDAB1F1FC1760}" {
+    Position 0 0 0
+   }
+   ShapePoint "{662CDAB1F1FC272A}" {
+    Position -1.64 0 26.819
+   }
+  }
+  {
+   RoadGeneratorEntity : "{31086BE1AF790FC5}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_Narrow.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6554AF23997E"
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position -1.64 0 26.819
+       }
+      }
+      IsClosedSpline 0
+      Width 8
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3788.349 538.994 5857.303
+  Points {
+   ShapePoint "{662CDAB1ECF474D1}" {
+    Position 0.885 -0.011 -0.401
+   }
+   ShapePoint "{662CDAB1ECF4069B}" {
+    Position -6.944 0.006 3.078
+   }
+   ShapePoint "{662CDAB1EAA0A5C2}" {
+    Position -15.587 0.006 14.578
+   }
+  }
+  {
+   RoadGeneratorEntity : "{98DF2267CDD17758}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailGravel_01.et" {
+    coords 0 0 0
+    RoadWidth 8
+    {
+     RoadEntity {
+      ID "5262CB47BB2B3833"
+      SplinePoints {
+       ShapePoint "{5256DA7852E4536F}" {
+        Position 0.885 -0.011 -0.401
+       }
+       ShapePoint "{5256DA7852E450A5}" {
+        Position -6.944 0.006 3.078
+       }
+       ShapePoint "{662CDAB11037EE37}" {
+        Position -15.587 0.006 14.578
+       }
+      }
+      IsClosedSpline 0
+      Width 8
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3801.619 539.081 5913.568
+  Points {
+   ShapePoint "{662CDAB10197559C}" {
+    Position 1.812 0.013 -0.242
+   }
+   ShapePoint "{662CDAB1019761E8}" {
+    Position -14.469 -0.094 2.273
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 1.812 0.013 -0.242
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -14.469 -0.094 2.273
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+}
+$grp StaticModelEntity : "{034025A47E9A3C13}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_End_Left.et" {
+ {
+  coords 3714 0 5954.5
+  angles 0 180 0
+ }
+ {
+  coords 3634.789 -0.156 5954.5
+  angles 0 180 0
+ }
+}
+GenericEntity : "{03E5BE9B8EB2FB2C}Prefabs/Structures/Civilian/SportGrounds/PlaygroundClimber_01.et" {
+ coords 3731.998 539 5872.358
+}
+SCR_DestructibleBuildingEntity : "{0B6EA07B566C2054}PrefabLibrary/DefaultLibrary/Structures/Addons/HouseAddon_ShedMetal_01_Short.et" {
+ coords 3701.551 538.97 5781.917
+ angles 0 270 0
+}
+$grp StaticModelEntity : "{0C1AAC1BD35C8418}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_4m_A.et" {
+ {
+  coords 3706 0.004 5954.5
+ }
+ {
+  coords 3690 -0.027 5954.5
+ }
+ {
+  coords 3674 -0.058 5954.5
+ }
+ {
+  coords 3658 -0.04 5954.5
+ }
+ {
+  coords 3626.789 -0.14 5954.5
+ }
+ {
+  coords 3610.789 -0.171 5954.5
+ }
+ {
+  coords 3594.789 -0.214 5954.5
+ }
+ {
+  coords 3578.789 -0.204 5954.5
+ }
+ {
+  coords 3571 -0.288 5954.5
+ }
+ {
+  coords 3559 -0.347 5954.5
+ }
+ {
+  coords 3543 -0.432 5954.5
+ }
+ {
+  coords 3527 -0.469 5954.5
+ }
+ {
+  coords 3515.03 -0.531 5954.5
+ }
+}
+SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/DefaultLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
+ coords 3709.08 0 5781.9
+ angles 0 90 0
+}
+SCR_DestructibleBuildingEntity : "{11BFDE0724119A52}PrefabLibrary/DefaultLibrary/Structures/Industrial/Garage_E_02.et" {
+ coords 3727.913 -0.124 5942.818
+}
+GenericEntity : "{1E20A8400CBEF3A9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSwing_01.et" {
+ coords 3685.111 539 5870.157
+}
+SCR_DestructibleBuildingEntity : "{22BF82936E1BBC4D}PrefabLibrary/DefaultLibrary/Structures/Services/FireStation_E_01.et" {
+ coords 3509.697 0.143 5944.889
+}
+Vehicle S1203_cargo_brown1 : "{2A66E3B8B0C61D87}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_brown.et" {
+ coords 3597.356 539.062 5863.336
+ angles 0 90 0
+}
+SCR_DestructibleBuildingEntity : "{2F830B9B3A7D4855}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/ShopHouse_E_2I01t_foodstore.et" {
+ coords 3672 0 5945
+}
+GenericEntity : "{3532649D6B93B0D9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSlide_01.et" {
+ coords 3709.696 539 5873.979
+}
+$grp SCR_DestructibleBuildingEntity : "{3714AD1861F44210}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02.et" {
+ {
+  coords 3752.481 0 5906.675
+  angles 0 180 0
+ }
+ {
+  coords 3715.846 0 5906.675
+  angles 0 180 0
+ }
+ {
+  coords 3679.268 0 5906.675
+  angles 0 180 0
+ }
+ {
+  coords 3542.758 -0.23 5906.675
+  angles 0 180 0
+ }
+ {
+  coords 3579.336 -0.034 5906.675
+  angles 0 180 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{37659EB4B40A66C4}PrefabLibrary/DefaultLibrary/Structures/Addons/HouseAddon_Shed_E_01.et" {
+ coords 3688.491 0.016 5812.679
+}
+SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/DefaultLibrary/Structures/Agriculture/CowShed_E_01_short.et" {
+ coords 3564.679 0.109 5800.349
+}
+SCR_DestructibleBuildingEntity : "{4B59AC03277A4A15}PrefabLibrary/DefaultLibrary/Structures/Services/Office_E_01.et" {
+ coords 3599.077 0.146 5946
+}
+SCR_DestructibleBuildingEntity : "{51BF59A7E99DC66E}PrefabLibrary/DefaultLibrary/Structures/Agriculture/Barn_E_01/Barn_E_01.et" {
+ coords 3759.748 0.305 5793.474
+}
+SCR_DestructibleBuildingEntity : "{5BC4F6DB3D4A81FD}PrefabLibrary/DefaultLibrary/Structures/Industrial/Sawmill_E_01.et" {
+ coords 3637.419 0.63 6022.899
+}
+SCR_DestructibleBuildingEntity : "{5ECE42250DAB009E}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01.et" {
+ coords 3791.966 0.03 5850.949
+ angles 0 -65 0
+}
+SCR_DestructibleBuildingEntity : "{5F2672105DA102DB}PrefabLibrary/DefaultLibrary/Structures/Services/MunicipalOffice_E_01.et" {
+ coords 3566.911 -0.05 5943.107
+}
+$grp StaticModelEntity : "{604E98FB6F980B36}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_4m_B.et" {
+ {
+  coords 3702 -0.031 5954.5
+ }
+ {
+  coords 3686 -0.062 5954.5
+ }
+ {
+  coords 3670 -0.093 5954.5
+ }
+ {
+  coords 3622.789 -0.187 5954.5
+ }
+ {
+  coords 3606.789 -0.218 5954.5
+ }
+ {
+  coords 3590.789 -0.249 5954.5
+ }
+ {
+  coords 3555 -0.406 5954.5
+ }
+ {
+  coords 3539 -0.479 5954.5
+ }
+}
+$grp Vehicle : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ S105_white1 {
+  coords 3622.441 539.031 5870.938
+ }
+ S105_white2 {
+  coords 3760.281 538.763 5936.221
+ }
+ S105_white3 {
+  coords 3614.603 539.031 5870.938
+ }
+}
+GenericEntity : "{67545F06412AA7E4}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSphere_01.et" {
+ coords 3696.816 539 5871.862
+}
+Vehicle S1203_cargo_red1 : "{6E485048122CEEEE}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_red.et" {
+ coords 3598.166 539.031 5885.194
+ angles 0 270 0
+}
+GenericEntity : "{6FB18A7B32767402}Prefabs/Structures/Civilian/SportGrounds/PlaygroundClimber_02.et" {
+ coords 3721.419 539 5873.437
+}
+$grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02_v2.et" {
+ {
+  coords 3734.21 0 5906.675
+  angles 0 180 0
+ }
+ {
+  coords 3697.575 0 5906.675
+  angles 0 180 0
+ }
+ {
+  coords 3661.025 0 5906.675
+  angles 0 180 0
+ }
+ {
+  coords 3524.515 -0.262 5906.675
+  angles 0 180 0
+ }
+ {
+  coords 3561.065 -0.131 5906.675
+  angles 0 180 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{78E589607D4761E3}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_green.et" {
+ coords 3805.666 0 5905.884
+ angles 0 -75 0
+}
+SCR_DestructibleBuildingEntity : "{7A1C57051B31036D}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/ShopHouse_E_2I01t_shoestore.et" {
+ coords 3696 0 5945
+}
+$grp StaticModelEntity : "{806F352CBFA76D09}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_End_Right.et" {
+ {
+  coords 3654.006 -0.032 5954.5
+  angles 0 180 0
+ }
+ {
+  coords 3511.044 -0.531 5954.5
+  angles 0 180 0
+ }
+}
+$grp StaticModelEntity : "{85D2D402637D9C5D}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_4m_C.et" {
+ {
+  coords 3698 -0.031 5954.5
+ }
+ {
+  coords 3682 -0.062 5954.5
+ }
+ {
+  coords 3666 -0.093 5954.5
+ }
+ {
+  coords 3654 -0.124 5954.5
+ }
+ {
+  coords 3618.789 -0.187 5954.5
+ }
+ {
+  coords 3602.789 -0.218 5954.5
+ }
+ {
+  coords 3586.789 -0.249 5954.5
+ }
+ {
+  coords 3574.789 -0.311 5954.5
+ }
+ {
+  coords 3567 -0.344 5954.5
+ }
+ {
+  coords 3551 -0.437 5954.5
+ }
+ {
+  coords 3535 -0.499 5954.5
+ }
+ {
+  coords 3523 -0.561 5954.5
+ }
+ {
+  coords 3511.03 -0.623 5954.5
+ }
+}
+$grp Vehicle : "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et" {
+ UAZ469_covered_CIV_teal1 {
+  coords 3625.805 539.031 5870.757
+ }
+ UAZ469_covered_CIV_teal2 {
+  coords 3763.645 538.763 5936.323
+ }
+}
+SCR_DestructibleBuildingEntity : "{92E8F78BCF17D93D}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/ShopHouse_E_2I01t_clothesstore.et" {
+ coords 3708 0 5945
+}
+SCR_DestructibleBuildingEntity : "{93147981639AC149}PrefabLibrary/DefaultLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_closed.et" {
+ coords 3647.848 0 5779.923
+}
+SCR_DestructibleBuildingEntity : "{9ACCDC76D1EBDA27}PrefabLibrary/DefaultLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
+ coords 3754.558 0 5829.626
+}
+SCR_DestructibleBuildingEntity : "{9B4EE2EF2E6F986D}PrefabLibrary/DefaultLibrary/Structures/Industrial/FactoryHall_E_01.et" {
+ coords 3705.387 538.583 6037.954
+ angles 0 180 0
+}
+SCR_DestructibleBuildingEntity : "{9C2DEB01D3F52BD6}PrefabLibrary/DefaultLibrary/Structures/Industrial/Warehouse_01_Office.et" {
+ coords 3588.346 -0.001 6070.805
+ angles 0 90 0
+}
+Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ coords 3597.929 539.018 5871.772
+ angles 0 270 0
+}
+SCR_DestructibleBuildingEntity : "{A4BB44B5826C63F2}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Village_E_1I04sf/House_Village_E_1I04sf_red.et" {
+ coords 3700.883 0.2 5812.838
+}
+$grp Vehicle : "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" {
+ S105_yellow1 {
+  coords 3629.25 539.031 5870.804
+ }
+ S105_yellow2 {
+  coords 3767.09 538.763 5936.83
+ }
+}
+SCR_DestructibleBuildingEntity : "{AC16E15E979F9072}PrefabLibrary/DefaultLibrary/Structures/Services/Villa_E_2I01_Police.et" {
+ coords 3537.455 0.784 5945.607
+}
+Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ coords 3597.398 539.032 5897.504
+ angles 0 270 0
+}
+SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/DefaultLibrary/Structures/Industrial/Workshop_02.et" {
+ coords 3603.426 -0.026 5818.372
+}
+$grp StaticModelEntity : "{B8E6F13A1611156A}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_4m_D.et" {
+ {
+  coords 3694 -0.012 5954.5
+ }
+ {
+  coords 3678 -0.035 5954.5
+ }
+ {
+  coords 3662 -0.066 5954.5
+ }
+ {
+  coords 3614.789 -0.145 5954.5
+ }
+ {
+  coords 3598.789 -0.191 5954.5
+ }
+ {
+  coords 3582.789 -0.233 5954.5
+ }
+ {
+  coords 3563 -0.332 5954.5
+ }
+ {
+  coords 3547 -0.41 5954.5
+ }
+ {
+  coords 3531 -0.503 5954.5
+ }
+ {
+  coords 3519.03 -0.565 5954.5
+ }
+}
+$grp Vehicle : "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et" {
+ UAZ469_covered_CIV_blue1 {
+  coords 3618.646 539.034 5871.144
+ }
+ UAZ469_covered_CIV_blue2 {
+  coords 3756.486 538.766 5936.126
+ }
+}
+SCR_DestructibleBuildingEntity : "{CA2EAC61647D889E}PrefabLibrary/DefaultLibrary/Structures/Services/MountainHotel_01/MountainHotel_01.et" {
+ coords 3627.026 0 5887.764
+ angles 0 90 0
+}
+SCR_DestructibleBuildingEntity : "{CFE8511B2B7E8AAA}Prefabs/Structures/Commercial/Shops/ShopModern_E_01/ShopModern_E_01.et" {
+ coords 3622.049 0.118 5943.256
+}
+$grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+ {
+  coords 3577.337 0 5916.789
+  angles 2.643 176.163 358.832
+  scale 0.8
+ }
+ {
+  coords 3557.417 0 5918.803
+  angles 1.541 121.149 1.838
+  scale 1.2
+ }
+}
+SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/DefaultLibrary/Structures/Agriculture/Greenhouse_01.et" {
+ coords 3624.878 -0.014 5820.008
+}
+SCR_DestructibleBuildingEntity : "{E889E8CCCA21EC6C}PrefabLibrary/DefaultLibrary/Structures/Commercial/PubVillage_E_2L01.et" {
+ coords 3761.429 -0.045 5951.422
+}
+SCR_DestructibleBuildingEntity : "{ECE10687A4EB6CA5}PrefabLibrary/DefaultLibrary/Structures/Cultural/ChurchSmall_E_01/ChurchSmall_E_01_weathered.et" {
+ coords 3477.75 0.061 5924.343
+ angles 0 90 0
+}
+SCR_DestructibleBuildingEntity : "{F51B9B9BD15BBE64}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/ShopHouse_E_2I01t_householdwares.et" {
+ coords 3684 0 5945
+}
+$grp SCR_DestructibleEntity : "{F909092008F1BB97}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_8m.et" {
+ {
+  coords 3743.365 0.035 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3725.007 0.087 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3706.713 0.129 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3688.365 0.16 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3670.069 0.191 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3651.751 0.191 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3588.213 0.087 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3570.136 0.024 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3551.968 -0.039 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3533.559 -0.098 5912.675
+  angles 0 270 0
+ }
+ {
+  coords 3515.609 -0.128 5912.675
+  angles 0 270 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{FD91510268A541A7}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Wooden_E_1I01/House_Wooden_E_1I01_panels.et" {
+ coords 3650.272 -0.031 5817.838
+}
+SCR_DestructibleBuildingEntity : "{FF48B5059EB0AC65}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/ShopHouse_E_2I01t_drugstore.et" {
+ coords 3660 0 5945
+}
