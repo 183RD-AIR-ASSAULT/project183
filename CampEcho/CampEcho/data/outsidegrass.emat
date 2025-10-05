@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5D7229D92B909D92}Terrains/Common/Surfaces/Data/MountainGrass_01_BCR.edds"
+ NMOMap "{7A45629D28D6DB85}Terrains/Common/Surfaces/Data/MountainGrass_01_NHO.edds"
+}

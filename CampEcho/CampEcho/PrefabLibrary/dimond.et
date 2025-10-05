@@ -1,0 +1,50 @@
+GenericEntity {
+ ID "6611452B3FE70716"
+ components {
+  MeshObject "{660ECC7E88B4AFB8}" {
+   Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+   Materials {
+    MaterialAssignClass "{660ECC7D4E67E3D8}" {
+     SourceMaterial "RealisticTarget"
+     AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+    }
+   }
+  }
+ }
+ coords 1154.838 563.531 4360.415
+ angleY -180
+ {
+  $grp GenericEntity {
+   {
+    ID "6611452B3FE70299"
+    components {
+     MeshObject "{660ECC7E88B4AFB8}" {
+      Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+     }
+    }
+    coords -4 0.002 4
+    angleY 90
+   }
+   {
+    ID "6611452B3FE7029A"
+    components {
+     MeshObject "{660ECC7E88B4AFB8}" {
+      Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+     }
+    }
+    coords 4 0 4
+    angleY 270
+   }
+   {
+    ID "6611452B3FE7029B"
+    components {
+     MeshObject "{660ECC7E88B4AFB8}" {
+      Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+     }
+    }
+    coords 0 0 8
+    angleY 180
+   }
+  }
+ }
+}

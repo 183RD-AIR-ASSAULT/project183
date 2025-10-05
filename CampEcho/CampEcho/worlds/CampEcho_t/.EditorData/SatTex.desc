@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "O:/GIT/tilw-terrain-tools/SeamlessSatmapTool/RESULT.png"
+ sRGBOutput 0
+ RenderRoads 1
+ Interpolation nearest
+ RoadsAA "8x"
+}

@@ -1,0 +1,12 @@
+DecalEntity : "{C0FAEF93F8DB08F5}Prefabs/Decals/Dirt/Decal_Dirt_Patch_07.et" {
+ ID "50E4C31FCE7FE3EB"
+ components {
+  Hierarchy "{56E0B29E38FF7FE3}" {
+  }
+ }
+ coords 952 0 4900
+ angleX -90
+ angleY -180
+ scale 2
+ FarPlane 1.5
+}

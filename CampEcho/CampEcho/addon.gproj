@@ -1,0 +1,22 @@
+GameProject {
+ ID "CampEcho"
+ GUID "66629E1BC316A660"
+ TITLE "CampEcho"
+ Dependencies {
+  "58D0FB3206B6F859" "5D84C738432BFE6A" "5E58A3FB8CE68CBB" "5E329785BB8B38F2" "5AAAD00F68FDF938"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

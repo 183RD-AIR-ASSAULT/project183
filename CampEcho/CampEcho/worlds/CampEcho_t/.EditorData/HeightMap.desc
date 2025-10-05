@@ -1,0 +1,7 @@
+HeightMapImportDescClass {
+ FileName "O:/GIT/project183/CampEcho/Transfer/Terrain_base.asc"
+ Flags 1
+ MinHeight -1000000
+ ResampleMinHeight 0
+ ResampleMaxHeight 1
+}
