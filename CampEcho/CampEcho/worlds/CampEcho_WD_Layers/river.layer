@@ -69704,7 +69704,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{11433114A765C14F}PrefabLibrary/Ro
   scale 2.18
  }
  {
-  coords 2946.885 487.558 5040.449
+  coords 2946.885 486.17 5040.449
   angleY 144.13
   scale 2.18
  }
@@ -69734,7 +69734,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{7D1705F41BA14E61}PrefabLibrary/Ro
   scale 2.18
  }
  {
-  coords 2942.583 484.279 5247.058
+  coords 2942.583 484.278 5247.058
   angleY 28.278
   scale 2.18
  }
@@ -69778,12 +69778,12 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{F4DF7DEDAB805624}PrefabLibrary/Ro
   scale 2.18
  }
  {
-  coords 2973.121 485.028 5033.667
+  coords 2973.121 485.797 5033.667
   angleY -165.172
   scale 2.18
  }
  {
-  coords 2777.226 475.404 5189.335
+  coords 2777.226 480.489 5189.334
   angleY -87.768
   scale 2.18
  }

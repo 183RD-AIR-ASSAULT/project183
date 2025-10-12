@@ -1,0 +1,83 @@
+SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/FiringRangeManager.et" {
+ ID "5310BE672EC2F1A7"
+ coords 6880 602 2550
+ TriggerShapeType "Oriented Bounding Box"
+ BoxMins -4 -0.5 150
+ BoxMaxs 0.5 5 -150
+ {
+  SCR_FiringRangeController : "{01ECE0C5573DB461}Prefabs/Structures/Military/Training/RangeCP_01/RangeCP_US_01.et" {
+   ID "668CB9E7BF1CC52E"
+   components {
+    Hierarchy "{668CB9E7BF1CBC5E}" {
+    }
+   }
+   coords 0 0 135
+   angleY -90
+   {
+    LightEntity {
+     ID "668CB9E7BF1CD489"
+     coords 0.01 1.1 0
+    }
+    SCR_FiringRangeLineArea {
+     ID "668CB9E7BF1CD488"
+     components {
+      Hierarchy "{668CB9E7BF1CBC56}" {
+      }
+     }
+     coords 1.188 0 0.909
+     angleY -23.263
+     TriggerShapeType Sphere
+     SphereRadius 2.5
+     TriggerActivationType "Every query"
+     PeriodicQueries 1
+     UpdatePeriod 0.1
+     ClassesFilter {
+      "ChimeraCharacter"
+     }
+    }
+    $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+     {
+      ID "668CB9E7BF1C0BD0"
+      coords 10 -2.031 -300
+      angleY 0
+     }
+     {
+      ID "668CB9E7BF1C49A8"
+      coords 5 -2.031 -300
+      angleY 0
+     }
+     {
+      ID "668CB9E7BF1C49AF"
+      coords -5 -2.031 -300
+      angleY 0
+     }
+     {
+      ID "668CB9E7BF1C6F66"
+      coords 0 -2.031 -300
+      angleY 0
+      m_iTargetDistance 5
+     }
+     {
+      ID "668CB9E7BF1C8014"
+      coords 2.948 0.731 1.124
+      angleY -64.903
+      scale 0.5
+      m_bIsIndicator 1
+     }
+     {
+      ID "668CB9E7BF1C9EAE"
+      coords -10 -2.031 -300
+      angleY 0
+      m_iTargetDistance 5
+     }
+     {
+      ID "668CB9E7BF1DC25E"
+      coords 3.341 0 -4.465
+      angleY -23.263
+      m_iTargetDistance 5
+     }
+    }
+   }
+  }
+ }
+}

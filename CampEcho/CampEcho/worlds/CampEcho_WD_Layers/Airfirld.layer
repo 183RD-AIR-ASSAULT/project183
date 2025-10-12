@@ -4927,27 +4927,27 @@ $grp SplineShapeEntity {
        angleY 90
       }
       {
-       coords 0 1.815 -2328.517
+       coords 0 1.784 -2328.517
        angleY 90
       }
       {
-       coords 0 1.815 -2330.501
+       coords 0 1.784 -2330.501
        angleY 90
       }
       {
-       coords 0 1.815 -2332.48
+       coords 0 1.784 -2332.48
        angleY 90
       }
       {
-       coords 0 1.815 -2334.467
+       coords 0 1.784 -2334.467
        angleY 90
       }
       {
-       coords 0 1.815 -2336.45
+       coords 0 1.784 -2336.45
        angleY 90
       }
       {
-       coords 0 1.815 -2338.428
+       coords 0 1.798 -2338.428
        angleY 90
       }
       {
@@ -4975,63 +4975,63 @@ $grp SplineShapeEntity {
        angleY 90
       }
       {
-       coords 0 1.827 -2352.308
+       coords 0 1.815 -2352.308
        angleY 90
       }
       {
-       coords 0 1.846 -2354.29
+       coords 0 1.815 -2354.29
        angleY 90
       }
       {
-       coords 0 1.846 -2356.28
+       coords 0 1.815 -2356.28
        angleY 90
       }
       {
-       coords 0 1.846 -2358.259
+       coords 0 1.815 -2358.259
        angleY 90
       }
       {
-       coords 0 1.846 -2360.241
+       coords 0 1.815 -2360.241
        angleY 90
       }
       {
-       coords 0 1.846 -2362.219
+       coords 0 1.815 -2362.219
        angleY 90
       }
       {
-       coords 0 1.846 -2364.202
+       coords 0 1.815 -2364.202
        angleY 90
       }
       {
-       coords 0 1.846 -2366.19
+       coords 0 1.815 -2366.19
        angleY 90
       }
       {
-       coords 0 1.846 -2368.181
+       coords 0 1.815 -2368.181
        angleY 90
       }
       {
-       coords 0 1.846 -2370.173
+       coords 0 1.815 -2370.173
        angleY 90
       }
       {
-       coords 0 1.846 -2372.159
+       coords 0 1.815 -2372.159
        angleY 90
       }
       {
-       coords 0 1.846 -2374.149
+       coords 0 1.815 -2374.149
        angleY 90
       }
       {
-       coords 0 1.846 -2376.14
+       coords 0 1.815 -2376.14
        angleY 90
       }
       {
-       coords 0 1.846 -2378.121
+       coords 0 1.815 -2378.121
        angleY 90
       }
       {
-       coords 0 1.846 -2380.109
+       coords 0 1.824 -2380.109
        angleY 90
       }
       {
@@ -5055,63 +5055,63 @@ $grp SplineShapeEntity {
        angleY 90
       }
       {
-       coords 0 1.853 -2392.009
+       coords 0 1.846 -2392.009
        angleY 90
       }
       {
-       coords 0 1.877 -2393.997
+       coords 0 1.846 -2393.997
        angleY 90
       }
       {
-       coords 0 1.877 -2395.975
+       coords 0 1.846 -2395.975
        angleY 90
       }
       {
-       coords 0 1.877 -2397.956
+       coords 0 1.846 -2397.956
        angleY 90
       }
       {
-       coords 0 1.877 -2399.938
+       coords 0 1.846 -2399.938
        angleY 90
       }
       {
-       coords 0 1.877 -2401.925
+       coords 0 1.846 -2401.925
        angleY 90
       }
       {
-       coords 0 1.877 -2403.907
+       coords 0 1.846 -2403.907
        angleY 90
       }
       {
-       coords 0 1.877 -2405.89
+       coords 0 1.846 -2405.89
        angleY 90
       }
       {
-       coords 0 1.877 -2407.871
+       coords 0 1.846 -2407.871
        angleY 90
       }
       {
-       coords 0 1.877 -2409.86
+       coords 0 1.846 -2409.86
        angleY 90
       }
       {
-       coords 0 1.877 -2411.84
+       coords 0 1.846 -2411.84
        angleY 90
       }
       {
-       coords 0 1.877 -2413.82
+       coords 0 1.846 -2413.82
        angleY 90
       }
       {
-       coords 0 1.877 -2415.801
+       coords 0 1.846 -2415.801
        angleY 90
       }
       {
-       coords 0 1.877 -2417.785
+       coords 0 1.846 -2417.785
        angleY 90
       }
       {
-       coords 0 1.877 -2419.774
+       coords 0 1.849 -2419.774
        angleY 90
       }
       {
@@ -5135,63 +5135,63 @@ $grp SplineShapeEntity {
        angleY 90
       }
       {
-       coords 0 1.879 -2431.672
+       coords 0 1.877 -2431.672
        angleY 90
       }
       {
-       coords 0 1.908 -2433.661
+       coords 0 1.877 -2433.661
        angleY 90
       }
       {
-       coords 0 1.908 -2435.651
+       coords 0 1.877 -2435.651
        angleY 90
       }
       {
-       coords 0 1.908 -2437.637
+       coords 0 1.877 -2437.637
        angleY 90
       }
       {
-       coords 0 1.908 -2439.618
+       coords 0 1.877 -2439.618
        angleY 90
       }
       {
-       coords 0 1.908 -2441.607
+       coords 0 1.877 -2441.607
        angleY 90
       }
       {
-       coords 0 1.908 -2443.588
+       coords 0 1.877 -2443.588
        angleY 90
       }
       {
-       coords 0 1.908 -2445.567
+       coords 0 1.877 -2445.567
        angleY 90
       }
       {
-       coords 0 1.908 -2447.544
+       coords 0 1.877 -2447.544
        angleY 90
       }
       {
-       coords 0 1.908 -2449.53
+       coords 0 1.877 -2449.53
        angleY 90
       }
       {
-       coords 0 1.908 -2451.524
+       coords 0 1.877 -2451.524
        angleY 90
       }
       {
-       coords 0 1.908 -2453.515
+       coords 0 1.877 -2453.515
        angleY 90
       }
       {
-       coords 0 1.908 -2455.508
+       coords 0 1.877 -2455.508
        angleY 90
       }
       {
-       coords 0 1.908 -2457.502
+       coords 0 1.877 -2457.502
        angleY 90
       }
       {
-       coords 0 1.908 -2459.493
+       coords 0 1.877 -2459.493
        angleY 90
       }
       {
@@ -5199,87 +5199,87 @@ $grp SplineShapeEntity {
        angleY 90
       }
       {
-       coords 0 1.908 -2463.473
+       coords 0 1.909 -2463.473
        angleY 90
       }
       {
-       coords 0 1.908 -2465.462
+       coords 0 1.909 -2465.462
        angleY 90
       }
       {
-       coords 0 1.908 -2467.451
+       coords 0 1.909 -2467.451
        angleY 90
       }
       {
-       coords 0 1.908 -2469.44
+       coords 0 1.909 -2469.44
        angleY 90
       }
       {
-       coords 0 1.908 -2471.433
+       coords 0 1.909 -2471.433
        angleY 90
       }
       {
-       coords 0 1.938 -2473.426
+       coords 0 1.909 -2473.426
        angleY 90
       }
       {
-       coords 0 1.94 -2475.417
+       coords 0 1.909 -2475.417
        angleY 90
       }
       {
-       coords 0 1.94 -2477.408
+       coords 0 1.909 -2477.408
        angleY 90
       }
       {
-       coords 0 1.94 -2479.402
+       coords 0 1.909 -2479.402
        angleY 90
       }
       {
-       coords 0 1.94 -2481.397
+       coords 0 1.909 -2481.397
        angleY 90
       }
       {
-       coords 0 1.94 -2483.388
+       coords 0 1.909 -2483.388
        angleY 90
       }
       {
-       coords 0 1.94 -2485.382
+       coords 0 1.909 -2485.382
        angleY 90
       }
       {
-       coords 0 1.94 -2487.378
+       coords 0 1.909 -2487.378
        angleY 90
       }
       {
-       coords 0 1.94 -2489.373
+       coords 0 1.909 -2489.373
        angleY 90
       }
       {
-       coords 0 1.94 -2491.365
+       coords 0 1.909 -2491.365
        angleY 90
       }
       {
-       coords 0 1.94 -2493.361
+       coords 0 1.909 -2493.361
        angleY 90
       }
       {
-       coords 0 1.94 -2495.352
+       coords 0 1.909 -2495.352
        angleY 90
       }
       {
-       coords 0 1.94 -2497.341
+       coords 0 1.909 -2497.341
        angleY 90
       }
       {
-       coords 0 1.94 -2499.334
+       coords 0 1.909 -2499.334
        angleY 90
       }
       {
-       coords 0 1.94 -2501.327
+       coords 0 1.909 -2501.327
        angleY 90
       }
       {
-       coords 0 1.94 -2503.322
+       coords 0 1.937 -2503.322
        angleY 90
       }
       {
@@ -5299,11 +5299,11 @@ $grp SplineShapeEntity {
        angleY 90
       }
       {
-       coords 0 1.967 -2513.276
+       coords 0 1.94 -2513.276
        angleY 90
       }
       {
-       coords 0 1.971 -2515.265
+       coords 0 1.94 -2515.265
        angleY 90
       }
       {
@@ -8241,23 +8241,23 @@ $grp SplineShapeEntity {
        angleY 90
       }
       {
-       coords 0 1.533 -1955.924
+       coords 0 1.502 -1955.924
        angleY 90
       }
       {
-       coords 0 1.533 -1959.93
+       coords 0 1.502 -1959.93
        angleY 90
       }
       {
-       coords 0 1.533 -1963.923
+       coords 0 1.502 -1963.923
        angleY 90
       }
       {
-       coords 0 1.533 -1967.922
+       coords 0 1.502 -1967.922
        angleY 90
       }
       {
-       coords 0 1.533 -1971.925
+       coords 0 1.508 -1971.925
        angleY 90
       }
       {
@@ -8277,19 +8277,19 @@ $grp SplineShapeEntity {
        angleY 90
       }
       {
-       coords 0 1.565 -1991.919
+       coords 0 1.533 -1991.919
        angleY 90
       }
       {
-       coords 0 1.565 -1995.917
+       coords 0 1.533 -1995.917
        angleY 90
       }
       {
-       coords 0 1.565 -1999.92
+       coords 0 1.533 -1999.92
        angleY 90
       }
       {
-       coords 0 1.565 -2003.923
+       coords 0 1.533 -2003.923
        angleY 90
       }
       {
@@ -8450,7 +8450,7 @@ $grp SplineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{DAB15C3D26A854FF}PrefabLibrary/Walls/Net/NetFence_04_4m_D.et" {
-      coords 0 1.565 -2007.922
+      coords 0 1.533 -2007.922
       angleY 90
      }
     }

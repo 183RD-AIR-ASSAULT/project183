@@ -10586,10 +10586,10 @@ $grp RoadGeneratorEntity : "{0CDA4ABE0A49F91C}PrefabLibrary/Generators/Decals/Ru
 }
 $grp GenericEntity : "{3C27BF2D94E61103}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_doubleStraight/LampStreet_E_02_doubleStraight.et" {
  {
-  coords 6772 0 3534.244
+  coords 6772 0 3529.163
  }
  {
-  coords 6698 0 3534.244
+  coords 6698 0 3529.163
  }
  {
   coords 6772 0 3618.573

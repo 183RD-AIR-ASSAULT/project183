@@ -1,0 +1,645 @@
+$grp GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+ {
+  components {
+   ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+    m_sTeleportName "Distance Rifle Range"
+   }
+   MapDescriptorComponent "{66971BA58F94290B}" {
+    DisplayName "Distance Rifle Range"
+    MainType "Name Generic"
+   }
+   SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+     Name "Distance Rifle Range"
+    }
+   }
+  }
+  coords 7993.17 599.969 2280.617
+ }
+ {
+  components {
+   ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+    m_sTeleportName "Anti-Tank Range"
+   }
+   MapDescriptorComponent "{66971BA58F94290B}" {
+    DisplayName "Anti-Tank Range"
+    MainType "Name Generic"
+   }
+   SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+     Name "Anti-Tank Range"
+    }
+   }
+  }
+  coords 7589.227 599.969 2279.762
+ }
+ {
+  components {
+   ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+    m_sTeleportName "Grenade Range"
+   }
+   MapDescriptorComponent "{66971BA58F94290B}" {
+    DisplayName "Grenade Range"
+    MainType "Name Generic"
+   }
+   SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+     Name "Grenade Range"
+    }
+   }
+  }
+  coords 7247.274 599.969 2312.115
+ }
+ {
+  components {
+   ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+    m_sTeleportName "Pistol Qual Range"
+   }
+   MapDescriptorComponent "{66971BA58F94290B}" {
+    DisplayName "Pistol Qual Range"
+    MainType "Name Generic"
+   }
+   SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+     Name "Pistol Qual Range"
+    }
+   }
+  }
+  coords 6852.586 599.969 2259.454
+ }
+ {
+  components {
+   ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+    m_sTeleportName "Basic Rifle Qual Range"
+   }
+   MapDescriptorComponent "{66971BA58F94290B}" {
+    DisplayName "Basic Rifle Qual Range"
+    MainType "Name Generic"
+   }
+   SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+     Name "Basic Rifle Qual Range"
+    }
+   }
+  }
+  coords 6835.308 599.969 2570.323
+ }
+}
+$grp GenericEntity : "{2B684CB9D74AF233}Prefabs/Props/Fabric/Flags/FlagpoleSquare.et" {
+ {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6735 0 3572.622
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "Company Area 1"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "Company Area 1"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "Company Area 1"
+      }
+     }
+    }
+    coords 6.979 0 0.903
+   }
+  }
+ }
+ coya2 {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6735 0 3162.196
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "Company Area 2"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "Company Area 2"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "Company Area 2"
+      }
+     }
+    }
+    coords 6.979 0 0.903
+   }
+  }
+ }
+ coya3 {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6735 0 3005.774
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "Company Area 3"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "Company Area 3"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "Company Area 3"
+      }
+     }
+    }
+    coords 6.979 0 0.903
+   }
+  }
+ }
+ coya4 {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6735 0 2594.288
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "Company Area 4"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "Company Area 4"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "Company Area 4"
+      }
+     }
+    }
+    coords 6.979 0 0.903
+   }
+  }
+ }
+ {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA7BEAE8D15}" {
+   }
+  }
+  coords 6832.214 0 2570.734
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA7BEAE8D15}" {
+   }
+  }
+  coords 6852.523 0 2254.924
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA7BEAE8D15}" {
+   }
+  }
+  coords 7258.706 0 2307.164
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA7BEAE8D15}" {
+   }
+  }
+  coords 7590.553 0 2280.547
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA7BEAE8D15}" {
+   }
+  }
+  coords 7991.047 0 2281.731
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ motpS {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6707.666 0 2826.833
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "Motor Pool South"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "Motor Pool South"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "Motor Pool South"
+      }
+     }
+    }
+    coords -0.931 0 -9.096
+   }
+  }
+ }
+ motpn {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6707.116 0 3391.895
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "Motor Pool North"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "Motor Pool North"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "Motor Pool North"
+      }
+     }
+    }
+    coords -0.931 0 -9.096
+   }
+  }
+ }
+ airfield {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6498.191 0 3519.979
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "Airfield"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "Airfield"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "Airfield"
+      }
+     }
+    }
+    coords -0.931 0 -9.096
+   }
+  }
+ }
+ mg {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6837.343 0 3523.539
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "MG Range"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "MG Range"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "MG Range"
+      }
+     }
+    }
+    coords -0.467 0 5.406
+   }
+  }
+ }
+ Flanking {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6886.902 0 3759.737
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "Flanking Range"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "Flanking Range"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "Flanking Range"
+      }
+     }
+    }
+    coords -0.467 0 5.406
+   }
+  }
+ }
+ bct {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6735.014 0 3690.052
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "BCT"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "BCT"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "BCT"
+      }
+     }
+    }
+    coords -0.467 0 5.406
+   }
+  }
+ }
+ cqb {
+  components {
+   ARU_PlayerTeleportAccesComponent "{66971BA72CDA4910}" {
+   }
+  }
+  coords 6784.917 0 4086.58
+  angleY 180
+  {
+   GenericEntity {
+    ID "5EF7061A079182B0"
+    components {
+     MeshObject "{5EF29DD4431368C1}" {
+      Materials {
+       MaterialAssignClass "{5EF29DD4738317EB}" {
+        SourceMaterial "Flag_1_2"
+        AssignedMaterial "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{20A31F67F8005FE6}Prefabs/ARU/PlayerTeleport/PlayerTeleportArea_01.et" {
+    components {
+     ARU_PlayerTeleportAreaComponent "{5F14CBBA87BC06CD}" {
+      m_sTeleportName "CQB Range"
+     }
+     MapDescriptorComponent "{66971BA58F94290B}" {
+      DisplayName "CQB Range"
+      MainType "Name Generic"
+     }
+     SCR_EditableCommentComponent "{66971BA5B42E27DA}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_UIInfo "{66971BA40363710F}" {
+       Name "CQB Range"
+      }
+     }
+    }
+    coords -0.467 0 5.406
+   }
+  }
+ }
+}

@@ -105,40 +105,6 @@ $grp GenericEntity {
   coords 6692.271 600 3818.963
   angleY 315
  }
- Flanking {
-  components {
-   SCR_EditableCommentComponent "{666B1E0DD5E3379F}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{666B1E0D962F35AC}" {
-     Name "Flanking Range"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-   SCR_MapDescriptorComponent "{666B1E0DC0F46BB2}" {
-    DisplayName "Flanking Range"
-    MainType "Name Generic"
-   }
-  }
-  coords 6877.691 599.969 3760.249
- }
- bct {
-  components {
-   SCR_EditableCommentComponent "{666B1E0DD5E3379F}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{666B1E0D962F35AC}" {
-     Name "BCT"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-   SCR_MapDescriptorComponent "{666B1E0DC0F46BB2}" {
-    DisplayName "BCT"
-    MainType "Name Generic"
-   }
-  }
-  coords 6743.612 599.969 3692.721
- }
 }
 $grp PolylineShapeEntity {
  {
@@ -11349,6 +11315,10 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 1.75
+      Material "{0466DD96755AFBB7}Common/Materials/Default_Transparent_Road.emat"
+      BeginningPiece none
+      EndingPiece none
+      ForceFullLength 0
      }
     }
    }

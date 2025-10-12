@@ -2398,14 +2398,89 @@ $grp SCR_DestructibleBuildingEntity : "{11BFDE0724119A52}PrefabLibrary/Structure
  {
   coords 6696.5 0 3365
   angleY 90
+  {
+   GenericEntity {
+    ID "571B0D9C6823819A"
+    {
+     GenericEntity {
+      ID "571B0D9FC094DF0E"
+      {
+       GenericEntity {
+        ID "599C83EB1A7022D2"
+        components {
+         MeshObject "{51C4DA208DB0E200}" {
+          Materials {
+           MaterialAssignClass "{59A05EC7913B1AC6}" {
+            SourceMaterial "LampStreetE_03_Glass"
+            AssignedMaterial "{28D2B6E7D8C2E269}Assets/Structures/Infrastructure/Lamps/LampStreetE_03/data/LampStreetE_03_Glass.emat"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 6696.5 0 3330
   angleY 90
+  {
+   GenericEntity {
+    ID "571B0D9C6823819A"
+    {
+     GenericEntity {
+      ID "571B0D9FC094DF0E"
+      {
+       GenericEntity {
+        ID "599C83EB1A7022D2"
+        components {
+         MeshObject "{51C4DA208DB0E200}" {
+          Materials {
+           MaterialAssignClass "{59A05EC7913B1AC6}" {
+            SourceMaterial "LampStreetE_03_Glass"
+            AssignedMaterial "{28D2B6E7D8C2E269}Assets/Structures/Infrastructure/Lamps/LampStreetE_03/data/LampStreetE_03_Glass.emat"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 6696.5 0 3295
   angleY 90
+  {
+   GenericEntity {
+    ID "571B0D9C6823819A"
+    {
+     GenericEntity {
+      ID "571B0D9FC094DF0E"
+      {
+       GenericEntity {
+        ID "599C83EB1A7022D2"
+        components {
+         MeshObject "{51C4DA208DB0E200}" {
+          Materials {
+           MaterialAssignClass "{59A05EC7913B1AC6}" {
+            SourceMaterial "LampStreetE_03_Glass"
+            AssignedMaterial "{28D2B6E7D8C2E269}Assets/Structures/Infrastructure/Lamps/LampStreetE_03/data/LampStreetE_03_Glass.emat"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
  }
 }
 GenericEntity : "{5561A00DE3C377A3}PrefabLibrary/Decals/Runway/Runway_Line_6x30.et" {

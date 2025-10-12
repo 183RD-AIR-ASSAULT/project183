@@ -1,0 +1,7 @@
+MatPBRBasic : "{712EE373F5D79F29}Assets/Props/Fabric/Flags/Data/Flag_1_2_ARU.emat" {
+ Color 0.159 0.159 0.159 1
+ BlendMode AlphaBlend
+ AllowUserAlphaBias 1
+ BCRMap "{51CC5A30E4F4ABD0}data/183rdflag.edds"
+ NormalPower 0.882
+}

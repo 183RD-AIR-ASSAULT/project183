@@ -2509,7 +2509,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
-  coords 3623.898 539.375 5963.9
+  coords 3623.898 538.659 5963.899
   Points {
    ShapePoint "{666F2E40C5546E4E}" {
     Position 0.763 -0.812 12.142
@@ -2558,21 +2558,21 @@ $grp PolylineShapeEntity {
     }
     {
      Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
-      coords 3.635 -0.812 6.652
+      coords 3.635 -0.096 6.652
       angleX -0.524
       angleY 156.999
       angleZ 1.66
       scale 0.929
      }
      Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
-      coords 2.224 -0.812 6.834
+      coords 2.224 -0.096 6.834
       angleX -0.207
       angleY -176.215
       angleZ 2.735
       scale 0.626
      }
      Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
-      coords 0.712 -0.743 1.647
+      coords 0.712 -0.027 1.647
       angleX 1.341
       angleY -167.492
       angleZ -0.686
@@ -2580,21 +2580,21 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
       {
-       coords 1.412 -0.686 -0.941
+       coords 1.412 0.03 -0.941
        angleX -0.35
        angleY 178.841
        angleZ -1.67
        scale 1.012
       }
       {
-       coords 2.497 -0.812 8.964
+       coords 2.497 -0.096 8.964
        angleX 0.908
        angleY -116.678
        angleZ -0.464
        scale 1.092
       }
       {
-       coords 0.988 -0.607 -3.47
+       coords 0.988 0.109 -3.47
        angleX 1.773
        angleY -41.793
        angleZ 1.271
@@ -2772,7 +2772,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
-  coords 3607.019 539.375 5963.9
+  coords 3607.019 538.69 5963.899
   Points {
    ShapePoint "{666F2E40C5546E4E}" {
     Position 0.763 -0.812 12.142
@@ -2821,21 +2821,21 @@ $grp PolylineShapeEntity {
     }
     {
      Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
-      coords 3.635 -0.781 6.652
+      coords 3.635 -0.096 6.652
       angleX -0.524
       angleY 156.999
       angleZ 1.66
       scale 0.929
      }
      Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
-      coords 2.224 -0.781 6.834
+      coords 2.224 -0.096 6.834
       angleX -0.207
       angleY -176.215
       angleZ 2.735
       scale 0.626
      }
      Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
-      coords 0.712 -0.732 1.647
+      coords 0.712 -0.047 1.647
       angleX 1.341
       angleY -167.492
       angleZ -0.686
@@ -2843,21 +2843,21 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
       {
-       coords 1.412 -0.655 -0.941
+       coords 1.412 0.03 -0.941
        angleX -0.35
        angleY 178.841
        angleZ -1.67
        scale 1.012
       }
       {
-       coords 2.497 -0.781 8.964
+       coords 2.497 -0.096 8.964
        angleX 0.908
        angleY -116.678
        angleZ -0.464
        scale 1.092
       }
       {
-       coords 0.988 -0.576 -3.47
+       coords 0.988 0.109 -3.47
        angleX 1.773
        angleY -41.793
        angleZ 1.271
@@ -3568,7 +3568,7 @@ $grp PolylineShapeEntity {
 }
 $grp SplineShapeEntity {
  {
-  coords 3618.913 538.563 5984.81
+  coords 3618.913 538.562 5984.81
   Points {
    ShapePoint "{666CCDF5BA655869}" {
     Position 0 0 0
@@ -3584,6 +3584,7 @@ $grp SplineShapeEntity {
     {
      RoadEntity {
       ID "556C6554AF23997E"
+      coords 0 0 0
       SplinePoints {
        ShapePoint "{556C6554868CB1B0}" {
         Position 0 0 0
@@ -3602,7 +3603,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3740.936 539.469 5950.627
+  coords 3740.936 538.863 5950.627
   Points {
    ShapePoint "{666CCDF67D7EE0F9}" {
     Position 1.656 0 0
@@ -3618,6 +3619,7 @@ $grp SplineShapeEntity {
     {
      RoadEntity {
       ID "556C6554AF23997E"
+      coords 0 0 0
       SplinePoints {
        ShapePoint "{556C6554868CB1B0}" {
         Position 1.656 0 0
@@ -3634,7 +3636,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3635.321 539.42 5831.265
+  coords 3635.321 539.421 5831.265
   Points {
    ShapePoint "{666D4A54A47D5526}" {
     Position 0 0.001 0
@@ -3804,7 +3806,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3636.566 539.375 5875.878
+  coords 3636.566 539.375 5875.877
   Points {
    ShapePoint "{666CF41A50F17E31}" {
     Position 0 0 0
@@ -4173,10 +4175,10 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3733.546 539.375 5909.822
+  coords 3733.546 539.406 5909.822
   Points {
    ShapePoint "{666CF418B328B38E}" {
-    Position 7.006 0.031 0
+    Position 12.509 0.031 0
    }
    ShapePoint "{666CF418B328523B}" {
     Position -114.33 0 0
@@ -4188,9 +4190,10 @@ $grp SplineShapeEntity {
     {
      RoadEntity {
       ID "556C655491CDCD64"
+      coords 0 0 0
       SplinePoints {
        ShapePoint "{556C6554868CB1B0}" {
-        Position 7.006 0.031 0
+        Position 12.509 0.031 0
        }
        ShapePoint "{556C6554868CB0CE}" {
         Position -114.33 0 0
@@ -4219,6 +4222,7 @@ $grp SplineShapeEntity {
     {
      RoadEntity {
       ID "556C655491CDCD64"
+      coords 0 0 0
       SplinePoints {
        ShapePoint "{556C6554868CB1B0}" {
         Position -5.395 0 0
@@ -4506,7 +4510,7 @@ $grp SplineShapeEntity {
  }
  {
   coords 3725.004 539.375 5877.301
-  angleY 180
+  angleY -180
   Points {
    ShapePoint "{666CF418206E31DF}" {
     Position 0 0 0
@@ -4626,7 +4630,7 @@ SCR_DestructibleBuildingEntity : "{0DB9E30C4F0A5F3E}Prefabs/Structures/1-204/1-2
  coords 3485 0 5920
 }
 SCR_DestructibleBuildingEntity : "{1F5DE8371A7EA3B1}Prefabs/Structures/Industrial/ConstructionBuilding_A.et" {
- coords 3608.281 -0.032 6019.283
+ coords 3608.281 0 6019.283
 }
 SCR_DestructibleBuildingEntity : "{22BF82936E1BBC4D}PrefabLibrary/Structures/Services/FireStation_E_01.et" {
  coords 3520 -0.094 5970
@@ -4847,10 +4851,36 @@ GenericEntity : "{BDD41E80871D5BD5}Prefabs/Structures/City/5 Floor Appartment Fu
 SCR_DestructibleBuildingEntity : "{BFD341B4254C64D6}Prefabs/Structures/Industrial/Large RedBarn v2.et" {
  coords 3685.682 0.1 6078.889
  angleY 90
+ {
+  GameEntity {
+   ID "64FF676F93E4A058"
+   coords -0.597 11.001 -5.267
+   angleY 180
+  }
+  GameEntity {
+   ID "64FF676F93E4A1B8"
+   coords -9.895 11.03 22.162
+   angleY 0
+  }
+  GenericEntity {
+   ID "64FF676FA1410E77"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "646F3D25DB4978D0"
+     coords 0 -2.756 0
+    }
+    GenericEntity {
+     ID "646F3D25DED77571"
+     coords 0 -2.756 0
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{C3085C63B543921D}Prefabs/Structures/Houses/Town/School.et" {
  Flags 1027
- coords 3566 544.375 5895
+ coords 3566 539.375 5895
 }
 $grp GenericEntity : "{C722FED65040EF5E}Prefabs/Structures/Houses/Village/Garages/Civilian Garages 3in1 Furniture.et" {
  {
