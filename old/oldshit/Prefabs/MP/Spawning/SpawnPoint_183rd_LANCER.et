@@ -1,0 +1,7 @@
+SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
+ ID "544EB04DCBFBD126"
+ m_sFaction "183_Lancer"
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Icon "{30F6D272B8425EE3}Assets/Logos/lancer.edds"
+ }
+}

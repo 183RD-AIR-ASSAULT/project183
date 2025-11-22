@@ -1,0 +1,140 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{66E2FA680C2501CB}" : "{7FE792507CBEB192}Configs/Factions/183rd_ABLE.conf" {
+   FactionKey "183_Able"
+   FactionColor 0.016 0.552 0.905 1
+   m_iOrder 183
+   m_OutlineFactionColor 0.005 0.044 0.114 1
+   m_NotificationFactionColor 0.016 0.552 0.905 1
+   m_NotificationTextFactionColor 0.013 0.395 0.651 1
+   m_FactionFlagMaterial "{610803CC3F3D6649}Assets/Props/Fabric/Flags/Data/Flag_1_2_USA.emat"
+   m_aFriendlyFactionsIds +{
+   }
+   m_iFactionRadioFrequency 48000
+   m_aRanks {
+    SCR_CharacterRank "{528E9D9FAAB617C6}" {
+    }
+    SCR_CharacterRank "{528E9D9FAB192253}" {
+    }
+    SCR_CharacterRank "{528E9D9FAB87F519}" {
+    }
+    SCR_CharacterRank "{528E9D9FA4EA5C39}" {
+    }
+    SCR_CharacterRank "{528E9D9FA563C005}" {
+    }
+    SCR_CharacterRank "{528E9D9FA64A043C}" {
+    }
+    SCR_CharacterRank "{528E9D9FA77F696E}" {
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5D4A8E6F0798A83F}" {
+    }
+    SCR_EntityCatalogMultiList "{5D4A8E6F0733B065}" {
+    }
+    SCR_EntityCatalogMultiList "{5D4A8E6F04DCBF0B}" {
+    }
+    SCR_EntityCatalog "{5D4A8E6F39B90D71}" {
+    }
+    SCR_EntityCatalogMultiList "{5D4A8E6F051F4758}" {
+    }
+   }
+   m_sGroupFlagsImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+   m_sGroupFlagsImageSetOutlines "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+   m_aFlagNames +{
+   }
+   m_aBaseCallsigns {
+    SCR_MilitaryBaseCallsign "{5C90D92F493E764B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F49F79967}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F482DA59B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F483330D2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48170DA8}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F487834E8}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48410A86}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48A4E31F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F488C6B57}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F4896F764}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48FBD90E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48DFF562}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7724C851}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77097F3F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77102B55}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F777ABD04}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F775EBBC1}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77A28EB6}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77871C23}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77EB96A0}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77CC2518}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77D3715B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7635D418}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F761C3FF2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7660CFAA}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F764A6E6B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76AD4D35}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76B1EF3A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7695FF2F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76FF94B1}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76C68EED}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F752A9F29}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F750E6FB9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7517240F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7574D867}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F755C4871}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75A0502B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F758ABFD3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75EF8263}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75F0F224}" {
+    }
+   }
+  }
+  SCR_Faction "{66E321E7542BF1AD}" : "{1FD7080BA30871C9}Configs/Factions/183_Nightmare.conf" {
+  }
+  SCR_Faction "{66E321CDB09448A4}" : "{9D64183C16522D6C}Configs/Factions/183_Lancer.conf" {
+  }
+  SCR_Faction "{66E321BB28A82CE0}" : "{C4EB11632BAC132A}Configs/Factions/183rd_BRAVO.conf" {
+  }
+  SCR_Faction "{66E321BC007D3D2B}" : "{B683BD9FAFA4D5D9}Configs/Factions/183_Aviation.conf" {
+   m_iOrder 211
+  }
+ }
+}

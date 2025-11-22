@@ -1,0 +1,483 @@
+$grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+ {
+  coords 6662 0.071 4394.54
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 4175
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 3975
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 3775
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6532 0 3660
+  angles 0 180 0
+ }
+ {
+  coords 6632 0 3660
+  angles 0 180 0
+ }
+ {
+  coords 6582 0 3646
+ }
+ {
+  coords 6782 0 3646
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -100 -1.023 0
+     {
+      GameEntity {
+       ID "599C83EA6CBA1698"
+      }
+     }
+    }
+    {
+     coords -50 0 14
+     angles 0 180 0
+    }
+   }
+  }
+ }
+ {
+  coords 6782 0 3076.604
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -100 -1.023 0
+     {
+      GameEntity {
+       ID "599C83EA6CBA1698"
+       coords 0 0.046 0
+      }
+     }
+    }
+    {
+     coords -39.527 0 14
+     angles 0 180 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 3575
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 3375
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 3175
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 2975
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 2775
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 2575
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 2575
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 2375
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -59.668 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -92.326 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6662 0 2375
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6782 0 2509.154
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -100 -1.023 0
+     {
+      GameEntity {
+       ID "599C83EA6CBA1698"
+       coords 0 0.046 0
+      }
+     }
+    }
+    {
+     coords -38.095 0 14
+     angles 0 180 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 2775
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 3175
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 2975
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 3375
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 3575
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 3975
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 3775
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6812 0 4175
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+    {
+     coords -150 0.249 14
+     angles 0 -180 0
+    }
+    {
+     coords -50 0.187 14
+     angles 0 -180 0
+    }
+    {
+     coords -100 0.187 0
+    }
+   }
+  }
+ }
+ {
+  coords 6790.331 -0.094 4225
+  angles 0 75.228 0
+ }
+ {
+  coords 6764.782 0.148 4301.614
+  angles 0 -134.593 0
+ }
+ {
+  coords 6707.141 0.526 4338.528
+  angles 0 38.605 0
+ }
+}

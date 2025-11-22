@@ -1,0 +1,7 @@
+SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
+ ID "544EB04DCBFBD126"
+ m_sFaction "183_Aviation"
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Icon "{2A825C261503C22F}Assets/Logos/211.edds"
+ }
+}

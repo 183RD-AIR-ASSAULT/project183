@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C6911E8BB077CE42}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_Medic_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

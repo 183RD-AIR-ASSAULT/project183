@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CB7392B5A2B0AE1D}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_AT_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

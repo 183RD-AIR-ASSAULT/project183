@@ -1,0 +1,48 @@
+GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  MeshObject "{56F2C6D1431AD85A}" {
+   Materials {
+    MaterialAssignClass "{6108C5B15B23B029}" {
+     SourceMaterial "ArsenalBox_01_Decal"
+     AssignedMaterial "{8E312CFA3F54FE1D}Assets/Arsenal/Arsenal_lancer.emat"
+    }
+    MaterialAssignClass "{6108C5B15B23B04E}" {
+     SourceMaterial "ArsenalBox_01_MLOD"
+     AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+    }
+    MaterialAssignClass "{6108C5B15B23B047}" {
+     SourceMaterial "explosive_0A0A9C1C7B189A8B"
+     AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+    }
+    MaterialAssignClass "{6108C5B15B23B041}" {
+     SourceMaterial "tarp_EBFB69929B4DE0C6"
+     AssignedMaterial "{57B0CA33C76D1944}Assets/Props/Military/AmmoBox/EquipmentBoxStack/Data/EquipmentBoxStack_01_cover_US.emat"
+    }
+    MaterialAssignClass "{6108C5B15B23B07D}" {
+     SourceMaterial "weapon_box_6864083D30F4F63D"
+     AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+    }
+   }
+  }
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{66E321606C66ACC4}" {
+   }
+   m_bCheckFactionForOverwriteArsenalConfig 1
+  }
+  SCR_EditableEntityComponent "{66E538DFBED66D1F}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{66E538DE46B8B931}" {
+    Name "Lancer Arsenal"
+    Icon "{30F6D272B8425EE3}Assets/Logos/lancer.edds"
+    m_sFaction "183_Lancer"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION TRAIT_ARSENAL FACTION_183_LANCER CONTENT_MODDED
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "183_Lancer"
+  }
+ }
+ coords -23.822 24.074 26.029
+}

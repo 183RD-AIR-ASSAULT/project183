@@ -1,5 +1,5 @@
 $grp GenericEntity {
- WIP15 {
+ WIP0r {
   components {
    SCR_EditableCommentComponent "{6262E57887CD65F2}" {
     m_EntityType COMMENT
@@ -10,122 +10,130 @@ $grp GenericEntity {
     m_Flags 6200
    }
   }
-  coords 6880 601.75 2400
-  angleY -127.922
- }
- WIP14 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "400m"
+  coords 6982 602 2400
+  {
+   $grp GenericEntity {
+    WIP14 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "400m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 400 -1.621 0
     }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
+    WIP16 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "50m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 50 -1.62 0
+    }
+    WIP17 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "100m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 100 -0.967 0
+    }
+    WIP18 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "150m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 150 -1.62 0
+    }
+    WIP19 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "200m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 200 -1.621 0
+    }
+    WIP20 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "250m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 250 -1.621 0
+    }
+    WIP21 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "300m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 300 -1.62 0
+    }
+    WIP24 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "750m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 750 -1.653 1108
+    }
+    WIP25 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "800m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 800 -1.652 1108
+    }
    }
   }
-  coords 7280 599.944 2400
-  angleY 179.641
  }
- WIP16 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "50m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 6930 599.986 2400
-  angleY 179.672
- }
- WIP17 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "100m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 6980 599.98 2400
-  angleY 179.157
- }
- WIP18 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "150m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7030 600 2400
-  angleY 179.233
- }
- WIP19 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "200m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7080 600 2400
-  angleY 179.636
- }
- WIP20 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "250m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7130 600 2400
-  angleY -179.77
- }
- WIP21 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "300m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7180 600 2400
-  angleY -179.273
- }
- WIP2 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "400m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7283.825 599.944 2701.431
-  angleY 179.641
- }
- WIP3 {
+ WIP0 {
   components {
    SCR_EditableCommentComponent "{6262E57887CD65F2}" {
     m_EntityType COMMENT
@@ -136,107 +144,120 @@ $grp GenericEntity {
     m_Flags 6200
    }
   }
-  coords 6883.825 601.75 2701.431
-  angleY -127.922
- }
- WIP4 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "50m"
+  coords 6982 602.268 2701.431
+  {
+   $grp GenericEntity {
+    WIP2 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "400m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 400 -1.82 0
     }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
+    WIP4 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "50m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 50 -1.978 0
+    }
+    WIP5 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "100m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 100 -1.956 0
+    }
+    WIP6 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "150m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 150 -1.933 0
+    }
+    WIP7 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "200m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 200 -1.91 0
+    }
+    WIP8 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "250m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 250 -1.888 0
+    }
+    WIP9 {
+     components {
+      SCR_EditableCommentComponent "{6262E57887CD65F2}" {
+       m_EntityType COMMENT
+       m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
+        Name "300m"
+       }
+       m_bAutoRegister ALWAYS
+       m_Flags 6200
+      }
+     }
+     coords 300 -1.865 0
+    }
    }
   }
-  coords 6933.825 599.986 2701.431
-  angleY 179.672
- }
- WIP5 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "100m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 6983.825 599.98 2701.431
-  angleY 179.157
- }
- WIP6 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "150m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7033.825 600 2701.431
-  angleY 179.233
- }
- WIP7 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "200m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7083.825 600 2701.431
-  angleY 179.636
- }
- WIP8 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "250m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7133.825 600 2701.431
-  angleY -179.77
- }
- WIP9 {
-  components {
-   SCR_EditableCommentComponent "{6262E57887CD65F2}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6262E578C66C21EC}" {
-     Name "300m"
-    }
-    m_bAutoRegister ALWAYS
-    m_Flags 6200
-   }
-  }
-  coords 7183.825 600 2701.431
-  angleY -179.273
  }
 }
 $grp SplineShapeEntity {
  {
-  coords 6876.811 602 2575.355
+  coords 6976.811 602 2575.355
   Points {
    ShapePoint "{668CB9F7FBDAFDFA}" {
     Position -0.645 0 -1.884
    }
    ShapePoint "{668CB9F7FFE3EE4B}" {
-    Position -19.254 -2.031 -7.671
+    Position -16.254 -1.656 -7.233
+   }
+   ShapePoint "{66995DFCDDA1E438}" {
+    Position -28.181 -2.074 -6.093
    }
   }
   {
-   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
     AdjustHeightMapPriority 5
     RoadClearance 6
@@ -250,49 +271,54 @@ $grp SplineShapeEntity {
         Position -0.645 0 -1.884
        }
        ShapePoint "{5256E6ED186CB58D}" {
-        Position -19.254 -2.031 -7.671
+        Position -16.254 -1.656 -7.233
+       }
+       ShapePoint "{66995DFCDDA2F140}" {
+        Position -28.181 -2.074 -6.093
        }
       }
       IsClosedSpline 0
       Width 8
+      BeginningPiece none
+      EndPiece none
      }
     }
    }
   }
  }
  {
-  coords 6858.731 600 2566.405
+  coords 6958.731 600 2566.405
   Points {
    ShapePoint "{668CB9F78594B24D}" {
-    Position -0.159 0.028 3.987
+    Position -33.853 -0.062 1.519
    }
    ShapePoint "{668CB9F7859569F0}" {
-    Position 5 0.254 -3.007
-   }
-   ShapePoint "{668CB9F7871F1F92}" {
-    Position 7.04 0.156 -9.239
+    Position -14.875 -0.167 3.537
     Data {
      SplinePointData SplinePointData {
-      InTangent -0.863 0.27 -6.298
-      OutTangent -0.863 0.27 -6.298
+      InTangent 21.418 3.273 1.822
+      OutTangent 21.418 3.273 1.822
      }
     }
    }
    ShapePoint "{668CB9F6E83AC2A3}" {
-    Position 6.224 0.374 -20.758
+    Position 6.439 0.281 -15.959
     Data {
      SplinePointData SplinePointData {
-      InTangent -2.018 2.031 -10.795
-      OutTangent -2.018 2.031 -10.795
+      InTangent 1.844 0.748 -9.426
+      OutTangent 1.844 0.748 -9.426
      }
     }
    }
    ShapePoint "{668CB9F6E2AA91AA}" {
     Position -2.369 -0.031 -26.803
    }
+   ShapePoint "{66995DF19F792D08}" {
+    Position -34.055 -0.031 -32.884
+   }
   }
   {
-   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
     AdjustHeightMapPriority 1
     RoadClearance 6
@@ -304,47 +330,47 @@ $grp SplineShapeEntity {
       ID "526283EEB3C31502"
       SplinePoints {
        ShapePoint "{5256E6ED186CB7B5}" {
-        Position -0.159 0.028 3.987
+        Position -33.853 -0.062 1.519
        }
        ShapePoint "{5256E6ED186CB58D}" {
-        Position 5 0.254 -3.007
-       }
-       ShapePoint "{668CB9F7BBB7CF54}" {
-        Position 7.04 0.156 -9.239
+        Position -14.875 -0.167 3.537
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
-          InTangent -0.863 0.27 -6.298
-          OutTangent -0.863 0.27 -6.298
+          InTangent 21.418 3.273 1.822
+          OutTangent 21.418 3.273 1.822
+         }
+        }
+       }
+       ShapePoint "{668CB9F7BBB7CF54}" {
+        Position 6.439 0.281 -15.959
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 1.844 0.748 -9.426
+          OutTangent 1.844 0.748 -9.426
          }
         }
        }
        ShapePoint "{668CB9F7BBB7CC97}" {
-        Position 6.224 0.374 -20.758
-        Data {
-         SplinePointData "{00000000D8F1BA4F}" {
-          InTangent -2.018 2.031 -10.795
-          OutTangent -2.018 2.031 -10.795
-         }
-        }
+        Position -2.369 -0.031 -26.803
        }
        ShapePoint "{668CB9F7BBB7CCE9}" {
-        Position -2.369 -0.031 -26.803
+        Position -34.055 -0.031 -32.884
        }
       }
       IsClosedSpline 0
       Width 6
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
   }
  }
  {
-  coords 6875.485 602 2532
+  coords 6975.485 602 2532
   Points {
    ShapePoint "{668CB9F66B5E381C}" {
-    Position 1.036 0 -0.543
+    Position 1.729 0 -0.982
    }
    ShapePoint "{668CB9F48AD61C91}" {
     Position -8.449 -1.67 6.18
@@ -360,7 +386,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
     AdjustHeightMapPriority 1
     RoadWidth 6
@@ -371,7 +397,7 @@ $grp SplineShapeEntity {
       ID "526283EEB3C31502"
       SplinePoints {
        ShapePoint "{5256E6ED186CB7B5}" {
-        Position 1.036 0 -0.543
+        Position 1.729 0 -0.982
        }
        ShapePoint "{5256E6ED186CB58D}" {
         Position -8.449 -1.67 6.18
@@ -388,255 +414,15 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 6
-      EndingPiece "1st version"
+      BeginningPiece "2nd version"
+      EndPiece "1st version"
      }
     }
    }
   }
  }
  {
-  coords 6856.403 599.969 2494.877
-  Points {
-   ShapePoint "{668CB9F520815140}" {
-    Position 0 0 0
-   }
-   ShapePoint "{668CB9F52082B708}" {
-    Position 0 0 110
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
-    Flags 1048579
-    m_bSculptTerrain 1
-    m_iTerrainSculptingPriority 15
-    m_fTerrainSculptingPathWidth 5
-    m_fTerrainSculptingFallOffWidth 5
-    {
-     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
-      {
-       coords 0 0 0
-       angleY 270
-      }
-      {
-       coords 0 0 2.02
-       angleY 270
-      }
-      {
-       coords 0 0 4.04
-       angleY 270
-      }
-      {
-       coords 0 0 6.059
-       angleY 270
-      }
-      {
-       coords 0 0 8.079
-       angleY 270
-      }
-      {
-       coords 0 0 10.099
-       angleY 270
-      }
-      {
-       coords 0 0 12.119
-       angleY 270
-      }
-      {
-       coords 0 0 14.139
-       angleY 270
-      }
-      {
-       coords 0 0 16.158
-       angleY 270
-      }
-      {
-       coords 0 0 18.178
-       angleY 270
-      }
-      {
-       coords 0 0 20.198
-       angleY 270
-      }
-      {
-       coords 0 0 22.218
-       angleY 270
-      }
-      {
-       coords 0 0 24.238
-       angleY 270
-      }
-      {
-       coords 0 0 26.258
-       angleY 270
-      }
-      {
-       coords 0 0 28.277
-       angleY 270
-      }
-      {
-       coords 0 0 30.297
-       angleY 270
-      }
-      {
-       coords 0 0 32.317
-       angleY 270
-      }
-      {
-       coords 0 0 34.337
-       angleY 270
-      }
-      {
-       coords 0 0 36.357
-       angleY 270
-      }
-      {
-       coords 0 0 38.377
-       angleY 270
-      }
-      {
-       coords 0 0 40.397
-       angleY 270
-      }
-      {
-       coords 0 0 42.417
-       angleY 270
-      }
-      {
-       coords 0 0 44.437
-       angleY 270
-      }
-      {
-       coords 0 0 46.457
-       angleY 270
-      }
-      {
-       coords 0 0 48.477
-       angleY 270
-      }
-      {
-       coords 0 0 50.497
-       angleY 270
-      }
-      {
-       coords 0 0 52.517
-       angleY 270
-      }
-      {
-       coords 0 0 54.537
-       angleY 270
-      }
-      {
-       coords 0 0 56.557
-       angleY 270
-      }
-      {
-       coords 0 0 58.577
-       angleY 270
-      }
-      {
-       coords 0 0 60.597
-       angleY 270
-      }
-      {
-       coords 0 0 62.617
-       angleY 270
-      }
-      {
-       coords 0 0 64.637
-       angleY 270
-      }
-      {
-       coords 0 0 66.657
-       angleY 270
-      }
-      {
-       coords 0 0 68.677
-       angleY 270
-      }
-      {
-       coords 0 0 70.697
-       angleY 270
-      }
-      {
-       coords 0 0 72.717
-       angleY 270
-      }
-      {
-       coords 0 0 74.738
-       angleY 270
-      }
-      {
-       coords 0 0 76.758
-       angleY 270
-      }
-      {
-       coords 0 0 78.778
-       angleY 270
-      }
-      {
-       coords 0 0 80.798
-       angleY 270
-      }
-      {
-       coords 0 0 82.818
-       angleY 270
-      }
-      {
-       coords 0 0 84.838
-       angleY 270
-      }
-      {
-       coords 0 0 86.858
-       angleY 270
-      }
-      {
-       coords 0 0 88.878
-       angleY 270
-      }
-      {
-       coords 0 0 90.899
-       angleY 270
-      }
-      {
-       coords 0 0 92.919
-       angleY 270
-      }
-      {
-       coords 0 0 94.939
-       angleY 270
-      }
-      {
-       coords 0 0 96.959
-       angleY 270
-      }
-      {
-       coords 0 0 98.979
-       angleY 270
-      }
-      {
-       coords 0 0 100.999
-       angleY 270
-      }
-      {
-       coords 0 0 103.02
-       angleY 270
-      }
-      {
-       coords 0 0 105.04
-       angleY 270
-      }
-      {
-       coords 0 0 107.06
-       angleY 270
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 7353.28 643.526 2370.953
+  coords 7500 643.526 2370
   Points {
    ShapePoint "{6669457CD36DC3D6}" {
     Position 0 0 0
@@ -646,7 +432,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{98DF2267CDD17758}PrefabLibrary/Generators/Roads/Dirt/RG_TrailGravel_01.et" {
+   RoadGeneratorEntity : "{98DF2267CDD17758}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailGravel_01.et" {
     coords 0 0 0
     FalloffStartWidth 12
     RoadFalloffWidth 30
@@ -679,7 +465,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{98DF2267CDD17758}PrefabLibrary/Generators/Roads/Dirt/RG_TrailGravel_01.et" {
+   RoadGeneratorEntity : "{98DF2267CDD17758}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailGravel_01.et" {
     coords 0 0 0
     FalloffStartWidth 10
     RoadFalloffWidth 30
@@ -696,6 +482,5658 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 1.75
+      Material "{0466DD96755AFBB7}Common/Materials/Default_Transparent_Road.emat"
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2490
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2430
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2460
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2520
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2550
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2580
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2610
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2640
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2670
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2400
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    m_bEnableMiddleObject 0
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6990 600 2700
+  Points {
+   ShapePoint "{66694574E766A0E4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66694574E76629D3}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/DefaultLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 69
+    m_bSculptTerrain 1
+    m_iTerrainSculptingPriority 100
+    m_fTerrainSculptingPathWidth 1
+    m_fTerrainSculptingFallOffWidth 1
+    FirstObject "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+    m_aWallGroups {
+     WallLengthGroup "{50B8D11F657BC8F2}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50B8D11F66C103FB}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CE1F7D217}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+       WallWeightPair "{50B8D11CD7B4EDC1}" {
+        m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et"
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m.et" {
+      {
+       coords 2.957 0 0
+      }
+      {
+       coords 5.962 0 0
+      }
+      {
+       coords 8.967 0 0
+      }
+      {
+       coords 11.971 0 0
+      }
+      {
+       coords 14.975 0 0
+      }
+      {
+       coords 17.98 0 0
+      }
+      {
+       coords 20.985 0 0
+      }
+      {
+       coords 23.991 0 0
+      }
+      {
+       coords 26.995 0 0
+      }
+      {
+       coords 30.001 0 0
+      }
+      {
+       coords 33.005 0 0
+      }
+      {
+       coords 36.01 0 0
+      }
+      {
+       coords 39.015 0 0
+      }
+      {
+       coords 42.022 0 0
+      }
+      {
+       coords 45.028 0 0
+      }
+      {
+       coords 48.033 0 0
+      }
+      {
+       coords 51.04 0 0
+      }
+      {
+       coords 54.047 0 0
+      }
+      {
+       coords 57.053 0 0
+      }
+      {
+       coords 60.059 0 0
+      }
+      {
+       coords 63.066 0 0
+      }
+      {
+       coords 66.073 0 0
+      }
+      {
+       coords 69.079 0 0
+      }
+      {
+       coords 72.086 0 0
+      }
+      {
+       coords 75.092 0 0
+      }
+      {
+       coords 78.099 0 0
+      }
+      {
+       coords 81.106 0 0
+      }
+      {
+       coords 84.112 0 0
+      }
+      {
+       coords 87.118 0 0
+      }
+      {
+       coords 90.125 0 0
+      }
+      {
+       coords 93.131 0 0
+      }
+      {
+       coords 96.137 0 0
+      }
+      {
+       coords 99.143 0 0
+      }
+      {
+       coords 102.15 0 0
+      }
+      {
+       coords 105.156 0 0
+      }
+      {
+       coords 108.162 0 0
+      }
+      {
+       coords 111.168 0 0
+      }
+      {
+       coords 114.175 0 0
+      }
+      {
+       coords 117.181 0 0
+      }
+      {
+       coords 120.187 0 0
+      }
+      {
+       coords 123.193 0 0
+      }
+      {
+       coords 126.2 0 0
+      }
+      {
+       coords 129.207 0 0
+      }
+      {
+       coords 132.213 0 0
+      }
+      {
+       coords 135.22 0 0
+      }
+      {
+       coords 138.226 0 0
+      }
+      {
+       coords 141.233 0 0
+      }
+      {
+       coords 144.24 0 0
+      }
+      {
+       coords 147.245 0 0
+      }
+      {
+       coords 150.251 0 0
+      }
+      {
+       coords 153.257 0 0
+      }
+      {
+       coords 156.262 0 0
+      }
+      {
+       coords 159.268 0 0
+      }
+      {
+       coords 162.274 0 0
+      }
+      {
+       coords 165.28 0 0
+      }
+      {
+       coords 168.286 0 0
+      }
+      {
+       coords 171.292 0 0
+      }
+      {
+       coords 174.298 0 0
+      }
+      {
+       coords 177.304 0 0
+      }
+      {
+       coords 180.31 0 0
+      }
+      {
+       coords 183.316 0 0
+      }
+      {
+       coords 186.322 0 0
+      }
+      {
+       coords 189.327 0 0
+      }
+      {
+       coords 192.333 0 0
+      }
+      {
+       coords 195.34 0 0
+      }
+      {
+       coords 198.345 0 0
+      }
+      {
+       coords 201.351 0 0
+      }
+      {
+       coords 204.357 0 0
+      }
+      {
+       coords 207.363 0 0
+      }
+      {
+       coords 210.368 0 0
+      }
+      {
+       coords 213.374 0 0
+      }
+      {
+       coords 216.38 0 0
+      }
+      {
+       coords 219.386 0 0
+      }
+      {
+       coords 222.392 0 0
+      }
+      {
+       coords 225.398 0 0
+      }
+      {
+       coords 228.404 0 0
+      }
+      {
+       coords 231.41 0 0
+      }
+      {
+       coords 234.416 0 0
+      }
+      {
+       coords 237.423 0 0
+      }
+      {
+       coords 240.428 0 0
+      }
+      {
+       coords 243.435 0 0
+      }
+      {
+       coords 246.441 0 0
+      }
+      {
+       coords 249.447 0 0
+      }
+      {
+       coords 252.453 0 0
+      }
+      {
+       coords 255.459 0 0
+      }
+      {
+       coords 258.466 0 0
+      }
+      {
+       coords 261.471 0 0
+      }
+      {
+       coords 264.478 0 0
+      }
+      {
+       coords 267.484 0 0
+      }
+      {
+       coords 270.49 0 0
+      }
+      {
+       coords 273.496 0 0
+      }
+      {
+       coords 276.502 0 0
+      }
+      {
+       coords 279.509 0 0
+      }
+      {
+       coords 282.515 0 0
+      }
+      {
+       coords 285.521 0 0
+      }
+      {
+       coords 288.527 0 0
+      }
+      {
+       coords 291.533 0 0
+      }
+      {
+       coords 294.539 0 0
+      }
+      {
+       coords 297.546 0 0
+      }
+      {
+       coords 300.552 0 0
+      }
+      {
+       coords 303.558 0 0
+      }
+      {
+       coords 306.564 0 0
+      }
+      {
+       coords 309.571 0 0
+      }
+      {
+       coords 312.577 0 0
+      }
+      {
+       coords 315.583 0 0
+      }
+      {
+       coords 318.589 0 0
+      }
+      {
+       coords 321.595 0 0
+      }
+      {
+       coords 324.601 0 0
+      }
+      {
+       coords 327.608 0 0
+      }
+      {
+       coords 330.614 0 0
+      }
+      {
+       coords 333.62 0 0
+      }
+      {
+       coords 336.626 0 0
+      }
+      {
+       coords 339.633 0 0
+      }
+      {
+       coords 342.638 0 0
+      }
+      {
+       coords 345.645 0 0
+      }
+      {
+       coords 348.651 0 0
+      }
+      {
+       coords 351.657 0 0
+      }
+      {
+       coords 354.663 0 0
+      }
+      {
+       coords 357.67 0 0
+      }
+      {
+       coords 360.676 0 0
+      }
+      {
+       coords 363.682 0 0
+      }
+      {
+       coords 366.688 0 0
+      }
+      {
+       coords 369.694 0 0
+      }
+      {
+       coords 372.7 0 0
+      }
+      {
+       coords 375.706 0 0
+      }
+      {
+       coords 378.713 0 0
+      }
+      {
+       coords 381.719 0 0
+      }
+      {
+       coords 384.725 0 0
+      }
+      {
+       coords 387.731 0 0
+      }
+      {
+       coords 390.737 0 0
+      }
+      {
+       coords 393.743 0 0
+      }
+      {
+       coords 396.75 0 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/DefaultLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 399.744 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6980 602 2400
+  Points {
+   ShapePoint "{6682C0C9DC70BADC}" {
+    Position 0 0 -2
+   }
+   ShapePoint "{6682C0C9DC70451E}" {
+    Position 0 0 299
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords -4 0 0
+    AdjustHeightMapPriority 10
+    RoadClearance 8
+    RoadWidth 8
+    RoadFalloffWidth 3.5
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      coords -6 0 0
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 10 0 -2
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 10 0 299
+       }
+      }
+      IsClosedSpline 0
+      Type "Not-a-road"
+      Width 8
+      Material "{0466DD96755AFBB7}Common/Materials/Default_Transparent_Road.emat"
+      BeginningPiece "1st version"
+      EndPiece "1st version"
+     }
+    }
+   }
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_vShapeOffset 2 0 0
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 2 0.187 -2
+       angles 0 270 0
+      }
+      {
+       coords 2 0 0.02
+       angles 0 270 0
+      }
+      {
+       coords 2 0 2.039
+       angles 0 270 0
+      }
+      {
+       coords 2 0 4.059
+       angles 0 270 0
+      }
+      {
+       coords 2 0 6.079
+       angles 0 270 0
+      }
+      {
+       coords 2 0 8.099
+       angles 0 270 0
+      }
+      {
+       coords 2 0 10.118
+       angles 0 270 0
+      }
+      {
+       coords 2 0 12.138
+       angles 0 270 0
+      }
+      {
+       coords 2 0 14.157
+       angles 0 270 0
+      }
+      {
+       coords 2 0 16.177
+       angles 0 270 0
+      }
+      {
+       coords 2 0 18.196
+       angles 0 270 0
+      }
+      {
+       coords 2 0 20.216
+       angles 0 270 0
+      }
+      {
+       coords 2 0 22.234
+       angles 0 270 0
+      }
+      {
+       coords 2 0 24.254
+       angles 0 270 0
+      }
+      {
+       coords 2 0 26.272
+       angles 0 270 0
+      }
+      {
+       coords 2 0 28.291
+       angles 0 270 0
+      }
+      {
+       coords 2 0 30.31
+       angles 0 270 0
+      }
+      {
+       coords 2 0 32.329
+       angles 0 270 0
+      }
+      {
+       coords 2 0 34.348
+       angles 0 270 0
+      }
+      {
+       coords 2 0 36.368
+       angles 0 270 0
+      }
+      {
+       coords 2 0 38.388
+       angles 0 270 0
+      }
+      {
+       coords 2 0 40.407
+       angles 0 270 0
+      }
+      {
+       coords 2 0 42.426
+       angles 0 270 0
+      }
+      {
+       coords 2 0 44.446
+       angles 0 270 0
+      }
+      {
+       coords 2 0 46.466
+       angles 0 270 0
+      }
+      {
+       coords 2 0 48.487
+       angles 0 270 0
+      }
+      {
+       coords 2 0 50.508
+       angles 0 270 0
+      }
+      {
+       coords 2 0 52.528
+       angles 0 270 0
+      }
+      {
+       coords 2 0 54.548
+       angles 0 270 0
+      }
+      {
+       coords 2 0 56.568
+       angles 0 270 0
+      }
+      {
+       coords 2 0 58.589
+       angles 0 270 0
+      }
+      {
+       coords 2 0 60.609
+       angles 0 270 0
+      }
+      {
+       coords 2 0 62.629
+       angles 0 270 0
+      }
+      {
+       coords 2 0 64.65
+       angles 0 270 0
+      }
+      {
+       coords 2 0 66.671
+       angles 0 270 0
+      }
+      {
+       coords 2 0 68.691
+       angles 0 270 0
+      }
+      {
+       coords 2 0 70.711
+       angles 0 270 0
+      }
+      {
+       coords 2 0 72.731
+       angles 0 270 0
+      }
+      {
+       coords 2 0 74.752
+       angles 0 270 0
+      }
+      {
+       coords 2 0 76.772
+       angles 0 270 0
+      }
+      {
+       coords 2 0 78.792
+       angles 0 270 0
+      }
+      {
+       coords 2 0 80.813
+       angles 0 270 0
+      }
+      {
+       coords 2 0 82.833
+       angles 0 270 0
+      }
+      {
+       coords 2 0 84.854
+       angles 0 270 0
+      }
+      {
+       coords 2 0 86.874
+       angles 0 270 0
+      }
+      {
+       coords 2 0 88.894
+       angles 0 270 0
+      }
+      {
+       coords 2 0 90.915
+       angles 0 270 0
+      }
+      {
+       coords 2 0 92.935
+       angles 0 270 0
+      }
+      {
+       coords 2 0 94.955
+       angles 0 270 0
+      }
+      {
+       coords 2 0 96.976
+       angles 0 270 0
+      }
+      {
+       coords 2 0 98.996
+       angles 0 270 0
+      }
+      {
+       coords 2 0 101.017
+       angles 0 270 0
+      }
+      {
+       coords 2 0 103.037
+       angles 0 270 0
+      }
+      {
+       coords 2 0 105.058
+       angles 0 270 0
+      }
+      {
+       coords 2 0 107.078
+       angles 0 270 0
+      }
+      {
+       coords 2 0 109.098
+       angles 0 270 0
+      }
+      {
+       coords 2 0 111.119
+       angles 0 270 0
+      }
+      {
+       coords 2 0 113.14
+       angles 0 270 0
+      }
+      {
+       coords 2 0 115.16
+       angles 0 270 0
+      }
+      {
+       coords 2 0 117.181
+       angles 0 270 0
+      }
+      {
+       coords 2 0 119.202
+       angles 0 270 0
+      }
+      {
+       coords 2 0 121.222
+       angles 0 270 0
+      }
+      {
+       coords 2 0 123.243
+       angles 0 270 0
+      }
+      {
+       coords 2 0 125.263
+       angles 0 270 0
+      }
+      {
+       coords 2 0 127.284
+       angles 0 270 0
+      }
+      {
+       coords 2 0 129.304
+       angles 0 270 0
+      }
+      {
+       coords 2 0 131.324
+       angles 0 270 0
+      }
+      {
+       coords 2 0 133.345
+       angles 0 270 0
+      }
+      {
+       coords 2 0 135.365
+       angles 0 270 0
+      }
+      {
+       coords 2 0 137.385
+       angles 0 270 0
+      }
+      {
+       coords 2 0 139.406
+       angles 0 270 0
+      }
+      {
+       coords 2 0 141.426
+       angles 0 270 0
+      }
+      {
+       coords 2 0 143.447
+       angles 0 270 0
+      }
+      {
+       coords 2 0 145.467
+       angles 0 270 0
+      }
+      {
+       coords 2 0 147.487
+       angles 0 270 0
+      }
+      {
+       coords 2 0 149.508
+       angles 0 270 0
+      }
+      {
+       coords 2 0 151.528
+       angles 0 270 0
+      }
+      {
+       coords 2 0 153.548
+       angles 0 270 0
+      }
+      {
+       coords 2 0 155.569
+       angles 0 270 0
+      }
+      {
+       coords 2 0 157.589
+       angles 0 270 0
+      }
+      {
+       coords 2 0 159.609
+       angles 0 270 0
+      }
+      {
+       coords 2 0 161.63
+       angles 0 270 0
+      }
+      {
+       coords 2 0 163.65
+       angles 0 270 0
+      }
+      {
+       coords 2 0 165.67
+       angles 0 270 0
+      }
+      {
+       coords 2 0 167.691
+       angles 0 270 0
+      }
+      {
+       coords 2 0 169.711
+       angles 0 270 0
+      }
+      {
+       coords 2 0 171.731
+       angles 0 270 0
+      }
+      {
+       coords 2 0 173.751
+       angles 0 270 0
+      }
+      {
+       coords 2 0 175.771
+       angles 0 270 0
+      }
+      {
+       coords 2 0 177.792
+       angles 0 270 0
+      }
+      {
+       coords 2 0 179.812
+       angles 0 270 0
+      }
+      {
+       coords 2 0 181.832
+       angles 0 270 0
+      }
+      {
+       coords 2 0 183.852
+       angles 0 270 0
+      }
+      {
+       coords 2 0 185.873
+       angles 0 270 0
+      }
+      {
+       coords 2 0 187.893
+       angles 0 270 0
+      }
+      {
+       coords 2 0 189.913
+       angles 0 270 0
+      }
+      {
+       coords 2 0 191.933
+       angles 0 270 0
+      }
+      {
+       coords 2 0 193.953
+       angles 0 270 0
+      }
+      {
+       coords 2 0 195.973
+       angles 0 270 0
+      }
+      {
+       coords 2 0 197.993
+       angles 0 270 0
+      }
+      {
+       coords 2 0 200.014
+       angles 0 270 0
+      }
+      {
+       coords 2 0 202.034
+       angles 0 270 0
+      }
+      {
+       coords 2 0 204.054
+       angles 0 270 0
+      }
+      {
+       coords 2 0 206.074
+       angles 0 270 0
+      }
+      {
+       coords 2 0 208.094
+       angles 0 270 0
+      }
+      {
+       coords 2 0 210.115
+       angles 0 270 0
+      }
+      {
+       coords 2 0 212.135
+       angles 0 270 0
+      }
+      {
+       coords 2 0 214.155
+       angles 0 270 0
+      }
+      {
+       coords 2 0 216.175
+       angles 0 270 0
+      }
+      {
+       coords 2 0 218.195
+       angles 0 270 0
+      }
+      {
+       coords 2 0 220.215
+       angles 0 270 0
+      }
+      {
+       coords 2 0 222.235
+       angles 0 270 0
+      }
+      {
+       coords 2 0 224.256
+       angles 0 270 0
+      }
+      {
+       coords 2 0 226.276
+       angles 0 270 0
+      }
+      {
+       coords 2 0 228.296
+       angles 0 270 0
+      }
+      {
+       coords 2 0 230.316
+       angles 0 270 0
+      }
+      {
+       coords 2 0 232.336
+       angles 0 270 0
+      }
+      {
+       coords 2 0 234.356
+       angles 0 270 0
+      }
+      {
+       coords 2 0 236.376
+       angles 0 270 0
+      }
+      {
+       coords 2 0 238.396
+       angles 0 270 0
+      }
+      {
+       coords 2 0 240.417
+       angles 0 270 0
+      }
+      {
+       coords 2 0 242.437
+       angles 0 270 0
+      }
+      {
+       coords 2 0 244.457
+       angles 0 270 0
+      }
+      {
+       coords 2 0 246.477
+       angles 0 270 0
+      }
+      {
+       coords 2 0 248.497
+       angles 0 270 0
+      }
+      {
+       coords 2 0 250.518
+       angles 0 270 0
+      }
+      {
+       coords 2 0 252.538
+       angles 0 270 0
+      }
+      {
+       coords 2 0 254.558
+       angles 0 270 0
+      }
+      {
+       coords 2 0 256.578
+       angles 0 270 0
+      }
+      {
+       coords 2 0 258.598
+       angles 0 270 0
+      }
+      {
+       coords 2 0 260.618
+       angles 0 270 0
+      }
+      {
+       coords 2 0 262.638
+       angles 0 270 0
+      }
+      {
+       coords 2 0 264.659
+       angles 0 270 0
+      }
+      {
+       coords 2 0 266.679
+       angles 0 270 0
+      }
+      {
+       coords 2 0 268.699
+       angles 0 270 0
+      }
+      {
+       coords 2 0 270.719
+       angles 0 270 0
+      }
+      {
+       coords 2 0 272.739
+       angles 0 270 0
+      }
+      {
+       coords 2 0 274.76
+       angles 0 270 0
+      }
+      {
+       coords 2 0 276.78
+       angles 0 270 0
+      }
+      {
+       coords 2 0 278.8
+       angles 0 270 0
+      }
+      {
+       coords 2 0 280.82
+       angles 0 270 0
+      }
+      {
+       coords 2 0 282.84
+       angles 0 270 0
+      }
+      {
+       coords 2 0 284.86
+       angles 0 270 0
+      }
+      {
+       coords 2 0 286.88
+       angles 0 270 0
+      }
+      {
+       coords 2 0 288.901
+       angles 0 270 0
+      }
+      {
+       coords 2 0 290.921
+       angles 0 270 0
+      }
+      {
+       coords 2 0 292.941
+       angles 0 270 0
+      }
+      {
+       coords 2 0 294.961
+       angles 0 270 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6919.088 599.968 2551.541
+  Points {
+   ShapePoint "{66995DF668ECB24A}" {
+    Position 6.265 0 0
+   }
+   ShapePoint "{66995DF668EC6455}" {
+    Position -110.299 0 -0.337
+   }
+  }
+  {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C655491CDCD64"
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position 6.265 0 0
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position -110.299 0 -0.337
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+      BeginningPiece none
+      EndPiece none
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6963.833 599.969 3519.087
+  Points {
+   ShapePoint "{66995DF79DE5F904}" {
+    Position -3.299 0 2
+   }
+   ShapePoint "{66995DF79DE5A960}" {
+    Position 0.923 0 -11.239
+   }
+   ShapePoint "{66995DF79F3C3D87}" {
+    Position -7.97 -0.121 -24.115
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position -3.299 0 2
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 0.923 0 -11.239
+       }
+       ShapePoint "{66995DF797592728}" {
+        Position -7.97 -0.121 -24.115
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6922.789 599.969 3509.534
+  Points {
+   ShapePoint "{66995DF78DD7D232}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66995DF78DD78F09}" {
+    Position -113.669 0 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C655491CDCD64"
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position -113.669 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+      BeginningPiece none
+      EndPiece none
      }
     }
    }
@@ -703,10 +6141,11 @@ $grp SplineShapeEntity {
  }
 }
 SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/FiringRangeManager.et" {
- coords 6880 602 2550
- TriggerShapeType "Oriented Bounding Box"
- BoxMins -4 -0.5 150
- BoxMaxs 0.5 5 -150
+ coords 6982 602 2550
+ SphereRadius 145
+ BoxMins -10 -10 150
+ BoxMaxs 10 10 -150
+ "Polyline Height" 50
  {
   $grp SCR_FiringRangeController : "{01ECE0C5573DB461}Prefabs/Structures/Military/Training/RangeCP_01/RangeCP_US_01.et" {
    {
@@ -715,7 +6154,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 135
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -739,158 +6178,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_1 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_2 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_4 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_3 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_5 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_1 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_2 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_4 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_3 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_5 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_1 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_2 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_3 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_4 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_5 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_1 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_2 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_3 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_4 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_5 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_1 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_2 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_4 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_3 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -902,7 +6341,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 105
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -926,158 +6365,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_6 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_7 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_8 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_9 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_10 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_6 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_7 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_8 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_9 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_10 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_6 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_7 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_8 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_9 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_10 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_5 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_6 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_7 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_8 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_6 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_7 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_8 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_9 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_10 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -1089,7 +6528,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 75
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -1113,158 +6552,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_11 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_12 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_13 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_14 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_15 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_11 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_12 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_13 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_14 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_15 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_11 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_12 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_13 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_14 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_15 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_9 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_10 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_11 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_12 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_11 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_12 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_13 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_14 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_15 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -1276,7 +6715,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 45
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -1300,158 +6739,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_16 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_17 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_18 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_19 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_20 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_16 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_17 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_18 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_19 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_20 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_16 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_17 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_18 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_19 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_20 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_13 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_14 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_15 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_16 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_16 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_17 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_18 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_19 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_20 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -1463,7 +6902,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 15
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -1487,158 +6926,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_21 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_22 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_23 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_24 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_25 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_21 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_22 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_23 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_24 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_25 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_21 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_22 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_23 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_24 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_25 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_17 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_18 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_19 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_20 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_21 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_22 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_23 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_24 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_25 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -1650,7 +7089,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 -15
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -1674,158 +7113,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_26 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_27 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_28 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_29 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_30 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_26 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_27 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_28 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_29 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_30 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_26 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_27 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_28 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_29 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_30 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_21 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_22 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_23 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_24 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_26 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_27 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_28 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_29 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_30 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -1837,7 +7276,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 -45
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -1861,158 +7300,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_31 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_32 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_33 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_34 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_35 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_31 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_32 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_33 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_34 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_35 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_31 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_32 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_33 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_34 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_35 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_25 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_26 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_27 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_28 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_31 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_32 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_33 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_34 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_35 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -2024,7 +7463,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 -75
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -2048,158 +7487,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_36 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_37 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_38 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_39 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_40 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_36 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_37 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_38 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_39 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_40 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_36 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_37 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_38 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_39 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_40 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_29 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_30 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_31 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_32 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_36 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_37 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_38 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_39 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_40 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -2211,7 +7650,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 -105
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -2235,158 +7674,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_41 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_42 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_43 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_44 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_45 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_41 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_42 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_43 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_44 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_45 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_41 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_42 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_43 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_44 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_45 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_33 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_34 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_35 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_36 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_41 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_42 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_43 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_44 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_45 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -2398,7 +7837,7 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      }
     }
     coords 0 0 -135
-    angleY -90
+    angles 0 -90 0
     {
      LightEntity {
       coords 0.01 1.1 0
@@ -2422,158 +7861,158 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
       {
        coords 10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -5 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 0 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords 2.5 0 0.5
-       angleY -65
+       angles 0 -65 0
        scale 0.75
        m_bIsIndicator 1
       }
       {
        coords -10 -2.031 -300
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       {
        coords -10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_46 {
        coords 10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_47 {
        coords 5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_48 {
        coords -5 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_49 {
        coords 0 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t100_50 {
        coords -10 -2.031 -100
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_46 {
        coords 10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_47 {
        coords 5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_48 {
        coords -5 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_49 {
        coords 0 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t150_50 {
        coords -10 -2.031 -150
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_46 {
        coords 10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_47 {
        coords 5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_48 {
        coords 0 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_49 {
        coords -5 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t200_50 {
        coords -10 -2.031 -200
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_37 {
        coords 10 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_38 {
        coords 5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_39 {
        coords 0 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t250_40 {
        coords -5 -2.031 -250
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_46 {
        coords -10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_47 {
        coords 10 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_48 {
        coords 5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_49 {
        coords -5 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
       t50_50 {
        coords 0 -2.031 -50
-       angleY 0
+       angles 0 0 0
        m_iTargetDistance 1
       }
      }
@@ -2583,120 +8022,120 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
   $grp GenericEntity : "{8076C9CE59439259}Prefabs/Props/Military/Sandbags/Sandbag_01_empty_base.et" {
    {
     coords -1 0 136
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 106
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 76
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 46
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 16
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 -14
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 -44
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 -74
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 -104
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
    }
    {
     coords -1 0 -134
-    angleY 1.493
+    angles 0 1.493 0
     scale 2.8
     {
      GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
       coords 0.197 0 -0.709
-      angleY -92.483
+      angles 0 -92.483 0
       scale 0.193
      }
     }
@@ -2705,10 +8144,10 @@ SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/Firi
  }
 }
 SCR_DestructibleBuildingEntity : "{E0D823883B9C3E26}Prefabs/Structures/Military/Houses/GuardHouse_03/GuardHouse_03_white.et" {
- coords 6830 0 2550
- angleY 90.821
+ coords 6930 0 2550
+ angles 0 270 0
 }
 SCR_DestructibleBuildingEntity : "{FBCE1861B987EA68}Prefabs/Structures/Military/Houses/GuardTower_01/GuardTower_01.et" {
- coords 6870.829 0.078 2549.985
- angleY 90.984
+ coords 6970.829 0.078 2549.985
+ angles 0 90.984 0
 }

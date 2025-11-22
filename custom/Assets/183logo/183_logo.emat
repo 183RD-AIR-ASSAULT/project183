@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BCRMap "{54094185DF176A2A}Assets/183logo/183_bcr.edds"
+ OpacityMap "{6E62680B7DEC1A11}Assets/183logo/183_Opacity.edds"
+ NMOMap "{6CD1FA17066038B4}Assets/183logo/183_nmo.edds"
+}

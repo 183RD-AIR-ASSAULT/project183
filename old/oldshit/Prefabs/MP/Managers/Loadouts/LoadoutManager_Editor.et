@@ -1,0 +1,30 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{66E321F6F9429DDD}" {
+   m_sLoadoutName "183rd_Able"
+   m_sLoadoutResource "{A201A1D86A8D8FCC}Prefabs/Characters/183rd/Able/183rd_ABLE_Base_Player.et"
+   m_sAffiliatedFaction "183_Able"
+  }
+  SCR_FactionPlayerLoadout "{66E321E3033749A1}" {
+   m_sLoadoutName "183_Nightmare"
+   m_sLoadoutResource "{D74174B90011DDD1}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_Base_Player.et"
+   m_sAffiliatedFaction "183_Nightmare"
+  }
+  SCR_FactionPlayerLoadout "{66E321CD948013E8}" {
+   m_sLoadoutName "183_Lancer"
+   m_sLoadoutResource "{3D6CF50886A6F033}Prefabs/Characters/183rd/Lancer/183rd_LANCER_Base_Player.et"
+   m_sAffiliatedFaction "183_Lancer"
+  }
+  SCR_FactionPlayerLoadout "{66E321BB1419083E}" {
+   m_sLoadoutName "183_Bravo"
+   m_sLoadoutResource "{421D24650EB55064}Prefabs/Characters/183rd/bravo/183rd_BRAVO_Base_Player.et"
+   m_sAffiliatedFaction "183_Bravo"
+  }
+  SCR_FactionPlayerLoadout "{66E321BC19322001}" {
+   m_sLoadoutName "183_Aviation"
+   m_sLoadoutResource "{DDF6C054608834BD}Prefabs/Characters/183rd/211/1893rd_211_Player.et"
+   m_sAffiliatedFaction "183_Aviation"
+  }
+ }
+}

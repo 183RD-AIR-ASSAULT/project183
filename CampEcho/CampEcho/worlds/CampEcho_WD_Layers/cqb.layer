@@ -1,20 +1,3 @@
-GenericEntity Mount_Site {
- components {
-  SCR_EditableCommentComponent "{666B1E0DD5E3379F}" {
-   m_EntityType COMMENT
-   m_UIInfo SCR_EditableCommentUIInfo "{666B1E0D962F35AC}" {
-    Name "MOUNT"
-   }
-   m_bAutoRegister ALWAYS
-   m_Flags 6200
-  }
-  SCR_MapDescriptorComponent "{666B1E0DC0F46BB2}" {
-   DisplayName "MOUNT"
-   MainType "Name Generic"
-  }
- }
- coords 3619.276 538.562 5988.759
-}
 $grp PolylineShapeEntity {
  {
   coords 3401.281 538.594 5873.248

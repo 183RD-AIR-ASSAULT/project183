@@ -11,5 +11,7 @@ MetaFileClass {
   }
   ComponentTemplateResourceClass HEADLESS : PC {
   }
+  ComponentTemplateResourceClass PS5 : PC {
+  }
  }
 }

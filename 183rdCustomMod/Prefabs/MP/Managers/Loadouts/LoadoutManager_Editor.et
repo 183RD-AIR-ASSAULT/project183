@@ -1,0 +1,190 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_PlayerArsenalLoadout "{66E321F6F9429DDD}" {
+   m_sLoadoutName "183rd Able Company"
+   m_sLoadoutResource "{A201A1D86A8D8FCC}Prefabs/Characters/183rd/Able/183rd_ABLE_Base_Player.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Able"
+  }
+  SCR_FactionPlayerLoadout "{66E81B1A088AF109}" {
+   m_sLoadoutName "183rd Able Company Rifleman"
+   m_sLoadoutResource "{A201A1D86A8D8FCC}Prefabs/Characters/183rd/Able/183rd_ABLE_Base_Player.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Able"
+  }
+  SCR_FactionPlayerLoadout "{66E81B0541D9E11D}" {
+   m_sLoadoutName "183rd Able Company Leader"
+   m_sLoadoutResource "{3E7C20E3C4C3FCFA}Prefabs/Characters/183rd/Able/183rd_ABLE_Leader.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Able"
+  }
+  SCR_FactionPlayerLoadout "{66E81B0542F896EE}" {
+   m_sLoadoutName "183rd Able Company Medic"
+   m_sLoadoutResource "{DB22103247793E12}Prefabs/Characters/183rd/Able/183rd_ABLE_Medic.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Able"
+  }
+  SCR_FactionPlayerLoadout "{66E81B0543EFC204}" {
+   m_sLoadoutName "183rd Able Company JFIRE"
+   m_sLoadoutResource "{95BC63B30DB25BF6}Prefabs/Characters/183rd/Able/183rd_ABLE_jfire.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Able"
+  }
+  SCR_PlayerArsenalLoadout "{66E321E3033749A1}" {
+   m_sLoadoutName "183_Nightmare"
+   m_sLoadoutResource "{D74174B90011DDD1}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Nightmare"
+  }
+  SCR_FactionPlayerLoadout "{66E81B2C72147EA6}" {
+   m_sLoadoutName "183rd 1st PLT Nightmare Rifleman"
+   m_sLoadoutResource "{D74174B90011DDD1}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Nightmare"
+  }
+  SCR_FactionPlayerLoadout "{66E81B2C7397DE75}" {
+   m_sLoadoutName "183rd 1st PLT Nightmare Anti Armor"
+   m_sLoadoutResource "{32AEDDA5E5263BB0}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_AT.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Nightmare"
+  }
+  SCR_FactionPlayerLoadout "{66E81B2C749E7FEC}" {
+   m_sLoadoutName "183rd 1st PLT Nightmare Grenadier"
+   m_sLoadoutResource "{ADA33F8A082F3FD2}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_grenadier.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Nightmare"
+  }
+  SCR_FactionPlayerLoadout "{66E81B2C759718CF}" {
+   m_sLoadoutName "183rd 1st PLT Nightmare Medic"
+   m_sLoadoutResource "{7FBE9C29BE9ACD85}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_Medic.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Nightmare"
+  }
+  SCR_FactionPlayerLoadout "{66E81B2C76888B2F}" {
+   m_sLoadoutName "183rd 1st PLT Nightmare Auto Rifleman"
+   m_sLoadoutResource "{B8116A7EF2E0310F}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_mg.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Nightmare"
+  }
+  SCR_FactionPlayerLoadout "{66E81B2C6875F8B5}" {
+   m_sLoadoutName "183rd 1st PLT Nightmare Leader"
+   m_sLoadoutResource "{506B33E1D4CBA136}Prefabs/Characters/183rd/Nightmare/183rd_NIGHTMARE_Leader.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Nightmare"
+  }
+  SCR_PlayerArsenalLoadout "{66E321CD948013E8}" {
+   m_sLoadoutName "183_Lancer"
+   m_sLoadoutResource "{8BD9B91F976929C3}Prefabs/Characters/183rd/Lancer/183rd_LANCER_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Lancer"
+  }
+  SCR_FactionPlayerLoadout "{66E8F5197F6FE746}" {
+   m_sLoadoutName "183rd 2nd PLT Lancer Rifleman"
+   m_sLoadoutResource "{8BD9B91F976929C3}Prefabs/Characters/183rd/Lancer/183rd_LANCER_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Lancer"
+  }
+  SCR_FactionPlayerLoadout "{66E8F51971F6EC93}" {
+   m_sLoadoutName "183rd 2nd PLT Lancer Auto Rifleman"
+   m_sLoadoutResource "{E3CE0BB3F051079A}Prefabs/Characters/183rd/Lancer/183rd_LANCER_mg.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Lancer"
+  }
+  SCR_FactionPlayerLoadout "{66E8F51972E71758}" {
+   m_sLoadoutName "183rd 2nd PLT Lancer Medic"
+   m_sLoadoutResource "{C6911E8BB077CE42}Prefabs/Characters/183rd/Lancer/183rd_LANCER_Medic.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Lancer"
+  }
+  SCR_FactionPlayerLoadout "{66E8F519733558E9}" {
+   m_sLoadoutName "183rd 2nd PLT Lancer Leader"
+   m_sLoadoutResource "{E0A120B760D1AA2F}Prefabs/Characters/183rd/Lancer/183rd_LANCER_Leader.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Lancer"
+  }
+  SCR_FactionPlayerLoadout "{66E8F5197436BE1A}" {
+   m_sLoadoutName "183rd 2nd PLT Lancer Grenadier"
+   m_sLoadoutResource "{1E43B79258951A43}Prefabs/Characters/183rd/Lancer/183rd_LANCER_grenadier.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Lancer"
+  }
+  SCR_FactionPlayerLoadout "{66E8F519C7634AA6}" {
+   m_sLoadoutName "183rd 2nd PLT Lancer Anti Armor"
+   m_sLoadoutResource "{CB7392B5A2B0AE1D}Prefabs/Characters/183rd/Lancer/183rd_LANCER_AT.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Lancer"
+  }
+  SCR_PlayerArsenalLoadout "{66E321BB1419083E}" {
+   m_sLoadoutName "183_Bravo"
+   m_sLoadoutResource "{34BC0B932ED9904F}Prefabs/Characters/183rd/bravo/183rd_BRAVO_rifleman.et"
+   m_sAffiliatedFaction "183_Bravo"
+  }
+  SCR_FactionPlayerLoadout "{66E94E917E36819D}" {
+   m_sLoadoutName "2-183rd CSB Rifleman"
+   m_sLoadoutResource "{34BC0B932ED9904F}Prefabs/Characters/183rd/bravo/183rd_BRAVO_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
+  SCR_FactionPlayerLoadout "{66E94E917F57EC86}" {
+   m_sLoadoutName "2-183rd CSB Auto Rifleman"
+   m_sLoadoutResource "{3EE954D7AE72769B}Prefabs/Characters/183rd/bravo/183rd_BRAVO_mg.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
+  SCR_FactionPlayerLoadout "{66E94E917049CA2B}" {
+   m_sLoadoutName "2-183rd CSB Medic"
+   m_sLoadoutResource "{F5533BEC8EBFAEFB}Prefabs/Characters/183rd/bravo/183rd_BRAVO_Medic.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
+  SCR_FactionPlayerLoadout "{66E94E91714FC95A}" {
+   m_sLoadoutName "2-183rd CSB Leader"
+   m_sLoadoutResource "{4FD2ECB5E3ADC6AB}Prefabs/Characters/183rd/bravo/183rd_BRAVO_Leader.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
+  SCR_FactionPlayerLoadout "{66E94E917263DE62}" {
+   m_sLoadoutName "2-183rd CSB Grenadier"
+   m_sLoadoutResource "{3B08DF18CCC5026B}Prefabs/Characters/183rd/bravo/183rd_BRAVO_grenadier.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
+  SCR_FactionPlayerLoadout "{66E94E917294C48A}" {
+   m_sLoadoutName "2-183rd CSB Engineer"
+   m_sLoadoutResource "{CEF313116F2AC66B}Prefabs/Characters/183rd/bravo/183rd_BRAVO_engineer.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
+  SCR_PlayerArsenalLoadout "{66E321BC19322001}" {
+   m_sLoadoutName "183_Aviation"
+   m_sLoadoutResource "{E52A7490EBB905D0}Prefabs/Characters/183rd/211/211_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Aviation"
+  }
+  SCR_FactionPlayerLoadout "{66E94E96C833B3E4}" {
+   m_sLoadoutName " 1-211th Combat Aviation "
+   m_sLoadoutResource "{E52A7490EBB905D0}Prefabs/Characters/183rd/211/211_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Aviation"
+  }
+  SCR_FactionPlayerLoadout "{66E94E96C90A4072}" {
+   m_sLoadoutName " 1-211th Combat Aviation Pilot"
+   m_sLoadoutResource "{AA583B5DDCC9574C}Prefabs/Characters/183rd/211/211_Pilot.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Aviation"
+  }
+  SCR_FactionPlayerLoadout "{66E94E96CA5CF7A8}" {
+   m_sLoadoutName " 1-211th Combat Aviation Flight Medic"
+   m_sLoadoutResource "{83DE34FC63B4DEE8}Prefabs/Characters/183rd/211/211_Medic.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Aviation"
+  }
+  SCR_FactionPlayerLoadout "{66E94E96CB7B4DFB}" {
+   m_sLoadoutName " 1-211th Combat Aviation Crew"
+   m_sLoadoutResource "{925D77889F9A747D}Prefabs/Characters/183rd/211/211_Crew.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Aviation"
+  }
+ }
+}

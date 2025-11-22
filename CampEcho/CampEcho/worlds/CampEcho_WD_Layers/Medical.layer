@@ -1,0 +1,11 @@
+$grp SCR_DestructibleBuildingEntity : "{54C905C3D3E59E33}PrefabLibrary/DefaultLibrary/Structures/Military/Barracks_01/Barracks_01_medical_base.et" {
+ {
+  coords 6595 0 3700
+ }
+ {
+  coords 6565 0 3700
+ }
+ {
+  coords 6535 0 3700
+ }
+}

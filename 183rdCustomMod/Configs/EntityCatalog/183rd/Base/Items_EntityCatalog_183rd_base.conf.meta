@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2DD7CB4BD8228AC2}Configs/Factions/Charlie/Catalogs/Items_EntityCatalog_Charlie.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

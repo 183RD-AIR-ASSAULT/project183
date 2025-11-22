@@ -1,0 +1,47 @@
+MetaFileClass {
+ Name "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{66EB220CE23A6229}" {
+     SourceMaterial "paper_MAT"
+     AssignedMaterial "{DBD71F99E0C0B343}Assets/signs/Data/paper_MAT.emat"
+    }
+    MaterialAssignClass "{66EB220CE23A6200}" {
+     SourceMaterial "plastic_MAT"
+     AssignedMaterial "{49A0B8F1B365D612}Assets/signs/Data/plastic_MAT.emat"
+    }
+    MaterialAssignClass "{66EB220CE23A620C}" {
+     SourceMaterial "metal_MAT"
+     AssignedMaterial "{C00686CC2FAE0D94}Assets/signs/Data/metal_MAT.emat"
+    }
+   }
+   MeshParams {
+    MeshParam billboard_18_1_size {
+    }
+   }
+   Common TXOCommonClass "{66EB220CE221FA4B}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{66EB220CE221F920}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{66EB220CE221F91E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{66EB220CE221F97F}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{66EB220CE221F95F}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{66EB220CE221F8BD}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

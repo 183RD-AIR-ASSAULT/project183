@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{96D13BFC09A45B6F}Configs/Editor/PlaceableEntities/Systems/arsenal_183rd.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

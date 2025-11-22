@@ -1,0 +1,7 @@
+HeightMapImportDescClass {
+ FileName "O:/OneDrive/adobe/reforger/Mountain Range 8k Height Map/Mountain Range 8k Height Map/Mountain Range Height Map PNG.png"
+ Flags 4
+ MinHeight -1000000
+ ResampleMinHeight 3000
+ ResampleMaxHeight 6000
+}

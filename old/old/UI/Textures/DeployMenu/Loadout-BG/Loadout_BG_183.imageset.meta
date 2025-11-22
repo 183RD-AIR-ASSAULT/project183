@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F36799D9A5A8C6F6}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_183.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass PS5 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+ }
+}

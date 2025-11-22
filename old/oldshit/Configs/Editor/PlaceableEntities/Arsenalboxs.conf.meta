@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9CD5A4ECDB5EE927}Configs/Editor/PlaceableEntities/Systems/Arsenalboxs.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

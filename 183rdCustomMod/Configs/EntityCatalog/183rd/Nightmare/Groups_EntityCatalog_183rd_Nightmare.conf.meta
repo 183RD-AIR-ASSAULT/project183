@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{11A2D0D5C1F595F6}Configs/EntityCatalog/183rd/Base/Groups_EntityCatalog_183rd_Nightmare.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

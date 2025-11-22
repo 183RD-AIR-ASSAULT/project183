@@ -1,0 +1,72 @@
+ImageSetClass {
+ RefSize 2664 4892
+ Textures {
+  ImageSetTextureClass "{66D891DC5E442435}" {
+   screenSize FHD
+   size 2664 4892
+   path "{AB43BF7289129013}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_Civilian-100_atlasSRGB.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass Afternoon {
+   Pos 2 2
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass AfternoonRainy {
+   Pos 888 2
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass Dawn {
+   Pos 1774 2
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass DawnRainy {
+   Pos 2 1224
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass Dusk {
+   Pos 888 1224
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass DuskRainy {
+   Pos 1774 1224
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass EveningRainy {
+   Pos 2 2446
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass EveningRainy {
+   Pos 888 2446
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass Forenoon {
+   Pos 1774 2446
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass ForenoonRainy {
+   Pos 2 3668
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass Night {
+   Pos 888 3668
+   Size 884 1220
+   Flags 0 0
+  }
+  ImageSetDefClass Night_Rainy {
+   Pos 1774 3668
+   Size 884 1220
+   Flags 0 0
+  }
+ }
+}

@@ -1,3 +1,20 @@
+GenericEntity lake {
+ components {
+  SCR_EditableCommentComponent "{666B1E0DD5E3379F}" {
+   m_EntityType COMMENT
+   m_UIInfo SCR_EditableCommentUIInfo "{666B1E0D962F35AC}" {
+    Name "Lake Pruitt"
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 6200
+  }
+  SCR_MapDescriptorComponent "{666B1E0DC0F46BB2}" {
+   DisplayName "Lake Pruitt"
+   MainType "Name Water Minor"
+  }
+ }
+ coords 5893.322 525.377 6803.876
+}
 PolylineShapeEntity {
  coords 5916.554 525.377 7178.792
  Points {

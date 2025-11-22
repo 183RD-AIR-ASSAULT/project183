@@ -140,7 +140,7 @@ $grp SplineShapeEntity {
   }
   LineColor 0.25 0 0.5 1
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     RoadClearance 16
     FalloffStartWidth 12
@@ -289,7 +289,7 @@ $grp SplineShapeEntity {
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -414,7 +414,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     RoadClearance 16
     FalloffStartWidth 12
@@ -541,7 +541,7 @@ $grp SplineShapeEntity {
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -588,7 +588,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
     AdjustHeightMap 0
     {
@@ -636,7 +636,7 @@ $grp SplineShapeEntity {
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -662,7 +662,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
     {
      RoadEntity {
@@ -688,7 +688,7 @@ $grp SplineShapeEntity {
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -819,8 +819,8 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
-    Flags 3
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+    Flags 0x3 0x100000
     coords 0 0 0
     RoadClearance 5.5
     RoadFalloffWidth 24
@@ -1017,11 +1017,11 @@ $grp SplineShapeEntity {
     Position -1364.755 -50.71 1442.591
    }
    ShapePoint "{6662C36ACF1A6ADD}" {
-    Position -929.153 -96.918 1827.865
+    Position -923.834 -96.918 1832.15
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5.5
     RoadFalloffWidth 20
@@ -1072,22 +1072,22 @@ $grp SplineShapeEntity {
         Position -936.019 63.28 100.351
        }
        ShapePoint "{6662C346CD1351C8}" {
-        Position -1182.998 92.499 130.226
+        Position -1183 92.499 130.226
        }
        ShapePoint "{6662C346CD13513F}" {
-        Position -1509.105 82.7 324.723
+        Position -1509.1 82.7 324.723
        }
        ShapePoint "{6662C346CD135166}" {
         Position -1484.68 50.012 644.224
        }
        ShapePoint "{6662C33D031BE896}" {
-        Position -1308.257 18.373 859.014
+        Position -1308.26 18.373 859.014
        }
        ShapePoint "{6662C33944F0EFF5}" {
-        Position -1364.755 -50.71 1442.591
+        Position -1364.75 -50.71 1442.59
        }
        ShapePoint "{6662C3392992831D}" {
-        Position -929.153 -96.918 1827.865
+        Position -923.834 -96.918 1832.15
        }
       }
       IsClosedSpline 0
@@ -1114,7 +1114,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 6
     FalloffStartWidth 8
@@ -1166,7 +1166,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5.5
     FalloffStartWidth 6
@@ -1243,7 +1243,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5
     FalloffStartWidth 4
@@ -1336,7 +1336,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6662C34404C9DF66}" {
-    Position -1751.941 -158.218 -590.195
+    Position -1751.941 -163 -590.195
    }
    ShapePoint "{6662C33C28D01B78}" {
     Position -1659.93 -161.8 -547.718
@@ -1346,7 +1346,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5.5
     FalloffStartWidth 6
@@ -1368,22 +1368,22 @@ $grp SplineShapeEntity {
         Position 503.079 -75.172 -893.336
        }
        ShapePoint "{6662C34406E9477D}" {
-        Position 256.465 -125.7 -1201.154
+        Position 256.465 -125.7 -1201.15
        }
        ShapePoint "{6662C34406E946AC}" {
-        Position -883.947 -178.767 -1323.685
+        Position -883.947 -178.767 -1323.69
        }
        ShapePoint "{6662C34406E9469E}" {
-        Position -1085.3 -178.747 -1366.632
+        Position -1085.3 -178.747 -1366.63
        }
        ShapePoint "{6662C34406E946CA}" {
-        Position -1277.156 -182.707 -1322.43
+        Position -1277.16 -182.707 -1322.43
        }
        ShapePoint "{6662C34406E94606}" {
         Position -1713.315 -181.305 -1244.855
        }
        ShapePoint "{6662C34406E94669}" {
-        Position -1746.971 -167.127 -705.612
+        Position -1746.97 -167.127 -705.612
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent -31.732 11.543 326.564
@@ -1392,13 +1392,13 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{6662C34406E9465F}" {
-        Position -1751.941 -158.218 -590.195
+        Position -1751.94 -163 -590.195
        }
        ShapePoint "{6662C33C28D09699}" {
         Position -1659.93 -161.8 -547.718
        }
        ShapePoint "{6662C33C2A968C3F}" {
-        Position -1588.506 -161.922 -480.866
+        Position -1588.51 -161.922 -480.866
        }
       }
       IsClosedSpline 0
@@ -1437,7 +1437,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5.5
     FalloffStartWidth 6
@@ -1528,7 +1528,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5.5
     FalloffStartWidth 6
@@ -1610,7 +1610,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5.5
     FalloffStartWidth 10
@@ -1836,7 +1836,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
     RoadClearance 2
     RoadWidth 2
@@ -2132,7 +2132,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
     RoadFalloffWidth 4
     {
@@ -2602,7 +2602,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
     RoadFalloffWidth 5
     {
@@ -3034,7 +3034,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 -0.578 0
     RoadClearance 5.5
     RoadFalloffWidth 20
@@ -3136,7 +3136,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5.5
     FalloffStartWidth 10
@@ -3200,7 +3200,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     AdjustHeightMap 0
     {
@@ -3217,7 +3217,7 @@ $grp SplineShapeEntity {
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -3257,11 +3257,11 @@ $grp SplineShapeEntity {
     Position 115.378 0.031 2014.651
    }
    ShapePoint "{6669455044AE7941}" {
-    Position -6.824 -0.947 2132.321
+    Position -8.84 -0.947 2130.123
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     RoadClearance 13
     {
@@ -3284,7 +3284,7 @@ $grp SplineShapeEntity {
         Position 140 -0.02 923.655
        }
        ShapePoint "{666945507D1EDA94}" {
-        Position 140 -0.009 1397.182
+        Position 140 -0.009 1397.18
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent 0.253 0.017 441.819
@@ -3296,16 +3296,16 @@ $grp SplineShapeEntity {
         Position 140 0.094 1854.78
        }
        ShapePoint "{666945507D1EDA07}" {
-        Position 115.378 0.031 2014.651
+        Position 115.378 0.031 2014.65
        }
        ShapePoint "{66951120C1E5A76A}" {
-        Position -6.824 -0.947 2132.321
+        Position -8.84 -0.947 2130.12
        }
       }
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -3334,7 +3334,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     RoadClearance 5.5
     FalloffStartWidth 10
@@ -3380,7 +3380,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     AdjustHeightMap 0
     {
@@ -3397,7 +3397,7 @@ $grp SplineShapeEntity {
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -3414,7 +3414,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     AdjustHeightMap 0
     {
@@ -3431,7 +3431,7 @@ $grp SplineShapeEntity {
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -3448,7 +3448,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
     GenerateRoad 0
     RoadClearance 0.1
@@ -3484,7 +3484,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     {
      RoadEntity {
@@ -3554,7 +3554,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     RoadClearance 13
     FalloffStartWidth 10
@@ -3612,7 +3612,7 @@ $grp SplineShapeEntity {
       IsClosedSpline 0
       Width 12
       BeginningPiece none
-      EndingPiece none
+      EndPiece none
      }
     }
    }
@@ -3622,7 +3622,7 @@ $grp SplineShapeEntity {
   coords 2163.207 452.719 4803.054
   Points {
    ShapePoint "{6696E3AB44E376C3}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6696E3AB44E3239F}" {
     Position -0.629 -0.063 19.855
@@ -3647,14 +3647,14 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
+   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     {
      RoadEntity {
       ID "55F85D16D1C7EB8E"
       SplinePoints {
        ShapePoint "{556C65561A62B78A}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{556C65561A62EBA9}" {
         Position -0.629 -0.063 19.855

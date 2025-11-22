@@ -1,0 +1,13 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{66D891D293A4880D}" : "{98763BD7DF6DFCAB}Configs/Factions/HHS Able Company/183_hhs_able.conf" {
+   m_CallsignInfo SCR_FactionCallsignInfo "{66DD3E2977150F0A}" : "{4E5B5B8388075EE4}Configs/Callsigns/Callsigns_183_Able.conf" {
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" : "{8805C6CA08FFF791}Configs/EntityCatalog/183rd/Alpha/Characters_EntityCatalog_183rd_Alpha.conf" {
+    }
+   }
+  }
+ }
+}

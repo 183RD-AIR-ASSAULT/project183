@@ -1,0 +1,134 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  ClothNodeStorageComponent "{66E5581A67A0330F}" {
+   Attributes SCR_IdentityItemAttributeCollection "{66E5581A67A03315}" {
+    ItemDisplayName UIInfo "{66E5581A67A0331B}" {
+     Name "IHPS"
+     Description "IHPS"
+     Icon "{1BC9D7EA568788EB}Prefabs/Characters/HeadGear/IHPS/IHPS.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{66E5581A67A03319}" {
+     Weight 1.5
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{66E5581A67A0331F}" {
+     }
+    }
+   }
+   StoragePurpose 0x40 0x1
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 0.1
+  }
+  ColliderHistoryComponent "{66E5581A67A0331C}" {
+  }
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{66E5581A67A03322}" {
+    ItemDisplayName UIInfo "{66E5581A67A03321}" {
+     Name "IHPS"
+     Description "IHPS"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{66E5581A67A03320}" {
+     SizeSetupStrategy Manual
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{A22297280A30A9CD}assets/characters/headgear/IHPS/IHPS Final.xob"
+   Materials {
+    MaterialAssignClass "{66E5581A67A03326}" {
+     SourceMaterial "ECH"
+     AssignedMaterial "{45DB051C2FE7E41D}assets/characters/headgear/IHPS/Data/IHPS Clean.emat"
+    }
+   }
+   InheritSkeleton 1
+  }
+  RigidBody "{5112706CD4157AE6}" {
+   LayerPreset "FireGeo"
+   Active Active
+   SimState Collision
+   ResponseIndex "NoCollision"
+  }
+  SCR_ArmorDamageManagerComponent "{66E5581A67A0332B}" {
+   "Additional hit zones" {
+    SCR_ArmorHitZone helmet {
+     ColliderNames {
+      "UTM_FireGeo"
+     }
+     HZDefault 1
+     MaxHealth 10000
+     m_eHitZoneGroup HEAD
+    }
+   }
+   m_fPassedDamageScale 0.25
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Cover {
+     PivotID "Head"
+     Offset 0 -0.0213 -0.0297
+     Prefab "{310FCFDFFA84F1C9}Prefabs/Characters/HeadGear/IHPS/Cover.et"
+     AreaType SHS_IHPS_Cover "{66E5581A67A0332D}" {
+     }
+    }
+    LoadoutSlotInfo NVG_Mount {
+     PivotID "Head"
+     Offset 0.091 -0.0209 -0.0324
+     Angles 0 180 0
+     Prefab "{2404524ECA010A89}Prefabs/Characters/HeadGear/IHPS/NVG Mount.et"
+     AreaType NVS_ItemSlot "{66E5581A67A03333}" {
+     }
+    }
+    LoadoutSlotInfo Ears {
+     PivotID "Head"
+     Offset 0 0.027 -0.0273
+     Angles 0 -180 0
+     Prefab "{BBA37820067EEE5E}Prefabs/Characters/HeadGear/IHPS/EarPro.et"
+     InspectionWidgetOffset 0 0.0092 -0.0214
+     AreaType SHS_Ears "{66E5581A67A03338}" {
+     }
+    }
+    LoadoutSlotInfo Patch_Right {
+     PivotID "Head"
+     Offset -0.0815 0.1678 -0.0294
+     Angles 39.3855 -87.4071 2.2293
+     InspectionWidgetOffset -0.1 0.1239 0
+     AreaType GRS_ShirtLowerPatch "{66E5581A67A0333F}" {
+     }
+    }
+    LoadoutSlotInfo Patch_Custom_Right {
+     PivotID "Head"
+     Offset -0.0662 0.1593 -0.0904
+     Angles 28.595 -124.5548 -18.0985
+     InspectionWidgetOffset -0.1 0.1239 0
+     AreaType SHS_506_Patch "{66E5581A67A0333E}" {
+     }
+    }
+    LoadoutSlotInfo Patch_Left {
+     PivotID "Head"
+     Offset 0.0962 0.1556 -0.0251
+     Angles 33.9952 94.0406 0.5814
+     InspectionWidgetOffset 0.0986 0.1253 0
+     AreaType GRS_ShirtLowerPatch "{66E5581A67A0333D}" {
+     }
+    }
+   }
+   WornModel "{A22297280A30A9CD}assets/characters/headgear/IHPS/IHPS Final.xob"
+   WornMaterialsOverride {
+    "{45DB051C2FE7E41D}assets/characters/headgear/IHPS/Data/IHPS Clean.emat"
+   }
+   ItemModel "{09DA437F1A4CE24F}assets/characters/headgear/IHPS/IHPS Ground.xob"
+   ItemMaterialsOverride {
+    "{45DB051C2FE7E41D}assets/characters/headgear/IHPS/Data/IHPS Clean.emat"
+   }
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   DeflatedModel "{09DA437F1A4CE24F}assets/characters/headgear/IHPS/IHPS Ground.xob"
+  }
+ }
+ coords 0 0 0
+}
