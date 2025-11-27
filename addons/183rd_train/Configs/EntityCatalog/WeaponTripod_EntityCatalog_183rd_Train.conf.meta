@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B79FD03D8E3B8509}Configs/EntityCatalog/WeaponTripod_EntityCatalog_183rd_Train.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{93BFEB7AF7FAEA3D}Configs/EntityCatalog/WeaponTripod_EntityCatalog_183rd_Lancer.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

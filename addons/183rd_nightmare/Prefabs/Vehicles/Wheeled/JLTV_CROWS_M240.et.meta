@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B852D03E85D1F66D}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/JLTV_CROWS_M240.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

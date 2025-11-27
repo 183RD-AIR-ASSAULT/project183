@@ -1,0 +1,30 @@
+GameEntity : "{C3C66DFD34ADB415}Prefabs/Flag_Patches/USA_Flag_Color.et" {
+ ID "657B0C0A4C1F9EDE"
+ components {
+  InventoryItemComponent "{657B0C0AEEF49C10}" {
+   Attributes SCR_ItemAttributeCollection "{657B0C0AEEF49C16}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657B0C0AEEF49F14}" {
+     Name "GRS: Goliath 6"
+     Description "GRS: Goliath 6"
+    }
+   }
+  }
+  MeshObject "{657B0C0AEEEB7DCB}" {
+   Object "{0B3F866389C48C54}Assets/Rectangle Patches/Rectangle_Patch.xob"
+   Materials {
+    MaterialAssignClass "{66F258F46BD3D998}" {
+     SourceMaterial "Mat_Patch"
+     AssignedMaterial "{EB742B306417FE0E}Assets/Flag_Patches/Data/g_6.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657B0C0AEEEB7D3C}" {
+   WornMaterialsOverride {
+    "{EB742B306417FE0E}Assets/Flag_Patches/Data/g_6.emat"
+   }
+   ItemMaterialsOverride {
+    "{EB742B306417FE0E}Assets/Flag_Patches/Data/g_6.emat"
+   }
+  }
+ }
+}

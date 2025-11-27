@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{7866FA5EAB319E81}Prefabs/Characters/183rd_Base_AT.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "183_Lancer"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "183rd Lancer Anti Armor"
+    m_sFaction "183_Lancer"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_LANCER
+    }
+   }
+  }
+ }
+}

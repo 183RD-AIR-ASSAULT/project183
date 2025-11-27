@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{023F6361EB75F2B1}Configs/Editor/PlaceableEntities/Vehicles/183rd_Able_vehicles.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,21 @@
+GameEntity : "{71CFEE2E0A221C34}Prefabs/Rectangle_Patches/Rectangle_DTOM_Patch.et" {
+ ID "657C17E446464A1E"
+ components {
+  InventoryItemComponent "{657C17E446464A0E}" {
+   Attributes SCR_ItemAttributeCollection "{657C17E446464A0D}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657C17E446464A0A}" {
+     Name "GRS: Patch Punisher"
+     Description "GRS: Patch Punisher"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657C17E446464A39}" {
+   WornMaterialsOverride {
+    "{73511C64446D0DBA}Assets/Rectangle Patches/Data/1_1_rect_test.emat"
+   }
+   ItemMaterialsOverride {
+    "{73511C64446D0DBA}Assets/Rectangle Patches/Data/1_1_rect_test.emat"
+   }
+  }
+ }
+}

@@ -1,0 +1,46 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{66F402CED4BD7C67}" : "{FD02AEECDE3438EA}Configs/Editor/PlaceableEntities/Systems_able.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F402CED5C8BB1D}" : "{023F6361EB75F2B1}Configs/Editor/PlaceableEntities/vehicles_able.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F402CED61EB377}" : "{3A9124B8692C3F3B}Configs/Editor/PlaceableEntities/Systems_211.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F402CED7376AD3}" : "{D3A38DB6B7BEF2C0}Configs/Editor/PlaceableEntities/vehicles_211.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F402CEC8D3A6ED}" : "{3A9124B8692C3F3A}Configs/Editor/PlaceableEntities/Systems_csb.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F402CEC913FF57}" : "{D3A38DB6B7BEF2BF}Configs/Editor/PlaceableEntities/vehicles_csb.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F560518AC4C411}" : "{F8BBAE3E7C14BA40}Configs/Editor/PlaceableEntities/Systems_lancer.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F560518B30C9D5}" : "{F9B91A0F0897A42D}Configs/Editor/PlaceableEntities/vehicles_lancer.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F560518C583AC4}" : "{8A4C165C5342916F}Configs/Editor/PlaceableEntities/Systems_nightmare.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F560518C870E54}" : "{91A2DD65C830170A}Configs/Editor/PlaceableEntities/vehicles_nightmare.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F560518DF23860}" : "{8255507664A6E10D}Configs/Editor/PlaceableEntities/Systems_train.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F560518F75E252}" : "{91A2DD65C830170B}Configs/Editor/PlaceableEntities/vehicles_train.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F63AF41D21D042}" : "{BE48D736F17DA76F}Configs/Editor/PlaceableEntities/Characters_able.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F63AF41E7EE6E3}" : "{21EC6CD5A911BD9C}Configs/Editor/PlaceableEntities/Characters_211.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F63AF41EBA0637}" : "{21EC6CD5A911BD9B}Configs/Editor/PlaceableEntities/Characters_csb.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F63AF41FE43044}" : "{1C634203BAEB2FEC}Configs/Editor/PlaceableEntities/Characters_lancer.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F63AF410587A0F}" : "{E8302C07776EFD5E}Configs/Editor/PlaceableEntities/Characters_nightmare.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F63AF43B26BDD2}" : "{0E9C27D5560FEBD9}Configs/Editor/PlaceableEntities/Characters_train.conf" {
+    }
+   }
+  }
+ }
+ coords 0 0.001 0
+}

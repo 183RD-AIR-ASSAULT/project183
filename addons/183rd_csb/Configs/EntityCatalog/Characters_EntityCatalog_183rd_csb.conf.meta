@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{941019575B91EA2B}Configs/EntityCatalog/Characters_EntityCatalog_183rd_csb.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

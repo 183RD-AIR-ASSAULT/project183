@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0272C469C90458D6}Configs/EntityCatalog/Supply_Container_Item_EntityCatalog_183rd_csb.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

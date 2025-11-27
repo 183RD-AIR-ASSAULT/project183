@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CC67F3861EF9CD8A}Configs/EntityCatalog/Items_EntityCatalog_183rd_Train.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

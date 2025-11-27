@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

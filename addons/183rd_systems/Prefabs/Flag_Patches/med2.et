@@ -1,0 +1,30 @@
+GameEntity : "{C3C66DFD34ADB415}Prefabs/Flag_Patches/USA_Flag_Color.et" {
+ ID "657B0C0A4C1F9EDE"
+ components {
+  InventoryItemComponent "{657B0C0AEEF49C10}" {
+   Attributes SCR_ItemAttributeCollection "{657B0C0AEEF49C16}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657B0C0AEEF49F14}" {
+     Name "GRS: Medic"
+     Description "GRS: Medic"
+    }
+   }
+  }
+  MeshObject "{657B0C0AEEEB7DCB}" {
+   Object "{0B3F866389C48C54}Assets/Rectangle Patches/Rectangle_Patch.xob"
+   Materials {
+    MaterialAssignClass "{66F258F4319DE4E4}" {
+     SourceMaterial "Mat_Patch"
+     AssignedMaterial "{43C1C130EB9100FF}Assets/Flag_Patches/Data/med3.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657B0C0AEEEB7D3C}" {
+   WornMaterialsOverride {
+    "{43C1C130EB9100FF}Assets/Flag_Patches/Data/med3.emat"
+   }
+   ItemMaterialsOverride {
+    "{43C1C130EB9100FF}Assets/Flag_Patches/Data/med3.emat"
+   }
+  }
+ }
+}

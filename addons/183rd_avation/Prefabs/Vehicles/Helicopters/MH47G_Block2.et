@@ -1,0 +1,12 @@
+Vehicle : "{6EE8BD07DE06EC44}Prefabs/Vehicles/Helicopters/MH47G.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "183_Aviation"
+    m_aAutoLabels +{
+    }
+   }
+  }
+ }
+}
