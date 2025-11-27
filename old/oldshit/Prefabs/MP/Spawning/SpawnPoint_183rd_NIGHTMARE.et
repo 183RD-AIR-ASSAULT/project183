@@ -1,7 +1,0 @@
-SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
- ID "544EB04DCBFBD126"
- m_sFaction "183_Nightmare"
- m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
-  Icon "{F8D9027845101844}Assets/Logos/nighmare.edds"
- }
-}

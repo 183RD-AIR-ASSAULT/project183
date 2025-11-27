@@ -1,7 +1,0 @@
-SatGenDescClass {
- FileName "O:/OneDrive/adobe/reforger/Mountain Range 8k Height Map/Mountain Range 8k Height Map/Mountain Range Diffuse PNG.png"
- sRGBOutput 0
- RenderRoads 1
- Interpolation bilinear
- RoadsAA "8x"
-}
