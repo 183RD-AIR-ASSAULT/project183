@@ -13,5 +13,8 @@ SCR_ChimeraCharacter : "{8592D7AF53EDB2A5}Prefabs/Characters/183rd_Base_Medic.et
     }
    }
   }
+  SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
+   m_PreviewPrefab "{CB0CA42E1926D741}Prefabs/Characters/183rd_Base_jfire.et"
+  }
  }
 }

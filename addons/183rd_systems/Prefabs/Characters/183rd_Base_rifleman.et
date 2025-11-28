@@ -39,6 +39,9 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_Base_Player.e
    MainType Unit
    UnitType Infantry
   }
+  SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
+   m_PreviewPrefab "{966D01E5160BA4F3}Prefabs/Characters/183rd_Base_rifleman.et"
+  }
   SCR_ResourceComponent "{66E81B179811A9C3}" {
    m_aConsumers {
     SCR_ResourceConsumer "{5E6485852E650CC4}" : "{E77EA96D4FC48177}Configs/Resources/Supplies/Consumers/Generic/Consumer_Self.conf" {

@@ -25,8 +25,6 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
     }
     SCR_PlaceableEntitiesRegistry "{66F560518DF23860}" : "{8255507664A6E10D}Configs/Editor/PlaceableEntities/Systems_train.conf" {
     }
-    SCR_PlaceableEntitiesRegistry "{66F560518F75E252}" : "{91A2DD65C830170B}Configs/Editor/PlaceableEntities/vehicles_train.conf" {
-    }
     SCR_PlaceableEntitiesRegistry "{66F63AF41D21D042}" : "{BE48D736F17DA76F}Configs/Editor/PlaceableEntities/Characters_able.conf" {
     }
     SCR_PlaceableEntitiesRegistry "{66F63AF41E7EE6E3}" : "{21EC6CD5A911BD9C}Configs/Editor/PlaceableEntities/Characters_211.conf" {
@@ -40,6 +38,9 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
     SCR_PlaceableEntitiesRegistry "{66F63AF43B26BDD2}" : "{0E9C27D5560FEBD9}Configs/Editor/PlaceableEntities/Characters_train.conf" {
     }
    }
+  }
+  SCR_StatesEditorComponent "{549E4E90645AB265}" {
+   m_DefaultState NONE
   }
  }
  coords 0 0.001 0

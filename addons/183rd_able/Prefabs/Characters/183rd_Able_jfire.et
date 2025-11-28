@@ -12,5 +12,9 @@ SCR_ChimeraCharacter : "{CB0CA42E1926D741}Prefabs/Characters/183rd_Base_jfire.et
     }
    }
   }
+  SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
+   m_PreviewPrefab "{6C37AE056BD1B77D}Prefabs/Characters/183rd_Base_Leader.et"
+  }
  }
+ coords 0.384 -0.305 -1.294
 }

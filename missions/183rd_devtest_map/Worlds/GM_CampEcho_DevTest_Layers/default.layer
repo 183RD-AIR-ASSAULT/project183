@@ -1,0 +1,117 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 4088.581 609.648 4341.639
+ "Map Geometry Data" "{1480AF241F1BDD9F}terrains/CampEcho_WD.topo"
+ "Satellite background image" "{AC90114444EA5865}terrains/CampEcho_WD.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{66F820A02950134F}" {
+     NavmeshFile "{13929272BA88929A}NavMesh/CampEcho_soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{EC85D1A401ED38B9}NavMesh/CampEcho_btr.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{6CABE598D2AF0D37}NavMesh/CampEcho_lowRes.nmn"
+    }
+   }
+  }
+ }
+ coords 4088.581 609.952 4340.639
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4088.581 610.094 4339.639
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 4088.581 609.882 4338.639
+}
+GenericEntity : "{0B46BB71AA7EC39F}Prefabs/Systems/VehicleService_183rd_able.et" {
+ coords 6731.264 600 3604.349
+}
+GenericEntity : "{160D661E89C85389}Prefabs/Systems/ArsenalBox_183_csb.et" {
+ coords 6731.775 599.969 2554.933
+}
+GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/ArsenalBox_183_211.et" {
+ coords 6504.253 599.969 3519.36
+}
+GenericEntity : "{3CA65E710B2399E1}Prefabs/Systems/VehicleServiceAir_183rd_211.et" {
+ coords 6463.941 599.969 3551.559
+}
+SCR_SpawnPoint : "{5196636D43298B72}Prefabs/Systems/E_SpawnPoint_183rd_csb.et" {
+ coords 6706.969 599.969 2559.833
+}
+GenericEntity : "{53B50340EC040F90}Prefabs/Systems/ArsenalBox_183_Able.et" {
+ components {
+  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+   m_aDisabledResourceTypes {
+    SUPPLIES
+   }
+  }
+ }
+ coords 6735.331 600 3619.163
+ angles 0 180 0
+}
+SCR_SpawnPoint : "{65C4EEED439F3C28}Prefabs/Systems/E_SpawnPoint_183rd_211.et" {
+ coords 6512.071 599.969 3530.138
+}
+GenericEntity : "{710095DC38176840}Prefabs/Systems/ArsenalBox_183_nightmare.et" {
+ coords 6733.676 599.969 3116.589
+}
+SCR_SpawnPoint : "{9C9736E613CC62D5}Prefabs/Systems/E_SpawnPoint_183rd_able.et" {
+ coords 6760.075 600 3607.125
+}
+SCR_SpawnPoint : "{A056CDD1038A32A5}Prefabs/Systems/E_SpawnPoint_183rd_nightmare.et" {
+ coords 6706.056 599.969 3128.975
+}
+GenericEntity : "{A87BAE5F8FDFE95C}Prefabs/Systems/ArsenalBox_183_train.et" {
+ coords 6755.703 599.969 3723.556
+}
+SCR_SpawnPoint : "{B2C3DC788CA15F71}Prefabs/Systems/E_SpawnPoint_183rd_lancer.et" {
+ coords 6754.924 599.969 3041.89
+}
+SCR_SpawnPoint : "{BAF567863815976A}Prefabs/Systems/E_SpawnPoint_183rd_train.et" {
+ coords 6766.068 599.969 3716.125
+}
+GenericEntity : "{BB474996E6602201}Prefabs/Systems/VehicleService_183rd_211.et" {
+ coords 6476.055 599.969 3553.898
+}
+GenericEntity : "{BB474996E6602202}Prefabs/Systems/VehicleService_183rd_csb.et" {
+ coords 6714.347 599.969 2580.404
+}
+GenericEntity : "{DFD6BEE785EA81B8}Prefabs/Systems/ArsenalBox_183_lancer.et" {
+ coords 6739.625 599.969 3046.429
+}

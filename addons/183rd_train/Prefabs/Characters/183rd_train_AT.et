@@ -13,5 +13,8 @@ SCR_ChimeraCharacter : "{7866FA5EAB319E81}Prefabs/Characters/183rd_Base_AT.et" {
     }
    }
   }
+  SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
+   m_PreviewPrefab "{7866FA5EAB319E81}Prefabs/Characters/183rd_Base_AT.et"
+  }
  }
 }

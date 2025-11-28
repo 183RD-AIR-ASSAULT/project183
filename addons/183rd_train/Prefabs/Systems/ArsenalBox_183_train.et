@@ -5,7 +5,7 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
    Materials {
     MaterialAssignClass "{6108C5B15B23B029}" {
      SourceMaterial "ArsenalBox_01_Decal"
-     AssignedMaterial "{075538F977680409}Assets/Arsenal/Arsenal_able.emat"
+     AssignedMaterial "{31891ACB89E7EC70}Assets/Arsenal/Arsenal_train.emat"
     }
     MaterialAssignClass "{6108C5B15B23B04E}" {
      SourceMaterial "ArsenalBox_01_MLOD"

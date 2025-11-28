@@ -3,6 +3,12 @@ GenericEntity : "{62AFF7A02EE209F9}Prefabs/Props/Military/Compositions/VehicleSe
  components {
   MeshObject "{5872F0EB7FA40561}" {
    Object "{2F6237318749D8A4}Assets/Props/Military/InteractionPoints/VehicleService/VehicleService_Barrels_US_01.xob"
+   Materials {
+    MaterialAssignClass "{66F74CE0422C6286}" {
+     SourceMaterial "VehicleService_Barrels_US"
+     AssignedMaterial "{DA351FA8BF86BAF1}Assets/servicepoints/VehicleService_Barrels_211air.emat"
+    }
+   }
    InheritSkeleton 1
    InheritVisibility 1
   }
