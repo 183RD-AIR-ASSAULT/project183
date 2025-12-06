@@ -1,8 +1,0 @@
-GameProject {
- ID "183rdcsb"
- GUID "66F3065F4DA03819"
- TITLE "183rd_csb"
- Dependencies {
-  "58D0FB3206B6F859"
- }
-}

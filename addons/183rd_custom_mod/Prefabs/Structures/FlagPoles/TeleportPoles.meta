@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EBF28D22AFEE220A}Prefabs/Structures/FlagPoles/TeleportPoles"
+ Configurations {
+  FolderResourceClass PC {
+  }
+  FolderResourceClass XBOX_ONE : PC {
+  }
+  FolderResourceClass XBOX_SERIES : PC {
+  }
+  FolderResourceClass PS4 : PC {
+  }
+  FolderResourceClass PS5 : PC {
+  }
+  FolderResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F3123E36F5DA4956}Configs/EntityCatalog/aviation/Characters_EntityCatalog_aviation.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

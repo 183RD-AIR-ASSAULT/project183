@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{96A082624E1E4EBD}Configs/EntityCatalog/lancer/SupplyContainerItems_EntityCatalog_Lancer.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

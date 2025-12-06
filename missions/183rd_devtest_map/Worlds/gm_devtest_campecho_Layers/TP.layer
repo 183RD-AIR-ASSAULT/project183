@@ -1,0 +1,3642 @@
+$grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
+ D_TrainingCenter {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6734.06 599.969 3691.74
+ }
+ D_CQB {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6781.512 600 4077.76
+ }
+ D_Able {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6769.78 600 3610.668
+ }
+ D_mg {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6932.153 599.969 3483.149
+ }
+ D_mp1 {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6695.849 599.969 3385.281
+ }
+ D_Nightmare {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6703.416 599.968 3126.504
+ }
+ D_Lancer {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6767.993 599.969 3042.477
+ }
+ D_mp2 {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6695.215 599.969 2816.783
+ }
+ D_CSB {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6704.259 599.969 2556.373
+ }
+ D_rifle {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6932.999 599.97 2525.217
+ }
+ D_Pistol {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6851.879 599.99 2263.386
+ }
+ D_Grenade {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 7239.869 599.969 2293.775
+ }
+ D_AT {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 7577.693 599.969 2269.113
+ }
+ D_Distance {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 7973.655 599.969 2270.406
+ }
+ D_Airfield {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 6507.43 599.969 3525.835
+ }
+ D_MOUT {
+  components {
+   MeshObject "{66F8F96CEAFB02C5}" {
+    PixelSizeScale 0
+   }
+  }
+  Flags 0x100 0
+  coords 3825.658 541.862 6033.486
+ }
+}
+GenericEntity : "{33A89342665C6C56}Prefabs/Tree Items/Tree_B.et" {
+ coords 6502.465 599.969 3543.005
+}
+$grp GenericEntity : "{F3F98087E52DF102}Prefabs/FM_Origin.et" {
+ O_TrainingCenter {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6747.476 599.969 3688.616
+ }
+ O_able {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6743.39 600 3622.303
+  angles 0 90 0
+ }
+ O_TrainingCenter3 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6703.648 599.969 3379.019
+ }
+ O_TrainingCenter4 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6726.453 599.969 3113.98
+  angles 0 270 0
+ }
+ O_TrainingCenter5 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6743.713 599.969 3053.851
+  angles 0 90 0
+ }
+ O_TrainingCenter6 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6703.486 599.969 2810.772
+ }
+ O_TrainingCenter7 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6726.468 599.969 2545.692
+  angles 0 270 0
+ }
+ O_TrainingCenter8 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 7993.711 599.969 2269.362
+  angles 0 270 0
+ }
+ O_TrainingCenter9 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 7595.209 599.969 2267.317
+  angles 0 270 0
+ }
+ O_TrainingCenter10 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 7247.828 599.969 2310.591
+  angles 0 180 0
+ }
+ O_TrainingCenter11 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6850.141 599.969 2249.281
+ }
+ O_TrainingCenter12 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6933.301 599.969 2538.578
+  angles 0 180 0
+ }
+ O_TrainingCenter13 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6932.862 599.937 3496.531
+  angles 0 180 0
+ }
+ O_TrainingCenter14 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 6782.871 600 4088.327
+  angles 0 180 0
+ }
+ O_TrainingCenter15 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6705726B0E9F2476}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{645FEA52DCCE48B2}Assets/Structures/Civilian/BoardMap_01/Data/BoardMap_01_texture.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{66F8F96E68D99A24}" {
+    additionalActions {
+     OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Able Company Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      m_FastTravel_Destinations {
+       "D_Able"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Nightmare Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 1
+      m_FastTravel_Destinations {
+       "D_Nightmare"
+      }
+     }
+     OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Lancer Platoon Area"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 2
+      m_FastTravel_Destinations {
+       "D_Lancer"
+      }
+     }
+     OETA_FastTravelActionManager "{670572694CAE237F}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "2-183rd Combat Support Battalion "
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 3
+      m_FastTravel_Destinations {
+       "D_CSB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572696A865BF2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "1-211th Aviation Brigade"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 4
+      m_FastTravel_Destinations {
+       "D_Airfield"
+      }
+     }
+     OETA_FastTravelActionManager "{670572692D9084C9}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Training Detachment"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 5
+      m_FastTravel_Destinations {
+       "D_TrainingCenter"
+      }
+     }
+     OETA_FastTravelActionManager "{670572684B997B91}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool Able-Nightmare"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 6
+      m_FastTravel_Destinations {
+       "D_mp1"
+      }
+     }
+     OETA_FastTravelActionManager "{670572687BC417BB}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Motor Pool  Lancer-CSB"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 7
+      m_FastTravel_Destinations {
+       "D_mp2"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269C17FCFA2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 8
+      m_FastTravel_Destinations {
+       "D_rifle"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269F7160433}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MG Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 9
+      m_FastTravel_Destinations {
+       "D_mg"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269E29A2876}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Pistol Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 10
+      m_FastTravel_Destinations {
+       "D_Pistol"
+      }
+     }
+     OETA_FastTravelActionManager "{670572699F0D1F00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Grenade Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 11
+      m_FastTravel_Destinations {
+       "D_Grenade"
+      }
+     }
+     OETA_FastTravelActionManager "{670572698D97E164}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "AT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 12
+      m_FastTravel_Destinations {
+       "D_AT"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269B8C8109C}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "Distance Rifle Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 13
+      m_FastTravel_Destinations {
+       "D_Distance"
+      }
+     }
+     OETA_FastTravelActionManager "{67057269AA5748FF}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "CQB Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 14
+      m_FastTravel_Destinations {
+       "D_CQB"
+      }
+     }
+     OETA_FastTravelActionManager "{670572685E1FF262}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+       Name "MOUT Range"
+      }
+      VisibilityRange 2
+      Duration 0.5
+      "Sort Priority" 15
+      m_FastTravel_Destinations {
+       "D_MOUT"
+      }
+     }
+    }
+   }
+  }
+  Flags 0x100 0
+  coords 3810.897 541.743 6035.789
+  angles 0 90 0
+ }
+}

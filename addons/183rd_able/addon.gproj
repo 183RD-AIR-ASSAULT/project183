@@ -1,8 +1,0 @@
-GameProject {
- ID "183rdable"
- GUID "66F305F144F64F43"
- TITLE "183rd_able"
-  Dependencies {
-  "58D0FB3206B6F859"
- }
-}

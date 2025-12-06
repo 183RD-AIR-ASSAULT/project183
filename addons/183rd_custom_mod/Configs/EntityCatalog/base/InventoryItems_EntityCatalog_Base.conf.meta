@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DA0EA6F7AB8D5A59}Configs/EntityCatalog/base/InventoryItems_EntityCatalog_Base.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

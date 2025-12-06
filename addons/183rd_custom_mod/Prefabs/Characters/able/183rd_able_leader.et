@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{6C37AE056BD1B77D}Prefabs/Characters/183rd_base_leader.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "183_Able"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "183rd Able Company Leader"
+    m_sFaction "183_Able"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_ABLE
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66E81B17B85FFEFE}" {
+     TargetStorage "ArmoredVest/183_JPC2.0_leader.et/Rear_Radio/GRS_Radio_MPU5_Pouch.et"
+     PrefabsToSpawn {
+      "{7D20C63F23514A85}Prefabs/Radio Prefabs/183rd_Leaders_Radio_Trellisware.et"
+     }
+    }
+   }
+  }
+ }
+}

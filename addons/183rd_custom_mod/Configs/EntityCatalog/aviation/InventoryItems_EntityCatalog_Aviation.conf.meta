@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B5E2C7A6CF2CB902}Configs/EntityCatalog/aviation/InventoryItems_EntityCatalog_Aviation.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

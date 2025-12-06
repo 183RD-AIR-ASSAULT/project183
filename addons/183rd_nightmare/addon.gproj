@@ -1,8 +1,0 @@
-GameProject {
- ID "183rdnightmare"
- GUID "66F3069F56CEE36B"
- TITLE "183rd_nightmare"
- Dependencies {
-  "58D0FB3206B6F859"
- }
-}

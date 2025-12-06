@@ -1,0 +1,32 @@
+GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{5A6C8885A4D45664}" {
+     "Transmitting Range" 5000
+    }
+    RadioTransceiver "{5A8E721FD75D0F5F}" {
+     "Transmitting Range" 5000
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_RadioToggleUserAction "{5A6C68D85E74BF75}" {
+     ParentContextList {
+     }
+    }
+    SCR_RadioRespawnSystem "{6243276533CB44B9}" {
+     ParentContextList {
+      "knob_toggle"
+     }
+     UIInfo UIInfo "{6243276511C88FF3}" {
+      Name "Call for reinforcments"
+     }
+     Duration 5
+    }
+   }
+  }
+ }
+}

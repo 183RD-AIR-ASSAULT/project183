@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{124FE864CC4BD95F}Configs/EntityCatalog/nightmare/InventoryItems_EntityCatalog_Nightmare.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

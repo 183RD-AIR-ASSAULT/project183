@@ -1,0 +1,19 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{66F402CED61EB377}" : "{3A9124B8692C3F3B}Configs/Editor/PlaceableEntities/Systems.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F402CED7376AD3}" : "{D3A38DB6B7BEF2C0}Configs/Editor/PlaceableEntities/Vehicles.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{66F63AF41E7EE6E3}" : "{21EC6CD5A911BD9C}Configs/Editor/PlaceableEntities/Characters.conf" {
+    }
+   }
+  }
+  SCR_StatesEditorComponent "{549E4E90645AB265}" {
+   m_DefaultState NONE
+  }
+ }
+ coords 0 0.001 0
+}

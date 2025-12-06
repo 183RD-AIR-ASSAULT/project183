@@ -1,8 +1,0 @@
-GameProject {
- ID "183rdTrain"
- GUID "66F307044AE3EAE3"
- TITLE "183rd_Train"
- Dependencies {
-  "58D0FB3206B6F859"
- }
-}

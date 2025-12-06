@@ -1,0 +1,54 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MaterialParamsComponent "{670979AB9C108135}" {
+   ColorAlbedo 0.502 0 0 1
+   ColorEmissive 0.502 0 0 1
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "183rd 10 round Range Qual Mag"
+     Description "what you need to use to Qual"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{670979AB44744F6A}" {
+     Weight 0.1
+     SizeSetupStrategy Manual
+     ItemDimensions 10 8 10
+     ItemVolume 200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{670979AB44744F5C}" {
+      CameraPreset Right
+     }
+    }
+    CommonItemType "NONE"
+   }
+   WeightPerAmmo 0.025
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellM7 "{670979AB44744F50}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "183rd Range Qual Mag"
+    Description "what you need to use to Qual"
+    m_eAmmoTypeFlags AP
+   }
+   ItemModel "{164B4A0491DC1222}Assets/Weapons/Magazines/M7_Mag_New.xob"
+   MaxAmmo 10
+   AmmoConfig "{9491398C3337E5D0}Configs/Weapons/Ammo/Ammo_6.8_Hybrid.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{164B4A0491DC1222}Assets/Weapons/Magazines/M7_Mag_New.xob"
+   Materials {
+    MaterialAssignClass "{670979ABF4A72A8C}" {
+     SourceMaterial "LancerMag"
+     AssignedMaterial "{1AA0E7CA15962C6F}Assets/Weapons/Magazines/Data/183rd_range_Mag.emat"
+    }
+   }
+  }
+ }
+}

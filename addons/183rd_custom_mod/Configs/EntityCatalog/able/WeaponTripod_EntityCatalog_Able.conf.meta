@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C31D272B56F936E4}Configs/EntityCatalog/able/WeaponTripod_EntityCatalog_Able.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

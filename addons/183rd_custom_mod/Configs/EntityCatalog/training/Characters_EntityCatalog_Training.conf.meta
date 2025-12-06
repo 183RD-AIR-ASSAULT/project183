@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CC42B835E1748F8D}Configs/EntityCatalog/training/Characters_EntityCatalog_Training.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
