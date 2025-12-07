@@ -45,13 +45,20 @@ GenericEntity {
      "Frequency resolution" 1000
     }
     RadioTransceiver "{6709439A7289639D}" {
+     ChannelFrequency 1000000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 1000
+    }
+    RadioTransceiver "{6709439A74DC59EB}" {
      ChannelFrequency 300000
      "Transmitting Range" 2000
      "Min tunable frequency" 300000
      "Max tunable frequency" 999999
      "Frequency resolution" 100
     }
-    RadioTransceiver "{6709439A74DC59EB}" {
+    RadioTransceiver "{670E151CBD13CD77}" {
      ChannelFrequency 30000
      "Transmitting Range" 800
      "Min tunable frequency" 30000

@@ -17,6 +17,10 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     }
    }
   }
+  OETA_RadioAutoTuneComponent "{66EF1095B93B2771}" {
+   m_PlanConfig OETA_RadioPlanConfigRoot "{670423B6E5F81D3F}" : "{02E14A2E2A318B9E}Configs/freqs/freqs.conf" {
+   }
+  }
   SCR_CampaignBuildingComponent "{66E81B17B85FFE1C}" {
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {

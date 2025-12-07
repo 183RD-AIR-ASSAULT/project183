@@ -1,3 +1,9 @@
 SCR_ChimeraCharacter : "{01357A8E7E46CCB0}Prefabs/Characters/183rd_base_pilot.et" {
  ID "52092032B0E62200"
+ components {
+  OETA_RadioAutoTuneComponent "{66EF1095B93B2771}" {
+   m_PlanConfig OETA_RadioPlanConfigRoot "{670423B6E5F81D3F}" : "{02E14A2E2A318B9E}Configs/freqs/freqs.conf" {
+   }
+  }
+ }
 }

@@ -1,0 +1,31 @@
+GenericEntity : "{B67C9B2F1F864B71}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "183rd 10 round M7"
+     Description "183rd 10 round M7"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "183rd 10 round M7"
+    Description "183rd 10 round M7"
+   }
+   MaxAmmo 10
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Materials {
+    MaterialAssignClass "{670E15194D11096A}" {
+     SourceMaterial "LancerMag"
+     AssignedMaterial "{1AA0E7CA15962C6F}Assets/Weapons/Magazines/Data/183rd_range_Mag.emat"
+    }
+   }
+  }
+ }
+}
