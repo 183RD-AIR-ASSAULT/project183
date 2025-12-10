@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{6C37AE056BD1B77D}Prefabs/Characters/183rd_base_leader.e
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_NIGHTMARE
     }
+    m_aAutoLabels {
+     ROLE_LEADER
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

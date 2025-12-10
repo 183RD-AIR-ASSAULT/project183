@@ -17,12 +17,14 @@ FrameWidgetClass {
     ImageWidgetClass "{66E81B1864E3CECB}" {
      Name "Image0"
      Slot FrameWidgetSlot "{66DB08DD44FF0B84}" {
+      PositionX 0
       OffsetLeft 0
-      OffsetTop 0
+      PositionY -1
+      OffsetTop -1
       SizeX 256
       OffsetRight -256
       SizeY 256
-      OffsetBottom -256
+      OffsetBottom -255
      }
      Clipping True
      Color 0.5412 0.4286 0.3082 1
@@ -30,7 +32,6 @@ FrameWidgetClass {
      Texture "{07CFC1F6FA83CD59}Assets/Logos/183.edds"
      Size 512 512
      Filter 0
-     Mask "{0DA9B7B6A5DA378D}Assets/183logo/183 copy mask.edds"
      Range 1
     }
    }

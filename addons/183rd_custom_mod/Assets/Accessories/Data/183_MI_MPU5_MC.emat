@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.578 0.578 0.578 1
+ BCRMap "{CEBD1293AA8D1AA7}Assets/radio/MPU5_sdr_BCR.edds"
+ NMOMap "{F665A90173FA4839}Assets/radio/MPU5_sdr_NMO.edds"
+}

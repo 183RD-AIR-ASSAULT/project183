@@ -11,6 +11,9 @@ SCR_ChimeraCharacter : "{966D01E5160BA4F3}Prefabs/Characters/183rd_base_rifleman
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_CSB
     }
+    m_aAutoLabels {
+     ROLE_RIFLEMAN
+    }
    }
   }
  }

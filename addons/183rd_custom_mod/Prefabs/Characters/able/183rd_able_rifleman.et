@@ -23,5 +23,12 @@ SCR_ChimeraCharacter : "{966D01E5160BA4F3}Prefabs/Characters/183rd_base_rifleman
   SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
    m_PreviewPrefab "{443E618AF5511494}Prefabs/Characters/able/183rd_able_rifleman.et"
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     Enabled 0
+    }
+   }
+  }
  }
 }

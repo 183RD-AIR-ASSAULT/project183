@@ -74,6 +74,9 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
   }
  }
 }
+GenericEntity : "{0B46BB71AA7EC39F}Prefabs/Systems/able/VehicleService_183rd_able.et" {
+ coords 6740.204 600 3602.015
+}
 BasePreloadManager PreloadManager2 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
  coords 4089.329 610.265 4338.415
  PrefabsToPreload {
@@ -303,7 +306,7 @@ $grp GenericEntity : "{160D661E89C85389}Prefabs/Systems/csb/ArsenalBox_183_csb.e
 }
 $grp GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/aviation/ArsenalBox_183_211.et" {
  {
-  coords 6491.577 599.969 3529.755
+  coords 6487.814 599.969 3518.878
   angles 0 90 0
  }
  {
