@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{587BE10710B0C3A5}Prefabs/Radio Prefabs/183rd_Ground_Aviation_Radio_MPU5.et"
+ Name "{41BDE6379B18D33A}Prefabs/Radio Prefabs/183rd_command_Radio_MPU5.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

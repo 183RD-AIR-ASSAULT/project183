@@ -15,12 +15,18 @@ SCR_ChimeraCharacter : "{6C37AE056BD1B77D}Prefabs/Characters/183rd_base_leader.e
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_ABLE
     }
+    m_aAutoLabels {
+     ROLE_LEADER
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{66E81B17B85FFEFE}" {
      TargetStorage "ArmoredVest/183_JPC2.0_leader.et/Rear_Radio/GRS_Radio_MPU5_Pouch.et"
+     PrefabsToSpawn {
+      "{41BDE6379B18D33A}Prefabs/Radio Prefabs/183rd_Command_Radio_MPU5.et"
+     }
     }
    }
   }

@@ -1,0 +1,4 @@
+MatPBRBasic "{591DC10C16755E2B}Assets/vtac-barricade/vtx.emat" {
+ BCRMap "{55269904B93198D7}Assets/vtac-barricade/Material.001_BCR.edds"
+ NMOMap "{6DFE22966046CA49}Assets/vtac-barricade/Material.001_NMO.edds"
+}

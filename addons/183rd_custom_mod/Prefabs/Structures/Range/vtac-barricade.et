@@ -1,0 +1,33 @@
+GenericEntity {
+ ID "6713309583C872F2"
+ components {
+  MeshObject "{67133095D3BBDC8D}" {
+   Object "{23E5935938DEF963}Assets/vtac-barricade/VTAC_Barricade.xob"
+   Materials {
+    MaterialAssignClass "{67133095F5556335}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{591DC10C16755E2B}Assets/vtac-barricade/vtx.emat"
+    }
+   }
+   PixelSizeScale 0.9
+  }
+  RigidBody "{67142A1DA7B7C2B6}" {
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_EditableEntityComponent "{67142A1C4ED2ACBF}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{67142A1C4768D575}" {
+    Name "vtac barricade"
+    m_aAuthoredLabels {
+     CONTENT_MODDED
+    }
+   }
+  }
+  RplComponent "{67142A1C6DBF76AA}" {
+  }
+  Hierarchy "{67142A1C6430A4CB}" {
+  }
+ }
+ coords 2.88 3.101 3.149
+}

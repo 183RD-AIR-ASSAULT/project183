@@ -128,7 +128,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     ItemsInitConfigurationItem "{66E81B0F554FB226}" {
      TargetStorage "ArmoredVest/183_JPC2.0_jfire.et/Rear_Radio/GRS_Radio_MPU5_Pouch.et"
      PrefabsToSpawn {
-      "{587BE10710B0C3A5}Prefabs/Radio Prefabs/183rd_Ground_Aviation_Radio_MPU5.et"
+      "{A484ED06DE6357E7}Prefabs/Radio Prefabs/183rd_Aviation_Radio_MPU5.et"
      }
     }
     ItemsInitConfigurationItem "{66E81B0F554FD5B4}" {
@@ -160,9 +160,9 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      }
     }
     ItemsInitConfigurationItem "{67094395621DE199}" {
-     TargetStorage "ArmoredVest/183_JPC2.0_jfire.et/LS_Radio/GRS_Radio_Pouch_Thin.et"
+     TargetStorage "ArmoredVest/183_JPC2.0_jfire.et/RS_Radio/GRS_Radio_JTAC_Pouch.et"
      PrefabsToSpawn {
-      "{D9EB5119A9977BE2}Prefabs/Radio Prefabs/183rd_Leaders_Radio_Trellisware.et"
+      "{7442AC601286D335}Prefabs/Radio Prefabs/183rd_Radio_Infantry_R.et"
      }
     }
     ItemsInitConfigurationItem "{67094388BCDE2FFB}" {
