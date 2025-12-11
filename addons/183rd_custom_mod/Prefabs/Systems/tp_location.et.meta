@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{EA364CF5FD0A2C47}Prefabs/Systems/lancer/VehicleService_183rd_lancer.et"
+ Name "{42DC277C8B41DBF5}Prefabs/Systems/tp_location.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

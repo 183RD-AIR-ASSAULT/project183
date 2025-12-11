@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{BB474996E6602201}Prefabs/Systems/aviation/VehicleService_183rd_211.et"
+ Name "{3D48EEAD747D448C}Prefabs/Systems/Vehicle_Spawn.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

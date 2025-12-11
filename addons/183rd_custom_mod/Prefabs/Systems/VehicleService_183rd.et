@@ -1,0 +1,158 @@
+GenericEntity {
+ ID "671576FBD47BE992"
+ components {
+  MeshObject "{671576FAB32130DD}" {
+   Object "{2F6237318749D8A4}Assets/Props/Military/InteractionPoints/VehicleService/VehicleService_Barrels_US_01.xob"
+   Materials {
+    MaterialAssignClass "{671576FAB3213153}" {
+     SourceMaterial "VehicleService_Barrels_US"
+     AssignedMaterial "{AD1BC0B908862F96}Assets/servicepoints/VehicleService_Barrels_able.emat"
+    }
+   }
+   LODFactors {
+    5 2 1.5 1 1 1
+   }
+   InheritSkeleton 1
+   InheritVisibility 1
+  }
+  RigidBody "{671576FAB3213015}" {
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{671576FAB3213E3C}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     DamageReduction 20
+     DamageThreshold 20
+     "Explosive multiplier" 90
+    }
+   }
+   m_fBaseHealth 3000
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMaximum 50000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{671576FAB3213EB8}" {
+     m_ModelPrefabs {
+      "{66F07F2152261618}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_08.xob" "{11FA17A9A684F968}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_09.xob"
+     }
+     m_fMass 50
+     m_fRandomVelocityLinear 2
+     m_eMaterialSoundType METAL_LIGHT
+    }
+    SCR_DebrisSpawnable "{671576FAB3213E99}" {
+     m_ModelPrefabs {
+      "{74A4E75B1D356FC9}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_13.xob" "{EDBA5EC200D25E59}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_10.xob" "{9AB0364AF470B129}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_11.xob" "{03AE8FD3E99780B9}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_12.xob"
+     }
+     m_fMass 20
+     m_fRandomVelocityLinear 1
+     m_eMaterialSoundType METAL_LIGHT
+    }
+    SCR_DebrisSpawnable "{671576FAB3213EC6}" {
+     m_ModelPrefabs {
+      "{6EB871D2F9ADD95D}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_01.xob" "{F7A6C84BE44AE8CD}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_02.xob" "{80ACA0C310E807BD}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_03.xob" "{F061321A82CC520E}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_05.xob" "{697F8B839F2B639E}Assets/Props/Military/InteractionPoints/VehicleService/Dst/VehicleService_Barrels_US_01_dst_01_dbr_06.xob"
+     }
+     m_fRandomVelocityLinear 1
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+    SCR_ParticleSpawnable "{671576FAB3213ECE}" {
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+    SCR_ParticleSpawnable "{671576FAB3213ECB}" {
+     m_Particle "{63D673751320F318}Particles/Props/Dest_Prop_Wood_Medium.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+  SCR_EditableSystemComponent "{671576FAB3213E08}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{671576FAB3213E0B}" {
+    Name "183rd Vehicle Spawner"
+    Icon "{03406DAD80009A4F}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_Repairing_Station.edds"
+    m_Image "{DA5E1A9BA20D2486}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/US/E_VehicleService_US.edds"
+    m_sFaction "183_Able"
+    m_aAuthoredLabels {
+     TRAIT_BASE
+    }
+    m_aAutoLabels {
+     THEME_MILITARY TRAIT_REPAIRING FACTION_183_ABLE
+    }
+   }
+   m_bAutoRegister ALWAYS
+  }
+  SCR_FactionAffiliationComponent "{671576FAB3213E1B}" {
+   "faction affiliation" "183_Able"
+  }
+  SCR_ResourceComponent "{671576FAB321B4DE}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{671576FAB3210C30}" {
+     m_sDebugName "Vehicle Spawner - Consumer"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier DEFAULT
+     m_fResourceRange 185
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{671576FAB3210C26}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{671576FAB3210C11}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{671576FAB3213E78}" {
+        }
+       }
+       SCR_ResourceConsumerStoragePolicy "{671576FAB3210C29}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{671576FAB3210C28}" {
+        }
+        m_eStorageType STORED
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGeneratorServicePoint "{671576FAB321B4DF}" {
+     m_sDebugName "Vehicle Spawner - Generator"
+     m_eResourceRights ALL
+     m_fResourceMultiplier 0.333
+     m_fStorageRange 135
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{671576FAB321B4F5}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicy "{671576FAB3210FDD}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{671576FAB3210FDC}" {
+        }
+        m_eStorageType STORED
+       }
+       SCR_ResourceGeneratorStoragePolicy "{671576FAB321B4FB}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{671576FAB3210FD8}" {
+        }
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceGeneratorActionStore "{671576FAB321B4F6}" {
+      }
+      SCR_ResourceGeneratorActionDropContainers "{671576FAB321B4F2}" {
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{671576FAB321B49E}" {
+   ActionContexts {
+    UserActionContext "{671576FAB321B4A0}" {
+     ContextName "default"
+     Position PointInfo "{671576FAB321B4A6}" {
+      Offset 0 1.2 0.25
+     }
+     Radius 0.5
+     Omnidirectional 0
+    }
+   }
+  }
+  RplComponent "{671576FAB321B468}" {
+   Enabled 1
+  }
+  Hierarchy "{671576FAB321B467}" {
+   Enabled 1
+  }
+ }
+ Flags 0x403 0
+ coords 0 0 0
+}

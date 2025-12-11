@@ -10,56 +10,56 @@ GenericEntity {
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{6710E6EDD8643898}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD86438E7}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD86438E6}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD86438E5}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD8646F1F}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD8646F19}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD8646F18}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD8646F1B}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
@@ -120,7 +120,7 @@ GenericEntity {
    InheritVisibility 1
   }
   OETA_RadioPlanOverrideComponent "{6710E6EDD8646F3B}" {
-   m_PlanName "command"
+   m_PlanName "able"
    m_StartChannelIndexOverride 0
   }
   RHS_RadioSourceComponent "{6710E6EDD864B5C1}" {
@@ -275,5 +275,5 @@ GenericEntity {
   Hierarchy "{6710E6EDD864DD82}" {
   }
  }
- coords 0.105 0.168 0.204
+ coords 0.009 -0.193 -0.225
 }

@@ -10,63 +10,63 @@ GenericEntity {
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{6709439C35F51A98}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439C35F51A86}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439C35F51A85}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439FBC21FB5D}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439FBE42CC9A}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439FBFDBC7B9}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{67094398461B9AEC}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439847AEA87E}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6E14A516172}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999

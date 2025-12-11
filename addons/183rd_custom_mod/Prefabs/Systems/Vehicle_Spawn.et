@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "67163529668BE0DC"
+ components {
+  MeshObject "{6716352944B719DA}" {
+   Object "{4CB958C15554E9DF}system/wbdata/Gizmo3D/axisZ.xob"
+  }
+ }
+ coords -4.418 3.183 1.891
+}

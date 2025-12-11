@@ -71,8 +71,8 @@ GenericEntity {
      SCR_VONPreviewAttributes "{6709439C00F9B51F}" {
       CameraOrbitAngles -15 15 0
       CameraDistanceToItem 0.3
+      CameraOffset 0 -0.25 0
       FOV 60
-      AspectRatio 1
      }
     }
     CommonItemType "RADIO"
