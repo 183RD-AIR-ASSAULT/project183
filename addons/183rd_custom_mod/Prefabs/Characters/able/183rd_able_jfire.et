@@ -14,6 +14,9 @@ SCR_ChimeraCharacter : "{CB0CA42E1926D741}Prefabs/Characters/183rd_base_jfire.et
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_ABLE
     }
+    m_aAutoLabels {
+     ROLE_RADIOOPERATOR
+    }
    }
   }
   SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
@@ -22,6 +25,13 @@ SCR_ChimeraCharacter : "{CB0CA42E1926D741}Prefabs/Characters/183rd_base_jfire.et
     SCR_BasePreviewEntry "{670423B297115F0B}" {
      m_Mesh "{EBA29A576581B021}Prefabs/Characters/able/183rd_able_jfire.et"
      m_Shape PREFAB
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
+     TargetStorage "ArmoredVest/183_JPC2.0_jfire.et/LS_Front_Pouch/GRS_ARDual_G17_Pouch.et"
     }
    }
   }

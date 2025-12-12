@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{8592D7AF53EDB2A5}Prefabs/Characters/183rd_base_medic.et
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_ABLE
     }
+    m_aAutoLabels {
+     ROLE_MEDIC
+    }
    }
   }
   SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {

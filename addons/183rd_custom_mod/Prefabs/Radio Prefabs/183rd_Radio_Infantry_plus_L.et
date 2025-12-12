@@ -10,31 +10,31 @@ GenericEntity {
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{6709439DD2630E86}" {
-     ChannelFrequency 30000
-     "Transmitting Range" 800
-     "Min tunable frequency" 30000
-     "Max tunable frequency" 299999
+     ChannelFrequency 1
+     "Transmitting Range" 1200
+     "Min tunable frequency" 1
+     "Max tunable frequency" 99999
      "Frequency resolution" 100
     }
     RadioTransceiver "{6709439DD2630E80}" {
-     ChannelFrequency 300000
-     "Transmitting Range" 2000
-     "Min tunable frequency" 300000
+     ChannelFrequency 100000
+     "Transmitting Range" 2400
+     "Min tunable frequency" 100000
      "Max tunable frequency" 999999
-     "Frequency resolution" 100
+     "Frequency resolution" 1000
     }
     RadioTransceiver "{6709439DD2630E81}" {
-     ChannelFrequency 300000
-     "Transmitting Range" 2000
-     "Min tunable frequency" 300000
+     ChannelFrequency 100000
+     "Transmitting Range" 2400
+     "Min tunable frequency" 100000
      "Max tunable frequency" 999999
-     "Frequency resolution" 100
+     "Frequency resolution" 1000
     }
     RadioTransceiver "{6709439DA6928453}" {
-     ChannelFrequency 30000
-     "Transmitting Range" 800
-     "Min tunable frequency" 30000
-     "Max tunable frequency" 299999
+     ChannelFrequency 1
+     "Transmitting Range" 1200
+     "Min tunable frequency" 1
+     "Max tunable frequency" 99999
      "Frequency resolution" 100
     }
    }
@@ -77,9 +77,9 @@ GenericEntity {
      }
      SCR_VONPreviewAttributes "{6709439DD2630EA5}" {
       CameraOrbitAngles -15 15 0
-      CameraDistanceToItem 0.3
+      CameraDistanceToItem 0.1
+      CameraOffset 0 -0.25 0
       FOV 60
-      AspectRatio 1
      }
     }
     CommonItemType "RADIO"

@@ -560,13 +560,18 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 		LocateInvMgrOn(m_Owner);
 		if (!m_InvMgr)
 			ScanChildrenForInvMgr(m_Owner);
-
-		m_InvMgrBase = InventoryStorageManagerComponent.Cast(m_InvMgr);
-
+	
+		// m_InvMgr is already compatible with m_InvMgrBase, no Cast<> needed
+		if (m_InvMgr)
+			m_InvMgrBase = m_InvMgr;
+		else
+			m_InvMgrBase = null;
+	
 		if (m_Debug)
 			PrintFormat("[OETA_RadioAutoTune] LocateInvMgr -> inv=%1 base=%2",
 				m_InvMgr, m_InvMgrBase);
 	}
+
 
 	// ----------------------------------------------------------------------
 	// Faction resolve & global retune

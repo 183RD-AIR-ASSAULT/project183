@@ -1,0 +1,13 @@
+$grp GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able.et" {
+ {
+  coords 2184.569 13.037 3223.25
+  angles 0 270 0
+ }
+ {
+  coords 2184.569 13.037 3219.87
+  angles 0 270 0
+ }
+}
+SCR_SpawnPoint : "{9C9736E613CC62D5}Prefabs/Systems/able/E_SpawnPoint_183rd_able.et" {
+ coords 2173.031 13.037 3212.116
+}

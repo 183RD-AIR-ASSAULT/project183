@@ -1,0 +1,279 @@
+GenericEntity {
+ ID "6710E6E15DD31CA6"
+ components {
+  Persistence "{6710E6E15DD31CAA}" {
+  }
+  SignalsManagerComponent "{6710E6E15DD31CBD}" {
+  }
+  BaseRadioComponent "{6710E6E15DD31CBE}" {
+   "Encryption key" "screaminchicks"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{6710E6E15DD31CB8}" {
+     ChannelFrequency 30000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
+    RadioTransceiver "{6710E6E15DD31CBA}" {
+     ChannelFrequency 30000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
+    RadioTransceiver "{6710E6E15DCCF5F5}" {
+     ChannelFrequency 30000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
+    RadioTransceiver "{6710E6E15DCCF58B}" {
+     ChannelFrequency 30000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
+    RadioTransceiver "{6710E6E15DCCF58A}" {
+     ChannelFrequency 30000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
+    RadioTransceiver "{6710E6E15DCCF589}" {
+     ChannelFrequency 30000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
+    RadioTransceiver "{6710E6E15DCCF588}" {
+     ChannelFrequency 30000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
+    RadioTransceiver "{6710E6E15DCCF58F}" {
+     ChannelFrequency 30000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
+   }
+  }
+  InventoryItemComponent "{6710E6E15DCCF58D}" {
+   Attributes SCR_ItemAttributeCollection "{6710E6E15DCCF583}" {
+    ItemDisplayName UIInfo "{6710E6E15DCCF59A}" {
+     Name "183drd Aviation + Command MPU5 Radio"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6710E6E15DCCF598}" {
+     Weight 0.7
+     SizeSetupStrategy Manual
+     ItemVolume 450
+     RestingUP Forward
+     RestingAdditiveOffsetLS 0 0 0.18
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6710E6E15DCCF59F}" {
+     AnimationInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+     AnimationAttachments {
+      AnimationAttachmentInfo "{6710E6E15DCCF59D}" {
+       AnimGraph "{402BB5FA2891D687}Assets/Items/Equipment/workspaces/Radio_ANPRC68.agr"
+       AnimInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     AllowInspection 1
+    }
+    CustomAttributes {
+     CharacterModifierAttributes "{6710E6E15DCCF59C}" {
+     }
+     PreviewRenderAttributes "{6710E6E15DCCF592}" {
+      CameraOrbitAngles -15 15 0
+      CameraDistanceToItem 0.3
+      CameraOffset 0 0 0
+      FOV 60
+      AspectRatio 1
+      PreviewWornModel 1
+     }
+     SCR_VONPreviewAttributes "{6710E6E15DCCF591}" {
+      CameraOrbitAngles -15 15 0
+      CameraDistanceToItem 0.3
+      FOV 60
+      AspectRatio 1
+     }
+    }
+    CommonItemType "RADIO"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{6710E6E15DCCF597}" {
+   Object "{BC3949B6660B68E9}Assets/Accessories/MPU5_Radio_New.xob"
+   LODFactors {
+   }
+   InheritVisibility 1
+  }
+  OETA_RadioPlanOverrideComponent "{6710E6E15DCCF595}" {
+   m_PlanName "aviationplus"
+   m_StartChannelIndexOverride 0
+  }
+  RHS_RadioSourceComponent "{6710E6E15DCCF594}" {
+  }
+  RHS_SGC_RadialMenuComponent "{6710E6E15DCCF5AB}" {
+  }
+  RigidBody "{6710E6E15DCCF5A2}" {
+   Enabled 0
+   Mass 3
+   CenterOfMass 0 0.1 0
+   LinearDamping 0.5
+   AngularDamping 0.5
+   ModelGeometry 1
+   CCDRadius 0.028
+  }
+  ProcAnimComponent "{6710E6E15DCCF5A0}" {
+   Enabled 0
+   Parameters {
+    ProcAnimParams "{6710E6E15DCCF5A7}" {
+     ResourceName "{DE57211A364C1700}Assets/Items/Equipment/Radios/Radio_R148/Radio_R148_01.pap"
+     BoneNames {
+      "i_channel01"
+     }
+     SimulationDistance 20
+     SimulateOnDedicatedServer 0
+    }
+   }
+  }
+  SCR_RadioComponent "{6710E6E15DCCF5A5}" {
+   m_iRadioCategory MANPACK
+   m_iRadioType ANPRC77
+  }
+  SCR_SoundDataComponent "{6710E6E15DCCF5A4}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6710E6E15DCCF5BA}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6710E6E15DCCF5B8}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6710E6E15DCC7E8D}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+    SCR_AudioSourceConfiguration "{6710E6E15DCC7E8A}" {
+     m_sSoundProject "{5409F2998421DA59}Sounds/Items/Equipment/Radios/Items_Radio_Inspection_Actions.acp"
+     m_sSoundEventName "SOUND_ITEM_RADIO_TUNE_UP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6710E6E15DCC7E8B}" {
+     m_sSoundProject "{5409F2998421DA59}Sounds/Items/Equipment/Radios/Items_Radio_Inspection_Actions.acp"
+     m_sSoundEventName "SOUND_ITEM_RADIO_TUNE_DOWN"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6710E6E15DCC7E88}" {
+     m_sSoundProject "{5409F2998421DA59}Sounds/Items/Equipment/Radios/Items_Radio_Inspection_Actions.acp"
+     m_sSoundEventName "SOUND_ITEM_RADIO_TUNE_ERROR"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6710E6E15DCC7E89}" {
+     m_sSoundProject "{5409F2998421DA59}Sounds/Items/Equipment/Radios/Items_Radio_Inspection_Actions.acp"
+     m_sSoundEventName "SOUND_ITEM_RADIO_TOGGLE_ON"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6710E6E15DCC7E86}" {
+     m_sSoundProject "{5409F2998421DA59}Sounds/Items/Equipment/Radios/Items_Radio_Inspection_Actions.acp"
+     m_sSoundEventName "SOUND_ITEM_RADIO_TOGGLE_OFF"
+     m_eFlags 0
+    }
+   }
+  }
+  ActionsManagerComponent "{6710E6E15DCC0539}" {
+   ActionContexts {
+    UserActionContext "{6710E6E15DCC0538}" {
+     ContextName "default"
+     Position PointInfo "{6710E6E15DCC053B}" {
+      Offset 0.0353 0.1059 0.0202
+     }
+     Radius 0.135
+    }
+    UserActionContext "{6710E6E15DCC053D}" {
+     ContextName "knob_channel"
+     Position PointInfo "{6710E6E15DCDF73A}" {
+      Offset 0.0755 0.1576 -0.0056
+     }
+     Radius 0.3
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{6710E6E15DCDF738}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6710E6E15DCDF739}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+    SCR_EquipItemAction "{6710E6E15DCDF6C6}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6710E6E15DCDAE61}" {
+      Name "#AR-Inventory_Equip"
+      m_sIconName "pick-up"
+     }
+     ActionTitle "Equip Item"
+     "Sort Priority" 2
+    }
+    SCR_RadioTuningUserAction "{6710E6E15DCDAE6D}" {
+     ParentContextList {
+      "knob_channel"
+     }
+     UIInfo UIInfo "{6710E6E15DCD679B}" {
+     }
+    }
+    SCR_RadioTuningUserAction "{6710E6E15DCD679A}" {
+     ParentContextList {
+      "knob_channel"
+     }
+     UIInfo UIInfo "{6710E6E15DCD6799}" {
+     }
+     m_bTuneUp 1
+    }
+   }
+  }
+  GadgetGamepadEffectsManagerComponent "{6710E6E15DCD6787}" {
+   OwnedEffects {
+    GamepadTriggerEffect "{6710E6E15DCD6786}" {
+     Name "ADS"
+     Priority 30
+     TriggerType Left
+     TriggerEffectCurve {
+      0 0 0.556 0 0.667 0.125 0.778 0
+     }
+    }
+    GamepadTriggerEffect "{6710E6E15DCD6785}" {
+     Name "Charged"
+     Priority 30
+     TriggerEffectCurve {
+      0.556 0 0.667 0.125 0.778 0
+     }
+    }
+   }
+  }
+  RplComponent "{6710E6E15DCD6784}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6710E6E15DCD6783}" {
+  }
+ }
+ coords 0.105 0.168 0.204
+}

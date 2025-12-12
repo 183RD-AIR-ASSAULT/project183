@@ -10,60 +10,67 @@ GenericEntity {
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{6709439C35F51A98}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
-     "Frequency resolution" 1000
+     "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439C35F51A86}" {
-     ChannelFrequency 300000
-     "Transmitting Range" 800
-     "Min tunable frequency" 300000
-     "Max tunable frequency" 999999
-     "Frequency resolution" 100
+     ChannelFrequency 1000000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439C35F51A85}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
-     "Frequency resolution" 1000
+     "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439FBC21FB5D}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
-     "Frequency resolution" 1000
+     "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439FBE42CC9A}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
-     "Frequency resolution" 1000
+     "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439FBFDBC7B9}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
-     "Frequency resolution" 1000
+     "Frequency resolution" 100000
     }
     RadioTransceiver "{67094398461B9AEC}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
-     "Frequency resolution" 1000
+     "Frequency resolution" 100000
     }
     RadioTransceiver "{6709439847AEA87E}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
-     "Frequency resolution" 1000
+     "Frequency resolution" 100000
+    }
+    RadioTransceiver "{6710E6E14A516172}" {
+     ChannelFrequency 1000000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
     }
    }
   }
@@ -120,6 +127,14 @@ GenericEntity {
    }
    InheritVisibility 1
   }
+  OETA_RadioPlanOverrideComponent "{6710E6ED3412772C}" {
+   m_PlanName "aviation"
+   m_StartChannelIndexOverride 0
+  }
+  RHS_RadioSourceComponent "{6710E6ED576D68D8}" {
+  }
+  RHS_SGC_RadialMenuComponent "{6710E6ED15B4D35A}" {
+  }
   RigidBody "{6709439C35F51AFF}" {
    Enabled 0
    Mass 3
@@ -143,8 +158,8 @@ GenericEntity {
    }
   }
   SCR_RadioComponent "{6709439C35F51AFA}" {
-   m_eAnimVariable ANPRC68
-   m_iRadioType ANPRC68
+   m_iRadioCategory MANPACK
+   m_iRadioType ANPRC77
   }
   SCR_SoundDataComponent "{6709439C35F51AF8}" {
    m_aAudioSourceConfiguration {

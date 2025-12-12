@@ -1,93 +1,37 @@
 // -----------------------------------------------------------------------------
-// OETA_RadioAutoTuneComponent.c (Reforger 1.6, player-based channel text)
-// - Channel 0 -> Player's group frequency (via SCR_GroupsManagerComponent / SCR_AIGroup)
-// - Channel 1 -> Faction frequency
-// - Channels 3–8 -> Optional plan, based on Channel 0 frequency
-// - Channel text stored in OETA_RadioChannelNamesComponent on the same
-//   entity as this component (player-based, not radio-prefab-based).
+// OETA_RadioAutoTuneComponent.c
+// Reforger 1.6 – player-based channel text, config-driven channel plans
+//
+// Personal radios:
+//   - Channel index 0 -> Player's group frequency
+//   - Channel index 1 -> Faction frequency
+//   - Channels starting at m_ChannelPlanStartIndex (default 2 => Ch3–8)
+//     can be filled by a channel plan based on group frequency.
+//   - Plan auto-selected by matching group's freq to BaseFrequenciesKHz values.
+//
+// Manpacks / vehicle radios:
+//   - If m_OnlyPersonalForAutoTune = true, they are NOT auto-tuned by
+//     group/faction.
+//   - Instead, attach OETA_RadioPlanOverrideComponent to the radio owner and
+//     pick a plan by name (BaseFrequenciesKHz can be empty for override-only).
+//   - Override plans start at channel 1 (index 0) by default.
+//
+// Plans (.conf):
+//   - Each OETA_RadioPlanConfig has:
+//       string BaseFrequenciesKHz  (space-separated list; empty = no auto-match)
+//       string Name                (plan ID)
+//       Slots[]                    (frequencies + labels)
+//   - To let multiple squad freqs share the same plan:
+//       put them all in BaseFrequenciesKHz, e.g. "68500 69500 70500".
+//
+// Channel text:
+//   - Stored in OETA_RadioChannelNamesComponent on the same player entity.
+//   - Only channels that have entries in the chosen plan are modified.
 // -----------------------------------------------------------------------------
 
-// --- Channel text component (for UI) ----------------------------------------
-class OETA_RadioChannelNamesComponentClass : ScriptComponentClass {}
-
-[ComponentEditorProps(category: "Radio", description: "Holds human-readable text per radio channel")]
-class OETA_RadioChannelNamesComponent : ScriptComponent
-{
-	protected ref map<int, string> m_ChannelText;
-
-	protected void EnsureMap()
-	{
-		if (!m_ChannelText)
-			m_ChannelText = new map<int, string>();
-	}
-
-	// Set text for a channel
-	void SetChannelText(int index, string text)
-	{
-		EnsureMap();
-
-		if (text == "")
-		{
-			m_ChannelText.Remove(index);
-			return;
-		}
-
-		m_ChannelText.Set(index, text);
-	}
-
-	// Get text for a channel
-	string GetChannelText(int index)
-	{
-		if (!m_ChannelText)
-			return "";
-
-		string outText;
-		if (m_ChannelText.Find(index, outText))
-			return outText;
-
-		return "";
-	}
-
-	// Remove text from channels in a block
-	void ClearTextRange(int startIndex, int count)
-	{
-		if (!m_ChannelText)
-			return;
-
-		for (int i = 0; i < count; i++)
-		{
-			int idx = startIndex + i;
-			m_ChannelText.Remove(idx);
-		}
-	}
-
-	// Build UI label for the channel:
-	// Example output: "3: 45250 kHz (TankCmd)"
-	string FormatChannelText(BaseRadioComponent radio, int channelIndex)
-	{
-		if (!radio)
-			return "";
-
-		int transCount = radio.TransceiversCount();
-		if (channelIndex < 0 || channelIndex >= transCount)
-			return "";
-
-		BaseTransceiver trans = radio.GetTransceiver(channelIndex);
-		if (!trans)
-			return "";
-
-		int freq = trans.GetFrequency();
-		string suffix = "";
-
-		string txt = GetChannelText(channelIndex);
-		if (txt != "")
-			suffix = string.Format(" (%1)", txt);
-
-		return string.Format("%1: %2 kHz%3", channelIndex + 1, freq, suffix);
-	}
-}
-
-// --- Channel plan support ----------------------------------------------------
+// ============================================================================
+// Runtime plan model
+// ============================================================================
 class OETA_RadioChannelEntry
 {
 	int    m_FrequencyKHz;
@@ -98,39 +42,74 @@ class OETA_RadioChannelEntry
 		m_FrequencyKHz = freqKHz;
 		m_Text         = text;
 	}
-};
+}
 
 class OETA_RadioChannelPlan
 {
-	int m_BaseFrequencyKHz;
-	ref array<ref OETA_RadioChannelEntry> m_Entries;
+	ref array<int> m_BaseFrequenciesKHz;
+	string m_Name;
+	protected ref array<ref OETA_RadioChannelEntry> m_Entries;
 
-	void OETA_RadioChannelPlan(int baseFreqKHz)
+	void OETA_RadioChannelPlan(string name)
 	{
-		m_BaseFrequencyKHz = baseFreqKHz;
-		m_Entries          = new array<ref OETA_RadioChannelEntry>();
+		m_Name               = name;
+		m_BaseFrequenciesKHz = new array<int>();
+		m_Entries            = new array<ref OETA_RadioChannelEntry>();
 	}
 
-	// Normal entry: may set freq and/or text
+	void AddBaseFrequency(int freqKHz)
+	{
+		if (freqKHz <= 0)
+			return;
+
+		if (!m_BaseFrequenciesKHz)
+			m_BaseFrequenciesKHz = new array<int>();
+
+		foreach (int f : m_BaseFrequenciesKHz)
+		{
+			if (f == freqKHz)
+				return;
+		}
+		m_BaseFrequenciesKHz.Insert(freqKHz);
+	}
+
 	void Add(int freqKHz, string text)
 	{
+		if (!m_Entries)
+			m_Entries = new array<ref OETA_RadioChannelEntry>();
+
 		m_Entries.Insert(new OETA_RadioChannelEntry(freqKHz, text));
 	}
 
-	// Pure null slot: leaves that channel untouched (no freq, no text change)
 	void AddEmpty()
 	{
-		m_Entries.Insert(new OETA_RadioChannelEntry(0, ""));
+		Add(0, "");
 	}
 
 	bool Matches(int baseFreqKHz)
 	{
-		return (baseFreqKHz == m_BaseFrequencyKHz);
+		if (!m_BaseFrequenciesKHz || m_BaseFrequenciesKHz.IsEmpty())
+			return false;
+
+		foreach (int f : m_BaseFrequenciesKHz)
+		{
+			if (f == baseFreqKHz)
+				return true;
+		}
+		return false;
 	}
 
-	void ApplyToRadio(BaseRadioComponent radio, OETA_RadioChannelNamesComponent namesComp, int startChannelIndex, bool debugLog)
+	int GetEntryCount()
 	{
-		if (!radio)
+		if (!m_Entries)
+			return 0;
+		return m_Entries.Count();
+	}
+
+	void ApplyToRadio(BaseRadioComponent radio, OETA_RadioChannelNamesComponent namesComp,
+		int startChannelIndex, bool debugLog)
+	{
+		if (!radio || !m_Entries)
 			return;
 
 		int transCount = radio.TransceiversCount();
@@ -149,7 +128,7 @@ class OETA_RadioChannelPlan
 			bool hasFreq = entry.m_FrequencyKHz > 0;
 			bool hasText = entry.m_Text != "";
 
-			// Pure null slot: leave channel as-is
+			// Pure empty slot: leave channel as-is.
 			if (!hasFreq && !hasText)
 				continue;
 
@@ -157,247 +136,221 @@ class OETA_RadioChannelPlan
 			if (!ch)
 				continue;
 
-			// Frequency change (if provided)
 			if (hasFreq)
 			{
 				int freq = entry.m_FrequencyKHz;
 				int fMin = ch.GetMinFrequency();
 				int fMax = ch.GetMaxFrequency();
-
 				if (freq < fMin) freq = fMin;
 				if (freq > fMax) freq = fMax;
 
 				ch.SetFrequency(freq);
 
 				if (debugLog)
-					PrintFormat("[OETA_RadioAutoTune] Plan ch%1 -> %2 kHz (%3)", chIndex, freq, entry.m_Text);
+					PrintFormat("[OETA_RadioAutoTune] Plan '%4' ch%1 -> %2 kHz (%3)",
+						chIndex, freq, entry.m_Text, m_Name);
 			}
 
-			// UI text change (optionally independent of frequency)
 			if (namesComp && hasText)
-			{
 				namesComp.SetChannelText(chIndex, entry.m_Text);
-			}
 		}
 	}
-};
-
-// --- Group fallback settings component --------------------------------------
-class OETA_GroupRadioSettingsComponentClass : ScriptComponentClass {}
-
-[ComponentEditorProps(category: "Radio", description: "Holds group radio settings (fallback)")]
-class OETA_GroupRadioSettingsComponent : ScriptComponent
-{
-	[Attribute(defvalue: "0", uiwidget: UIWidgets.EditBox, desc: "Group Frequency (kHz). 0 = unset")]
-	protected int m_GroupFrequencyKHz;
-
-	[Attribute(defvalue: "", uiwidget: UIWidgets.EditBox, desc: "Group Encryption Key (optional)")]
-	protected string m_GroupEncryptionKey;
-
-	int  GetGroupFrequencyKHz() { return m_GroupFrequencyKHz; }
-	bool HasGroupEncryptionKey(out string key) { key = m_GroupEncryptionKey; return key != ""; }
 }
 
-// ---- Main auto-tune component ----------------------------------------------
+// ============================================================================
+// Main auto-tune component
+// ============================================================================
 class OETA_RadioAutoTuneComponentClass : ScriptComponentClass {}
 
 [ComponentEditorProps(category: "Radio", description: "Auto-tunes radios to group & faction frequencies")]
 class OETA_RadioAutoTuneComponent : ScriptComponent
 {
-	// Which channels to set (zero-based)
-	[Attribute(defvalue: "0", uiwidget: UIWidgets.Slider, desc: "Group channel index (Channel 1 = 0)", params: "0 3 1")]
+	// Channels (zero-based, 0 = Channel 1)
+	[Attribute(defvalue: "0", uiwidget: UIWidgets.Slider,
+		desc: "Group channel index", params: "0 3 1")]
 	protected int m_GroupChannelIndex;
 
-	[Attribute(defvalue: "1", uiwidget: UIWidgets.Slider, desc: "Faction channel index (Channel 2 = 1)", params: "0 3 1")]
+	[Attribute(defvalue: "1", uiwidget: UIWidgets.Slider,
+		desc: "Faction channel index", params: "0 3 1")]
 	protected int m_FactionChannelIndex;
 
-	// Channel plan based on Channel 0 (group)
-	[Attribute(defvalue: "1", uiwidget: UIWidgets.CheckBox, desc: "Apply channel plan to Channels 3–8 based on group (Channel 0) freq")]
+	// Plan application for personal radios
+	[Attribute(defvalue: "1", uiwidget: UIWidgets.CheckBox,
+		desc: "Apply channel plan based on group freq (personal radios)")]
 	protected bool m_EnableChannelPlans;
 
-	// Start index for plan (Channel 3 = index 2)
-	[Attribute(defvalue: "2", uiwidget: UIWidgets.Slider, desc: "Channel plan start index (Channel 3 = 2)", params: "0 7 1")]
+	// Default 2 => Channel 3 as first plan channel
+	[Attribute(defvalue: "2", uiwidget: UIWidgets.Slider,
+		desc: "Channel plan start index", params: "0 15 1")]
 	protected int m_ChannelPlanStartIndex;
 
-	// Encryption behavior
-	[Attribute(defvalue: "1", uiwidget: UIWidgets.CheckBox, desc: "Sync radio encryption key to faction key when faction retunes")]
+	// Encryption
+	[Attribute(defvalue: "1", uiwidget: UIWidgets.CheckBox,
+		desc: "Sync encryption key to faction when faction retunes")]
 	protected bool m_SyncFactionEncryption;
 
-	[Attribute(defvalue: "0", uiwidget: UIWidgets.CheckBox, desc: "Prefer group encryption key (if provided) after group retune")]
+	[Attribute(defvalue: "0", uiwidget: UIWidgets.CheckBox,
+		desc: "Prefer group encryption key after group retune")]
 	protected bool m_PreferGroupEncryption;
 
-	// Group freq sources
-	[Attribute(defvalue: "0", uiwidget: UIWidgets.EditBox, desc: "Group Freq Override (kHz). 0 = disabled")]
+	// Group freq override
+	[Attribute(defvalue: "0", uiwidget: UIWidgets.EditBox,
+		desc: "Group Freq Override (kHz). 0 = disabled")]
 	protected int m_GroupFreqOverrideKHz;
 
-	// Debug/testing
-	[Attribute(defvalue: "0", uiwidget: UIWidgets.CheckBox, desc: "Verbose logging to console (Print)")]
+	// Plan config
+	[Attribute("", uiwidget: UIWidgets.Object,
+		desc: "Radio channel plan config (OETA_RadioPlanConfigRoot)")]
+	protected ref OETA_RadioPlanConfigRoot m_PlanConfig;
+
+	// If true: group/faction + auto plans are only applied to PERSONAL radios.
+	// Manpacks / vehicle radios will only be tuned via OETA_RadioPlanOverrideComponent.
+	[Attribute(defvalue: "1", uiwidget: UIWidgets.CheckBox,
+		desc: "Use group/faction auto-tune only on PERSONAL radios")]
+	protected bool m_OnlyPersonalForAutoTune;
+
+	// Debug
+	[Attribute(defvalue: "0", uiwidget: UIWidgets.CheckBox, desc: "Verbose logging")]
 	protected bool m_Debug;
 
-	[Attribute(defvalue: "0", uiwidget: UIWidgets.CheckBox, desc: "Run on clients (for local testing)")]
+	[Attribute(defvalue: "0", uiwidget: UIWidgets.CheckBox,
+		desc: "Run on clients (for testing)")]
 	protected bool m_RunOnClient;
 
-	// --- State ---------------------------------------------------------------
+	// State
 	protected IEntity m_Owner;
-	protected ScriptedInventoryStorageManagerComponent m_InvMgr;  // 2-arg invoker
+	protected ScriptedInventoryStorageManagerComponent m_InvMgr;
 	protected InventoryStorageManagerComponent m_InvMgrBase;
 
-	// Faction resolve retry
 	protected int m_FactionRetry = 0;
-	protected const int MAX_FACTION_RETRY = 20;   // ~4s if 200ms steps
+	protected const int MAX_FACTION_RETRY = 20;
 
-	// Static channel-plan table
 	static ref array<ref OETA_RadioChannelPlan> s_Plans;
 
-	// -------------------------------------------------------------------------
-	// Plan definition (your maps)
-	// -------------------------------------------------------------------------
-	static void InitDefaultPlans()
+	// ----------------------------------------------------------------------
+	// Small helper: split by whitespace into tokens (no Split()/ParseString)
+	// ----------------------------------------------------------------------
+	protected void SplitWhitespace(string src, array<string> outTokens)
+	{
+		if (!outTokens)
+			return;
+
+		outTokens.Clear();
+
+		int len = src.Length();
+		string current = "";
+
+		for (int i = 0; i < len; i++)
+		{
+			string ch = src.Substring(i, 1);
+
+			// treat whitespace as separator
+			if (ch == " " || ch == "\t" || ch == "\n" || ch == "\r")
+			{
+				if (current != "")
+				{
+					outTokens.Insert(current);
+					current = "";
+				}
+			}
+			else
+			{
+				current += ch;
+			}
+		}
+
+		if (current != "")
+			outTokens.Insert(current);
+	}
+
+	// ----------------------------------------------------------------------
+	// Init / plan loading
+	// ----------------------------------------------------------------------
+	protected void InitPlansFromConfig()
 	{
 		if (s_Plans)
 			return;
 
 		s_Plans = new array<ref OETA_RadioChannelPlan>();
 
-		OETA_RadioChannelPlan air = new OETA_RadioChannelPlan(69500);
-		air.Add(70000, "Air2GND");
-		air.Add(71000, "TAC1");
-		air.Add(72000, "TAC2");
-		air.Add(73000, "TAC3");
-		air.Add(74000, "TAC4");
-		air.Add(75000, "Reserve");
-		s_Plans.Insert(air);
+		if (!m_PlanConfig || !m_PlanConfig.Plans || m_PlanConfig.Plans.IsEmpty())
+		{
+			if (m_Debug)
+				Print("[OETA_RadioAutoTune] No plan config; channel plans disabled.");
+			return;
+		}
 
-		OETA_RadioChannelPlan able = new OETA_RadioChannelPlan(68500);
-		able.Add(53000, "JTAC");
-		able.Add(54000, "CSB");
-		able.Add(70000, "Air2GND");
-		able.Add(32000, "Nightmare");
-		able.Add(39000, "Lancer");
-		able.Add(67000, "Mortar");
-		s_Plans.Insert(able);
+		foreach (OETA_RadioPlanConfig pc : m_PlanConfig.Plans)
+		{
+			if (!pc)
+				continue;
 
-		OETA_RadioChannelPlan jfire = new OETA_RadioChannelPlan(53000);
-		jfire.Add(70000, "AIR2GND");
-		jfire.Add(71000, "TAC1");
-		jfire.Add(72000, "TAC2");
-		jfire.Add(73000, "TAC3");
-		jfire.Add(74000, "TAC4");
-		jfire.Add(67000, "Mortar");
-		s_Plans.Insert(jfire);
+			string pname = pc.Name;
+			pname = pname.Trim();
+			if (pname == "")
+				continue;
 
-		OETA_RadioChannelPlan nightmare = new OETA_RadioChannelPlan(32500);
-		nightmare.Add(68000, "COY");
-		nightmare.Add(53000, "JTAC");
-		nightmare.AddEmpty();
-		nightmare.AddEmpty();
-		nightmare.AddEmpty();
-		nightmare.AddEmpty();
-		s_Plans.Insert(nightmare);
+			// Find or create runtime plan by Name
+			OETA_RadioChannelPlan plan = FindPlanByName(pname);
+			if (!plan)
+			{
+				plan = new OETA_RadioChannelPlan(pname);
 
-		OETA_RadioChannelPlan nightmare1 = new OETA_RadioChannelPlan(33000);
-		nightmare1.Add(33500, "A Team");
-		nightmare1.Add(34000, "B Team");
-		nightmare1.AddEmpty();
-		nightmare1.AddEmpty();
-		nightmare1.AddEmpty();
-		nightmare1.AddEmpty();
-		s_Plans.Insert(nightmare1);
+				// First definition with this Name carries the slot layout
+				if (pc.Slots)
+				{
+					foreach (OETA_RadioPlanSlotConfig slot : pc.Slots)
+					{
+						if (!slot)
+							continue;
 
-		OETA_RadioChannelPlan nightmare2 = new OETA_RadioChannelPlan(34500);
-		nightmare2.Add(35000, "A Team");
-		nightmare2.Add(35500, "B Team");
-		nightmare2.AddEmpty();
-		nightmare2.AddEmpty();
-		nightmare2.AddEmpty();
-		nightmare2.AddEmpty();
-		s_Plans.Insert(nightmare2);
+						if (slot.FrequencyKHz == 0 && slot.Text == "")
+							plan.AddEmpty(); // "skip this channel"
+						else
+							plan.Add(slot.FrequencyKHz, slot.Text);
+					}
+				}
 
-		OETA_RadioChannelPlan nightmare3 = new OETA_RadioChannelPlan(36000);
-		nightmare3.Add(36500, "A Team");
-		nightmare3.Add(37000, "B Team");
-		nightmare3.AddEmpty();
-		nightmare3.AddEmpty();
-		nightmare3.AddEmpty();
-		nightmare3.AddEmpty();
-		s_Plans.Insert(nightmare3);
+				s_Plans.Insert(plan);
+			}
+			// For subsequent configs with same Name, we ignore Slots and only
+			// aggregate BaseFrequenciesKHz.
 
-		OETA_RadioChannelPlan nightmare4 = new OETA_RadioChannelPlan(37500);
-		nightmare4.Add(38000, "A Team");
-		nightmare4.Add(38500, "B Team");
-		nightmare4.AddEmpty();
-		nightmare4.AddEmpty();
-		nightmare4.AddEmpty();
-		nightmare4.AddEmpty();
-		s_Plans.Insert(nightmare4);
+			// Parse space-separated list of base freqs (if any)
+			string list = pc.BaseFrequenciesKHz;
+			list = list.Trim();
+			if (list != "")
+			{
+				array<string> tokens = {};
+				SplitWhitespace(list, tokens);
 
-		OETA_RadioChannelPlan lancer = new OETA_RadioChannelPlan(39500);
-		lancer.Add(68000, "COY");
-		lancer.Add(53000, "JTAC");
-		lancer.AddEmpty();
-		lancer.AddEmpty();
-		lancer.AddEmpty();
-		lancer.AddEmpty();
-		s_Plans.Insert(lancer);
+				foreach (string t : tokens)
+				{
+					t = t.Trim();
+					if (t == "")
+						continue;
 
-		OETA_RadioChannelPlan lancer1 = new OETA_RadioChannelPlan(40000);
-		lancer1.Add(40500, "A Team");
-		lancer1.Add(41000, "B Team");
-		lancer1.AddEmpty();
-		lancer1.AddEmpty();
-		lancer1.AddEmpty();
-		lancer1.AddEmpty();
-		s_Plans.Insert(lancer1);
+					int freq = t.ToInt();
+					if (freq > 0)
+						plan.AddBaseFrequency(freq);
+				}
+			}
+		}
 
-		OETA_RadioChannelPlan lancer2 = new OETA_RadioChannelPlan(41500);
-		lancer2.Add(42000, "A Team");
-		lancer2.Add(42500, "B Team");
-		lancer2.AddEmpty();
-		lancer2.AddEmpty();
-		lancer2.AddEmpty();
-		lancer2.AddEmpty();
-		s_Plans.Insert(lancer2);
-
-		OETA_RadioChannelPlan lancer3 = new OETA_RadioChannelPlan(43000);
-		lancer3.Add(43500, "A Team");
-		lancer3.Add(44000, "B Team");
-		lancer3.AddEmpty();
-		lancer3.AddEmpty();
-		lancer3.AddEmpty();
-		lancer3.AddEmpty();
-		s_Plans.Insert(lancer3);
-
-		OETA_RadioChannelPlan lancer4 = new OETA_RadioChannelPlan(44500);
-		lancer4.Add(45000, "A Team");
-		lancer4.Add(45500, "B Team");
-		lancer4.AddEmpty();
-		lancer4.AddEmpty();
-		lancer4.AddEmpty();
-		lancer4.AddEmpty();
-		s_Plans.Insert(lancer4);
-		
-		OETA_RadioChannelPlan trainingc = new OETA_RadioChannelPlan(46500);
-		trainingc.Add(68000, "COY");
-		trainingc.Add(53000, "JTAC");
-		trainingc.AddEmpty();
-		trainingc.AddEmpty();
-		trainingc.AddEmpty();
-		s_Plans.Insert(trainingc);
+		if (m_Debug)
+			PrintFormat("[OETA_RadioAutoTune] Loaded %1 runtime plans from config", s_Plans.Count());
 	}
 
-	// --- Player-based channel text component lookup -------------------------
 	protected OETA_RadioChannelNamesComponent FindNamesComponent()
 	{
 		if (!m_Owner)
 			return null;
 
-		// 1) On owner itself (player / entity this component is on)
 		OETA_RadioChannelNamesComponent n = OETA_RadioChannelNamesComponent.Cast(
 			m_Owner.FindComponent(OETA_RadioChannelNamesComponent)
 		);
 		if (n) return n;
 
-		// 2) Walk parents
 		IEntity p = m_Owner.GetParent();
 		while (p)
 		{
@@ -406,7 +359,6 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 			p = p.GetParent();
 		}
 
-		// 3) Walk children
 		IEntity c = m_Owner.GetChildren();
 		while (c)
 		{
@@ -414,105 +366,181 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 			if (n) return n;
 			c = c.GetSibling();
 		}
-
 		return null;
 	}
 
-	// --- Apply plan ----------------------------------------------------------
-	protected void ApplyChannelPlan(BaseRadioComponent radio, int baseFreqKHz)
+	protected OETA_RadioChannelPlan FindPlanByName(string planName)
 	{
-		if (!m_EnableChannelPlans)
-			return;
-
-		InitDefaultPlans();
-		if (!s_Plans || s_Plans.Count() == 0)
-			return;
-
-		// Player-based text component
-		OETA_RadioChannelNamesComponent names = FindNamesComponent();
-
-		// Clear previous text in the plan range (up to 6 channels, 3–8)
-		if (names)
-			names.ClearTextRange(m_ChannelPlanStartIndex, 6);
+		if (!s_Plans)
+			return null;
 
 		foreach (OETA_RadioChannelPlan plan : s_Plans)
 		{
 			if (!plan)
 				continue;
-
-			if (plan.Matches(baseFreqKHz))
-			{
-				if (m_Debug)
-					PrintFormat("[OETA_RadioAutoTune] Applying plan for base freq %1 kHz", baseFreqKHz);
-
-				plan.ApplyToRadio(radio, names, m_ChannelPlanStartIndex, m_Debug);
-
-				// Optional debug dump of text
-				if (m_Debug && names)
-				{
-					for (int i = 0; i < 6; i++)
-					{
-						int chIndex = m_ChannelPlanStartIndex + i;
-						string t = names.GetChannelText(chIndex);
-						PrintFormat("[OETA_RadioAutoTune] Text debug ch%1 = '%2'", chIndex, t);
-					}
-				}
-
-				return;
-			}
+			if (plan.m_Name == planName)
+				return plan;
 		}
-
-		if (m_Debug)
-			PrintFormat("[OETA_RadioAutoTune] No matching channel plan for base freq %1 kHz", baseFreqKHz);
+		return null;
 	}
 
-	// --- Lifecycle -----------------------------------------------------------
-	override protected void OnPostInit(IEntity owner)
+	// ----------------------------------------------------------------------
+	// Radio classification
+	// ----------------------------------------------------------------------
+	// Is this radio considered "personal" (not backpack) based on gadget type?
+	protected bool IsPersonalRadio(BaseRadioComponent radio)
 	{
-		super.OnPostInit(owner);
-		m_Owner = owner;
+		if (!radio)
+			return false;
 
-		if (m_Debug) Print("[OETA_RadioAutoTune] OnPostInit");
+		IEntity owner = radio.GetOwner();
+		if (!owner)
+			return false;
 
-		if (!Replication.IsServer() && !m_RunOnClient)
+		SCR_RadioComponent scrRadio = SCR_RadioComponent.Cast(
+			owner.FindComponent(SCR_RadioComponent)
+		);
+		if (!scrRadio)
+			return false;
+
+		EGadgetType gType = scrRadio.GetType();
+
+		// RADIO_BACKPACK -> treat as manpack (non-personal)
+		if (gType == EGadgetType.RADIO_BACKPACK)
+			return false;
+
+		// All other radio types count as "personal"
+		return true;
+	}
+
+	// ----------------------------------------------------------------------
+	// Auto plan selection (for personal radios, based on group freq)
+	// ----------------------------------------------------------------------
+	protected void ApplyChannelPlan(BaseRadioComponent radio, int baseFreqKHz)
+	{
+		if (!m_EnableChannelPlans)
+			return;
+
+		InitPlansFromConfig();
+		if (!s_Plans || s_Plans.Count() == 0)
+			return;
+
+		OETA_RadioChannelNamesComponent names = FindNamesComponent();
+
+		foreach (OETA_RadioChannelPlan plan : s_Plans)
 		{
-			if (m_Debug) Print("[OETA_RadioAutoTune] Not server; skipping (enable 'Run on clients' to test)");
+			if (!plan || !plan.Matches(baseFreqKHz))
+				continue;
+
+			int entryCount = plan.GetEntryCount();
+
+			// Only clear text for channels actually defined in this plan.
+			if (names && entryCount > 0)
+				names.ClearTextRange(m_ChannelPlanStartIndex, entryCount);
+
+			if (m_Debug)
+				PrintFormat("[OETA_RadioAutoTune] Applying plan '%2' for base freq %1 kHz",
+					baseFreqKHz, plan.m_Name);
+
+			// Only channels with entries in the plan are touched.
+			plan.ApplyToRadio(radio, names, m_ChannelPlanStartIndex, m_Debug);
+
+			if (m_Debug && names)
+			{
+				for (int i = 0; i < entryCount; i++)
+				{
+					int chIndex = m_ChannelPlanStartIndex + i;
+					string t = names.GetChannelText(chIndex);
+					PrintFormat("[OETA_RadioAutoTune] Text debug ch%1 = '%2'", chIndex, t);
+				}
+			}
 			return;
 		}
 
-		InitDefaultPlans();
-		LocateInvMgr();
-		GetGame().GetCallqueue().CallLater(DeferredHook, 50, false);
+		if (m_Debug)
+			PrintFormat("[OETA_RadioAutoTune] No matching channel plan for base freq %1 kHz",
+				baseFreqKHz);
 	}
 
-	override protected void OnDelete(IEntity owner)
+	// ----------------------------------------------------------------------
+	// Plan override (for manpacks / vehicle radios, or anything with component)
+	// ----------------------------------------------------------------------
+	protected bool ApplyOverridePlanIfPresent(BaseRadioComponent radio)
 	{
-		if (m_InvMgr && m_InvMgr.m_OnItemAddedInvoker)
-			m_InvMgr.m_OnItemAddedInvoker.Remove(OnItemAdded);
+		if (!radio)
+			return false;
 
-		super.OnDelete(owner);
-	}
+		IEntity owner = radio.GetOwner();
+		if (!owner)
+			return false;
 
-	protected void DeferredHook()
-	{
-		if (m_Debug) Print("[OETA_RadioAutoTune] DeferredHook");
+		OETA_RadioPlanOverrideComponent overrideComp = OETA_RadioPlanOverrideComponent.Cast(
+			owner.FindComponent(OETA_RadioPlanOverrideComponent)
+		);
+		if (!overrideComp)
+			return false;
 
-		LocateInvMgr();
-		if (m_InvMgr && m_InvMgr.m_OnItemAddedInvoker)
+		string planName = overrideComp.GetPlanName();
+		planName = planName.Trim();
+		if (planName == "")
+			return false;
+
+		InitPlansFromConfig();
+		if (!s_Plans)
+			return false;
+
+		OETA_RadioChannelPlan plan = FindPlanByName(planName);
+		if (!plan)
 		{
-			m_InvMgr.m_OnItemAddedInvoker.Insert(OnItemAdded);
-			if (m_Debug) Print("[OETA_RadioAutoTune] Subscribed to 2-arg m_OnItemAddedInvoker");
+			if (m_Debug)
+				PrintFormat("[OETA_RadioAutoTune] Override plan '%1' not found", planName);
+			return false;
 		}
-		else if (m_Debug) Print("[OETA_RadioAutoTune] Inventory manager / invoker not found");
 
-		WaitForFactionThenRetune();
+		int entryCount = plan.GetEntryCount();
+		if (entryCount <= 0)
+			return false;
+
+		// Default: start at channel 1 (index 0) for override plans (manpacks / vehicles).
+		int startIndex = 0;
+		int overrideIndex = overrideComp.GetStartChannelIndexOverride();
+		if (overrideIndex >= 0)
+			startIndex = overrideIndex;
+
+		OETA_RadioChannelNamesComponent names = FindNamesComponent();
+
+		// Only clear text for the channels this override will touch
+		if (names)
+			names.ClearTextRange(startIndex, entryCount);
+
+		if (m_Debug)
+			PrintFormat("[OETA_RadioAutoTune] Applying override plan '%1' at start index %2",
+				planName, startIndex);
+
+		plan.ApplyToRadio(radio, names, startIndex, m_Debug);
+
+		if (m_Debug && names)
+		{
+			for (int i = 0; i < entryCount; i++)
+			{
+				int chIndex = startIndex + i;
+				string t = names.GetChannelText(chIndex);
+				PrintFormat("[OETA_RadioAutoTune] Override text debug ch%1 = '%2'", chIndex, t);
+			}
+		}
+
+		return true;
 	}
 
-	// --- Inventory hookup ----------------------------------------------------
+	// ----------------------------------------------------------------------
+	// Inventory hookup
+	// ----------------------------------------------------------------------
 	protected void LocateInvMgrOn(IEntity ent)
 	{
-		if (!ent) return;
-		if (!m_InvMgr) m_InvMgr = ScriptedInventoryStorageManagerComponent.Cast(
+		if (!ent || m_InvMgr)
+			return;
+
+		m_InvMgr = ScriptedInventoryStorageManagerComponent.Cast(
 			ent.FindComponent(ScriptedInventoryStorageManagerComponent)
 		);
 	}
@@ -530,31 +558,31 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 	protected void LocateInvMgr()
 	{
 		LocateInvMgrOn(m_Owner);
-		if (!m_InvMgr) ScanChildrenForInvMgr(m_Owner);
-
-		m_InvMgrBase = InventoryStorageManagerComponent.Cast(m_InvMgr);
-
+		if (!m_InvMgr)
+			ScanChildrenForInvMgr(m_Owner);
+	
+		// m_InvMgr is already compatible with m_InvMgrBase, no Cast<> needed
+		if (m_InvMgr)
+			m_InvMgrBase = m_InvMgr;
+		else
+			m_InvMgrBase = null;
+	
 		if (m_Debug)
-			PrintFormat("[OETA_RadioAutoTune] LocateInvMgr -> inv=%1 base=%2", m_InvMgr, m_InvMgrBase);
+			PrintFormat("[OETA_RadioAutoTune] LocateInvMgr -> inv=%1 base=%2",
+				m_InvMgr, m_InvMgrBase);
 	}
 
-	// --- Invoker handler (2 args, Reforger 1.6) -----------------------------
-	void OnItemAdded(IEntity item, BaseInventoryStorageComponent storage)
-	{
-		if (m_Debug) PrintFormat("[OETA_RadioAutoTune] OnItemAdded item=%1 storage=%2", item, storage);
 
-		if (!item) return;
-		BaseRadioComponent radio = BaseRadioComponent.Cast(item.FindComponent(BaseRadioComponent));
-		if (radio) RetuneRadioBoth(radio);
-	}
-
-	// --- Retune flow ---------------------------------------------------------
+	// ----------------------------------------------------------------------
+	// Faction resolve & global retune
+	// ----------------------------------------------------------------------
 	protected void WaitForFactionThenRetune()
 	{
 		SCR_Faction fac = ResolveFactionOnce();
 		if (fac)
 		{
-			if (m_Debug) PrintFormat("[OETA_RadioAutoTune] Faction resolved: %1", fac);
+			if (m_Debug)
+				PrintFormat("[OETA_RadioAutoTune] Faction resolved: %1", fac);
 			RetuneAllRadios();
 			return;
 		}
@@ -562,128 +590,148 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 		if (m_FactionRetry < MAX_FACTION_RETRY)
 		{
 			m_FactionRetry++;
-			if (m_Debug) PrintFormat("[OETA_RadioAutoTune] ResolveFaction failed (try %1/%2) — retrying...",
-				m_FactionRetry, MAX_FACTION_RETRY);
+			if (m_Debug)
+				PrintFormat("[OETA_RadioAutoTune] ResolveFaction failed (try %1/%2) — retrying...",
+					m_FactionRetry, MAX_FACTION_RETRY);
 			GetGame().GetCallqueue().CallLater(WaitForFactionThenRetune, 200, false);
 		}
-		else if (m_Debug) Print("[OETA_RadioAutoTune] ResolveFaction failed — giving up");
+		else if (m_Debug)
+			Print("[OETA_RadioAutoTune] ResolveFaction failed — giving up");
 	}
 
 	protected void RetuneAllRadios()
 	{
-		if (!m_InvMgrBase) return;
+		if (!m_InvMgrBase)
+			return;
 
 		array<IEntity> withComps = {};
 		array<typename> want = { BaseRadioComponent };
 		m_InvMgrBase.FindItemsWithComponents(withComps, want);
 
-		if (m_Debug) PrintFormat("[OETA_RadioAutoTune] RetuneAllRadios count=%1", withComps.Count());
+		if (m_Debug)
+			PrintFormat("[OETA_RadioAutoTune] RetuneAllRadios count=%1", withComps.Count());
 
 		foreach (IEntity it : withComps)
 		{
 			BaseRadioComponent radio = BaseRadioComponent.Cast(it.FindComponent(BaseRadioComponent));
-			if (radio) RetuneRadioBoth(radio);
+			if (radio)
+				RetuneRadioBoth(radio);
 		}
 	}
 
-	// --- Core retune for a single radio -------------------------------------
+	// ----------------------------------------------------------------------
+	// Core retune for a single radio
+	// ----------------------------------------------------------------------
 	protected void RetuneRadioBoth(BaseRadioComponent radio)
 	{
-		if (!radio) return;
+		if (!radio)
+			return;
 
-		// Player-based text component
-		OETA_RadioChannelNamesComponent names = FindNamesComponent();
-		int groupFreqApplied = 0;
+		bool isPersonal = IsPersonalRadio(radio);
 
-		// --- GROUP on channel m_GroupChannelIndex ----------------------------
-		if (radio.TransceiversCount() > m_GroupChannelIndex)
+		// PERSONAL radios: group/faction + auto plan (if allowed)
+		if (!m_OnlyPersonalForAutoTune || isPersonal)
 		{
-			BaseTransceiver chG = radio.GetTransceiver(m_GroupChannelIndex);
-			if (chG)
+			OETA_RadioChannelNamesComponent names = FindNamesComponent();
+			int groupFreqApplied = 0;
+
+			// GROUP
+			if (radio.TransceiversCount() > m_GroupChannelIndex)
 			{
-				int gFreq; string gKey;
-				if (ResolveGroupRadio(gFreq, gKey))
+				BaseTransceiver chG = radio.GetTransceiver(m_GroupChannelIndex);
+				if (chG)
 				{
-					int gMin = chG.GetMinFrequency();
-					int gMax = chG.GetMaxFrequency();
-					if (gFreq < gMin) gFreq = gMin;
-					if (gFreq > gMax) gFreq = gMax;
+					int gFreq; string gKey;
+					if (ResolveGroupRadio(gFreq, gKey))
+					{
+						int gMin = chG.GetMinFrequency();
+						int gMax = chG.GetMaxFrequency();
+						if (gFreq < gMin) gFreq = gMin;
+						if (gFreq > gMax) gFreq = gMax;
 
-					chG.SetFrequency(gFreq);
-					groupFreqApplied = gFreq;
+						chG.SetFrequency(gFreq);
+						groupFreqApplied = gFreq;
 
-					if (m_PreferGroupEncryption && gKey != "")
-						radio.SetEncryptionKey(gKey);
+						if (m_PreferGroupEncryption && gKey != "")
+							radio.SetEncryptionKey(gKey);
 
-					// UI text
-					if (names)
-						names.SetChannelText(m_GroupChannelIndex, "Group");
+						if (names)
+							names.SetChannelText(m_GroupChannelIndex, "Group");
 
-					if (m_Debug) PrintFormat("[OETA_RadioAutoTune] Group ch%1 -> %2 kHz",
-						m_GroupChannelIndex, gFreq);
+						if (m_Debug)
+							PrintFormat("[OETA_RadioAutoTune] Group ch%1 -> %2 kHz",
+								m_GroupChannelIndex, gFreq);
+					}
+					else if (m_Debug)
+						Print("[OETA_RadioAutoTune] No group frequency found");
 				}
-				else if (m_Debug) Print("[OETA_RadioAutoTune] No group frequency found");
+			}
+			else if (m_Debug)
+			{
+				PrintFormat("[OETA_RadioAutoTune] Radio has %1 transceivers; group index %2 invalid",
+					radio.TransceiversCount(), m_GroupChannelIndex);
+			}
+
+			// PLAN (based on group freq) – only channels with entries in the plan get touched.
+			if (groupFreqApplied > 0)
+				ApplyChannelPlan(radio, groupFreqApplied);
+
+			// FACTION
+			if (radio.TransceiversCount() > m_FactionChannelIndex)
+			{
+				BaseTransceiver chF = radio.GetTransceiver(m_FactionChannelIndex);
+				if (chF)
+				{
+					SCR_Faction fac = ResolveFactionOnce();
+					if (fac)
+					{
+						int fFreq = fac.GetFactionRadioFrequency();
+						int fMin = chF.GetMinFrequency();
+						int fMax = chF.GetMaxFrequency();
+						if (fFreq < fMin) fFreq = fMin;
+						if (fFreq > fMax) fFreq = fMax;
+
+						chF.SetFrequency(fFreq);
+
+						if (m_SyncFactionEncryption)
+							radio.SetEncryptionKey(fac.GetFactionRadioEncryptionKey());
+
+						if (names)
+							names.SetChannelText(m_FactionChannelIndex, "Faction");
+
+						if (m_Debug)
+							PrintFormat("[OETA_RadioAutoTune] Faction ch%1 -> %2 kHz",
+								m_FactionChannelIndex, fFreq);
+					}
+					else if (m_Debug)
+						Print("[OETA_RadioAutoTune] ResolveFaction failed inside RetuneRadioBoth");
+				}
+			}
+			else if (m_Debug)
+			{
+				PrintFormat("[OETA_RadioAutoTune] Radio has %1 transceivers; faction index %2 invalid",
+					radio.TransceiversCount(), m_FactionChannelIndex);
 			}
 		}
-		else if (m_Debug)
-		{
-			PrintFormat("[OETA_RadioAutoTune] Radio has %1 transceivers; group index %2 invalid",
-				radio.TransceiversCount(), m_GroupChannelIndex);
-		}
 
-		// --- Plan based on group channel (Channel 0) -------------------------
-		if (groupFreqApplied > 0)
-		{
-			ApplyChannelPlan(radio, groupFreqApplied);
-		}
-
-		// --- FACTION on channel m_FactionChannelIndex ------------------------
-		if (radio.TransceiversCount() > m_FactionChannelIndex)
-		{
-			BaseTransceiver chF = radio.GetTransceiver(m_FactionChannelIndex);
-			if (chF)
-			{
-				SCR_Faction fac = ResolveFactionOnce();
-				if (fac)
-				{
-					int fFreq = fac.GetFactionRadioFrequency();
-					int fMin = chF.GetMinFrequency();
-					int fMax = chF.GetMaxFrequency();
-					if (fFreq < fMin) fFreq = fMin;
-					if (fFreq > fMax) fFreq = fMax;
-
-					chF.SetFrequency(fFreq);
-					if (m_SyncFactionEncryption)
-						radio.SetEncryptionKey(fac.GetFactionRadioEncryptionKey());
-
-					// UI text
-					if (names)
-						names.SetChannelText(m_FactionChannelIndex, "Faction");
-
-					if (m_Debug) PrintFormat("[OETA_RadioAutoTune] Faction ch%1 -> %2 kHz",
-						m_FactionChannelIndex, fFreq);
-				}
-				else if (m_Debug) Print("[OETA_RadioAutoTune] ResolveFaction failed inside RetuneRadioBoth");
-			}
-		}
-		else if (m_Debug)
-		{
-			PrintFormat("[OETA_RadioAutoTune] Radio has %1 transceivers; faction index %2 invalid",
-				radio.TransceiversCount(), m_FactionChannelIndex);
-		}
+		// Override plans can apply to ANY radio (personal or not) if the component is present
+		ApplyOverridePlanIfPresent(radio);
 	}
 
-	// --- Group frequency resolution -----------------------------------------
-	// Order: explicit override -> player's live group -> fallback settings component
+	// ----------------------------------------------------------------------
+	// Group frequency resolution
+	// ----------------------------------------------------------------------
 	protected bool ResolveGroupRadio(out int freqKHz, out string key)
 	{
 		// 1) Explicit override
 		if (m_GroupFreqOverrideKHz > 0)
 		{
-			freqKHz = m_GroupFreqOverrideKHz; key = ""; return true;
+			freqKHz = m_GroupFreqOverrideKHz;
+			key = "";
+			return true;
 		}
 
-		// 2) Player's current group via GroupsManager (preferred)
+		// 2) Player's current group via GroupsManager
 		PlayerManager pm = GetGame().GetPlayerManager();
 		if (pm)
 		{
@@ -696,26 +744,34 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 					SCR_AIGroup group = gm.GetPlayerGroup(pid);
 					if (group)
 					{
-						int liveFreq = group.GetRadioFrequency(); // kHz
-						if (m_Debug) PrintFormat("[OETA_RadioAutoTune] Group from GM: id=%1 freq=%2",
-							group.GetGroupID(), liveFreq);
-						if (liveFreq > 0) { freqKHz = liveFreq; key = ""; return true; }
+						int liveFreq = group.GetRadioFrequency();
+						if (m_Debug)
+							PrintFormat("[OETA_RadioAutoTune] Group from GM: id=%1 freq=%2",
+								group.GetGroupID(), liveFreq);
+						if (liveFreq > 0)
+						{
+							freqKHz = liveFreq;
+							key = "";
+							return true;
+						}
 					}
 				}
 			}
 		}
 
-		// 3) Fallback: a nearby OETA_GroupRadioSettingsComponent
+		// 3) Fallback: OETA_GroupRadioSettingsComponent
 		OETA_GroupRadioSettingsComponent g = FindGroupSettings();
 		if (g && g.GetGroupFrequencyKHz() > 0)
 		{
 			freqKHz = g.GetGroupFrequencyKHz();
-			if (!g.HasGroupEncryptionKey(key)) key = "";
+			if (!g.HasGroupEncryptionKey(key))
+				key = "";
 			return true;
 		}
 
-		// Nothing found
-		freqKHz = 0; key = ""; return false;
+		freqKHz = 0;
+		key = "";
+		return false;
 	}
 
 	protected OETA_GroupRadioSettingsComponent FindGroupSettings()
@@ -736,14 +792,18 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 		IEntity c = m_Owner.GetChildren();
 		while (c)
 		{
-			g = OETA_GroupRadioSettingsComponent.Cast(c.FindComponent(OETA_GroupRadioSettingsComponent));
+			g = OETA_GroupRadioSettingsComponent.Cast(
+				c.FindComponent(OETA_GroupRadioSettingsComponent)
+			);
 			if (g) return g;
 			c = c.GetSibling();
 		}
 		return null;
 	}
 
-	// --- Faction helpers -----------------------------------------------------
+	// ----------------------------------------------------------------------
+	// Faction helpers
+	// ----------------------------------------------------------------------
 	protected SCR_FactionAffiliationComponent FindAffiliationComp()
 	{
 		SCR_FactionAffiliationComponent aff = SCR_FactionAffiliationComponent.Cast(
@@ -754,7 +814,9 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 		IEntity p = m_Owner.GetParent();
 		while (p)
 		{
-			aff = SCR_FactionAffiliationComponent.Cast(p.FindComponent(SCR_FactionAffiliationComponent));
+			aff = SCR_FactionAffiliationComponent.Cast(
+				p.FindComponent(SCR_FactionAffiliationComponent)
+			);
 			if (aff) return aff;
 			p = p.GetParent();
 		}
@@ -762,7 +824,9 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 		IEntity c = m_Owner.GetChildren();
 		while (c)
 		{
-			aff = SCR_FactionAffiliationComponent.Cast(c.FindComponent(SCR_FactionAffiliationComponent));
+			aff = SCR_FactionAffiliationComponent.Cast(
+				c.FindComponent(SCR_FactionAffiliationComponent)
+			);
 			if (aff) return aff;
 			c = c.GetSibling();
 		}
@@ -796,11 +860,77 @@ class OETA_RadioAutoTuneComponent : ScriptComponent
 		return null;
 	}
 
-	// --- Utility -------------------------------------------------------------
+	// ----------------------------------------------------------------------
+	// Lifecycle / hooks
+	// ----------------------------------------------------------------------
+	override protected void OnPostInit(IEntity owner)
+	{
+		super.OnPostInit(owner);
+		m_Owner = owner;
+
+		if (m_Debug)
+			Print("[OETA_RadioAutoTune] OnPostInit");
+
+		if (!Replication.IsServer() && !m_RunOnClient)
+		{
+			if (m_Debug)
+				Print("[OETA_RadioAutoTune] Not server; skipping (enable Run on clients to test)");
+			return;
+		}
+
+		InitPlansFromConfig();
+		LocateInvMgr();
+		GetGame().GetCallqueue().CallLater(DeferredHook, 50, false);
+	}
+
+	override protected void OnDelete(IEntity owner)
+	{
+		if (m_InvMgr && m_InvMgr.m_OnItemAddedInvoker)
+			m_InvMgr.m_OnItemAddedInvoker.Remove(OnItemAdded);
+
+		super.OnDelete(owner);
+	}
+
+	protected void DeferredHook()
+	{
+		if (m_Debug)
+			Print("[OETA_RadioAutoTune] DeferredHook");
+
+		LocateInvMgr();
+		if (m_InvMgr && m_InvMgr.m_OnItemAddedInvoker)
+		{
+			m_InvMgr.m_OnItemAddedInvoker.Insert(OnItemAdded);
+			if (m_Debug)
+				Print("[OETA_RadioAutoTune] Subscribed to m_OnItemAddedInvoker");
+		}
+		else if (m_Debug)
+			Print("[OETA_RadioAutoTune] Inventory manager / invoker not found");
+
+		WaitForFactionThenRetune();
+	}
+
+	void OnItemAdded(IEntity item, BaseInventoryStorageComponent storage)
+	{
+		if (m_Debug)
+			PrintFormat("[OETA_RadioAutoTune] OnItemAdded item=%1 storage=%2", item, storage);
+
+		if (!item)
+			return;
+
+		BaseRadioComponent radio = BaseRadioComponent.Cast(item.FindComponent(BaseRadioComponent));
+		if (radio)
+			RetuneRadioBoth(radio);
+	}
+
+	// Manual trigger
 	void ForceRetune()
 	{
-		if (!Replication.IsServer() && !m_RunOnClient) return;
-		if (m_Debug) Print("[OETA_RadioAutoTune] ForceRetune");
+		if (!Replication.IsServer() && !m_RunOnClient)
+			return;
+
+		if (m_Debug)
+			Print("[OETA_RadioAutoTune] ForceRetune");
+
 		RetuneAllRadios();
 	}
 }

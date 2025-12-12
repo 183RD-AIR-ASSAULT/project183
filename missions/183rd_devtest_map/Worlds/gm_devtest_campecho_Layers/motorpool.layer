@@ -1,0 +1,505 @@
+$grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et" {
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{0FBA3DA61AFAF11D}Assets/servicepoints/VehicleService_Barrels_nightmare.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+    additionalActions {
+     OETA_SpawnAtNamedPointAction "{671635284C2A496B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671635282DBC0426}" {
+       Name "JLTV CROWSII"
+      }
+      ActionTitle "JLTV CROWSII"
+      Duration 1
+      m_PrefabToSpawn "{D17CCBF7FE9AAFEC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII_Woodland.et"
+      m_SpawnPointName "V_nightmare_1"
+     }
+     OETA_SpawnAtNamedPointAction "{671635286344F549}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352807786974}" {
+       Name "JLTV CROWSII Javelin"
+      }
+      ActionTitle "JLTV CROWSII Javelin"
+      Duration 1
+      m_PrefabToSpawn "{4DB3F284FE895321}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/Javelin/JLTV_CROWSII_Javelin_Woodland.et"
+      m_SpawnPointName "V_nightmare_2"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528160D06BD}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_FactionUIInfo "{671635280FD35492}" {
+       Name "JLTV Crows 240"
+      }
+      ActionTitle "JLTV Crows 240"
+      Duration 1
+      m_PrefabToSpawn "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/JLTV_CROWS_M240_Woodland.et"
+      m_SpawnPointName "V_nightmare_3"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528EA4FE179}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{67163528EEDCBBC9}" {
+       Name "JLTV CROWSII M2HB"
+      }
+      ActionTitle "JLTV CROWSII M2HB"
+      Duration 1
+      m_PrefabToSpawn "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+      m_SpawnPointName "V_nightmare_4"
+     }
+     OETA_SpawnAtNamedPointAction "{6716352B5F4DEB2A}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352B5F4DEB74}" {
+       Name "JLTV CROWSII AIM92"
+      }
+      ActionTitle "JLTV CROWSII AIM92"
+      Duration 1
+      m_PrefabToSpawn "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+      m_SpawnPointName "V_nightmare_5"
+     }
+    }
+   }
+  }
+  coords 6706.755 599.969 3388.556
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{BCC5A7258EE210AF}Assets/servicepoints/VehicleService_Barrels_lancer.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+    additionalActions {
+     OETA_SpawnAtNamedPointAction "{671635284C2A496B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671635282DBC0426}" {
+       Name "JLTV CROWSII"
+      }
+      ActionTitle "JLTV CROWSII"
+      Duration 1
+      m_PrefabToSpawn "{D17CCBF7FE9AAFEC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII_Woodland.et"
+      m_SpawnPointName "V_lancer_1"
+     }
+     OETA_SpawnAtNamedPointAction "{671635286344F549}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352807786974}" {
+       Name "JLTV CROWSII Javelin"
+      }
+      ActionTitle "JLTV CROWSII Javelin"
+      Duration 1
+      m_PrefabToSpawn "{4DB3F284FE895321}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/Javelin/JLTV_CROWSII_Javelin_Woodland.et"
+      m_SpawnPointName "V_lancer_2"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528160D06BD}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_FactionUIInfo "{671635280FD35492}" {
+       Name "JLTV Crows 240"
+      }
+      ActionTitle "JLTV Crows 240"
+      Duration 1
+      m_PrefabToSpawn "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/JLTV_CROWS_M240_Woodland.et"
+      m_SpawnPointName "V_nlancer_3"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528EA4FE179}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{67163528EEDCBBC9}" {
+       Name "JLTV CROWSII M2HB"
+      }
+      ActionTitle "JLTV CROWSII M2HB"
+      Duration 1
+      m_PrefabToSpawn "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+      m_SpawnPointName "V_lancer_4"
+     }
+     OETA_SpawnAtNamedPointAction "{6716352B5F4DEB2A}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352B5F4DEB74}" {
+       Name "JLTV CROWSII AIM92"
+      }
+      ActionTitle "JLTV CROWSII AIM92"
+      Duration 1
+      m_PrefabToSpawn "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+      m_SpawnPointName "V_lancer_5"
+     }
+    }
+   }
+  }
+  coords 6706.755 599.969 2824.022
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{EFEF2F537FB76D17}Assets/servicepoints/VehicleService_Barrels_211.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+    additionalActions {
+     OETA_SpawnAtNamedPointAction "{671635284C2A496B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671635282DBC0426}" {
+       Name "JLTV"
+      }
+      ActionTitle "JLTV"
+      Duration 1
+      m_PrefabToSpawn "{CBC466F92C9E1AE6}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Woodland.et"
+      m_SpawnPointName "V_211_ground"
+     }
+     OETA_SpawnAtNamedPointAction "{671635286344F549}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352807786974}" {
+       Name "FMTV Ammo"
+      }
+      ActionTitle "FMTV Ammo"
+      Duration 1
+      m_PrefabToSpawn "{74FE0C47872EEF57}Prefabs/Vehicles/Wheeled/M1083/M1083_Ammo_Woodland.et"
+      m_SpawnPointName "V_211_ground"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528160D06BD}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_FactionUIInfo "{671635280FD35492}" {
+       Name "FMTV Tanker"
+      }
+      ActionTitle "FMTV Tanker"
+      Duration 1
+      m_PrefabToSpawn "{5B2C8B33EEEEF5E5}Prefabs/Vehicles/Wheeled/M1083/M1091_Tanker_Woodland.et"
+      m_SpawnPointName "V_211_ground"
+     }
+    }
+   }
+  }
+  coords 6496.568 599.969 3544.671
+  angles 0 180 0
+ }
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{DA351FA8BF86BAF1}Assets/servicepoints/VehicleService_Barrels_211air.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+    additionalActions {
+     OETA_SpawnAtNamedPointAction "{671635284C2A496B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671635282DBC0426}" {
+       Name "UH60 Armed (fastroping)"
+      }
+      ActionTitle "UH60 Armed (fastroping)"
+      Duration 1
+      m_PrefabToSpawn "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C6F3EB99C5}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C6F3EB9915}" {
+       Name "UH60 Supply"
+      }
+      ActionTitle "UH60 Supply"
+      Duration 1
+      m_PrefabToSpawn "{47F2921E0DACA300}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_Supply.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C6EF307AC0}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C6EF307A05}" {
+       Name "CH 47 (Fastroping)"
+      }
+      ActionTitle "CH 47 (Fastroping)"
+      Duration 1
+      m_PrefabToSpawn "{7CF0A16FA3AED298}Prefabs/Vehicles/Helicopters/H47/H47_base.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C74D57C373}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C74D57C2B2}" {
+       Name "CH 47 (Fastroping)"
+      }
+      ActionTitle "CH 47 (Fastroping)"
+      Duration 1
+      m_PrefabToSpawn "{7CF0A16FA3AED298}Prefabs/Vehicles/Helicopters/H47/H47_base.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C76DD222C8}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C76DD22217}" {
+       Name "AH6"
+      }
+      ActionTitle "AH6"
+      Duration 1
+      m_PrefabToSpawn "{F5763805919D0553}Prefabs/Vehicles/Helicopters/AH6M/AH6M_base.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C7F2050EDC}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C7F2050E1F}" {
+       Name "AH6 AIM92x2"
+      }
+      ActionTitle "AH6 AIM92x2"
+      m_PrefabToSpawn "{0D355CF9D40F79CA}Prefabs/Vehicles/Helicopters/AH6M/AH6M_AIM92x2.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C71EC9022E}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C71EC9026B}" {
+       Name "AH6 GAU19"
+      }
+      ActionTitle "AH6 GAU19"
+      Duration 1
+      m_PrefabToSpawn "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C73861BB01}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C73861BB55}" {
+       Name "AH6  M134"
+      }
+      ActionTitle "AH6 M134"
+      Duration 1
+      m_PrefabToSpawn "{72C04A6EABC12143}Prefabs/Vehicles/Helicopters/AH6M/AH6M_M134.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C72D626FEC}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C72D626F24}" {
+       Name "AH6  RKTO"
+      }
+      ActionTitle "AH6 RKTO"
+      Duration 1
+      m_PrefabToSpawn "{FAA52C8EBB0EBCF7}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKTO.et"
+      m_SpawnPointName "V_211_air"
+     }
+     OETA_SpawnAtNamedPointAction "{671639C7CBD858F2}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671639C7CBD8583E}" {
+       Name "MH6M"
+      }
+      ActionTitle "MH6M"
+      Duration 1
+      m_PrefabToSpawn "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et"
+      m_SpawnPointName "V_211_air"
+     }
+    }
+   }
+  }
+  coords 6445.043 599.969 3518.074
+  angles 0 90 0
+ }
+ {
+  components {
+   ActionsManagerComponent "{671576FAB321B49E}" {
+    additionalActions {
+     OETA_SpawnAtNamedPointAction "{671635284C2A496B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671635282DBC0426}" {
+       Name "JLTV CROWSII"
+      }
+      Duration 1
+      m_PrefabToSpawn "{D17CCBF7FE9AAFEC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII_Woodland.et"
+      m_SpawnPointName "V_able_1"
+     }
+     OETA_SpawnAtNamedPointAction "{671635286344F549}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352807786974}" {
+       Name "JLTV CROWSII Javelin"
+      }
+      Duration 1
+      m_PrefabToSpawn "{4DB3F284FE895321}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/Javelin/JLTV_CROWSII_Javelin_Woodland.et"
+      m_SpawnPointName "V_able_2"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528160D06BD}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_FactionUIInfo "{671635280FD35492}" {
+       Name "JLTV Crows 240"
+      }
+      Duration 1
+      m_PrefabToSpawn "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/JLTV_CROWS_M240_Woodland.et"
+      m_SpawnPointName "V_able_3"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528EA4FE179}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{67163528EEDCBBC9}" {
+       Name "JLTV CROWSII M2HB"
+      }
+      Duration 1
+      m_PrefabToSpawn "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+      m_SpawnPointName "V_able_4"
+     }
+     OETA_SpawnAtNamedPointAction "{6716352B5F4DEB2A}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352B5F4DEB74}" {
+       Name "JLTV CROWSII AIM92"
+      }
+      Duration 1
+      m_PrefabToSpawn "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+      m_SpawnPointName "V_able_5"
+     }
+     OETA_SpawnAtNamedPointAction "{6716352B504FF53B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352B504FF542}" {
+       Name "FMTV Command"
+      }
+      Duration 1
+      m_PrefabToSpawn "{E5D66B1A14745C24}Prefabs/Vehicles/Wheeled/M1083/M1083_Command_Woodland.et"
+      m_SpawnPointName "V_able_6"
+     }
+    }
+   }
+  }
+  coords 6706.755 599.969 3391.927
+  angles 0 90 0
+ }
+}
+$grp GenericEntity : "{3D48EEAD747D448C}Prefabs/Systems/Vehicle_Spawn.et" {
+ V_able_1 {
+  coords 6745 599.969 3405
+  angles 0 270 0
+ }
+ V_able_3 {
+  coords 6745 599.969 3385
+  angles 0 270 0
+ }
+ V_able_4 {
+  coords 6745 599.969 3370
+  angles 0 270 0
+ }
+ V_able_2 {
+  coords 6745 599.969 3395
+  angles 0 270 0
+ }
+ V_able_6 {
+  coords 6745 599.969 3340
+  angles 0 270 0
+ }
+ V_able_5 {
+  coords 6745 599.969 3355
+  angles 0 270 0
+ }
+ V_nightmare_1 {
+  coords 6755 599.969 3405
+  angles 0 90 0
+ }
+ V_nightmare_2 {
+  coords 6755 599.969 3395
+  angles 0 90 0
+ }
+ V_nightmare_3 {
+  coords 6755 599.969 3385
+  angles 0 90 0
+ }
+ V_nightmare_4 {
+  coords 6755 599.969 3370
+  angles 0 90 0
+ }
+ V_nightmare_5 {
+  coords 6755 599.969 3355
+  angles 0 90 0
+ }
+ V_nightmare_6 {
+  coords 6755 599.969 3340
+  angles 0 90 0
+ }
+ V_lancer_1 {
+  coords 6745 599.969 2829.953
+  angles 0 270 0
+ }
+ V_lancer_2 {
+  coords 6745 599.969 2819.953
+  angles 0 270 0
+ }
+ V_lancer_3 {
+  coords 6745 599.969 2809.953
+  angles 0 270 0
+ }
+ V_lancer_4 {
+  coords 6745 599.969 2794.953
+  angles 0 270 0
+ }
+ V_lancer_5 {
+  coords 6745 599.969 2779.953
+  angles 0 270 0
+ }
+ V_lancer_6 {
+  coords 6745 599.969 2764.953
+  angles 0 270 0
+ }
+ V_211_ground {
+  coords 6483.529 599.969 3552.254
+ }
+ V_211_air {
+  coords 6403.547 599.969 3515.78
+ }
+}

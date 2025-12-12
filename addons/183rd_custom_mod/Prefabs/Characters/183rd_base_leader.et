@@ -131,7 +131,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      }
     }
     ItemsInitConfigurationItem "{66E81B17B85FFEFF}" {
-     TargetStorage "ArmoredVest/183_JPC2.0_leader.et/RS_Rear_Pouch/GRS_ARDual_G17_Pouch.et"
+     TargetStorage "ArmoredVest/183_JPC2.0_leader.et/LS_Front_Pouch/GRS_ARDual_G17_Pouch.et"
      PrefabsToSpawn {
       "{AA38F8205E5DB079}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25.et" "{AA38F8205E5DB079}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25.et" "{6DA7A9D0D9C4BD3A}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_base.et"
      }
@@ -139,7 +139,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     ItemsInitConfigurationItem "{66E81B17B85FFEFE}" {
      TargetStorage "ArmoredVest/183_JPC2.0_leader.et/Rear_Radio/GRS_Radio_MPU5_Pouch.et"
      PrefabsToSpawn {
-      "{D9EB5119A9977BE2}Prefabs/Radio Prefabs/183rd_Leaders_Radio_Trellisware.et"
+      "{C2B04207EBE4DDF4}Prefabs/Radio Prefabs/183rd_Leader_Radio_MPU5.et"
      }
     }
     ItemsInitConfigurationItem "{66E81B17B85FB85E}" {
@@ -168,6 +168,12 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      TargetStorage "Back/183_Modular_Backpanel_Base.et/Pouch_Setup/GRS_Backpanel_MC.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6710E6EACB6B71DC}" {
+     TargetStorage "ArmoredVest/183_JPC2.0_leader.et/RS_Radio/GRS_Radio_JTAC_Pouch.et"
+     PrefabsToSpawn {
+      "{7442AC601286D335}Prefabs/Radio Prefabs/183rd_Radio_Infantry_R.et"
      }
     }
    }
