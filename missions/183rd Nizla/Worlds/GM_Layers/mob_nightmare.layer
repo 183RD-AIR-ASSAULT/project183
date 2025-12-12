@@ -1,0 +1,38 @@
+$grp GenericEntity {
+ V_nightmare_1 {
+  coords 2115 12.918 3235
+ }
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{0FBA3DA61AFAF11D}Assets/servicepoints/VehicleService_Barrels_nightmare.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+   }
+  }
+  coords 2121.545 13.037 3228.472
+  angles 0 -90 0
+ }
+}
+$grp GenericEntity : "{710095DC38176840}Prefabs/Systems/nightmare/ArsenalBox_183_nightmare.et" {
+ {
+  coords 2122.298 13.037 3223.442
+  angles 0 270 0
+ }
+ {
+  coords 2122.298 13.037 3219.376
+  angles 0 270 0
+ }
+ {
+  coords 2122.298 13.037 3215.635
+  angles 0 270 0
+ }
+}
+SCR_SpawnPoint : "{A056CDD1038A32A5}Prefabs/Systems/nightmare/E_SpawnPoint_183rd_nightmare.et" {
+ coords 2109.308 13.037 3212.874
+}

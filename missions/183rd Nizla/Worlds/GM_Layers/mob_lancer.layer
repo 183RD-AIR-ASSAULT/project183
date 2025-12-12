@@ -1,0 +1,38 @@
+$grp GenericEntity {
+ V_lancer_1 {
+  coords 2050 12.918 3235
+ }
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{BCC5A7258EE210AF}Assets/servicepoints/VehicleService_Barrels_lancer.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+   }
+  }
+  coords 2058.793 12.918 3228.651
+  angles 0 270 0
+ }
+}
+SCR_SpawnPoint : "{B2C3DC788CA15F71}Prefabs/Systems/lancer/E_SpawnPoint_183rd_lancer.et" {
+ coords 2046.611 13.037 3212.52
+}
+$grp GenericEntity : "{DFD6BEE785EA81B8}Prefabs/Systems/lancer/ArsenalBox_183_lancer.et" {
+ {
+  coords 2059.573 13.037 3223.482
+  angles 0 270 0
+ }
+ {
+  coords 2059.573 13.037 3219.939
+  angles 0 270 0
+ }
+ {
+  coords 2059.573 13.037 3215.755
+  angles 0 270 0
+ }
+}

@@ -1,0 +1,26 @@
+$grp GenericEntity {
+ V_able_1 {
+  coords 2175 12.918 3235
+ }
+ {
+  components {
+   ActionsManagerComponent "{671576FAB321B49E}" {
+   }
+  }
+  coords 2183.564 13.037 3227.833
+  angles 0 -90 0
+ }
+}
+$grp GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able.et" {
+ {
+  coords 2184.569 13.037 3223.25
+  angles 0 270 0
+ }
+ {
+  coords 2184.569 13.037 3219.87
+  angles 0 270 0
+ }
+}
+SCR_SpawnPoint : "{9C9736E613CC62D5}Prefabs/Systems/able/E_SpawnPoint_183rd_able.et" {
+ coords 2173.031 13.037 3212.116
+}

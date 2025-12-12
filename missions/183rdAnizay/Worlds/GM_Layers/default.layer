@@ -1,0 +1,142 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 5144.606 165.464 5076.696
+ "Map Geometry Data" "{AF606472FF21251B}Worlds/Gamemaster/GM_Anizay.topo"
+ "Satellite background image" "{8B38CC0FBBC58024}Data/UI/Textures/Map/Worlds/anizay_ras.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{67162B652E596899}" {
+     NavmeshFile "{22BCE6ADD2DCD94C}Worlds/Gamemaster/Navmeshes/Anizay_soldiers_navmesh.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{CFCD9E2EA1CAA291}Worlds/Gamemaster/Navmeshes/Vehicle_navmesh/anizay_vehicle_navmesh.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{B077E4658D03DDA5}Worlds/Gamemaster/Navmeshes/lowres_navmesh/Anizay_lowres_navmesh.nmn"
+    }
+   }
+  }
+ }
+ coords 5144.606 165.458 5075.696
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5144.606 165.485 5074.696
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ components {
+  SCR_RespawnTimerComponent "{56C2DDA6EE0E4071}" {
+   m_fRespawnTime 5
+  }
+ }
+ coords 5144.606 165.511 5073.696
+ {
+  SCR_FactionManager "6717725EF64CDE19" {
+   ID "56E685E92F1B7E7A"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 1
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{5F7EC52FC40A03E2}Configs/EntityCatalog/US/InventoryItems_EntityCatalog_US.conf" {
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ {
+  coords 3628.471 190.441 1611.763
+ }
+ {
+  coords 3659.946 190.469 1537.425
+ }
+}
+$grp GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Equipment_NoAffiliation.et" {
+ {
+  coords 3625.223 190.469 1628.834
+  angles 0 27.362 0
+ }
+ {
+  coords 3636.947 190.469 1609.268
+  angles 0 68.441 0
+ }
+ {
+  coords 3669.978 190.469 1530.25
+  angles 0 86.293 0
+ }
+ {
+  coords 3661.702 190.469 1549.597
+  angles 0 39.954 0
+ }
+}
+$grp GenericEntity : "{B642B7B2BF172CF5}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Weapons_NoAffiliation.et" {
+ {
+  coords 3627.332 190.469 1627.24
+  angles 0 33.268 0
+ }
+ {
+  coords 3637.489 190.469 1606.681
+  angles 0 74.346 0
+ }
+ {
+  coords 3669.701 190.469 1527.622
+  angles 0 92.199 0
+ }
+ {
+  coords 3663.412 190.469 1547.582
+  angles 0 45.859 0
+ }
+}
+$grp GenericEntity : "{FF27B5E7B51F45F0}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_NoAffiliation.et" {
+ {
+  coords 3629.276 190.469 1625.354
+  angles 0 34.25 0
+ }
+ {
+  coords 3637.716 190.469 1603.981
+  angles 0 75.329 0
+ }
+ {
+  coords 3669.089 190.469 1524.983
+  angles 0 93.182 0
+ }
+ {
+  coords 3664.899 190.469 1545.317
+  angles 0 46.842 0
+ }
+}

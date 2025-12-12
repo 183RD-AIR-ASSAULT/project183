@@ -1,0 +1,155 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 3625.108 12.452 4258.087
+ "Map Geometry Data" "{9A2B67F475864ABD}Topo/Nizla Island GameMaster.topo"
+ "Satellite background image" "{54902A57C4038978}Map_Topo/Nizla_GameMaster.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{66DF7B5471E44064}" {
+     NavmeshFile "{5CAFBACA072C6916}Navmesh_2/Navmesh_Soldiers_2.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{42E28FC2EE04E8AB}Navmesh_2/Navmesh_BTRSLike_2.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{D8723EFE99F02130}Navmesh_2/Navmesh_LowRes_2.nmn"
+    }
+   }
+  }
+ }
+ coords 3625.108 12.591 4257.087
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3625.108 12.719 4256.087
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ components {
+  SCR_RespawnTimerComponent "{56C2DDA6EE0E4071}" {
+   m_fRespawnTime 0
+  }
+ }
+ coords 3625.108 12.844 4255.087
+ {
+  SCR_FactionManager "66F02B46A938FA13" {
+   ID "56E685E92F1B7E7A"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+    }
+    SCR_Faction "{66F313B88437CE69}" {
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5D4A8E6F0798A83F}" : "{79C15DBD0578F96B}Configs/EntityCatalog/able/Characters_EntityCatalog_able.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F0733B065}" : "{9B5065AFE5293FC0}Configs/EntityCatalog/able/Groups_EntityCatalog_Able.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F04DCBF0B}" : "{8F51DD935E39AC27}Configs/EntityCatalog/able/InventoryItems_EntityCatalog_Able.conf" {
+      }
+      SCR_EntityCatalog "{5D4A8E6F39B90D71}" : "{A63B4FD81C62EC4E}Configs/EntityCatalog/able/SupplyContainerItems_EntityCatalog_Able.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F051F4758}" : "{8424FE13F6A82042}Configs/EntityCatalog/able/Vehicles_EntityCatalog_Able.conf" {
+      }
+      SCR_EntityCatalog "{66F313B6CBCD34D1}" : "{C31D272B56F936E4}Configs/EntityCatalog/able/WeaponTripod_EntityCatalog_Able.conf" {
+      }
+     }
+    }
+    SCR_Faction "{66F3518CF39DB5BE}" {
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5D4A8E6F0798A83F}" : "{F3123E36F5DA4956}Configs/EntityCatalog/aviation/Characters_EntityCatalog_aviation.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F0733B065}" : "{A3F5F35C53927DDE}Configs/EntityCatalog/aviation/Groups_EntityCatalog_Aviation.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F04DCBF0B}" : "{B5E2C7A6CF2CB902}Configs/EntityCatalog/aviation/InventoryItems_EntityCatalog_Aviation.conf" {
+      }
+      SCR_EntityCatalog "{5D4A8E6F39B90D71}" : "{CB2A09F32C72DCCF}Configs/EntityCatalog/aviation/WeaponTripod_EntityCatalog_Aviation.conf" {
+      }
+      SCR_EntityCatalog "{66F351805FF9D0EF}" : "{3DBA521085115A56}Configs/EntityCatalog/aviation/SupplyContainerItems_EntityCatalog_Aviation.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F051F4758}" : "{51D4B91E54AD2114}Configs/EntityCatalog/aviation/Vehicles_EntityCatalog_Aviation.conf" {
+      }
+     }
+    }
+    SCR_Faction "{66F402CD148EED04}" {
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5D4A8E6F0798A83F}" : "{98099CABFCE393E6}Configs/EntityCatalog/csb/Characters_EntityCatalog_CSB.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F0733B065}" : "{956910E44CCA56AC}Configs/EntityCatalog/csb/Groups_EntityCatalog_CSB.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F04DCBF0B}" : "{E3C18172F7779E11}Configs/EntityCatalog/csb/InventoryItems_EntityCatalog_CSB.conf" {
+      }
+      SCR_EntityCatalog "{5D4A8E6F39B90D71}" : "{89E9131C0BB13BCF}Configs/EntityCatalog/csb/SupplyContainerItems_EntityCatalog_CSB.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F051F4758}" : "{7D0487A55073CF34}Configs/EntityCatalog/csb/Vehicles_EntityCatalog_CSB.conf" {
+      }
+      SCR_EntityCatalog "{66F402C874410C33}" : "{DEBE2F4A6B755106}Configs/EntityCatalog/csb/WeaponTripod_EntityCatalog_CSB.conf" {
+      }
+     }
+    }
+    SCR_Faction "{66F56051A55F0DA2}" {
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5D4A8E6F0798A83F}" : "{F461DFD98D412D89}Configs/EntityCatalog/nightmare/Characters_EntityCatalog_Nightmare.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F0733B065}" : "{AF94CF95BFF80149}Configs/EntityCatalog/nightmare/Groups_EntityCatalog_Nightmare.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F04DCBF0B}" : "{124FE864CC4BD95F}Configs/EntityCatalog/nightmare/InventoryItems_EntityCatalog_Nightmare.conf" {
+      }
+      SCR_EntityCatalog "{5D4A8E6F39B90D71}" : "{2E467764901F202C}Configs/EntityCatalog/nightmare/SupplyContainerItems_EntityCatalog_Nightmare.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F051F4758}" : "{8D872090F50C7DBC}Configs/EntityCatalog/nightmare/Vehicles_EntityCatalog_Nightmare.conf" {
+      }
+      SCR_EntityCatalog "{66F53E8334722760}" : "{F4775F8A8873E306}Configs/EntityCatalog/nightmare/WeaponTripod_EntityCatalog_Nightmare.conf" {
+      }
+     }
+    }
+    SCR_Faction "{66F56051A66E5B2D}" {
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5D4A8E6F0798A83F}" : "{369ACCDE1D64CF09}Configs/EntityCatalog/lancer/Characters_EntityCatalog_Lancer.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F0733B065}" : "{704BE943F415F0C3}Configs/EntityCatalog/lancer/Groups_EntityCatalog_Lancer.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F04DCBF0B}" : "{54A7702AA44B935A}Configs/EntityCatalog/lancer/InventoryItems_EntityCatalog_Lancer.conf" {
+      }
+      SCR_EntityCatalog "{5D4A8E6F39B90D71}" : "{96A082624E1E4EBD}Configs/EntityCatalog/lancer/SupplyContainerItems_EntityCatalog_Lancer.conf" {
+      }
+      SCR_EntityCatalogMultiList "{5D4A8E6F051F4758}" : "{CCB39FA2B26F9384}Configs/EntityCatalog/lancer/Vehicles_EntityCatalog_Lancer.conf" {
+      }
+      SCR_EntityCatalog "{66F53E845A915F73}" : "{BD17EB23C4DDFF87}Configs/EntityCatalog/lancer/WeaponTripod_EntityCatalog_Lancer.conf" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

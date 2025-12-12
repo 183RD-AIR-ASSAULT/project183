@@ -1,0 +1,59 @@
+$grp GenericEntity {
+ V_211_air {
+  coords 2117.577 12.918 3414.25
+  angles 0 180 0
+ }
+ V_211_ground {
+  coords 2086.184 12.918 3435.57
+  angles 0 180 0
+ }
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{EFEF2F537FB76D17}Assets/servicepoints/VehicleService_Barrels_211.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+   }
+  }
+  coords 2079.081 12.918 3445.589
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{DA351FA8BF86BAF1}Assets/servicepoints/VehicleService_Barrels_211air.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+   }
+  }
+  coords 2117.095 12.949 3445.349
+  angles 0 270 0
+ }
+}
+$grp GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/aviation/ArsenalBox_183_211.et" {
+ {
+  coords 2077.888 13.084 3459.225
+  angles 0 90 0
+ }
+ {
+  coords 2077.888 13.084 3455.104
+  angles 0 90 0
+ }
+ {
+  coords 2077.888 13.084 3450.691
+  angles 0 90 0
+ }
+}
+SCR_SpawnPoint : "{65C4EEED439F3C28}Prefabs/Systems/aviation/E_SpawnPoint_183rd_211.et" {
+ coords 2093.029 13.084 3463.176
+}

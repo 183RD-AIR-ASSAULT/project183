@@ -1,0 +1,131 @@
+GenericEntity : "{0314A4953C40562F}Prefabs/nogm/Notebook_Slim2_nogm.et" {
+ coords 4574.193 64.516 2197.128
+ angles 0 -175.938 0
+}
+GenericEntity : "{086621F3ABA38C11}Prefabs/nogm/PortableRadar.et" {
+ coords 4865.319 163.9 2288.002
+ angles 0 18.386 0
+}
+GenericEntity : "{095424531C8FDDAC}Prefabs/nogm/tablet1.et" {
+ coords 4888.029 166.629 2268.459
+ angles 0 -127.84 0
+}
+GenericEntity : "{0D4B182B2B38623F}Prefabs/nogm/serverrack2_nogm.et" {
+ coords 4892.672 165.723 2274.096
+ angles 0 -129.26 0
+}
+GenericEntity : "{19D199E6F5D81DF0}Prefabs/GM_Props/Office_computer.et" {
+ coords 4573.055 64.516 2197.089
+ angles 0 -170.568 0
+}
+$grp GenericEntity : "{26986C064B90D8A0}Prefabs/Props/PropsHeine/C4_Bomb_V.et" {
+ {
+  coords 4891.229 165.939 2263.308
+  angles 0 -35.561 0
+ }
+ {
+  coords 4893.819 166.146 2272.047
+  angles 0 -125.189 0
+ }
+ {
+  coords 4895.788 166.143 2273.003
+  angles 0 -38.76 0
+ }
+}
+GenericEntity : "{44D4928445EB52A7}Prefabs/nogm/antenataticool_nogm.et" {
+ coords 4578.469 68.718 2201.276
+ angles 4.74 0 0
+}
+GenericEntity : "{4B40847580B66A4E}Prefabs/BriefingRoom/OldTv.et" {
+ coords 4575.916 63.61 2201.112
+ angles 0 17.169 0
+}
+$grp GenericEntity : "{57FB5E487EC91D63}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_02.et" {
+ {
+  coords 3568.079 20.071 2276.002
+  angles 0 -10.649 0
+ }
+ {
+  coords 3542.489 21.45 2399.784
+  angles 0 -13.828 0
+ }
+}
+$grp GenericEntity : "{57FB5E487EC91D64}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_02.et" {
+ {
+  coords 3545.788 20.03 2272.629
+ }
+ {
+  coords 3517.187 21.144 2397.082
+  angles 0 156.001 0
+ }
+}
+GenericEntity : "{59F002039D4984C2}Prefabs/nogm/Wall_TV2_Nogm.et" {
+ coords 4890.901 167.039 2270.529
+ angles 0 50.852 0
+}
+GenericEntity : "{5F17983A0637C63F}Prefabs/Props/Civilian/Typewriter_01/Typewriter_01_grey.et" {
+ coords 4888.79 166.629 2267.518
+ angles 0 -136.838 0
+}
+GenericEntity : "{60D02674615D995C}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
+ coords 4888.444 166.643 2268.445
+ angles 0 0 -86.73
+}
+GenericEntity : "{8D6DABA6D4A7F875}Prefabs/nogm/ArmoredLaptop.et" {
+ coords 4577.827 64.516 2200.969
+ angles 0 -160.904 0
+}
+GenericEntity : "{9929962FE17CDDB7}Prefabs/Props/PropsHeine/HardDrive_External.et" {
+ coords 4886.255 166.475 2269.131
+ angles 0 -20.659 0
+}
+GenericEntity : "{9B07B09B860A6B9B}Prefabs/nogm/RadioStation.et" {
+ coords 4889.286 166.629 2267.798
+ angles 0 50.838 0
+}
+GenericEntity : "{9ED55F3C04355E71}Prefabs/Props/PropsHeine/Missile_Tank.et" {
+ coords 4955.216 164.293 2253.279
+ angles 0 138.236 0
+}
+GenericEntity : "{BD2B19660EA91086}Prefabs/Props/PropsHeine/HardCase.et" {
+ coords 4886.945 165.722 2268.472
+ angles 0 -38.095 0
+}
+GenericEntity : "{CBC6335857E57538}Prefabs/nogm/MortarMine.et" {
+ coords 4574.665 63.61 2196.513
+ angles 0 0 0
+}
+$grp GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et" {
+ {
+  coords 3512.996 21.251 2405.297
+ }
+ {
+  coords 3514.75 21.481 2422.293
+ }
+ {
+  coords 3533.224 21.543 2423.832
+ }
+ {
+  coords 3535.267 21.543 2438.977
+ }
+}
+GenericEntity : "{CD4FBBECD9C8A2F6}Prefabs/nogm/Office_chair.et" {
+ coords 4573.241 63.61 2198.231
+ angles 0 166.949 0
+}
+SCR_DestructibleBuildingEntity : "{DC41ABA09A6A2177}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS2M_covered.et" {
+ coords 3700.605 18.71 2362.537
+ angles 0 -87.142 0
+}
+GenericEntity : "{E09D27437833A760}Prefabs/Props/PropsHeine/MobileRadar_Vehicle.et" {
+ coords 4780.048 261.264 1811.501
+ angles 0 153.598 0
+}
+GenericEntity : "{F839798F4F9E5AF2}Prefabs/nogm/Wall_TV_Monitor3_Nogm.et" {
+ coords 4888.167 167.485 2270.947
+ angles 0 -39.318 0
+}
+GenericEntity : "{F9FE8007E86F819B}Prefabs/Props/Military/Radios/RadioStation_ANGRC160_01.et" {
+ coords 4888.876 166.629 2268.33
+ angles 0 53.079 0
+}
