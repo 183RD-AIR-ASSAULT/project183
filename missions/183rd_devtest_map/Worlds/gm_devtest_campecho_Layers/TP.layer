@@ -2,6 +2,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_TrainingCenter {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB13A}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -11,6 +18,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_CQB {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB5A9}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -20,6 +34,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_Able {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59E89F8}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -29,6 +50,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_mg {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB3B2}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -38,6 +66,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_mp1 {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB37F}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -47,6 +82,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_Nightmare {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB236}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -56,6 +98,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_Lancer {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB409}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -65,6 +114,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_mp2 {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB293}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -74,6 +130,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_CSB {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB5DC}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -83,6 +146,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_rifle {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB1E6}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -92,6 +162,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_Pistol {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB240}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -101,6 +178,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_Grenade {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB4E6}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -110,6 +194,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_AT {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB630}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -119,6 +210,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_Distance {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB547}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -128,6 +226,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_Airfield {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB758}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }
@@ -137,6 +242,13 @@ $grp GenericEntity : "{1D3188E34387D4B4}Prefabs/FM_Destination.et" {
  D_MOUT {
   components {
    MeshObject "{66F8F96CEAFB02C5}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    Materials {
+     MaterialAssignClass "{6718F99FC59EB3C8}" {
+      SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
     PixelSizeScale 0
    }
   }

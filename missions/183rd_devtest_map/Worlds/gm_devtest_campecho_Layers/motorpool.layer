@@ -7,6 +7,10 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
       SourceMaterial "VehicleService_Barrels_US"
       AssignedMaterial "{0FBA3DA61AFAF11D}Assets/servicepoints/VehicleService_Barrels_nightmare.emat"
      }
+     MaterialAssignClass "{671B05308BA98013}" {
+      SourceMaterial "Vehicle_garbage_01"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
     }
    }
    ActionsManagerComponent "{671576FAB321B49E}" {
@@ -74,7 +78,7 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
     }
    }
   }
-  coords 6706.755 599.969 3388.556
+  coords 6706.755 599.969 3391.998
   angles 0 90 0
  }
  {
@@ -84,6 +88,10 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
      MaterialAssignClass "{671576FAB3213153}" {
       SourceMaterial "VehicleService_Barrels_US"
       AssignedMaterial "{BCC5A7258EE210AF}Assets/servicepoints/VehicleService_Barrels_lancer.emat"
+     }
+     MaterialAssignClass "{671B2AA5738896BE}" {
+      SourceMaterial "Vehicle_garbage_01"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
      }
     }
    }
@@ -152,7 +160,7 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
     }
    }
   }
-  coords 6706.755 599.969 2824.022
+  coords 6706.755 599.969 2827.198
   angles 0 90 0
  }
  {
@@ -162,6 +170,10 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
      MaterialAssignClass "{671576FAB3213153}" {
       SourceMaterial "VehicleService_Barrels_US"
       AssignedMaterial "{EFEF2F537FB76D17}Assets/servicepoints/VehicleService_Barrels_211.emat"
+     }
+     MaterialAssignClass "{671B2AA56259474A}" {
+      SourceMaterial "Vehicle_garbage_01"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
      }
     }
    }
@@ -216,6 +228,10 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
      MaterialAssignClass "{671576FAB3213153}" {
       SourceMaterial "VehicleService_Barrels_US"
       AssignedMaterial "{DA351FA8BF86BAF1}Assets/servicepoints/VehicleService_Barrels_211air.emat"
+     }
+     MaterialAssignClass "{671B2AA566A530B6}" {
+      SourceMaterial "Vehicle_garbage_01"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
      }
     }
    }
@@ -348,6 +364,18 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
  }
  {
   components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{AD1BC0B908862F96}Assets/servicepoints/VehicleService_Barrels_able.emat"
+     }
+     MaterialAssignClass "{671B2AA546548308}" {
+      SourceMaterial "Vehicle_garbage_01"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
+   }
    ActionsManagerComponent "{671576FAB321B49E}" {
     additionalActions {
      OETA_SpawnAtNamedPointAction "{671635284C2A496B}" {
@@ -419,87 +447,479 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
     }
    }
   }
-  coords 6706.755 599.969 3391.927
+  coords 6706.755 599.969 3395.369
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{671576FAB32130DD}" {
+    Materials {
+     MaterialAssignClass "{671576FAB3213153}" {
+      SourceMaterial "VehicleService_Barrels_US"
+      AssignedMaterial "{08CDE771CD754F78}Assets/servicepoints/VehicleService_Barrels_csb.emat"
+     }
+     MaterialAssignClass "{671B05309FC68EB5}" {
+      SourceMaterial "Vehicle_garbage_01"
+      AssignedMaterial "{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{671576FAB321B49E}" {
+    additionalActions {
+     OETA_SpawnAtNamedPointAction "{671635284C2A496B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{671635282DBC0426}" {
+       Name "JLTV CROWSII"
+      }
+      ActionTitle "JLTV CROWSII"
+      Duration 1
+      m_PrefabToSpawn "{D17CCBF7FE9AAFEC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII_Woodland.et"
+      m_SpawnPointName "V_lancer_1"
+     }
+     OETA_SpawnAtNamedPointAction "{671635286344F549}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352807786974}" {
+       Name "FMTV Construction"
+      }
+      ActionTitle "FMTV Construction"
+      Duration 1
+      m_PrefabToSpawn "{41B161496B7F805D}Prefabs/Vehicles/Wheeled/M1083/M1083_Construction_Woodland.et"
+      m_SpawnPointName "V_lancer_2"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528160D06BD}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_FactionUIInfo "{671635280FD35492}" {
+       Name "JLTV Crows 240"
+      }
+      ActionTitle "JLTV Crows 240"
+      Duration 1
+      m_PrefabToSpawn "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/JLTV_CROWS_M240_Woodland.et"
+      m_SpawnPointName "V_nlancer_3"
+     }
+     OETA_SpawnAtNamedPointAction "{67163528EA4FE179}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{67163528EEDCBBC9}" {
+       Name "JLTV CROWSII M2HB"
+      }
+      ActionTitle "JLTV CROWSII M2HB"
+      Duration 1
+      m_PrefabToSpawn "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+      m_SpawnPointName "V_lancer_4"
+     }
+     OETA_SpawnAtNamedPointAction "{6716352B5F4DEB2A}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6716352B5F4DEB74}" {
+       Name "FMTV Tanker"
+      }
+      ActionTitle "FMTV Tanker"
+      Duration 1
+      m_PrefabToSpawn "{2C091881E27BE938}Prefabs/Vehicles/Wheeled/M1083/M1091_Tanker.et"
+      m_SpawnPointName "V_lancer_5"
+     }
+    }
+   }
+  }
+  coords 6706.755 599.969 2824.118
   angles 0 90 0
  }
 }
 $grp GenericEntity : "{3D48EEAD747D448C}Prefabs/Systems/Vehicle_Spawn.et" {
  V_able_1 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 3405
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_able_3 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 3385
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_able_4 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 3370
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_able_2 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 3395
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_able_6 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 3340
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_able_5 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 3355
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_nightmare_1 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6755 599.969 3405
   angles 0 90 0
  }
  V_nightmare_2 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6755 599.969 3395
   angles 0 90 0
  }
  V_nightmare_3 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6755 599.969 3385
   angles 0 90 0
  }
  V_nightmare_4 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6755 599.969 3370
   angles 0 90 0
  }
  V_nightmare_5 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6755 599.969 3355
   angles 0 90 0
  }
  V_nightmare_6 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6755 599.969 3340
   angles 0 90 0
  }
  V_lancer_1 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 2829.953
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_lancer_2 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 2819.953
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_lancer_3 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 2809.953
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_lancer_4 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 2794.953
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_lancer_5 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 2779.953
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_lancer_6 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6745 599.969 2764.953
-  angles 0 270 0
+  angles 0 -90 0
  }
  V_211_ground {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6483.529 599.969 3552.254
  }
  V_211_air {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
   coords 6403.547 599.969 3515.78
+ }
+ V_csb_3 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2810.015
+  angles 0 90 0
+ }
+ V_csb_2 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2820.015
+  angles 0 90 0
+ }
+ V_csb_4 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2795.015
+  angles 0 90 0
+ }
+ V_csb_1 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2830.015
+  angles 0 90 0
+ }
+ V_csb_5 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2780.015
+  angles 0 90 0
+ }
+ V_csb_6 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2765.015
+  angles 0 90 0
  }
 }

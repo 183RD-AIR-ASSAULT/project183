@@ -52,7 +52,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{FD344B053C7BC334}Prefabs/HeadGear/IHPS/183_IHPS.et"
     }
     LoadoutSlotInfo Jacket {
     }

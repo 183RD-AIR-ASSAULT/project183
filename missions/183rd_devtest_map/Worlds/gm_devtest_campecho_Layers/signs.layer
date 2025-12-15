@@ -1,0 +1,1121 @@
+$grp GenericEntity {
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB2220C1B644B7}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{E5C00AE232DB4B61}Assets/billboard183/mg.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6816.546 599.969 3493.94
+  angles 0 90 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB2220FFEAE44D}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{ABDE98F2ACE6D821}Assets/billboard183/rifleb.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6815.759 599.969 2536.643
+  angles 0 90 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB2220EA56D2D7}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{25DE56A8976A4DDE}Assets/billboard183/pistol.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6813.253 599.969 2290.763
+  angles 0 90 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB22209702D48A}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{0312ED7CF4FF3FBE}Assets/billboard183/grenade.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 7286.596 599.968 2311.778
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB2220B44582B5}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{CD7D93E4603AE2E6}Assets/billboard183/at.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 7565.513 599.969 2308.195
+  angles 0 90 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB2220A2B76486}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{E1150DD79F762D0C}Assets/billboard183/distance.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 7959.042 599.969 2307.201
+  angles 0 90 0
+  scale 0.093
+ }
+ {
+  components {
+   MeshObject "{6670A6E635337F55}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6670A6E62C6CD452}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 6684.699 600 3833.604
+  angles 0 180 0
+ }
+ {
+  components {
+   MeshObject "{6670A6E635337F55}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6670A6E62C6CD452}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 6692.734 600 3830.762
+  angles 0 225 0
+ }
+ {
+  components {
+   MeshObject "{6670A6E635337F55}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6670A6E62C6CD452}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 6677.534 600 3830.762
+  angles 0 135 0
+ }
+ {
+  components {
+   MeshObject "{6670A6E6D22DE2E5}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+   }
+  }
+  coords 6684.834 600 3826.078
+ }
+ {
+  components {
+   MeshObject "{6670A6E6D22DE2E5}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+   }
+  }
+  coords 6683.544 600 3824.824
+  angles 0 270 0
+ }
+ {
+  components {
+   MeshObject "{6670A6E635337F55}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6670A6E62C6CD452}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 6678.472 600 3819.765
+  angles 0 34.939 0
+ }
+ {
+  components {
+   MeshObject "{6670A6E635337F55}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6670A6E62C6CD452}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 6684.917 600 3816.376
+ }
+ {
+  components {
+   MeshObject "{6670A6E635337F55}" {
+    Object "{51D601EB49CB010B}Assets/Models/RealisticTarget-1.xob"
+    Materials {
+     MaterialAssignClass "{6670A6E62C6CD452}" {
+      SourceMaterial "RealisticTarget"
+      AssignedMaterial "{375D744E6D3E3081}Assets/Props/Crates/CrateWooden_01/Data/FriendlyTarget.emat"
+     }
+    }
+   }
+  }
+  coords 6692.271 600 3818.963
+  angles 0 315 0
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB22011BCD02CF}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{A0F1BF6EE7571DD4}Assets/billboard183/183roadsign.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6669 598.235 4361
+  angles 0 164.75 0
+  scale 0.152
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB22011BCD02CF}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{A0F1BF6EE7571DD4}Assets/billboard183/183roadsign.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6668 598.711 2268
+  angles 0 30 0
+  scale 0.152
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB22020DF0ED19}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{E6B57769A2F4DC84}Assets/billboard183/183roadsign211.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6530 598.379 3640
+  angles 0 -90 0
+  scale 0.152
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB220228A255E4}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{8D67405CCE73FD29}Assets/billboard183/183roadsignable.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6740 598.5 3645
+  angles 0 180 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB2202D9CB3808}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{EC4979CF7833CA76}Assets/billboard183/183roadsignnightmare.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6730.174 599.969 3093.659
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB2202D130B82E}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{06ADB5C5583520A5}Assets/billboard183/183roadsignlancer.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6739.693 599.969 3075.191
+  angles 0 180 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB2202C5C62AEF}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{0197BF4B1036FEEB}Assets/billboard183/183roadsigncsb.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6730.13 599.969 2526.44
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB22085FDA0B38}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB22085FDA0B13}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{E56EF7B3AD96F61B}Assets/signs/dimond.emat"
+     }
+     MaterialAssignClass "{66EB22085FDA0B19}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6779.21 599.969 3845.106
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB2208E6665459}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB2208E66653B4}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{899F5893237758F2}Assets/signs/squadwedge.emat"
+     }
+     MaterialAssignClass "{66EB2208E66653B1}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6741.283 599.969 3845.106
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB220B7A7D4EA9}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB220B7A7D4E83}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{9AEE73C9DE9F771D}Assets/signs/file.emat"
+     }
+     MaterialAssignClass "{66EB220B7A7D4E8D}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6714.777 599.969 3845.106
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB220B755049EC}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB220B755049C7}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{995AA1DEB88CE3C2}Assets/signs/squadhult.emat"
+     }
+     MaterialAssignClass "{66EB220B755049C2}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6684.351 599.969 3845.106
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB220B0EF81168}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB220B0EF81146}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{67766BB21CD596FB}Assets/signs/stagared.emat"
+     }
+     MaterialAssignClass "{66EB220B0EF81143}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6776.62 599.969 3797.427
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB220B3AFF55D1}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB220B3AFF552A}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{9AEE73C9DE9F771D}Assets/signs/file.emat"
+     }
+     MaterialAssignClass "{66EB220B3AFF5535}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6743.154 599.969 3797.427
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB220B34B521E1}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB220B34B521FC}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{1DDA166FB6F0D172}Assets/signs/squadline.emat"
+     }
+     MaterialAssignClass "{66EB220B34B521C7}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6712.189 599.969 3797.427
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB220BDF44FFFD}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB220BDF44FFD6}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{D96804C6B2FD1244}Assets/signs/wedge.emat"
+     }
+     MaterialAssignClass "{66EB220BDF44FFD2}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6680.06 599.969 3797.427
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB220A98471E81}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{295681F628C0E048}Assets/billboard183/183roadsignbct.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6795 598.436 3685
+  angles 0 270 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221C4C6AE4A0}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221C4C6AE4BE}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{FCB7401D20EEF089}Assets/signs/rule1.emat"
+     }
+     MaterialAssignClass "{66EB221C4C6AE4B9}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6730.638 599.969 3702.146
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221C4DDA8E1F}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221C4DDA8E77}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{A25F695E9F637E86}Assets/signs/rule2.emat"
+     }
+     MaterialAssignClass "{66EB221C4DDA8E72}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6726.645 599.969 3702.146
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221C4FA5972A}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221C4FA59703}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{56572EC692BE16F2}Assets/signs/rule3.emat"
+     }
+     MaterialAssignClass "{66EB221C4FA5970C}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6722.637 599.969 3702.146
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221C1B050750}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221C1B0506A9}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{A969CE839DAC04CB}Assets/signs/attandance.emat"
+     }
+     MaterialAssignClass "{66EB221C1B0506B4}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6718.635 599.969 3702.146
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221C1E75C400}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221C1E75C419}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{B427BC0D66325B87}Assets/signs/roe.emat"
+     }
+     MaterialAssignClass "{66EB221C1E75C464}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6714.627 599.969 3702.146
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221C3EDA0A36}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221C3EDA0A0E}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{4FBB90D227C0C068}Assets/signs/coc.emat"
+     }
+     MaterialAssignClass "{66EB221C3EDA0A15}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6710.611 599.969 3702.146
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221F55775763}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221F55775760}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{6D1DB77BCC7BCA15}Assets/signs/prox.emat"
+     }
+     MaterialAssignClass "{66EB221F5577576F}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6710.6 599.969 3717.9
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221F4D4D1E5E}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221F4D4D1DB7}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{E584F6ADC877ABDC}Assets/signs/152.emat"
+     }
+     MaterialAssignClass "{66EB221F4D4D1DB2}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6714.6 599.969 3717.9
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221F4FA86F27}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221F4FA86F32}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{BBB56363BEBEC48A}Assets/signs/backpack.emat"
+     }
+     MaterialAssignClass "{66EB221F4FA86F3F}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6718.645 599.969 3717.9
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221F13A01C11}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221F13A01C60}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{59610BC8E235A23D}Assets/signs/selfaid.emat"
+     }
+     MaterialAssignClass "{66EB221F13A01C6C}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6722.674 599.969 3717.9
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221F02FFB1C7}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221F02FFB1DF}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{099558A548436A1D}Assets/signs/time.emat"
+     }
+     MaterialAssignClass "{66EB221F02FFB1DA}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6730.639 599.969 3717.9
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221B450F0046}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221B450F0050}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{1ED02D932831D27D}Assets/signs/med_hitzone.emat"
+     }
+     MaterialAssignClass "{66EB221B450F005B}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6730.638 599.969 3726.472
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221B7C52E430}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221B7C52E40B}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{A27886C1C31CF88E}Assets/signs/med_cir.emat"
+     }
+     MaterialAssignClass "{66EB221B7C52E415}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6726.661 599.969 3726.472
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221B73585B38}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221B73585B1D}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{7B9543288F7362EA}Assets/signs/med_drug.emat"
+     }
+     MaterialAssignClass "{66EB221B73585B66}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6722.607 599.969 3726.472
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221B6F469891}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221B6F4698EB}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{C5CA9BC03D1A1582}Assets/signs/med_vol.emat"
+     }
+     MaterialAssignClass "{66EB221B6F4698F7}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6718.613 599.969 3726.472
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{66EB221B1823EB41}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{66EB221B1823EB5B}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{499F318F14F08473}Assets/signs/med_cls.emat"
+     }
+     MaterialAssignClass "{66EB221B1823EAA6}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6710.607 599.969 3726.472
+  angles 0 180 0
+  scale 0.054
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB22265FF259D8}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{B017437CF68B2153}Assets/billboard183/cqb.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6798.516 600.063 4084.785
+  angles 0 270 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB22267656A953}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{511D0020B3D5F82D}Assets/billboard183/mount.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 3825.585 543.692 5999.947
+  angles 0 -58.865 0
+  scale 0.093
+ }
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{66EB22267656A953}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{511D0020B3D5F82D}Assets/billboard183/mount.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 3210.129 540.188 5978.07
+  angles 0 122.874 0
+  scale 0.093
+ }
+}

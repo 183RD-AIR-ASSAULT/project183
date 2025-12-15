@@ -1,0 +1,22 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Cover {
+     Prefab "{310FCFDFFA84F1C9}Prefabs/Characters/HeadGear/IHPS/Cover.et"
+     EnableDeflatedOffset 1
+    }
+    LoadoutSlotInfo NVG_Mount {
+     Prefab "{798CF29A113C9B9F}Prefabs/Characters/HeadGear/IHPS/NVG Mount Worn.et"
+    }
+    LoadoutSlotInfo Ears {
+     Prefab "{5A7628985548DFAB}Prefabs/Characters/HeadGear/IHPS/Peltors.et"
+    }
+    LoadoutSlotInfo Mohhawk {
+     Prefab "{FC85831F0600DCB3}Prefabs/Characters/Attachments/Batterypack_coyote.et"
+    }
+   }
+  }
+ }
+}

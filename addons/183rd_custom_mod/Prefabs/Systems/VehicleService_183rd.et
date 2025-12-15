@@ -84,56 +84,6 @@ GenericEntity {
   SCR_FactionAffiliationComponent "{671576FAB3213E1B}" {
    "faction affiliation" "183_Able"
   }
-  SCR_ResourceComponent "{671576FAB321B4DE}" {
-   m_aConsumers {
-    SCR_ResourceConsumerServicePoint "{671576FAB3210C30}" {
-     m_sDebugName "Vehicle Spawner - Consumer"
-     m_eResourceRights ALL
-     m_eGeneratorIdentifier DEFAULT
-     m_fResourceRange 185
-     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{671576FAB3210C26}" {
-      m_StoragePolicies {
-       SCR_ResourceConsumerStoragePolicy "{671576FAB3210C11}" {
-        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{671576FAB3213E78}" {
-        }
-       }
-       SCR_ResourceConsumerStoragePolicy "{671576FAB3210C29}" {
-        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{671576FAB3210C28}" {
-        }
-        m_eStorageType STORED
-       }
-      }
-     }
-    }
-   }
-   m_aGenerators {
-    SCR_ResourceGeneratorServicePoint "{671576FAB321B4DF}" {
-     m_sDebugName "Vehicle Spawner - Generator"
-     m_eResourceRights ALL
-     m_fResourceMultiplier 0.333
-     m_fStorageRange 135
-     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{671576FAB321B4F5}" {
-      m_StoragePolicies {
-       SCR_ResourceGeneratorStoragePolicy "{671576FAB3210FDD}" {
-        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{671576FAB3210FDC}" {
-        }
-        m_eStorageType STORED
-       }
-       SCR_ResourceGeneratorStoragePolicy "{671576FAB321B4FB}" {
-        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{671576FAB3210FD8}" {
-        }
-       }
-      }
-     }
-     m_aActions {
-      SCR_ResourceGeneratorActionStore "{671576FAB321B4F6}" {
-      }
-      SCR_ResourceGeneratorActionDropContainers "{671576FAB321B4F2}" {
-      }
-     }
-    }
-   }
-  }
   ActionsManagerComponent "{671576FAB321B49E}" {
    ActionContexts {
     UserActionContext "{671576FAB321B4A0}" {

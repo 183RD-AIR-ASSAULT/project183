@@ -59,7 +59,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{7FFC7D21778C92FE}Prefabs/Characters/HeadGear/IHPS/183_IHPS.et"
     }
     LoadoutSlotInfo Jacket {
     }
@@ -78,7 +77,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      Prefab ""
     }
     LoadoutSlotInfo Head {
-     Prefab "{FD344B053C7BC334}Prefabs/HeadGear/IHPS/183_IHPS.et"
     }
     LoadoutSlotInfo NVS_NVGSlot {
     }
@@ -176,5 +174,5 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
    }
   }
  }
- coords 0.395 -1.33 10.738
+ coords 2.728 0.413 0.615
 }

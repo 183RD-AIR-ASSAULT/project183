@@ -61,7 +61,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{FD344B053C7BC334}Prefabs/HeadGear/IHPS/183_IHPS.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{EDB998C9B424A3C5}Prefabs/Characters/Uniforms/Tops/Vergy_Crye/Vergy_Crye_Base.et"
@@ -159,5 +158,5 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
    }
   }
  }
- coords -0.002 0 -0.002
+ coords 1.517 -1.065 0.689
 }

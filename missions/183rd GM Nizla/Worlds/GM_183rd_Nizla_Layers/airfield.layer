@@ -1,0 +1,36 @@
+GenericEntity : "{38E750A0E7C3B350}Prefabs/Props/Wrecks/Mi8MT_wreck/Mi8MT_wreck.et" {
+ coords 2445.529 13.273 2896.128
+ angles 0 -9.025 0
+}
+$grp GenericEntity : "{3A49A5DCEDAB7186}Prefabs/Props/PropsHeine/Patriot_AirDefense.et" {
+ {
+  coords 2545.237 13.137 3251.666
+  angles 0 105.788 0
+ }
+ {
+  coords 2640.454 12.825 3488.002
+  angles 0 106.704 0
+ }
+ {
+  coords 1965.597 12.935 3342.864
+  angles 0 175.524 0
+ }
+}
+$grp GenericEntity : "{D25EADD71FAC49C4}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+ {
+  coords 2280.537 12.887 3231.566
+  angles 0 -26.679 0
+ }
+ {
+  coords 2571.832 15.952 3648.997
+  angles 0 66.349 0
+ }
+ {
+  coords 2021.22 13.004 3443.305
+  angles 0 159.501 0
+ }
+ {
+  coords 2137.045 12.918 3433.744
+  angles 0 105.441 0
+ }
+}

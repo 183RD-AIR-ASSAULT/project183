@@ -75,7 +75,7 @@ SCR_ChimeraCharacter : "{AAD8C80101DB8091}Prefabs/Characters/183rd_base.et" {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{FD344B053C7BC334}Prefabs/HeadGear/IHPS/183_IHPS.et"
+     Prefab "{B8D37F3EF17E46EC}Prefabs/HeadGear/IHPS/183rd_IHPS.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{EDB998C9B424A3C5}Prefabs/Characters/Uniforms/Tops/Vergy_Crye/Vergy_Crye_Base.et"

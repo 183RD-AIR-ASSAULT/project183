@@ -1,0 +1,396 @@
+$grp GenericEntity : "{160D661E89C85389}Prefabs/Systems/csb/ArsenalBox_183_csb.et" {
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{D887D981FE3D352D}Assets/Arsenal/Arsenal_csb.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6735 599.969 2549
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{D887D981FE3D352D}Assets/Arsenal/Arsenal_csb.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6730 599.969 2549
+ }
+}
+$grp GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/aviation/ArsenalBox_183_211.et" {
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{3FA511A34CFF1742}Assets/Arsenal/Arsenal_211.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6487.814 599.969 3518.878
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{3FA511A34CFF1742}Assets/Arsenal/Arsenal_211.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6491.577 599.969 3519.471
+  angles 0 90 0
+ }
+}
+$grp GenericEntity : "{43E4371F76A8706A}PrefabLibrary/DefaultLibrary/Props/Industrial/Pallet_01.et" {
+ {
+  coords 6736 599.969 3721
+  angles 0 78 0
+ }
+ {
+  coords 6733 599.969 3721
+  angles 0 98 0
+ }
+}
+SCR_SpawnPoint : "{5196636D43298B72}Prefabs/Systems/csb/E_SpawnPoint_183rd_csb.et" {
+ coords 6705.532 599.969 2561.499
+}
+$grp GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able.et" {
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{075538F977680409}Assets/Arsenal/Arsenal_able.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6735 600 3619
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{075538F977680409}Assets/Arsenal/Arsenal_able.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6740 600 3619
+  angles 0 -180 0
+ }
+}
+SCR_SpawnPoint : "{65C4EEED439F3C28}Prefabs/Systems/aviation/E_SpawnPoint_183rd_211.et" {
+ coords 6514.022 599.969 3524.107
+}
+$grp GenericEntity : "{710095DC38176840}Prefabs/Systems/nightmare/ArsenalBox_183_nightmare.et" {
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{000BBF88AD49140A}Assets/Arsenal/Arsenal_nightmare.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6735 599.969 3117
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{000BBF88AD49140A}Assets/Arsenal/Arsenal_nightmare.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6730 599.969 3117
+ }
+}
+SCR_SpawnPoint : "{9C9736E613CC62D5}Prefabs/Systems/able/E_SpawnPoint_183rd_able.et" {
+ coords 6766.194 600 3607.442
+}
+SCR_SpawnPoint : "{A056CDD1038A32A5}Prefabs/Systems/nightmare/E_SpawnPoint_183rd_nightmare.et" {
+ coords 6705.164 599.969 3128.124
+}
+$grp GenericEntity : "{A87BAE5F8FDFE95C}Prefabs/Systems/training/ArsenalBox_183_train.et" {
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{31891ACB89E7EC70}Assets/Arsenal/Arsenal_train.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6736 600.082 3721
+  angles 0 180 0
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{31891ACB89E7EC70}Assets/Arsenal/Arsenal_train.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6733 600.081 3721
+  angles 0 180 0
+ }
+}
+SCR_SpawnPoint : "{B2C3DC788CA15F71}Prefabs/Systems/lancer/E_SpawnPoint_183rd_lancer.et" {
+ coords 6761.511 599.969 3035.744
+}
+SCR_SpawnPoint : "{BAF567863815976A}Prefabs/Systems/training/E_SpawnPoint_183rd_train.et" {
+ coords 6734.643 599.969 3693.885
+ scale 0.71
+}
+$grp GenericEntity : "{DFD6BEE785EA81B8}Prefabs/Systems/lancer/ArsenalBox_183_lancer.et" {
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{8E312CFA3F54FE1D}Assets/Arsenal/Arsenal_lancer.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6735 599.969 3050.111
+  angles 0 -180 0
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{6108C5B15B23B029}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{8E312CFA3F54FE1D}Assets/Arsenal/Arsenal_lancer.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B04E}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{A105104FC646098C}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_US_MLOD.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B047}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B041}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+     MaterialAssignClass "{6108C5B15B23B07D}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{897E26EB40E12FB3}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_US.emat"
+     }
+    }
+   }
+  }
+  coords 6740 599.969 3050.111
+  angles 0 -180 0
+ }
+}

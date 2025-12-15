@@ -1,3 +1,13 @@
+$grp GenericEntity : "{160D661E89C85389}Prefabs/Systems/csb/ArsenalBox_183_csb.et" {
+ {
+  coords 2180.161 13.059 3451.384
+  angles 0 90 0
+ }
+ {
+  coords 2180.161 13.059 3454.858
+  angles 0 90 0
+ }
+}
 $grp GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/aviation/ArsenalBox_183_211.et" {
  {
   coords 2077.888 13.084 3459.225
@@ -12,7 +22,25 @@ $grp GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/aviation/ArsenalBox_183_
   angles 0 90 0
  }
 }
+SCR_SpawnPoint : "{5196636D43298B72}Prefabs/Systems/csb/E_SpawnPoint_183rd_csb.et" {
+ coords 2166.844 13.059 3457.186
+}
+$grp GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able.et" {
+ {
+  coords 2184.569 13.037 3223.25
+  angles 0 270 0
+ }
+ {
+  coords 2184.569 13.037 3219.87
+  angles 0 270 0
+ }
+}
 SCR_SpawnPoint : "{65C4EEED439F3C28}Prefabs/Systems/aviation/E_SpawnPoint_183rd_211.et" {
+ components {
+  SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
+   DisplayName "1-211th Aviation Brigade"
+  }
+ }
  coords 2093.029 13.084 3463.176
 }
 $grp GenericEntity : "{710095DC38176840}Prefabs/Systems/nightmare/ArsenalBox_183_nightmare.et" {
@@ -29,10 +57,98 @@ $grp GenericEntity : "{710095DC38176840}Prefabs/Systems/nightmare/ArsenalBox_183
   angles 0 270 0
  }
 }
+$grp GenericEntity : "{93BF91468B98A55E}Prefabs/World/Locations/Eden/Montignac_Farm_01.et" {
+ Aviation {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "1-211th Aviation Brigade"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "1-211th Aviation Brigade"
+   }
+  }
+  coords 2098.196 13.084 3460.031
+ }
+ nightnare {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Nightmare 1st Plt 183rd Able Company 183rd Air Assault"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Nightmare 1st Plt 183rd Able Company 183rd Air Assault"
+   }
+  }
+  coords 2099.958 13.037 3218.562
+ }
+ able {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "HHS 183rd Able Company 1-183rd Air Assault"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "HHS 183rd Able Company 1-183rd Air Assault"
+   }
+  }
+  coords 2163.756 13.037 3218.562
+ }
+ nightnare2 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Lancer 2nd Plt 183rd Able Company 183rd Air Assault"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Lancer 2nd Plt 183rd Able Company 183rd Air Assault"
+   }
+  }
+  coords 2035.802 13.037 3218.562
+ }
+ csb {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "2-183rd Combat Support Battalion "
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "2-183rd Combat Support Battalion "
+   }
+  }
+  coords 2162.487 13.084 3460.031
+ }
+}
+SCR_SpawnPoint : "{9C9736E613CC62D5}Prefabs/Systems/able/E_SpawnPoint_183rd_able.et" {
+ components {
+  SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
+   DisplayName "Alpha Company, HHS"
+   VisibleOnMap 0
+   MapItemDescriptor 1
+   Scale 0.5
+  }
+ }
+ coords 2173.031 13.037 3212.116
+}
 SCR_SpawnPoint : "{A056CDD1038A32A5}Prefabs/Systems/nightmare/E_SpawnPoint_183rd_nightmare.et" {
+ components {
+  SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
+   DisplayName "Alpha Company, First Platoon - Nightmare"
+  }
+ }
  coords 2109.308 13.037 3212.874
 }
 SCR_SpawnPoint : "{B2C3DC788CA15F71}Prefabs/Systems/lancer/E_SpawnPoint_183rd_lancer.et" {
+ components {
+  SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
+   DisplayName "Alpha Company, Second Platoon - Lancer"
+  }
+ }
  coords 2046.611 13.037 3212.52
 }
 $grp GenericEntity : "{DFD6BEE785EA81B8}Prefabs/Systems/lancer/ArsenalBox_183_lancer.et" {

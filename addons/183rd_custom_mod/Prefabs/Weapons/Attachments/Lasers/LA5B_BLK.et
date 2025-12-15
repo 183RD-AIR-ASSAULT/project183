@@ -1,0 +1,12 @@
+GenericEntity : "{01D3CD96BB15916D}Prefabs/Weapons/Attachments/Laser/LA5B_TAN.et" {
+ ID "557E85EEE1B603F1"
+ components {
+  InventoryItemComponent "{557E85EEE1B60313}" {
+   Attributes SCR_ItemAttributeCollection "{557E85EEE1B60310}" {
+    ItemDisplayName UIInfo "{65829CEA37BCAE07}" {
+     Name "PEQ 15 [IR Laser] (BLACK)"
+    }
+   }
+  }
+ }
+}

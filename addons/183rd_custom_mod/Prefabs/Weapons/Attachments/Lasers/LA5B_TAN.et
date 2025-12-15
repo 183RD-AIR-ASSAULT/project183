@@ -1,0 +1,20 @@
+GenericEntity : "{5E36B9F5B54CDA2E}Prefabs/Weapons/Attachments/Handguards/Handguard_M16_carbine/Handguard_M16_carbine_base.et" {
+ ID "557E85EEE1B603F1"
+ components {
+  Persistence "{66E5744406101CA6}" {
+   Enabled 0
+  }
+  InventoryItemComponent "{557E85EEE1B60313}" {
+   Attributes SCR_ItemAttributeCollection "{557E85EEE1B60310}" {
+    ItemDisplayName UIInfo "{65829CEA37BCAE07}" {
+     Name "PEQ 15 [IR Laser] (TAN)"
+    }
+    m_SlotType SLOT_ANY
+   }
+  }
+  RigidBody "{557E85EE3F17E453}" {
+   SimState None
+  }
+ }
+ coords 0 0 0
+}
