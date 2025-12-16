@@ -38,6 +38,12 @@ SCR_ChimeraCharacter : "{AAD8C80101DB8091}Prefabs/Characters/183rd_base.et" {
   }
   SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
   }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   StaminaRegainPerS 0.14
+   StaminaDrainRun -0.004
+   StaminaDrainSprint -0.01
+   EncumbranceDrainMax -0.075
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
    }
