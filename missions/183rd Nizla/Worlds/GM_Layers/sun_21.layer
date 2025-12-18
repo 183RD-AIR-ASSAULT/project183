@@ -1,0 +1,390 @@
+GenericEntity : "{0314A4953C40562F}Prefabs/nogm/Notebook_Slim2_nogm.et" {
+ coords 4574.193 64.516 2197.128
+ angles 0 -175.938 0
+}
+GenericEntity : "{07520B3E3A42E1F1}Prefabs/Props/PropsHeine/ArrayRadar.et" {
+ coords 4193.717 15.526 2158.464
+ angles 0 116.004 0
+}
+GenericEntity : "{086621F3ABA38C11}Prefabs/nogm/PortableRadar.et" {
+ coords 4865.319 163.9 2288.002
+ angles 0 18.386 0
+}
+GenericEntity : "{095424531C8FDDAC}Prefabs/nogm/tablet1.et" {
+ coords 4888.029 166.629 2268.459
+ angles 0 -127.84 0
+}
+GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
+ coords 3900.389 15.645 2200.116
+}
+GenericEntity : "{0D4B182B2B38623F}Prefabs/nogm/serverrack2_nogm.et" {
+ coords 4892.672 165.723 2274.096
+ angles 0 -129.26 0
+}
+$grp GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ {
+  coords 4009.078 15.637 2185.163
+  angles 0 -75.651 0
+ }
+ {
+  coords 4194.395 15.481 2194.224
+  angles 0 -92.648 0
+ }
+}
+GenericEntity : "{19D199E6F5D81DF0}Prefabs/GM_Props/Office_computer.et" {
+ coords 4573.055 64.516 2197.089
+ angles 0 -170.568 0
+}
+$grp GenericEntity : "{26986C064B90D8A0}Prefabs/Props/PropsHeine/C4_Bomb_V.et" {
+ {
+  coords 4891.229 165.939 2263.308
+  angles 0 -35.561 0
+ }
+ {
+  coords 4893.819 166.146 2272.047
+  angles 0 -125.189 0
+ }
+ {
+  coords 4895.788 166.143 2273.003
+  angles 0 -38.76 0
+ }
+}
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 3692.883 18.73 2377.946
+  angles 0 76.423 0
+ }
+ {
+  coords 3695.605 18.708 2367.903
+  angles 0 76.749 0
+ }
+}
+$grp GenericEntity : "{28E51A5F836136AE}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+ {
+  coords 4212.931 15.481 2191.239
+ }
+ {
+  coords 4212.762 15.481 2194.953
+ }
+ {
+  coords 4215.726 15.481 2197.294
+ }
+ {
+  coords 4215.612 15.481 2200.808
+ }
+ {
+  coords 4220.643 15.481 2206.268
+ }
+ {
+  coords 4220.686 15.481 2202.348
+ }
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 3887.937 15.7 2197.75
+ angles 0 -91.349 0
+}
+$grp GenericEntity : "{4ED8BBC0E6679FBE}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_burlap.et" {
+ {
+  coords 4280.04 15.475 2197.745
+  angles 0 -92.05 0
+ }
+ {
+  coords 4281.018 15.463 2197.771
+  angles 0 -92.05 0
+ }
+}
+GenericEntity : "{59F002039D4984C2}Prefabs/nogm/Wall_TV2_Nogm.et" {
+ coords 4890.901 167.039 2270.529
+ angles 0 50.852 0
+}
+GenericEntity : "{5FEE9C860F1EB2D1}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Cluttered_USSR_01.et" {
+ coords 4262.804 15.481 2189.107
+ angles 0 -85.446 0
+}
+GenericEntity : "{60D02674615D995C}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
+ coords 4888.444 166.643 2268.445
+ angles 0 0 -86.73
+}
+GenericEntity : "{621372EEE9B768DD}Prefabs/Props/PropsHeine/RackBomb.et" {
+ coords 4233.768 15.481 2212.553
+ angles 0 88.491 0
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 3899.51 15.652 2201.188
+  angles 0 103.083 0
+ }
+ {
+  coords 3899.864 15.656 2195.635
+  angles 0 70.43 0
+ }
+ {
+  coords 4009.794 15.674 2191.967
+  angles 0 102.39 0
+ }
+ {
+  coords 4006.081 15.637 2178.418
+  angles 0 102.39 0
+ }
+ {
+  coords 4004.809 15.637 2172.75
+  angles 0 102.39 0
+ }
+ {
+  coords 4058.572 15.637 2212.538
+  angles 0 78.666 0
+ }
+ {
+  coords 4070.242 15.637 2210.002
+  angles 0 85.275 0
+ }
+ {
+  coords 4118.17 15.637 2186.331
+  angles 0 87.477 0
+ }
+ {
+  coords 4117.808 15.637 2192.658
+  angles 0 79.599 0
+ }
+}
+GenericEntity : "{8BABAE6E7F9B3E39}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_bunker_burlap.et" {
+ coords 3960.915 15.681 2188.478
+ angles 0 -84.728 0
+}
+GenericEntity : "{8D6DABA6D4A7F875}Prefabs/nogm/ArmoredLaptop.et" {
+ coords 4577.827 64.516 2200.969
+ angles 0 -160.904 0
+}
+GenericEntity : "{98C77645DB23145A}Prefabs/GM_Props/Soldier_Unarmed2.et" {
+ coords 3526.673 21.543 2515.132
+ angles 0 -17.424 0
+}
+GenericEntity : "{9929962FE17CDDB7}Prefabs/Props/PropsHeine/HardDrive_External.et" {
+ coords 4886.255 166.475 2269.131
+ angles 0 -20.659 0
+}
+GenericEntity : "{9B07B09B860A6B9B}Prefabs/nogm/RadioStation.et" {
+ coords 4889.286 166.629 2267.798
+ angles 0 50.838 0
+}
+$grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ {
+  coords 3902.844 0 2196.429
+  angles 0 18.802 0
+ }
+ {
+  coords 3902.828 0 2198.731
+  angles 0 18.802 0
+ }
+}
+$grp GenericEntity : "{AC5172F00941C060}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_burlap.et" {
+ {
+  coords 4271.864 15.481 2216.272
+  angles 0 87.047 0
+ }
+ {
+  coords 4274.104 15.481 2211.461
+  angles 0 68.021 0
+ }
+ {
+  coords 4279.908 15.481 2213.25
+  angles 0 65.611 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{AC8A1CBE6D9CA553}Prefabs/Structures/Forest/DeerStands/DeerStand_01.et" {
+ {
+  coords 4535.473 0.077 2593.973
+  angles 0 -169.563 0
+ }
+ {
+  coords 4672.951 -0.124 2371.562
+  angles 0 118.805 0
+ }
+}
+$grp GenericEntity : "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" {
+ {
+  coords 3567.27 20.793 2347.97
+ }
+ {
+  coords 3568.484 20.786 2342.306
+ }
+ {
+  coords 3564.726 20.844 2344.57
+ }
+ {
+  coords 3573.124 20.713 2345.684
+ }
+}
+$grp GenericEntity : "{B41E2B061F2A81F8}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_ObservationPost_FIA_01_V1.et" {
+ {
+  coords 3640.492 30.543 2665.545
+ }
+ {
+  coords 3887.129 48.739 2457.79
+  angles 0 23.517 0
+ }
+ {
+  coords 4050.419 58.638 2462.365
+  angles 0 39.048 0
+ }
+}
+GenericEntity : "{BD2B19660EA91086}Prefabs/Props/PropsHeine/HardCase.et" {
+ coords 4886.945 165.722 2268.472
+ angles 0 -38.095 0
+}
+GenericEntity : "{C0E7BC298C1EEBE9}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Ammo_01.et" {
+ coords 4263.347 15.481 2192.188
+ angles 0 103.072 0
+}
+$grp GenericEntity : "{C5D45D54B4DD673C}Prefabs/GM_Props/Soldier_Holster.et" {
+ {
+  coords 3508.125 21.543 2525.83
+ }
+ {
+  coords 3498.372 21.4 2523.441
+  angles 0 -23.44 0
+ }
+}
+GenericEntity : "{CBC6335857E57538}Prefabs/nogm/MortarMine.et" {
+ coords 4574.665 63.61 2196.513
+ angles 0 0 0
+}
+$grp GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et" {
+ {
+  coords 3582.394 20.596 2350.263
+ }
+ {
+  coords 3589.581 20.518 2346.847
+ }
+}
+GenericEntity : "{CD4FBBECD9C8A2F6}Prefabs/nogm/Office_chair.et" {
+ coords 4573.241 63.61 2198.231
+ angles 0 166.949 0
+}
+$grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
+ {
+  coords 3786.583 21.942 2456.614
+  angles 0 -74.04 0
+ }
+ {
+  coords 3773.351 24.482 2416.687
+  angles 0 -96.088 0
+ }
+ {
+  coords 3790.462 23.758 2356.326
+  angles 0 -87.595 0
+ }
+ {
+  coords 3803.774 19.363 2286.408
+  angles 0 -94.222 0
+ }
+ {
+  coords 3829.117 19.607 2155.604
+  angles 0 -68.294 0
+ }
+ {
+  coords 3819.127 17.119 2084.715
+  angles 0 -85.126 0
+ }
+ {
+  coords 3823.046 17.85 1987.726
+  angles 0 -104.006 0
+ }
+ {
+  coords 3844.674 15.582 1875.484
+  angles 0 -107.4 0
+ }
+ {
+  coords 3899.911 12.738 1802.007
+  angles 0 -135.955 0
+ }
+}
+$grp GenericEntity : "{D2299274C13B1169}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 4272.78 15.481 2213.665
+  angles 0 53.631 0
+ }
+ {
+  coords 4281.536 15.481 2208.197
+  angles 0 94.463 0
+ }
+ {
+  coords 4280.973 15.481 2210.8
+  angles 0 67.365 0
+ }
+ {
+  coords 4278.54 15.481 2215.475
+  angles 0 53.892 0
+ }
+ {
+  coords 4358.272 15.158 2234.492
+  angles 0 89.893 0
+ }
+ {
+  coords 4358.161 15.131 2237.162
+  angles 0 87.085 0
+ }
+ {
+  coords 4351.41 14.752 2238.899
+  angles 0 87.501 0
+ }
+ {
+  coords 4351.259 14.75 2241.441
+  angles 0 87.501 0
+ }
+ {
+  coords 4351.082 14.777 2244.092
+  angles 0 87.501 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{DC41ABA09A6A2177}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS2M_covered.et" {
+ coords 3700.605 18.71 2362.537
+ angles 0 -87.142 0
+}
+GenericEntity : "{DFBF655559915333}Prefabs/Compositions/Slotted/SlotFlatSmall/GuardTower_S_USSR_01.et" {
+ coords 4015.83 15.637 2189.979
+ angles 0 -76.84 0
+}
+GenericEntity : "{E09D27437833A760}Prefabs/Props/PropsHeine/MobileRadar_Vehicle.et" {
+ coords 5548.897 332.731 2565.719
+ angles 0 85.374 0
+}
+$grp StaticModelEntity : "{ECA1802E5B5174BF}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/CzechHedgehog_01_rusty_CompositionDestruction.et" {
+ {
+  coords 4192.237 0 2201.766
+ }
+ {
+  coords 4192.262 0 2200.459
+  angles 0 84.677 0
+ }
+}
+GenericEntity : "{F278CB6F7A3C81F2}Prefabs/GM_Props/Soldier_HolsterSniper.et" {
+ coords 3479.677 20.429 2496.918
+ angles 0 12.402 0
+}
+GenericEntity : "{F7F8971872ADE7EA}Prefabs/Props/PropsHeine/MissileCart_HellFire.et" {
+ coords 4228.371 15.481 2212.635
+ angles 0 176.633 0
+}
+GenericEntity : "{F839798F4F9E5AF2}Prefabs/nogm/Wall_TV_Monitor3_Nogm.et" {
+ coords 4888.167 167.485 2270.947
+ angles 0 -39.318 0
+}
+GenericEntity : "{F9FE8007E86F819B}Prefabs/Props/Military/Radios/RadioStation_ANGRC160_01.et" {
+ coords 4888.876 166.629 2268.33
+ angles 0 53.079 0
+}
+GenericEntity : "{FABA8A2C1F2D5E1E}Prefabs/Compositions/Misc/Tutorial/BaseSandbags.et" {
+ coords 4155.902 15.729 2217.769
+ angles 0 -6.065 0
+ {
+  GenericEntity {
+   ID "588280674917D2FF"
+   coords 0.972 -0.251 4.66
+  }
+  GenericEntity {
+   ID "588280674917D2FC"
+   coords 2.618 0.083 -6.935
+  }
+ }
+}
