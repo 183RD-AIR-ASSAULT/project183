@@ -476,7 +476,7 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
       ActionTitle "JLTV CROWSII"
       Duration 1
       m_PrefabToSpawn "{D17CCBF7FE9AAFEC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII_Woodland.et"
-      m_SpawnPointName "V_lancer_1"
+      m_SpawnPointName "V_csb_1"
      }
      OETA_SpawnAtNamedPointAction "{671635286344F549}" {
       ParentContextList {
@@ -488,7 +488,7 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
       ActionTitle "FMTV Construction"
       Duration 1
       m_PrefabToSpawn "{41B161496B7F805D}Prefabs/Vehicles/Wheeled/M1083/M1083_Construction_Woodland.et"
-      m_SpawnPointName "V_lancer_2"
+      m_SpawnPointName "V_csb_2"
      }
      OETA_SpawnAtNamedPointAction "{67163528160D06BD}" {
       ParentContextList {
@@ -500,7 +500,7 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
       ActionTitle "JLTV Crows 240"
       Duration 1
       m_PrefabToSpawn "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/JLTV_CROWS_M240_Woodland.et"
-      m_SpawnPointName "V_nlancer_3"
+      m_SpawnPointName "V_csb_3"
      }
      OETA_SpawnAtNamedPointAction "{67163528EA4FE179}" {
       ParentContextList {
@@ -512,7 +512,7 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
       ActionTitle "JLTV CROWSII M2HB"
       Duration 1
       m_PrefabToSpawn "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
-      m_SpawnPointName "V_lancer_4"
+      m_SpawnPointName "V_csb_4"
      }
      OETA_SpawnAtNamedPointAction "{6716352B5F4DEB2A}" {
       ParentContextList {
@@ -524,7 +524,43 @@ $grp GenericEntity : "{05F8E539BCBC6BA9}Prefabs/Systems/VehicleService_183rd.et"
       ActionTitle "FMTV Tanker"
       Duration 1
       m_PrefabToSpawn "{2C091881E27BE938}Prefabs/Vehicles/Wheeled/M1083/M1091_Tanker.et"
-      m_SpawnPointName "V_lancer_5"
+      m_SpawnPointName "V_csb_5"
+     }
+     OETA_SpawnAtNamedPointAction "{6722D7771C509697}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6722D7771C5096DA}" {
+       Name "M1114 Crows MK19"
+      }
+      ActionTitle "M1114 Crows MK19"
+      Duration 1
+      m_PrefabToSpawn "{77CC1C4473AF4695}Prefabs/Vehicles/Wheeled/M1114/CROWS/M1114_CROWS_MK19.et"
+      m_SpawnPointName "V_csb_6"
+     }
+     OETA_SpawnAtNamedPointAction "{6722D7771D185B8D}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6722D7771D185BDF}" {
+       Name "M1114 Crows"
+      }
+      ActionTitle "M1114 Crows"
+      Duration 1
+      m_PrefabToSpawn "{716EEFCAB299188B}Prefabs/Vehicles/Wheeled/M1114/CROWS/M1114_CROWS.et"
+      m_SpawnPointName "V_csb_7"
+     }
+     OETA_SpawnAtNamedPointAction "{6722D777FEC415F0}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{6722D777FEC41511}" {
+       Name "M1114 MineRoller"
+      }
+      ActionTitle "M1114 MineRoller"
+      Duration 1
+      m_PrefabToSpawn "{0C59BF1CEE0A336D}Prefabs/Vehicles/Wheeled/M1114/Specializations/MineRoller/M1114_GPK_Spark_MineRoller.et"
+      m_SpawnPointName "V_csb_8"
      }
     }
    }

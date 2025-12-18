@@ -64,6 +64,9 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
   SCR_PlayerSpawnPointManagerComponent "{56C2DDA69EF94C6D}" {
    m_eDeployableSpawnPointBudgetType NONE
   }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   Enabled 0
+  }
   SCR_WelcomeScreenComponent "{5D7290AC8A3E657E}" {
    Enabled 0
   }
@@ -79,6 +82,34 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
    }
   }
  }
+}
+GenericEntity {
+ components {
+  MaterialParamsComponent "{66EB22082BB8DE79}" {
+   ColorAlbedo 0.8308 0.8308 0.8308 1
+  }
+  MeshObject "{66EB220F6A71BB01}" {
+   Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+   Materials {
+    MaterialAssignClass "{6724468EC2381888}" {
+     SourceMaterial "metal_MAT"
+     AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+    }
+    MaterialAssignClass "{6724468EC23818EE}" {
+     SourceMaterial "paper_MAT"
+     AssignedMaterial "{2BC605670E3D4E26}Assets/signs/med_treat.emat"
+    }
+    MaterialAssignClass "{6724468EC23818F6}" {
+     SourceMaterial "plastic_MAT"
+     AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+    }
+   }
+   PixelSizeScale 0.58
+  }
+ }
+ coords 6714.622 599.969 3726.472
+ angles 0 180 0
+ scale 0.054
 }
 BasePreloadManager PreloadManager2 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
  coords 4089.329 610.265 4338.415
@@ -297,5 +328,37 @@ BasePreloadManager PreloadManager2 : "{104F8505FD1871EF}Prefabs/World/Game/Prelo
    Prefab "{1D3188E34387D4B4}Prefabs/FM_Destination.et"
    FullyPreload 1
   }
+ }
+}
+$grp GenericEntity : "{3D48EEAD747D448C}Prefabs/Systems/Vehicle_Spawn.et" {
+ V_csb_7 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2750
+  angles 0 90 0
+ }
+ V_csb_8 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2735
+  angles 0 90 0
  }
 }

@@ -1,0 +1,16 @@
+GenericEntity {
+ ID "66DE4913240F4DE0"
+ components {
+  GRS_EquipmentStorageComponent "{66DE4913240F4DCC}" {
+   InitialStorageSlots {
+    GRS_EquipmentStorageSlot GRS_Rifle_Pouch_1 {
+     AllowedItemTypes {
+      "ARMA_RIFLE_M7"
+     }
+    }
+    GRS_EquipmentStorageSlot GRS_Pistol_Pouch_0 {
+    }
+   }
+  }
+ }
+}
