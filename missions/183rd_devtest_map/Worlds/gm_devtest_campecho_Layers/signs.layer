@@ -1118,4 +1118,32 @@ $grp GenericEntity {
   angles 0 122.874 0
   scale 0.093
  }
+ {
+  components {
+   MaterialParamsComponent "{66EB22082BB8DE79}" {
+    ColorAlbedo 0.8308 0.8308 0.8308 1
+   }
+   MeshObject "{66EB220F6A71BB01}" {
+    Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
+    Materials {
+     MaterialAssignClass "{6724468EC2381888}" {
+      SourceMaterial "metal_MAT"
+      AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
+     }
+     MaterialAssignClass "{6724468EC23818EE}" {
+      SourceMaterial "paper_MAT"
+      AssignedMaterial "{2BC605670E3D4E26}Assets/signs/med_treat.emat"
+     }
+     MaterialAssignClass "{6724468EC23818F6}" {
+      SourceMaterial "plastic_MAT"
+      AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
+     }
+    }
+    PixelSizeScale 0.58
+   }
+  }
+  coords 6714.622 599.969 3726.472
+  angles 0 180 0
+  scale 0.054
+ }
 }

@@ -20,5 +20,9 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{66F56051A707970A}" : "{79370E772514118F}Configs/Factions/183rd_Training.conf" {
   }
+  SCR_Faction "{6724FCE07F4FF895}" : "{D451718AD75C7B8A}Configs/Factions/183rd_Guest.conf" {
+  }
+  SCR_Faction "{6726C1A17522B183}" : "{8C9F4B9F6AD232AA}Configs/Factions/Press.conf" {
+  }
  }
 }

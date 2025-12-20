@@ -161,32 +161,67 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutResource "{2FD4967D5D976F83}Prefabs/Characters/training/183rd_train_rifleman.et"
    m_sAffiliatedFaction "183_Train"
   }
+  SCR_PlayerArsenalLoadout "{6724FCE0287B2DDA}" {
+   m_sLoadoutName "RiflePerson"
+   m_sLoadoutResource "{9A743EA21C7ED904}Prefabs/Characters/guest/183rd_guest_rifleman.et"
+   m_sAffiliatedFaction "183_Guest"
+  }
   SCR_FactionPlayerLoadout "{66F5683A478416DE}" {
    m_sLoadoutName "RiflePerson"
    m_sLoadoutResource "{2FD4967D5D976F83}Prefabs/Characters/training/183rd_train_rifleman.et"
    m_sAffiliatedFaction "183_Train"
+  }
+  SCR_FactionPlayerLoadout "{6724FCE0228E9146}" {
+   m_sLoadoutName "RiflePerson"
+   m_sLoadoutResource "{9A743EA21C7ED904}Prefabs/Characters/guest/183rd_guest_rifleman.et"
+   m_sAffiliatedFaction "183_Guest"
   }
   SCR_FactionPlayerLoadout "{66F5683A78AC5FA4}" {
    m_sLoadoutName "Auto Rifle"
    m_sLoadoutResource "{257AF037ADBA02B9}Prefabs/Characters/training/183rd_train_mg.et"
    m_sAffiliatedFaction "183_Train"
   }
+  SCR_FactionPlayerLoadout "{6724FCE0DD52E476}" {
+   m_sLoadoutName "Auto Rifle"
+   m_sLoadoutResource "{A3A81CD947DEAB11}Prefabs/Characters/guest/183rd_guest_mg.et"
+   m_sAffiliatedFaction "183_Guest"
+  }
   SCR_FactionPlayerLoadout "{66F5683A79E59DDF}" {
    m_sLoadoutName "Medic"
    m_sLoadoutResource "{965B9ABE50E1A60B}Prefabs/Characters/training/183rd_train_medic.et"
    m_sAffiliatedFaction "183_Train"
+  }
+  SCR_FactionPlayerLoadout "{6724FCE0D6213F7B}" {
+   m_sLoadoutName "Medic"
+   m_sLoadoutResource "{4B56B74B84D45F0E}Prefabs/Characters/guest/183rd_guest_medic.et"
+   m_sAffiliatedFaction "183_Guest"
   }
   SCR_FactionPlayerLoadout "{66F5683A7A3EDB71}" {
    m_sLoadoutName "Leader"
    m_sLoadoutResource "{0456E5C50D1AC727}Prefabs/Characters/training/183rd_train_leader.et"
    m_sAffiliatedFaction "183_Train"
   }
+  SCR_FactionPlayerLoadout "{6724FCE0CC543D38}" {
+   m_sLoadoutName "Leader"
+   m_sLoadoutResource "{DA1CC41F847111D8}Prefabs/Characters/guest/183rd_guest_leader.et"
+   m_sAffiliatedFaction "183_Guest"
+  }
   SCR_FactionPlayerLoadout "{66F5683A7B252045}" {
    m_sLoadoutName "Grenadier"
    m_sLoadoutResource "{08FC0433C7A39043}Prefabs/Characters/training/183rd_train_grenadier.et"
    m_sAffiliatedFaction "183_Train"
   }
+  SCR_FactionPlayerLoadout "{6724FCE0C249FE23}" {
+   m_sLoadoutName "Grenadier"
+   m_sLoadoutResource "{FF2A301C45AD37F3}Prefabs/Characters/guest/183rd_guest_grenadier.et"
+   m_sAffiliatedFaction "183_Guest"
+  }
   SCR_FactionPlayerLoadout "{66F5683A7C19D0F7}" {
+   m_sLoadoutName "Anti Armor"
+   m_sLoadoutResource "{2917AB025018A1AE}Prefabs/Characters/guest/183rd_guest_at.et"
+   m_sAffiliatedFaction "183_Train"
+  }
+  SCR_FactionPlayerLoadout "{6724FCE0F0F44B01}" {
    m_sLoadoutName "Anti Armor"
    m_sLoadoutResource "{AFC547ECBA7C0806}Prefabs/Characters/training/183rd_train_at.et"
    m_sAffiliatedFaction "183_Train"
@@ -195,6 +230,16 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutName "JFIRE"
    m_sLoadoutResource "{D8C5E93F1A2AC3EF}Prefabs/Characters/training/183rd_train_jfire.et"
    m_sAffiliatedFaction "183_Train"
+  }
+  SCR_PlayerArsenalLoadout "{6726C1A1188E1CA9}" {
+   m_sLoadoutName "Press"
+   m_sLoadoutResource "{6D3138DA846660AF}Prefabs/Characters/press/183rd_Press_Base.et"
+   m_sAffiliatedFaction "183rd_Press"
+  }
+  SCR_FactionPlayerLoadout "{6726C1A6D7962EFA}" {
+   m_sLoadoutName "Press"
+   m_sLoadoutResource "{6D3138DA846660AF}Prefabs/Characters/press/183rd_Press_Base.et"
+   m_sAffiliatedFaction "183rd_Press"
   }
  }
 }

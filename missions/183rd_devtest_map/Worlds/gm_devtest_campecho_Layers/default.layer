@@ -59,7 +59,7 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
  components {
   OETA_MarkerShareConfigComponent "{671F0A027A8F157E}" {
-   m_SharedFactionKeys "183_Able,183_Nightmare,183_Lancer,183_Aviation,183_CSB,183_Train"
+   m_SharedFactionKeys "183_Able,183_Nightmare,183_Lancer,183_Aviation,183_CSB,183_Train,183_Guest"
   }
   SCR_PlayerSpawnPointManagerComponent "{56C2DDA69EF94C6D}" {
    m_eDeployableSpawnPointBudgetType NONE
@@ -83,33 +83,9 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
   }
  }
 }
-GenericEntity {
- components {
-  MaterialParamsComponent "{66EB22082BB8DE79}" {
-   ColorAlbedo 0.8308 0.8308 0.8308 1
-  }
-  MeshObject "{66EB220F6A71BB01}" {
-   Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
-   Materials {
-    MaterialAssignClass "{6724468EC2381888}" {
-     SourceMaterial "metal_MAT"
-     AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
-    }
-    MaterialAssignClass "{6724468EC23818EE}" {
-     SourceMaterial "paper_MAT"
-     AssignedMaterial "{2BC605670E3D4E26}Assets/signs/med_treat.emat"
-    }
-    MaterialAssignClass "{6724468EC23818F6}" {
-     SourceMaterial "plastic_MAT"
-     AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
-    }
-   }
-   PixelSizeScale 0.58
-  }
- }
- coords 6714.622 599.969 3726.472
- angles 0 180 0
- scale 0.054
+SCR_SpawnPoint : "{0743DAAFA6AB5170}Prefabs/Systems/press/E_SpawnPoint_183rd_press.et" {
+ coords 6705.959 600 3620.146
+ scale 0.5
 }
 BasePreloadManager PreloadManager2 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
  coords 4089.329 610.265 4338.415
@@ -330,35 +306,7 @@ BasePreloadManager PreloadManager2 : "{104F8505FD1871EF}Prefabs/World/Game/Prelo
   }
  }
 }
-$grp GenericEntity : "{3D48EEAD747D448C}Prefabs/Systems/Vehicle_Spawn.et" {
- V_csb_7 {
-  components {
-   MeshObject "{6716352944B719DA}" {
-    CastShadow 0
-    CastFarShadow 0
-    PixelSizeFilter 0
-    RainOccluder 0
-    WetnessOccluder 0
-    ReceiveLight 0
-    ClutterOccluderClipPlane 0
-   }
-  }
-  coords 6754.036 599.969 2750
-  angles 0 90 0
- }
- V_csb_8 {
-  components {
-   MeshObject "{6716352944B719DA}" {
-    CastShadow 0
-    CastFarShadow 0
-    PixelSizeFilter 0
-    RainOccluder 0
-    WetnessOccluder 0
-    ReceiveLight 0
-    ClutterOccluderClipPlane 0
-   }
-  }
-  coords 6754.036 599.969 2735
-  angles 0 90 0
- }
+GenericEntity : "{E1BD10FFA47338E6}Prefabs/Systems/press/ArsenalBox_183_press.et" {
+ coords 6725.542 600 3618.474
+ angles 0 270 0
 }

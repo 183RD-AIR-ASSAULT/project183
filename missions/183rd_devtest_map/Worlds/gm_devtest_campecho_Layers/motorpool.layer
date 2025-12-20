@@ -958,4 +958,34 @@ $grp GenericEntity : "{3D48EEAD747D448C}Prefabs/Systems/Vehicle_Spawn.et" {
   coords 6754.036 599.969 2765.015
   angles 0 90 0
  }
+ V_csb_7 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2750
+  angles 0 90 0
+ }
+ V_csb_8 {
+  components {
+   MeshObject "{6716352944B719DA}" {
+    CastShadow 0
+    CastFarShadow 0
+    PixelSizeFilter 0
+    RainOccluder 0
+    WetnessOccluder 0
+    ReceiveLight 0
+    ClutterOccluderClipPlane 0
+   }
+  }
+  coords 6754.036 599.969 2735
+  angles 0 90 0
+ }
 }

@@ -1,0 +1,14 @@
+GameEntity : "{0B201E22AD2DFA7F}Prefabs/Items/Equipment/Accessories/ClothAttachment_Base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5DB09136B1C985B5}" {
+   InheritVisibility 1
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   AreaType GRS_Strobe "{609D5B7DA1B01370}" {
+   }
+  }
+ }
+ coords 0.037 -0.023 0.042
+ angles 54.413 0 0
+}
