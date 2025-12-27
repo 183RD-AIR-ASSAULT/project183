@@ -1,0 +1,105 @@
+SCR_ChimeraCharacter : "{AAD8C80101DB8091}Prefabs/Characters/183rd_base.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames + {
+    "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
+   }
+  }
+  OETA_GroupRadioSettingsComponent "{66EF1095849B3183}" {
+   m_GroupEncryptionKey "screaminchicks"
+  }
+  OETA_RadioAutoTuneComponent "{66EF1095B93B2771}" {
+   m_PlanConfig OETA_RadioPlanConfigRoot "{670423B6E5F81D3F}" : "{02E14A2E2A318B9E}Configs/freqs/freqs.conf" {
+    Plans {
+     OETA_RadioPlanConfig "{67094395D0DC5AA9}" {
+      BaseFrequenciesKHz "41000 41100"\
+      "41200"
+     }
+    }
+   }
+  }
+  OETA_RadioChannelListUIComponent "{67094387D4E65554}" {
+  }
+  OETA_RadioChannelNamesComponent "{66F30934B53ECAD0}" {
+  }
+  SCR_CampaignBuildingComponent "{66E2B8528D2E4738}" {
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
+  }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   StaminaRegainPerS 0.14
+   StaminaDrainRun -0.004
+   StaminaDrainSprint -0.01
+   EncumbranceDrainMax -0.075
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+   }
+   m_VariantData SCR_EditableEntityVariantData "{60F6B2B4BAE04806}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6B2B4B9D3CC9B}" {
+      m_sVariantPrefab "{07B92B5E1A781635}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Player_Variant_1.et"
+     }
+    }
+   }
+  }
+  SCR_MapDescriptorComponent "{66E2B8528D2E47CA}" {
+   VisibleOnMap 0
+   MainType Unit
+   UnitType Infantry
+  }
+  SCR_ResourceComponent "{66E2B8528D2E47CB}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E6485852E650CC4}" : "{E77EA96D4FC48177}Configs/Resources/Supplies/Consumers/Generic/Consumer_Self.conf" {
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1772A0967C5DD001}Prefabs/Weapons/Rifles/M7/183rd_M7_Weathered.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A36613EAD646961D}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_MC_AMP.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{45B8F0FCE30EB23E}Prefabs/Characters/Uniforms/Jacket_US_ACU_01_OCP.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{62A135EEFF5B5150}Prefabs/Characters/Uniforms/Pants_US_ACU_OCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{80E2511DB6FB719A}Prefabs/Characters/Footwear/ArmyCombatBoots_US_desert.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+    LoadoutSlotInfo GRS_Waist {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{670D65B9D367F90D}" {
+     TargetStorage "Pants/Vergy_Crye_Trousers_Base.et"
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
+     }
+    }
+   }
+  }
+ }
+ coords -0.962 -1.813 1.284
+}

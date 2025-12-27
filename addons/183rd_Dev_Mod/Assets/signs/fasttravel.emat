@@ -1,0 +1,13 @@
+MatPBRBasic {
+ Color 0.929 0.929 0.929 1
+ EmissiveLV -0.801
+ SpecularMul 0.26
+ RoughnessScale 3.387
+ MetalnessScale 0.752
+ AOScale 0.912
+ DielectricReflectance 0.024
+ GlobalAOPower 0.443
+ BCRMap "{E8B16078449AE8BC}Assets/signs/fasttravel/paper_MAT_1_BCR.edds"
+ NormalPower 1.091
+ NMOMap "{D069DBEA9DEDBA22}Assets/signs/fasttravel/paper_MAT_1_NMO.edds"
+}

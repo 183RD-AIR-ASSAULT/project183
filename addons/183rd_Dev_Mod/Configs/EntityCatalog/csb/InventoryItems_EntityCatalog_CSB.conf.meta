@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E3C18172F7779E11}Configs/EntityCatalog/csb/InventoryItems_EntityCatalog_CSB.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

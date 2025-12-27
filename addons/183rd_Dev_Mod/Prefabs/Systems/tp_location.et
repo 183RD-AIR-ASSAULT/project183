@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "671635291041F835"
+ components {
+  MeshObject "{6716352974358989}" {
+   Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+  }
+ }
+ coords -3.137 2.013 4.187
+}

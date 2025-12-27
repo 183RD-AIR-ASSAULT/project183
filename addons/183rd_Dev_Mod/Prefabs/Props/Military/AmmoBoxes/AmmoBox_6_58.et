@@ -1,0 +1,30 @@
+GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{D102BDA59521A0AB}Assets/Weapons/Magazines/M2/Magazine_100rnd_M2_Item.xob"
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5C5339160C8869E2}" {
+     m_sSoundProject "{1A1F49248284A1CF}Sounds/Props/Military/AmmoBoxes/AmmoBox_81mm_mortar_3rnd/Props_AmmoBox_81mm_mortar_3rnd.acp"
+    }
+    SCR_AudioSourceConfiguration "{5C533916090D28B6}" {
+     m_sSoundProject "{1A1F49248284A1CF}Sounds/Props/Military/AmmoBoxes/AmmoBox_81mm_mortar_3rnd/Props_AmmoBox_81mm_mortar_3rnd.acp"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+ coords -0.424 0.114 0.344
+ angles -89.463 142.605 153.02
+}

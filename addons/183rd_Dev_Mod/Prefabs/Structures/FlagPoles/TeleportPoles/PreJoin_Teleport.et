@@ -1,0 +1,101 @@
+GenericEntity : "{8364151EF33B3B33}Prefabs/Structures/Core/FlagPole_Base.et" {
+ ID "50C6D20663830070"
+ components {
+  MeshObject "{66FA04256715980E}" {
+   Object "{C41BFB78E6FFFBCB}Assets/Structures/Military/Flags/FlagPole_01/FlagPole_01.xob"
+  }
+  RigidBody "{66FA04256715981A}" {
+   ResponseIndex "LargeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{51BACBF3C4A56479}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 1000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66FA04256715981F}" {
+     m_ModelPrefabs {
+      "{180F19ED1440D32A}Assets/Structures/Military/Flags/FlagPole_01/dst/Flagpole_01_dst.xob"
+     }
+     m_fMass 50
+     m_eMaterialSoundType METAL_POLE
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_POLE
+  }
+  SCR_FlagComponent "{66FA04256715981D}" {
+   m_sDefaultMaterial "{AC8120550DC6D979}Assets/Props/Fabric/Flags/Data/Flag_1_2_COA.emat"
+  }
+  SlotManagerComponent "{66FA042567159863}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Offset 0.0181 5.2653 0.0122
+     Angles 0 180 0
+     Prefab "{CCCC185722D6D6EC}Assets/Props/Fabric/Flags/Flag_1_2_White_Base.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{66FA042567159861}" {
+   ActionContexts {
+    UserActionContext "{66FA042567159866}" {
+     ContextName "default"
+     Position PointInfo "{66FA042567159864}" {
+      Offset 0 2.0733 -0.3554
+     }
+     Radius 5
+     Height 5
+    }
+   }
+   additionalActions {
+    OETA_TeleportPlayerAction "{66FA042567159865}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{66FA04256715986A}" {
+      Name "Teleport To Spawn"
+     }
+     VisibilityRange 5
+     Duration 1
+     m_sObjectNameToTeleportTo "Spawn"
+     m_sGearscriptToSet "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/OETA_GS_CIV_Rifleman_P.et"
+    }
+    OETA_TeleportPlayerAction "{66FA04256715986B}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{66FA042567159868}" {
+      Name "Teleport to Firing Range"
+     }
+     VisibilityRange 5
+     Duration 1
+     m_sObjectNameToTeleportTo "FiringRange"
+     m_sGearscriptToSet "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/OETA_GS_CIV_Rifleman_P.et"
+    }
+    OETA_TeleportPlayerAction "{66FA04256715BC2D}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{66FA04256715BC31}" {
+      Name "Teleport to Airfield"
+     }
+     VisibilityRange 5
+     Duration 1
+     m_sObjectNameToTeleportTo "Airfield"
+     m_sGearscriptToSet "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/OETA_GS_CIV_Rifleman_P.et"
+    }
+    OETA_TeleportPlayerAction "{66FA04256715BC30}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{66FA04256715BC3F}" {
+      Name "Teleport to Vehicle Range"
+     }
+     VisibilityRange 5
+     Duration 1
+     m_sObjectNameToTeleportTo "VehRange"
+     m_sGearscriptToSet "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/OETA_GS_CIV_Rifleman_P.et"
+    }
+   }
+  }
+ }
+ coords 0 -1.175 0
+}

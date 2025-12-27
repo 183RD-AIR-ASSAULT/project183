@@ -1,0 +1,16 @@
+GenericEntity : "{AF355DA3D9927C36}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaconLoadoutEditor_EventComponent "{672E14741983840B}" {
+  }
+  Bacon_GunBuilder_LoadoutStorageComponent "{672E14741152531F}" {
+  }
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-Vest_JPC_Name - #RHS-Camo_MULTICAM"
+    }
+   }
+  }
+ }
+}

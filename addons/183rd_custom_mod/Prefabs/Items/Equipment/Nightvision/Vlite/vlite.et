@@ -1,9 +1,0 @@
-GameEntity : "{0B201E22AD2DFA7F}Prefabs/Items/Equipment/Accessories/ClothAttachment_Base.et" {
- ID "5DB09136945FC6DB"
- components {
-  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
-   AreaType GRS_Vlite "{61B53D8FC2830635}" {
-   }
-  }
- }
-}

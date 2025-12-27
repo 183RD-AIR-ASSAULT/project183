@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{CB0CA42E1926D741}Prefabs/Characters/183rd_base_jfire.et" {
+ ID "52092032B0E62200"
+ components {
+  OETA_RadioAutoTuneComponent "{66EF1095B93B2771}" {
+   m_PlanConfig OETA_RadioPlanConfigRoot "{670423B604B04464}" : "{02E14A2E2A318B9E}Configs/freqs/freqs.conf" {
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "183_Able"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "183_Able"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_ABLE
+    }
+    m_aAutoLabels {
+     ROLE_RADIOOPERATOR
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
+   m_PreviewPrefab "{EBA29A576581B021}Prefabs/Characters/able/183rd_able_jfire.et"
+   m_aEntries {
+    SCR_BasePreviewEntry "{670423B297115F0B}" {
+     m_Mesh "{EBA29A576581B021}Prefabs/Characters/able/183rd_able_jfire.et"
+     m_Shape PREFAB
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
+     TargetStorage "ArmoredVest/183_JPC2.0_jfire.et/LS_Front_Pouch/GRS_ARDual_G17_Pouch.et"
+    }
+   }
+  }
+ }
+ coords 0.384 -0.305 -1.294
+}

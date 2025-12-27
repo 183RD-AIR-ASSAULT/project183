@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0 0.125 0.502 1
+ BCRMap "{675343057D92F2F0}Assets/Weapons/Magazines/Data/M7_New/LancerMag.002_BCR.edds"
+ NMOMap "{5F8BF897A4E5A06E}Assets/Weapons/Magazines/Data/M7_New/LancerMag.002_NMO.edds"
+}

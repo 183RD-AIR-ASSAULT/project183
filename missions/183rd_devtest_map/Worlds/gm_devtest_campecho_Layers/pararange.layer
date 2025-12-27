@@ -1,0 +1,143 @@
+$grp GenericEntity {
+ {
+  components {
+   MaterialParamsComponent "{66EB2201FEBCC1D5}" {
+    ColorAlbedo 0.491 0.491 0.491 1
+    ColorEmissive 0.6376 0.6376 0.6376 1
+   }
+   MeshObject "{66EB2206ACFE2D59}" {
+    Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
+    Materials {
+     MaterialAssignClass "{6736F427CF38D944}" {
+      SourceMaterial "billboard_Mat"
+      AssignedMaterial "{C9B5FA6982383014}Assets/billboard183/jumprange.emat"
+     }
+    }
+    PixelSizeScale 0.73
+   }
+  }
+  coords 6794.857 600.063 4184.417
+  angles 0 270 0
+  scale 0.093
+ }
+ jumpfrom200 {
+  components {
+   MeshObject "{6736E821F4CA4513}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    PixelSizeScale 0
+   }
+   RplComponent "{6736E8205D51606A}" {
+   }
+   Hierarchy "{6736E8205317BA86}" {
+   }
+  }
+  coords 6725 800 4060
+ }
+ jumpfrom400 {
+  components {
+   MeshObject "{6736E821F4CA4513}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    PixelSizeScale 0
+   }
+   RplComponent "{6736E8205D51606A}" {
+   }
+   Hierarchy "{6736E8205317BA86}" {
+   }
+  }
+  coords 6725 1000 3860
+ }
+ jumpfrom600 {
+  components {
+   MeshObject "{6736E821F4CA4513}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    PixelSizeScale 0
+   }
+   RplComponent "{6736E8205D51606A}" {
+   }
+   Hierarchy "{6736E8205317BA86}" {
+   }
+  }
+  coords 6725 1200 3660
+ }
+ LANDING {
+  coords 6725 600 4260
+ }
+ jumpfromstatic {
+  components {
+   MeshObject "{6736E821F4CA4513}" {
+    Object "{5BDF1A1F9F914CF7}system/wbdata/Gizmo3D/ringY.xob"
+    PixelSizeScale 0
+   }
+   RplComponent "{6736E8205D51606A}" {
+   }
+   Hierarchy "{6736E8205317BA86}" {
+   }
+  }
+  coords 6725 800 4200
+ }
+}
+SCR_DestructibleBuildingEntity : "{E0D823883B9C3E26}Prefabs/Structures/Military/Houses/GuardHouse_03/GuardHouse_03_white.et" {
+ coords 6780 0.048 4192.626
+ angles 0 270 0
+}
+GenericEntity O_TrainingCenter17 : "{F3F98087E52DF102}Prefabs/FM_Origin.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6736F420433309B5}" {
+     SourceMaterial "BoardMap_01_texture"
+     AssignedMaterial "{4A2EE7D0FD65EB2F}Assets/signs/jumpschool.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{66F8F96E68D99A24}" {
+   additionalActions {
+    OETA_FastTravelActionManager "{66F8F96E852ACC71}" {
+     UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+      Name "Jump 200 ATL Static Drop"
+     }
+     VisibilityRange 2
+     Duration 0.5
+     m_FastTravel_Destinations {
+      "jumpfromstatic"
+     }
+    }
+    OETA_FastTravelActionManager "{6736F4285547289A}" {
+     UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+      Name "Jump 200 ATL"
+     }
+     VisibilityRange 2
+     Duration 0.5
+     m_FastTravel_Destinations {
+      "jumpfrom200"
+     }
+    }
+    OETA_FastTravelActionManager "{66F8F96F466AE2E8}" {
+     UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+      Name "Jump 400 ATL"
+     }
+     VisibilityRange 2
+     Duration 0.5
+     "Sort Priority" 1
+     m_FastTravel_Destinations {
+      "jumpfrom400"
+     }
+    }
+    OETA_FastTravelActionManager "{66F8F96F70DBBC1B}" {
+     UIInfo UIInfo "{66F8F96EA8DF53DA}" {
+      Name "Jump 600 ATL"
+     }
+     VisibilityRange 2
+     Duration 0.5
+     "Sort Priority" 2
+     m_FastTravel_Destinations {
+      "jumpfrom600"
+     }
+    }
+   }
+  }
+ }
+ Flags 0x100 0
+ coords 6762.647 600 4206.051
+ angles 0 180 0
+}

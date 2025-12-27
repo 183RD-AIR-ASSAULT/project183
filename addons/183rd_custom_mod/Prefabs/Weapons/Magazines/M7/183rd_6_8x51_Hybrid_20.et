@@ -1,0 +1,50 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "183rd 20 round M7 Range Mag"
+     Description "Range use only"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{672CE5F347673320}" {
+     Weight 0.1
+     SizeSetupStrategy Manual
+     ItemDimensions 10 8 10
+     ItemVolume 200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{672CE5F34767333C}" {
+      CameraPreset Right
+     }
+    }
+    CommonItemType "NONE"
+   }
+   WeightPerAmmo 0.025
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellM7 "{672CE5F347673338}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "183rd 20 round M7 Range Mag"
+    Description "Range use only"
+    m_eAmmoTypeFlags AP
+   }
+   ItemModel "{164B4A0491DC1222}Assets/Weapons/Magazines/M7_Mag_New.xob"
+   MaxAmmo 20
+   AmmoConfig "{9491398C3337E5D0}Configs/Weapons/Ammo/Ammo_6.8_Hybrid.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{164B4A0491DC1222}Assets/Weapons/Magazines/M7_Mag_New.xob"
+   Materials {
+    MaterialAssignClass "{672CE5F3D0CA5525}" {
+     SourceMaterial "LancerMag"
+     AssignedMaterial "{14DAACF517BFD4F5}Assets/Weapons/Magazines/Data/183rd_range_Mag_20.emat"
+    }
+   }
+  }
+ }
+}

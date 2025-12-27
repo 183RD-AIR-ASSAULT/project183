@@ -1,0 +1,111 @@
+GenericEntity {
+ ID "672EA4EC373041FA"
+ components {
+  ACE_CarriableEntityComponent "{672EA4ECE6BCCB4D}" {
+   m_fCarrierSpeedLimit 0.5
+  }
+  MeshObject "{672EA4EC373041F4}" {
+   Object "{AEF2F66D9E4613B9}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_1_debris_01.xob"
+  }
+  RigidBody "{672EA4EC373041EE}" {
+  }
+  SCR_UniversalInventoryStorageComponent "{672EA4EC373041E1}" {
+   Attributes SCR_ItemAttributeCollection "{672EA4EC373041E0}" {
+    ItemDisplayName UIInfo "{672EA4EC373041E3}" {
+     Name "#RHS-EditableEntity_SupplyBox_USMC_Name"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{672EA4EC373041E2}" {
+      CameraOrbitAngles 330 30 0
+      CameraDistanceToItem 2
+      PreviewModel "{AEF2F66D9E4613B9}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_1_debris_01.xob"
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   UseCapacityCoefficient 0
+   MultiSlots {
+    MultiSlotConfiguration "{672EA4EC373041E4}" {
+     SlotTemplate InventoryStorageSlot s1 {
+      Prefab "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{672EA4EC373041E6}" {
+     SlotTemplate InventoryStorageSlot s2 {
+      Prefab "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{672EA4EC373041D9}" {
+     SlotTemplate InventoryStorageSlot s3 {
+      Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{672EA4EC373041D8}" {
+     SlotTemplate InventoryStorageSlot s4 {
+      Prefab "{DFFBF5F097FCF797}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Base.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{672EA4EC373041DB}" {
+    }
+    MultiSlotConfiguration "{672EA4EC373041DA}" {
+    }
+    MultiSlotConfiguration "{672EA4EC373041DD}" {
+    }
+    MultiSlotConfiguration "{672EA4EC373041D5}" {
+    }
+    MultiSlotConfiguration "{672EA4EC373041D4}" {
+    }
+    MultiSlotConfiguration "{672EA4EC37307162}" {
+    }
+    MultiSlotConfiguration "{672EA4EC3730717F}" {
+    }
+    MultiSlotConfiguration "{672EA4EC37307A18}" {
+    }
+    MultiSlotConfiguration "{672EA4EC37307A1A}" {
+    }
+    MultiSlotConfiguration "{672EA4EC37307A1B}" {
+    }
+    MultiSlotConfiguration "{672EA4EC37307A1C}" {
+    }
+    MultiSlotConfiguration "{672EA4EC3731DCC6}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{672EA4EC3731DCC7}" {
+   ActionContexts {
+    UserActionContext "{672EA4EC3731DCC5}" {
+     ContextName "default"
+     Position PointInfo "{672EA4EC3731DCCC}" {
+      Offset 0 0.5 0
+     }
+     Radius 1.5
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{672EA4EC3731DCCD}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{672EA4EC3731DD32}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+    ACE_Carrying_CarryUserAction "{672EA4EF1F11EAA6}" {
+     UIInfo UIInfo "{672EA4EE68F29895}" {
+      Name "carry"
+     }
+     ActionTitle "carry"
+    }
+   }
+  }
+  RplComponent "{672EA4EC3731DD33}" {
+  }
+  Hierarchy "{672EA4EC3731DD30}" {
+  }
+ }
+ coords 2.07 -1.642 0.781
+}

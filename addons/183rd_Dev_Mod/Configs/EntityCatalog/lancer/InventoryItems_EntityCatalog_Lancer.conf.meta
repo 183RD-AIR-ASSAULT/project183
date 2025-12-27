@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{54A7702AA44B935A}Configs/EntityCatalog/lancer/InventoryItems_EntityCatalog_Lancer.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

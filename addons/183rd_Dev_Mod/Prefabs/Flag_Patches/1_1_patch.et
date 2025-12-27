@@ -1,0 +1,29 @@
+GameEntity : "{C3C66DFD34ADB415}Prefabs/Flag_Patches/USA_Flag_Color.et" {
+ ID "657B0C0A4C1F9EDE"
+ components {
+  InventoryItemComponent "{657B0C0AEEF49C10}" {
+   Attributes SCR_ItemAttributeCollection "{657B0C0AEEF49C16}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657B0C0AEEF49F14}" {
+     Name "GRS: Patch USA Flag - Reflective"
+     Description "GRS: Nightmare 1-1"
+    }
+   }
+  }
+  MeshObject "{657B0C0AEEEB7DCB}" {
+   Materials {
+    MaterialAssignClass "{66F258F460B1ADAC}" {
+     SourceMaterial "Mat_Patch"
+     AssignedMaterial "{5DF49A1532C6C5A8}Assets/Flag_Patches/Data/1_1.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657B0C0AEEEB7D3C}" {
+   WornMaterialsOverride {
+    "{12FF51C61643EE0A}Assets/Flag_Patches/Data/1_1_new.emat"
+   }
+   ItemMaterialsOverride {
+    "{12FF51C61643EE0A}Assets/Flag_Patches/Data/1_1_new.emat"
+   }
+  }
+ }
+}

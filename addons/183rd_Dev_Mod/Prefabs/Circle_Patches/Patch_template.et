@@ -1,0 +1,21 @@
+GameEntity : "{31B8D047E27D9FF1}Prefabs/Circle_Patches/Patch_Reaper_Base.et" {
+ ID "657B0C0A4C1F9EDE"
+ components {
+  InventoryItemComponent "{657B0C0AEEF49C10}" {
+   Attributes SCR_ItemAttributeCollection "{657B0C0AEEF49C16}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657B0C0AEEF49F14}" {
+     Name "GRS: Patch Punisher"
+     Description "GRS: Patch Punisher"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657B0C0AEEEB7D3C}" {
+   WornMaterialsOverride {
+    "{111DD44FE25C66A1}Assets/Circle_Patches/Data/Punisher.emat"
+   }
+   ItemMaterialsOverride {
+    "{111DD44FE25C66A1}Assets/Circle_Patches/Data/Punisher.emat"
+   }
+  }
+ }
+}

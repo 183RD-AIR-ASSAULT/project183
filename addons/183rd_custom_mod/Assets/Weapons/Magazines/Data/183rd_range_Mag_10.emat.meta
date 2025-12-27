@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1AA0E7CA15962C6F}Assets/Weapons/Magazines/Data/183rd_range_Mag.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

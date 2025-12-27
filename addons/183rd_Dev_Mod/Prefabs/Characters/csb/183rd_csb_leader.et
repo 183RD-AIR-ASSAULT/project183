@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{6C37AE056BD1B77D}Prefabs/Characters/183rd_base_leader.et" {
+ ID "52092032B0E62200"
+ components {
+  OETA_RadioAutoTuneComponent "{66EF1095B93B2771}" {
+   m_PlanConfig OETA_RadioPlanConfigRoot "{670423B6E5F81D3F}" : "{02E14A2E2A318B9E}Configs/freqs/freqs.conf" {
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "183_CSB"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "183rd CSB Leader"
+    m_sFaction "183_CSB"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_CSB
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66E81B17B85FFEFE}" {
+     TargetStorage "ArmoredVest/183_JPC2.0_leader.et/Rear_Radio/GRS_Radio_MPU5_Pouch.et"
+    }
+    ItemsInitConfigurationItem "{66E81B17B85F08DB}" {
+     TargetStorage "ArmoredVest/183_JPC2.0_leader.et/Front_Pouch/GRS_Front_Large_Admin_Pouch.et"
+    }
+   }
+  }
+ }
+}

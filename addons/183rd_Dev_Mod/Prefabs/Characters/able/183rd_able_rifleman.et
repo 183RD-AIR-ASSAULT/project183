@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{966D01E5160BA4F3}Prefabs/Characters/183rd_base_rifleman.et" {
+ ID "52092032B0E62200"
+ components {
+  OETA_RadioAutoTuneComponent "{66EF1095B93B2771}" {
+   m_PlanConfig OETA_RadioPlanConfigRoot "{670423B6E5F81D3F}" : "{02E14A2E2A318B9E}Configs/freqs/freqs.conf" {
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "183_Able"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "183rd Able Rifleman"
+    m_sFaction "183_Able"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_183_ABLE
+    }
+    m_aAutoLabels {
+     ROLE_RIFLEMAN
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
+   m_PreviewPrefab "{443E618AF5511494}Prefabs/Characters/able/183rd_able_rifleman.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

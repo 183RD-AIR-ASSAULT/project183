@@ -1,0 +1,13 @@
+MatPBRBasic {
+ Color 0.929 0.929 0.929 1
+ EmissiveLV -0.801
+ SpecularMul 0.26
+ RoughnessScale 3.387
+ MetalnessScale 0.752
+ AOScale 0.912
+ DielectricReflectance 0.024
+ GlobalAOPower 0.443
+ BCRMap "{5BC52C9540719E86}Assets/signs/med_cir/paper_MAT_1_BCR.edds"
+ NormalPower 1.091
+ NMOMap "{5006ADA94D215EF0}Assets/signs/plastic_MAT_NMO.edds"
+}

@@ -1,0 +1,8 @@
+MatPBRBasic {
+ SpecularMul 0.11
+ RoughnessScale 4.006
+ MetalnessScale 0.487
+ AOScale 0.998
+ BCRMap "{ABB13799B859AB7F}Assets/para/chute/ParachuteSub_BCR.edds"
+ NMOMap "{93698C0B612EF9E1}Assets/para/chute/ParachuteSub_NMO.edds"
+}

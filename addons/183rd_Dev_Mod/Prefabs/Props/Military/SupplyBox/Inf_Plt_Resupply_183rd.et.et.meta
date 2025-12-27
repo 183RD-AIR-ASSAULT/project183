@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3FF6B55044B264D9}Prefabs/Props/Military/SupplyBox/Inf_Plt_Resupply_183rd.et.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

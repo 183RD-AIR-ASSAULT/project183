@@ -1,0 +1,14 @@
+MatPBRBasic {
+ Color 0.929 0.929 0.929 1
+ EmissiveLV -0.801
+ SpecularMul 0.26
+ RoughnessScale 3.387
+ MetalnessScale 0.752
+ AOScale 0.912
+ DielectricReflectance 0.024
+ GlobalAOPower 0.443
+ BCRMap "{E0795AC68E3E722F}Assets/billboard183/211/billboard_Mat_BCR.edds"
+ OpacityMap "{11D27889A24DFACA}Assets/billboard183/Material_NMO.edds"
+ NormalPower 1.091
+ NMOMap "{7CE53D6A4E7BC1FD}Assets/billboard183/billboard_Mat_NMO.edds"
+}

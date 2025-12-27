@@ -1,0 +1,195 @@
+GenericEntity {
+ ID "6732B7C0D28877D5"
+ components {
+  Persistence "{6732B7C0D28877DA}" {
+  }
+  SignalsManagerComponent "{6732B7C0D2887717}" {
+  }
+  ClothNodeStorageComponent "{6732B7C0D2887716}" {
+   Attributes SCR_ItemAttributeCollection "{6732B7C0D2887714}" {
+    ItemDisplayName UIInfo "{6732B7C0D2887713}" {
+     Name "GRS: Modular Backpanel - MC"
+     Description "GRS: Modular Backpanel - MC"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6732B7C0D2887712}" {
+     Weight 0.5
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 8001
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6732B7C0D2887710}" {
+      CameraPreset Front
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.9
+      ItemRenderRotation 0 180 0
+      FOV 60
+      AspectRatio 1
+      IsDynamicObject 1
+      PreviewWornModel 1
+      PreviewModel ""
+     }
+     PreviewRenderAttributes "{6732B7C0D288771F}" {
+      CameraOrbitAngles -25 180 0
+      CameraDistanceToItem 2
+      FOV 20
+      AspectRatio 1
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+   }
+   Priority 1
+   StoragePurpose 0x41 0
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 0
+   MaxItemSize 0 0 0
+   UseVirtualInventoryReplication 0
+  }
+  MeshObject "{6732B7C0D288771D}" {
+   Object "{BD802E76B123CC5A}Assets/Backpacks/Backpanel_Spiritus_Tubular/Backpanel_Backpack_Breacher_V2.xob"
+   InheritVisibility 1
+  }
+  RigidBody "{6732B7C0D288771A}" {
+   Enabled 0
+   Mass 5
+   ModelGeometry 1
+  }
+  SCR_SoundDataComponent "{6732B7C0D2887718}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6732B7C0D2887766}" {
+     m_sSoundProject "{3D8789E7ACF6EDD3}Sounds/Items/_SharedData/PickUp/Items_PickUp_BackPack.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6732B7C0D2887765}" {
+     m_sSoundProject "{3D8789E7ACF6EDD3}Sounds/Items/_SharedData/PickUp/Items_PickUp_BackPack.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6732B7C0D2887773}" {
+     m_sSoundProject "{6D0C4AFA2B734709}Sounds/Items/_SharedData/Drop/Items_Drop_BackPack.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+    SCR_AudioSourceConfiguration "{6732B7C0D2887772}" {
+     m_sSoundProject "{F01623940EA93645}Sounds/Items/_SharedData/Open/Backpack_ALICE/Items_Backpack_ALICE.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{6732B7C0D2887771}" {
+     m_sSoundProject "{F01623940EA93645}Sounds/Items/_SharedData/Open/Backpack_ALICE/Items_Backpack_ALICE.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6732B7C0D288777F}" {
+   AreaType LoadoutBackpackArea "{6732B7C0D288777E}" {
+   }
+   Slots {
+    LoadoutSlotInfo Pouch_Setup {
+     PivotID "Spine5"
+     Offset -0.0063 -1.1807 -0.063
+     Angles -4.6615 0 0
+     Prefab "{E92F57627422671F}Prefabs/Pouches/Backpack_Pouches/GRS_Backpanel_Medic_MC.et"
+     AreaType GL_Bag_Pouch_Setup "{6732B7C0D288777B}" {
+     }
+    }
+    LoadoutSlotInfo Bolt_Cutters {
+     PivotID "Spine5"
+     Offset 0.0119 -1.1593 0.0681
+     Angles 0.4946 0.7351 -0.0183
+     AreaType GL_Bag_Bolt_Cutters "{6732B7C0D288777A}" {
+     }
+    }
+    LoadoutSlotInfo LS_Option {
+     PivotID "Spine5"
+     Offset -0.1375 0.1714 -0.1945
+     Angles 0.8482 98.9937 -5.6096
+     MergePhysics 1
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+     AreaType GL_Bag_SlotArea_Left "{6732B7C0D2887778}" {
+     }
+    }
+    LoadoutSlotInfo Bottom_Option {
+     PivotID "Spine5"
+     Offset 0.0282 0.0201 -0.2243
+     Angles 82.8708 0.8666 -92.5257
+     MergePhysics 1
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+     AreaType GL_Bag_SlotArea_Bottom "{6732B7C0D2887747}" {
+     }
+    }
+    LoadoutSlotInfo RS_Option {
+     PivotID "Spine5"
+     Offset 0.1259 0.2061 -0.165
+     Angles -5.5595 -13.3745 0.8674
+     MergePhysics 1
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+     AreaType GL_Bag_SlotArea_Right "{6732B7C0D2887746}" {
+     }
+    }
+   }
+   WornModel "{BD802E76B123CC5A}Assets/Backpacks/Backpanel_Spiritus_Tubular/Backpanel_Backpack_Breacher_V2.xob"
+   ItemModel "{F38C6E30AA480C0F}Assets/Backpacks/Backpanel_Spiritus_Tubular/Backpanel_Ground.xob"
+   VisibleInVehicle 0
+   SoundInt 810
+   DepthBack 0
+   OffsetShoulderLeft 0
+   OffsetShoulderRight 0
+  }
+  ActionsManagerComponent "{6732B7C0D2887743}" {
+   ActionContexts {
+    UserActionContext "{6732B7C0D288774A}" {
+     ContextName "default"
+     Position PointInfo "{6732B7C0D2887748}" {
+      Offset 0 0.05 0
+     }
+     Radius 0.5
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{6732B7C0D2887756}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6732B7C0D2887755}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+    SCR_EquipClothAction "{6732B7C0D2887754}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6732B7C0D2887752}" {
+      Name "#AR-Inventory_Equip"
+      m_sIconName "pick-up"
+     }
+    }
+    SCR_PickUpItemAction "{6732B7C0D2887751}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6732B7C0D2887750}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+   }
+  }
+  RplComponent "{6732B7C0D288775F}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6732B7C0D288775E}" {
+  }
+ }
+ coords -1.328 2.008 0.575
+}

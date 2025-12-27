@@ -6,17 +6,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
    }
   }
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
-      }
-     }
-    }
-   }
-  }
+  
   OETA_RadioAutoTuneComponent "{66EF1095B93B2771}" {
    m_PlanConfig OETA_RadioPlanConfigRoot "{670423B6E5F81D3F}" : "{02E14A2E2A318B9E}Configs/freqs/freqs.conf" {
    }
@@ -76,6 +66,8 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     }
     LoadoutSlotInfo GRS_Right_Drop_Leg {
     }
+    LoadoutSlotInfo Watch {
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -94,7 +86,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      }
     }
     ItemsInitConfigurationItem "{54A49B42D138207E}" {
-     TargetStorage "Back/183_Modular_Backpanel_Base.et/Pouch_Setup/GRS_Backpanel_MC.et"
+     TargetStorage "Back/183_Modular_Backpanel_Base.et"
      PrefabsToSpawn {
       "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
      }

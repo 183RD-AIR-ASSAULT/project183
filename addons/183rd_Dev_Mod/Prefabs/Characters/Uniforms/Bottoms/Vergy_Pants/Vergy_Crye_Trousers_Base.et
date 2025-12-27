@@ -1,0 +1,7 @@
+GameEntity {
+ ID "5104869D194C6243"
+ components {
+  Hierarchy "{670435DE76F70F62}" {
+  }
+ }
+}

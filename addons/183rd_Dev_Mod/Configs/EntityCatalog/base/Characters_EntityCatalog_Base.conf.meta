@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8D2FF16F196C73D8}Configs/EntityCatalog/base/Characters_EntityCatalog_Base.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

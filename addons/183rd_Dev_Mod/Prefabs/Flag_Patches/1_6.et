@@ -1,0 +1,30 @@
+GameEntity : "{C3C66DFD34ADB415}Prefabs/Flag_Patches/USA_Flag_Color.et" {
+ ID "657B0C0A4C1F9EDE"
+ components {
+  InventoryItemComponent "{657B0C0AEEF49C10}" {
+   Attributes SCR_ItemAttributeCollection "{657B0C0AEEF49C16}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657B0C0AEEF49F14}" {
+     Name "GRS: Nightmare 6"
+     Description "GRS: Nightmare 1-6"
+    }
+   }
+  }
+  MeshObject "{657B0C0AEEEB7DCB}" {
+   Object "{0B3F866389C48C54}Assets/Rectangle Patches/Rectangle_Patch.xob"
+   Materials {
+    MaterialAssignClass "{66F258F4123DB20B}" {
+     SourceMaterial "Mat_Patch"
+     AssignedMaterial "{142C8F0A4000B1C2}Assets/Flag_Patches/Data/1_6.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657B0C0AEEEB7D3C}" {
+   WornMaterialsOverride {
+    "{142C8F0A4000B1C2}Assets/Flag_Patches/Data/1_6.emat"
+   }
+   ItemMaterialsOverride {
+    "{142C8F0A4000B1C2}Assets/Flag_Patches/Data/1_6.emat"
+   }
+  }
+ }
+}

@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{23E5935938DEF963}Assets/vtac-barricade/VTAC_Barricade.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{671330957BD06F0D}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{591DC10C16755E2B}Assets/vtac-barricade/vtx.emat"
+    }
+   }
+   MeshParams {
+    MeshParam M_VTAC_Barricade {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_M_VTAC_Barricade {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_UCX_M_VTAC_Barricade {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{671330957BD802D1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{671330957BD800FE}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{671330957BD80019}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{671330957BD80F81}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{671330957BD80FDF}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{671330957BD80F18}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

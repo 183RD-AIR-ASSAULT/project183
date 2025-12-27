@@ -1,0 +1,18 @@
+MatPBRBasic {
+ Color 0.254 0.254 0.254 1
+ EmissiveLV -12
+ EmissiveAbsoluteLV 0
+ Cull none
+ Sort decal
+ TITemperature1 -86.63
+ SpecularMul 0
+ BlendMode AlphaBlend
+ RoughnessScale 5
+ MetalnessScale 0.925
+ AOScale 1.164
+ DielectricReflectance 0.06
+ GlobalAOPower 0.443
+ BCRMap "{134EB6889FF6F559}Assets/signs/metal_MAT_BCR.edds"
+ NormalPower 4
+ NMOMap "{2B960D1A4681A7C7}Assets/signs/metal_MAT_NMO.edds"
+}

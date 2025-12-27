@@ -1,0 +1,7 @@
+GenericEntity : "{0534AC82D876911C}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaconLoadoutEditor_EventComponent "{672E1474F28587EC}" {
+  }
+ }
+}

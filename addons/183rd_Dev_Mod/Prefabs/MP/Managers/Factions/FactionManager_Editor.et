@@ -1,0 +1,28 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{66F313B88437CE69}" : "{44822698371BB5EA}Configs/Factions/183rd_ABLE.conf" {
+   UIInfo SCR_FactionUIInfo "{66E2FA6D97E2F2A9}" {
+   }
+   m_iOrder 0
+  }
+  SCR_Faction "{66F3518CF39DB5BE}" : "{4667887431BAD754}Configs/Factions/183rd_Aviation.conf" {
+   m_iOrder 10
+  }
+  SCR_Faction "{66F402CD148EED04}" : "{63FCA86C3C638E7C}Configs/Factions/183rd_CSB.conf" {
+   m_iOrder 6
+  }
+  SCR_Faction "{66F56051A55F0DA2}" : "{D6A9767386670F39}Configs/Factions/183rd_Nightmare.conf" {
+   m_iOrder 2
+  }
+  SCR_Faction "{66F56051A66E5B2D}" : "{0AA2611B4BF1B1D1}Configs/Factions/183rd_Lancer.conf" {
+   m_iOrder 4
+  }
+  SCR_Faction "{66F56051A707970A}" : "{79370E772514118F}Configs/Factions/183rd_Training.conf" {
+  }
+  SCR_Faction "{6724FCE07F4FF895}" : "{D451718AD75C7B8A}Configs/Factions/183rd_Guest.conf" {
+  }
+  SCR_Faction "{6726C1A17522B183}" : "{8C9F4B9F6AD232AA}Configs/Factions/Press.conf" {
+  }
+ }
+}

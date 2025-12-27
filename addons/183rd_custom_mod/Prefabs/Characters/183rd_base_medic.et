@@ -6,17 +6,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
    }
   }
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
-      }
-     }
-    }
-   }
-  }
+  
   SCR_CampaignBuildingComponent "{66E81B178A13356B}" {
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -81,11 +71,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      Prefab "{6127D89BE50B60F8}Prefabs/Belts/Bison Belts/183_Bison_Belt_Base.et"
     }
     LoadoutSlotInfo GRS_Right_Drop_Leg {
-    }
-    LoadoutSlotInfo Binoculars {
-     Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
-     AreaType LoadoutBinocularsArea "{66E81B178A133543}" {
-     }
     }
    }
   }

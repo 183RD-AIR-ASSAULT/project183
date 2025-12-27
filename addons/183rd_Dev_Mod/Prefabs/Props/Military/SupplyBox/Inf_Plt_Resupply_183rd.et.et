@@ -1,0 +1,111 @@
+GenericEntity {
+ ID "672EA4EC05F52DEA"
+ components {
+  MeshObject "{672EA4EDCB74F4E4}" {
+   Object "{5172A6E151032216}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V1.xob"
+  }
+  RigidBody "{672EA4EDE8B959D6}" {
+  }
+  SCR_UniversalInventoryStorageComponent "{672EA4EC4A347A2F}" {
+   Attributes SCR_ItemAttributeCollection "{672EA4EC4025C6F6}" {
+    ItemDisplayName UIInfo "{612AE13A926292D8}" {
+     Name "#RHS-EditableEntity_SupplyBox_USMC_Name"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{612AE13DD29AC40D}" {
+      CameraOrbitAngles 330 30 0
+      CameraDistanceToItem 2
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{672EA4EC7508AE49}" {
+     SlotTemplate InventoryStorageSlot s1 {
+      Prefab "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{672EA4EC6D78D17F}" {
+     SlotTemplate InventoryStorageSlot s2 {
+      Prefab "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{672EA4EC6D0B949E}" {
+     SlotTemplate InventoryStorageSlot s3 {
+      Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{672EA4EC6DE2B189}" {
+     SlotTemplate InventoryStorageSlot s4 {
+      Prefab "{DFFBF5F097FCF797}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Base.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{672EA4EC6DC67E4F}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6DA4D47B}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6D88E1FD}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6E649E03}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6E5F1BA8}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6E3906C5}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6EF5166E}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6EAA5CAF}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6F6EB9B0}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6F567B8C}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6FE681BE}" {
+    }
+    MultiSlotConfiguration "{672EA4EC6FB7835F}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{672EA4ED881EF6F1}" {
+   ActionContexts {
+    UserActionContext "{672EA4ED82BDD966}" {
+     ContextName "default"
+     Position PointInfo "{612AE13BD26A64EC}" {
+      Offset 0 0.5 0
+     }
+     Radius 1.5
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{672EA4EDA9B7AEF7}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{672EA4EDA4AC9D0E}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+     ActionTitle "Open"
+     VisibilityRange 2
+    }
+    SCR_LoadItemsAction "{672EA4EE9F2593C6}" {
+     UIInfo UIInfo "{672EA4EE932E1F4F}" {
+      Name "LOAD"
+     }
+     ActionTitle "LOAD"
+     VisibilityRange 2
+     "Inventory action" 1
+     m_bSameVehicleOnly 0
+    }
+   }
+  }
+  RplComponent "{672EA4ED9877C4D9}" {
+  }
+  Hierarchy "{672EA4ED9E8C0477}" {
+  }
+ }
+ coords 2.07 -1.642 0.781
+}

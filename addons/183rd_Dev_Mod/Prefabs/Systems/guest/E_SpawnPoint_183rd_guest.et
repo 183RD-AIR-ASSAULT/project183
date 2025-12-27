@@ -1,0 +1,19 @@
+SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et" {
+ ID "52E65E9446A3DC1D"
+ components {
+  SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+    m_Image "{75B5B2FCB3A63474}Assets/Flags/generic/flag_blue_ca.edds"
+    m_sFaction "183_Guest"
+    m_aAuthoredLabels + {
+     TRAIT_SPAWNPOINT FACTION_183_GUEST CONTENT_MODDED
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A5286F8ED58877B}" {
+   "faction affiliation" "183_Guest"
+  }
+ }
+ coords -0.272 0.507 1.078
+ m_sFaction "183_Guest"
+}

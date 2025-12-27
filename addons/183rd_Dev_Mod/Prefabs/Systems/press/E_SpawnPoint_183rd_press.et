@@ -1,0 +1,22 @@
+SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et" {
+ ID "52E65E9446A3DC1D"
+ components {
+  SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+    m_Image "{508B42A5C4913028}UI/Textures/MainMenu/Icons/News_64x_UI.edds"
+    m_sFaction "183rd_Press"
+    m_aAuthoredLabels + {
+     TRAIT_SPAWNPOINT FACTION_183_PRESS CONTENT_MODDED
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A5286F8ED58877B}" {
+   "faction affiliation" "183rd_Press"
+  }
+ }
+ coords -0.624 1.923 2.116
+ m_sFaction "183rd_Press"
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Icon "{508B42A5C4913028}UI/Textures/MainMenu/Icons/News_64x_UI.edds"
+ }
+}

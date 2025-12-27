@@ -1,0 +1,10 @@
+MatPBRDecal {
+ Color 0.008 0.008 0.004 1
+ BlendMode AlphaBlend
+ MetalnessScale 0
+ OpacityMap "{76363D9DFE1D7167}Assets/Arsenal/train.edds"
+ GlobalMapsUVTransform MatUVTransform "{66E321AAB5F1525B}" {
+  OffsetU 0.671
+  OffsetV 0.67
+ }
+}

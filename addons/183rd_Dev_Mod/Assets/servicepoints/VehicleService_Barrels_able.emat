@@ -1,0 +1,18 @@
+MatPBRBasic {
+ DiffuseIBL 0.558 0.558 0.558 1
+ SpecularIBL 0.672 0.672 0.672 1
+ CastShadow 0
+ SurfaceProperties "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+ SpecularMul 0.639
+ BlendMode AlphaBlend
+ RoughnessScale 0.9
+ MetalnessScale 0
+ DielectricReflectance 0.148
+ CavityFromAO 0
+ BCRMap "{442EA110D98BEAB5}Assets/servicepoints/able.edds"
+ OpacityMap "{66953ABC4F5B6926}Assets/Props/Military/InteractionPoints/VehicleService/Data/VehicleService_Barrels_US_A.edds"
+ NormalPower 0
+ NMOMap "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ DetailNormalPower 1
+ DetailNormalMap "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+}

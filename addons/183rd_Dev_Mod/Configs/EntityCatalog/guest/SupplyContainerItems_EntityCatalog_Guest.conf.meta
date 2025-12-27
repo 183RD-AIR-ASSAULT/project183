@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{085CE45C4B4CEC90}Configs/EntityCatalog/base/SupplyContainerItems_EntityCatalog_Guest.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
