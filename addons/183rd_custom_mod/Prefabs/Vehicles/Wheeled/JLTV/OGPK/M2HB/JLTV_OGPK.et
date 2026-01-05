@@ -1,0 +1,9 @@
+Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.et" {
+ ID "BBCBA43A9778AE21"
+ {
+  GenericEntity : "{4FC4C959E2D79357}Prefabs/Props/Fabric/Flags/Flag_1_2_US_01_USA.et" {
+   ID "684773C290A5F76B"
+   coords -1.035 4.457 -2.017
+  }
+ }
+}

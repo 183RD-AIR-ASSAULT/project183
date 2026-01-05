@@ -1,0 +1,9 @@
+Vehicle : "{E30BDFF37676B90D}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet.et" {
+ ID "BBCBA43A9778AE21"
+ {
+  GenericEntity : "{CB81BF6576E682D3}Prefabs/Props/Fabric/Flags/Flag_1_2_USSR_01.et" {
+   ID "684773C29900A07A"
+   coords 0.575 2.826 -2.794
+  }
+ }
+}
