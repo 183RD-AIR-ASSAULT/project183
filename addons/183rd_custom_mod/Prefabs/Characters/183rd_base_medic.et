@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
    }
   }
-  
   SCR_CampaignBuildingComponent "{66E81B178A13356B}" {
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -40,6 +39,9 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     }
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AF6A55E64F3A0C71}Prefabs/Weapons/Rifles/M7SBR/M7_SBR.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
   }
@@ -48,24 +50,19 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     LoadoutSlotInfo Hat {
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{EDB998C9B424A3C5}Prefabs/Characters/Uniforms/Tops/Vergy_Crye/Vergy_Crye_Base.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{6FA400FF9D4D98D7}Prefabs/Vests/JPC2.0/183_JPC2.0_Base.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{D5BB8742142780B5}Prefabs/Characters/Uniforms/Bottoms/Vergy_Pants/Vergy_Crye_Trousers_Base.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{B2F00D858E83F29C}Prefabs/Items/Equipment/Backpacks/Delta/Delta_Backpack_MC.et"
     }
     LoadoutSlotInfo Vest {
      Prefab ""
-    }
-    LoadoutSlotInfo NVS_NVGSlot {
     }
     LoadoutSlotInfo GRS_Waist {
      Prefab "{6127D89BE50B60F8}Prefabs/Belts/Bison Belts/183_Bison_Belt_Base.et"
@@ -76,6 +73,9 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{670D65B9D367F90D}" {
+     TargetStorage "Pants/Pants_US_ACU_OCP.et"
+    }
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "ArmoredVest/183_JPC2.0_Base.et"
      PrefabsToSpawn {

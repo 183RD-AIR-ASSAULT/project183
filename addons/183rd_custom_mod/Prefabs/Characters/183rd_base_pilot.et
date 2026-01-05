@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
    }
   }
-  
   SCR_CampaignBuildingComponent "{66E94E90B95262A6}" {
   }
   SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
@@ -73,8 +72,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     LoadoutSlotInfo Vest {
      Prefab ""
     }
-    LoadoutSlotInfo NVS_NVGSlot {
-    }
     LoadoutSlotInfo GRS_Waist {
     }
     LoadoutSlotInfo GRS_Right_Drop_Leg {
@@ -83,6 +80,9 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{670D65B9D367F90D}" {
+     TargetStorage "Jacket/Flightsuit_base.et"
+    }
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "Jacket/Flightsuit_base.et"
      PrefabsToSpawn {
@@ -103,7 +103,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      }
     }
     ItemsInitConfigurationItem "{5538C040738A83D1}" {
-     TargetStorage "ArmoredVest/183_JPC2.0_pilot.et/LS_Radio/GRS_Radio_MPU5_Pouch.et"
+     TargetStorage "ArmoredVest/183_JPC2.0_pilot.et/RS_Radio/GRS_Radio_MPU5_Pouch.et"
      PrefabsToSpawn {
       "{A484ED06DE6357E7}Prefabs/Radio Prefabs/183rd_Aviation_Radio_MPU5.et"
      }
@@ -119,7 +119,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      TargetPurpose 2
     }
     ItemsInitConfigurationItem "{66E94E9795B3890E}" {
-     TargetStorage "ArmoredVest/183_JPC2.0_pilot.et/RS_Front_Pouch/GRS_M9_Pouch.et"
+     TargetStorage "ArmoredVest/183_JPC2.0_pilot.et/Placards/GRS_Placard_Spiritus_Dual.et"
      PrefabsToSpawn {
       "{6DA7A9D0D9C4BD3A}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_base.et"
      }

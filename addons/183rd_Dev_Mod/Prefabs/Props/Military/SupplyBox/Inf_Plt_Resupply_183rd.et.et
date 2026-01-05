@@ -7,6 +7,7 @@ GenericEntity {
   RigidBody "{672EA4EDE8B959D6}" {
   }
   SCR_UniversalInventoryStorageComponent "{672EA4EC4A347A2F}" {
+   Enabled 0
    Attributes SCR_ItemAttributeCollection "{672EA4EC4025C6F6}" {
     ItemDisplayName UIInfo "{612AE13A926292D8}" {
      Name "#RHS-EditableEntity_SupplyBox_USMC_Name"
@@ -21,10 +22,16 @@ GenericEntity {
    }
    MultiSlots {
     MultiSlotConfiguration "{672EA4EC7508AE49}" {
-     SlotTemplate InventoryStorageSlot s1 {
-      Prefab "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     SlotTemplate InventoryStorageSlot m68x51 {
+      Prefab "{AA38F8205E5DB079}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25.et"
      }
-     NumSlots 25
+     NumSlots 120
+    }
+    MultiSlotConfiguration "{67380BF6419645F1}" {
+     SlotTemplate InventoryStorageSlot m68x51bk {
+      Prefab "{36F28DB6E12BC1BE}Prefabs/Weapons/Magazines/M7/6_8x51_Hybrid_25_Black.et"
+     }
+     NumSlots 120
     }
     MultiSlotConfiguration "{672EA4EC6D78D17F}" {
      SlotTemplate InventoryStorageSlot s2 {
@@ -34,39 +41,15 @@ GenericEntity {
     }
     MultiSlotConfiguration "{672EA4EC6D0B949E}" {
      SlotTemplate InventoryStorageSlot s3 {
-      Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      Prefab "{BFF56AB3B8D57594}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Tracer.et"
      }
      NumSlots 5
     }
     MultiSlotConfiguration "{672EA4EC6DE2B189}" {
      SlotTemplate InventoryStorageSlot s4 {
-      Prefab "{DFFBF5F097FCF797}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Base.et"
+      Prefab "{DF525BE1D7E53F3F}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Ball.et"
      }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{672EA4EC6DC67E4F}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6DA4D47B}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6D88E1FD}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6E649E03}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6E5F1BA8}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6E3906C5}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6EF5166E}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6EAA5CAF}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6F6EB9B0}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6F567B8C}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6FE681BE}" {
-    }
-    MultiSlotConfiguration "{672EA4EC6FB7835F}" {
+     NumSlots 20
     }
    }
   }
@@ -107,5 +90,5 @@ GenericEntity {
   Hierarchy "{672EA4ED9E8C0477}" {
   }
  }
- coords 2.07 -1.642 0.781
+ coords 0.618 0 -1.729
 }

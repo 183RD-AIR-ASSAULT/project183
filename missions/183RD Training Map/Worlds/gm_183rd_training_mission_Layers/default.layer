@@ -86,6 +86,77 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
   }
  }
 }
+$grp SplineShapeEntity {
+ {
+  coords 8191.631 631.375 4477
+  Points {
+   ShapePoint "{6670A6C4C44EF906}" {
+    Position 0 29.833 0
+   }
+   ShapePoint "{6670A6C4C44EB61F}" {
+    Position -1296.86 0 0.704
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    RoadWidth 0.1
+    FalloffStartWidth 8
+    RoadFalloffWidth 20
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position -250 0 0
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6889.901 631.384 4048.576
+  Points {
+   ShapePoint "{6670A6FDD456FCBF}" {
+    Position 0 0.002 36.633
+   }
+   ShapePoint "{6670A6FDD456995A}" {
+    Position 5 0 427.135
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    GenerateRoad 0
+    FalloffStartWidth 5
+    RoadFalloffWidth 40
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0.003 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 5 0 152.568
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+}
 BasePreloadManager PreloadManager2 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
  coords 4089.329 610.265 4338.415
  PrefabsToPreload {

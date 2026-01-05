@@ -48,6 +48,9 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
    "faction affiliation" "183_Guest"
   }
+  SH_SlingloadableComponent "{65BB2D0302745D76}" {
+   m_bIsReplacedInFlight 0
+  }
  }
  coords 0.139 0 -2.188
 }

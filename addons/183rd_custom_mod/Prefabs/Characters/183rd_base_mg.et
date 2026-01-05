@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
    }
   }
-  
   SCR_CampaignBuildingComponent "{66E8F52EE4B7B17E}" {
   }
   SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
@@ -53,24 +52,19 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     LoadoutSlotInfo Hat {
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{EDB998C9B424A3C5}Prefabs/Characters/Uniforms/Tops/Vergy_Crye/Vergy_Crye_Base.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{430AC21183FFFC0B}Prefabs/Vests/JPC2.0/183_JPC2.0_mg.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{D5BB8742142780B5}Prefabs/Characters/Uniforms/Bottoms/Vergy_Pants/Vergy_Crye_Trousers_Base.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{6CF1E4D8B273B5A7}Prefabs/Backpack/Breacher_Backpack/183_Modular_Backpanel_Base.et"
     }
     LoadoutSlotInfo Vest {
      Prefab ""
-    }
-    LoadoutSlotInfo NVS_NVGSlot {
     }
     LoadoutSlotInfo GRS_Waist {
      Prefab "{9C1C90808061289F}Prefabs/Belts/Bison Belts/183_Bison_Belt_mg.et"
@@ -81,6 +75,9 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{670D65B9D367F90D}" {
+     TargetStorage "Pants/Pants_US_ACU_OCP.et"
+    }
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "Jacket/Vergy_Crye_Base.et"
      PrefabsToSpawn {
@@ -95,7 +92,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      }
     }
     ItemsInitConfigurationItem "{54A49B42D138207E}" {
-     TargetStorage "Back/183_Modular_Backpanel_Base.et/Pouch_Setup/GRS_Backpanel_MC.et"
+     TargetStorage "Back/183_Modular_Backpanel_Base.et/Pouch_Setup/GRS_Backpanel_Pouch_MC.et"
      PrefabsToSpawn {
       "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{DF525BE1D7E53F3F}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Ball.et" "{9537345DE4A27A4D}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Rainbow.et" "{BFF56AB3B8D57594}Prefabs/Weapons/Magazines/XM250/Box_68x51_XM250_100rnd_Tracer.et"
      }
@@ -143,5 +140,5 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
    }
   }
  }
- coords 0.91 -0.95 1.011
+ coords -2.428 -1.721 2.947
 }

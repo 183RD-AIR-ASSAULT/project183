@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
    }
   }
-  
   SCR_CampaignBuildingComponent "{66E81B2B0F0A3821}" {
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -41,7 +40,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{06B52650A3B02F25}Prefabs/Weapons/Rifles/M7/183rd_M7_320_Weathered.et"
+   WeaponTemplate "{AF6A55E64F3A0C71}Prefabs/Weapons/Rifles/M7SBR/M7_SBR.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
@@ -51,14 +50,15 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     LoadoutSlotInfo Hat {
     }
     LoadoutSlotInfo Jacket {
+     Prefab "{45B8F0FCE30EB23E}Prefabs/Characters/Uniforms/Jacket_US_ACU_01_OCP.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{6FA400FF9D4D98D7}Prefabs/Vests/JPC2.0/183_JPC2.0_Base.et"
     }
     LoadoutSlotInfo Pants {
+     Prefab "{62A135EEFF5B5150}Prefabs/Characters/Uniforms/Pants_US_ACU_OCP.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{6CF1E4D8B273B5A7}Prefabs/Backpack/Breacher_Backpack/183_Modular_Backpanel_Base.et"
@@ -66,19 +66,20 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     LoadoutSlotInfo Vest {
      Prefab ""
     }
-    LoadoutSlotInfo Head {
-    }
-    LoadoutSlotInfo NVS_NVGSlot {
-    }
     LoadoutSlotInfo GRS_Waist {
      Prefab "{6127D89BE50B60F8}Prefabs/Belts/Bison Belts/183_Bison_Belt_Base.et"
     }
     LoadoutSlotInfo GRS_Right_Drop_Leg {
     }
+    LoadoutSlotInfo Head {
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{670D65B9D367F90D}" {
+     TargetStorage "Pants/Pants_US_ACU_OCP.et"
+    }
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "ArmoredVest/183_JPC2.0_Base.et"
      PrefabsToSpawn {
@@ -93,7 +94,7 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
      }
     }
     ItemsInitConfigurationItem "{54A49B42D138207E}" {
-     TargetStorage "Back/183_Modular_Backpanel_Base.et/Pouch_Setup/GRS_Backpanel_MC.et"
+     TargetStorage "Back/183_Modular_Backpanel_Base.et/Pouch_Setup/GRS_Backpanel_Pouch_MC.et"
      PrefabsToSpawn {
       "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et" "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et" "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et" "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et" "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et" "{F30BD9B5D782E1DE}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M715.et" "{F30BD9B5D782E1DE}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M715.et" "{F30BD9B5D782E1DE}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M715.et" "{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et" "{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et"
      }
@@ -159,5 +160,5 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
    }
   }
  }
- coords 0.937 -0.987 -3.561
+ coords -2.431 -1.727 1.722
 }

@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{AAD8C80101DB8091}Prefabs/Characters/183rd_base.et" {
     "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
    }
   }
-  
   OETA_GroupRadioSettingsComponent "{66EF1095849B3183}" {
    m_GroupEncryptionKey "screaminchicks"
   }
@@ -74,65 +73,20 @@ SCR_ChimeraCharacter : "{AAD8C80101DB8091}Prefabs/Characters/183rd_base.et" {
      Prefab "{A36613EAD646961D}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_MC_AMP.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{EDB998C9B424A3C5}Prefabs/Characters/Uniforms/Tops/Vergy_Crye/Vergy_Crye_Base.et"
+     Prefab "{45B8F0FCE30EB23E}Prefabs/Characters/Uniforms/Jacket_US_ACU_01_OCP.et"
     }
     LoadoutSlotInfo ArmoredVest {
     }
     LoadoutSlotInfo Pants {
-     Prefab "{D5BB8742142780B5}Prefabs/Characters/Uniforms/Bottoms/Vergy_Pants/Vergy_Crye_Trousers_Base.et"
+     Prefab "{62A135EEFF5B5150}Prefabs/Characters/Uniforms/Pants_US_ACU_OCP.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+     Prefab "{80E2511DB6FB719A}Prefabs/Characters/Footwear/ArmyCombatBoots_US_desert.et"
     }
     LoadoutSlotInfo Vest {
      Prefab ""
     }
-    LoadoutSlotInfo Head {
-     Enabled 0
-    }
-    LoadoutSlotInfo Eyes {
-     Enabled 0
-    }
-    LoadoutSlotInfo Ears {
-     Enabled 0
-    }
-    LoadoutSlotInfo Face {
-     Enabled 0
-    }
-    LoadoutSlotInfo Neck {
-     Enabled 0
-    }
-    LoadoutSlotInfo Extra {
-     Enabled 0
-    }
-    LoadoutSlotInfo Extra2 {
-     Enabled 0
-    }
-    LoadoutSlotInfo Extra3 {
-     Enabled 0
-    }
-    LoadoutSlotInfo Extra4 {
-     Enabled 0
-    }
-    LoadoutSlotInfo Extra5 {
-     Enabled 0
-    }
-    LoadoutSlotInfo Extra6 {
-     Enabled 0
-    }
-    LoadoutSlotInfo Waist {
-     Enabled 0
-    }
-    LoadoutSlotInfo NVS_NVGSlot {
-     Enabled 0
-    }
     LoadoutSlotInfo GRS_Waist {
-    }
-    LoadoutSlotInfo Watch {
-     Enabled 0
-     Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
-     AreaType LoadoutWatchArea "{670D65B8A303D284}" {
-     }
     }
    }
   }
@@ -144,14 +98,8 @@ SCR_ChimeraCharacter : "{AAD8C80101DB8091}Prefabs/Characters/183rd_base.et" {
       "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
      }
     }
-    ItemsInitConfigurationItem "{673088CF0F62BC7E}" {
-     TargetStorage "Hat/Helmet_OPSCORE_XP_MC_AMP.et"
-     PrefabsToSpawn {
-      "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
-     }
-    }
    }
   }
  }
- coords 536.391 0.985 843.914
+ coords -0.962 -1.813 1.284
 }

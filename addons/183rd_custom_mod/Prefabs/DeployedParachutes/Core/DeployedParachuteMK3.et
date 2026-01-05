@@ -1,0 +1,4 @@
+ParachuteDeployedEntity : "{278E487E19D82680}Prefabs/Vehicles/Core/Vehicle_Cargo_Base.et" {
+ ID "4B42E71698F5739C"
+ m_MaxForwardSpeed 16
+}

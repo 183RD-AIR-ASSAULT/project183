@@ -1,0 +1,29 @@
+GenericEntity : "{C768FFBE4C171E9B}Prefabs/Vests/Vest_LV119/GRS_LV119_Base.et" {
+ ID "65735436E2B29F2A"
+ components {
+  ClothNodeStorageComponent "{65735436E2B29F50}" {
+   Attributes SCR_ItemAttributeCollection "{65735436E2B29F5E}" {
+    ItemDisplayName UIInfo "{65735436E2B29F5C}" {
+     Name "GRS: LV119 Modular - Black"
+     Description "GRS: LV119 Modular - Black"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{65735436E2B29F6F}" {
+   Slots {
+    LoadoutSlotInfo Front_Pouch {
+     Prefab "{06B289340ACE21DA}Prefabs/Pouches/Black/GRS_Fanny_Pack_2_Black.et"
+    }
+    LoadoutSlotInfo Belly_Pouch {
+     Prefab "{99EDD92BAB855424}Prefabs/Pouches/Black/GRS_Belly_Trauma_Roll_Black.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{08520570FFAE17C9}Assets/Vests/LV119_New/Data/MI_Vest_LV119_Black.emat"
+   }
+   ItemMaterialsOverride {
+    "{08520570FFAE17C9}Assets/Vests/LV119_New/Data/MI_Vest_LV119_Black.emat"
+   }
+  }
+ }
+}

@@ -338,6 +338,14 @@ $grp GenericEntity : "{A87BAE5F8FDFE95C}Prefabs/Systems/training/ArsenalBox_183_
   coords 6733 600.081 3721
   angles 0 180 0
  }
+ {
+  coords 6771.429 600 4182.411
+  angles 0 270 0
+ }
+ {
+  coords 6771.429 600 4189.949
+  angles 0 270 0
+ }
 }
 SCR_SpawnPoint : "{B2C3DC788CA15F71}Prefabs/Systems/lancer/E_SpawnPoint_183rd_lancer.et" {
  coords 6761.511 599.969 3035.744

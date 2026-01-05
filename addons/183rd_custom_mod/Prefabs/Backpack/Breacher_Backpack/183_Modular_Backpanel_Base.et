@@ -92,7 +92,7 @@ GenericEntity {
      PivotID "Spine5"
      Offset -0.0063 -1.1807 -0.063
      Angles -4.6615 0 0
-     Prefab "{48D2FE70F2F8B120}Prefabs/Pouches/Backpack_Pouches/GRS_Backpanel_MC.et"
+     Prefab "{8F1AE68A489338A9}Prefabs/Pouches/Backpack_Pouches/GRS_Backpanel_Pouch_MC.et"
      AreaType GL_Bag_Pouch_Setup "{66E72E31445F0BA5}" {
      }
     }
@@ -191,5 +191,5 @@ GenericEntity {
   Hierarchy "{66E72E31445F0B87}" {
   }
  }
- coords 0 0 0
+ coords -1.015 2.008 1.401
 }

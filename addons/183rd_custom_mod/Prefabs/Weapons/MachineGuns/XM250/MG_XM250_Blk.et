@@ -1,0 +1,13 @@
+GenericEntity : "{5459D2D8293BD275}Prefabs/Weapons/MachineGuns/XM250/MG_XM250.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{61DE34E5AD0CAA6B}" {
+     AttachmentType AttachmentOpticsRIS1913_68 "{61DE34E59991C3B4}" {
+     }
+    }
+   }
+  }
+ }
+}

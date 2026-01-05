@@ -1154,15 +1154,15 @@ $grp GenericEntity {
    MeshObject "{66EB220F6A71BB01}" {
     Object "{5A67D78F8607B3F6}Assets/signs/billboard_18_1.xob"
     Materials {
-     MaterialAssignClass "{672E9723E2DE83F4}" {
+     MaterialAssignClass "{6738211614EF61C3}" {
       SourceMaterial "metal_MAT"
       AssignedMaterial "{02DB70E7E2609198}Assets/signs/metal.emat"
      }
-     MaterialAssignClass "{672E9723E2DE83CE}" {
+     MaterialAssignClass "{6738211614EF61D9}" {
       SourceMaterial "paper_MAT"
-      AssignedMaterial "{0D37FA2205D68E4D}Assets/signs/grsfix.emat"
+      AssignedMaterial "{E0E1B00BD4A90C41}Assets/signs/rhsmenu.emat"
      }
-     MaterialAssignClass "{672E9723E2DE83D7}" {
+     MaterialAssignClass "{6738211614EF6123}" {
       SourceMaterial "plastic_MAT"
       AssignedMaterial "{765906A1E5F49753}Assets/signs/plastic.emat"
      }

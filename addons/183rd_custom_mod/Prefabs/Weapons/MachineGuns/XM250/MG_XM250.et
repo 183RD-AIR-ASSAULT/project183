@@ -87,7 +87,7 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
       Offset -0.0222 0.1043 0.3618
       Angles 0 0 -90
      }
-     AttachmentType AttachmentRIS1913Short "{670435CE7EBBE2AC}" {
+     AttachmentType AttachmentOpticsRIS1913_68Short "{670435CE7EBBE2AC}" {
      }
     }
     AttachmentSlotComponent "{670435CE7EBBE350}" {
@@ -117,7 +117,7 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
       ActivatePhysicsOnDetaching 1
       DeactivatePhysicsOnAtaching 1
      }
-     AttachmentType AttachmentOpticsRIS1913 "{670435CE7EBBE359}" {
+     AttachmentType AttachmentOpticsRIS1913_68 "{670435CE7EBBE359}" {
      }
      ShowInInspection 1
     }

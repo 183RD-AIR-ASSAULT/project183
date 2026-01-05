@@ -10,28 +10,28 @@ GenericEntity {
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{6710E6EDD779A6BC}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD779A6BE}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD779A74B}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6EDD778E918}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999

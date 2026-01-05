@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D0DD7F45867D6F90}Configs/EntityCatalog/CIV/InventoryItems_EntityCatalog_PRESS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,64 @@
+GenericEntity : "{E712306EC1913041}Prefabs/Props/Military/Arsenal/AmmoBoxes/AmmoBoxArsenal_Ammunition_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ClimbingDataComponent "{673812F403A48451}" {
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{5172A6E151032216}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V1.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   m_eSupportedArsenalItemTypes 1311614
+   m_eSupportedArsenalItemModes 178
+   m_eEditableAttributeGroups 22
+   m_bCheckFactionForOverwriteArsenalConfig 1
+   m_eArsenalSaveType SAVING_DISABLED
+  }
+  SCR_EditableSystemComponent "{67380BF5C012CE86}" {
+   m_EntityType SYSTEM
+   m_UIInfo SCR_EditableEntityUIInfo "{67380BF5E89C434D}" {
+    Name "183rd Ammo Box"
+    Icon "{824477FA49F8A432}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Ammo.edds"
+    m_Image "{1A0F0531DD704581}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V1.edds"
+    m_sFaction "183_Guest"
+    m_aAuthoredLabels {
+     TRAIT_ARSENAL
+    }
+    m_aAutoLabels {
+     FACTION_183_GUEST THEME_MILITARY TRAIT_REARMING ENTITYTYPE_SYSTEM SIZE_M
+    }
+   }
+   m_bAutoRegister ALWAYS
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   "faction affiliation" "183_Guest"
+  }
+  SH_SlingloadableComponent "{673812F4794E2946}" {
+   m_aCollisionProxyPosition PointInfo "{673812F4770277D1}" {
+    Offset 0 0.25 0
+   }
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   Attributes SCR_ItemAttributeCollection "{58A17A346E386320}" {
+    ItemDisplayName SCR_InventoryUIInfo "{58A17A3474A3430E}" {
+     Name "#AR-EditableEntity_AmmoBoxArsenal_Ammunition_US_Name"
+    }
+    m_Size SLOT_3x3
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.7199 0
+     }
+     Radius 2.86
+    }
+   }
+  }
+ }
+ coords -0.663 0.888 0.644
+}

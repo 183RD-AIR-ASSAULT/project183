@@ -10,56 +10,56 @@ GenericEntity {
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{6710E6E15DD31CB8}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6E15DD31CBA}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6E15DCCF5F5}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6E15DCCF58B}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6E15DCCF58A}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6E15DCCF589}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6E15DCCF588}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
     RadioTransceiver "{6710E6E15DCCF58F}" {
-     ChannelFrequency 30000
+     ChannelFrequency 1000000
      "Transmitting Range" 50000
      "Min tunable frequency" 1000000
      "Max tunable frequency" 1999999

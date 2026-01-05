@@ -1,0 +1,11 @@
+GenericEntity : "{5DF32BDA2A8C5A3D}Prefabs/Props/Military/Camps/PalletAmmo_01_US_camo.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+   "Rpl State Override" Runtime
+   AutoHierarchy 1
+  }
+ }
+ Flags 0x3 0x400
+}
