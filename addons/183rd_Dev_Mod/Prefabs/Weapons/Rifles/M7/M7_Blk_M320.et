@@ -1,0 +1,14 @@
+GenericEntity : "{AB1DCB79BAC87D28}Prefabs/Weapons/Rifles/M7/M7_Blk.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64757C684462DC48}" {
+     AttachmentSlot EquipmentStorageSlot Laser {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+   }
+  }
+ }
+}

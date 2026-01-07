@@ -1,0 +1,18 @@
+GameEntity : "{3E0C94768007D0B1}Prefabs/Weapons/Attachments/Optics/Optic_XM157.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5D0CC83435B5584E}" {
+     Description "338"
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsRIS1913_338Medium "{620B3C84AED02DDB}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

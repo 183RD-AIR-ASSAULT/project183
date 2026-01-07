@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{917E6B3E1B9B3484}Prefabs/Weapons/Attachments/Optics/Optic_Vudu/Optic_Vudu_338n.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

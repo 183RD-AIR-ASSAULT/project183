@@ -87,6 +87,7 @@ SCR_ChimeraCharacter : "{AAD8C80101DB8091}Prefabs/Characters/183rd_base.et" {
      Prefab ""
     }
     LoadoutSlotInfo GRS_Waist {
+     Enabled 0
     }
    }
   }

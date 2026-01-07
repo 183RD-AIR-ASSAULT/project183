@@ -1,0 +1,22 @@
+GenericEntity : "{FF1EA8C9DBF160FC}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Materials {
+    MaterialAssignClass "{684AE4B0C442DF90}" {
+     SourceMaterial "up101"
+     AssignedMaterial "{21089ADC19D72045}Assets/Characters/Vests/Vest_TV110_Pouches/data/up101_FG.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornModel "{07D2A4B8EBE91D1A}Assets/Characters/Vests/Vest_CPC_ArsArma/AA_CPC_front_molle.xob"
+   WornMaterialsOverride {
+   }
+   ItemModel "{07D2A4B8EBE91D1A}Assets/Characters/Vests/Vest_CPC_ArsArma/AA_CPC_front_molle.xob"
+   ItemMaterialsOverride {
+   }
+  }
+ }
+ coords 123.657 1.607 144.116
+}

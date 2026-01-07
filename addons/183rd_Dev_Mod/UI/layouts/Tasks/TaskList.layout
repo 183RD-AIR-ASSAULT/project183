@@ -1,0 +1,38 @@
+FrameWidgetClass {
+ {
+  SizeLayoutWidgetClass "{55AC781621ED1480}" {
+   Prefab "{55AC781621ED1480}"
+   {
+    FrameWidgetClass "{6286E1259172D76E}" {
+     Prefab "{6286E1259172D76E}"
+     {
+      OverlayWidgetClass "{6258778BAB0D57C1}" {
+       Prefab "{6258778BAB0D57C1}"
+       {
+        SizeLayoutWidgetClass "{61C8C7AC2C8541C3}" {
+         Prefab "{61C8C7AC2C8541C3}"
+         {
+          OverlayWidgetClass "{61C8C7AF3F4899C2}" {
+           Prefab "{61C8C7AF3F4899C2}"
+           {
+            VerticalLayoutWidgetClass "{61C8C7AFD600F542}" {
+             Prefab "{61C8C7AFD600F542}"
+             {
+              ImageWidgetClass "{6642773209C76B2F}" {
+               Prefab "{6642773209C76B2F}"
+               Texture "{168D5EEA3A05C305}Assets/backgrounds/183_GM_Eden_1024x576.edds"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

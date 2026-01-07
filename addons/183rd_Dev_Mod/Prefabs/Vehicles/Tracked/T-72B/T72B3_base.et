@@ -1,0 +1,9 @@
+Tank : "{58DBFF7ECCA598FB}Prefabs/Vehicles/Tracked/T-72B/T72B3_base.et" {
+ ID "BBCBA43A9778AE21"
+ {
+  GenericEntity : "{E88F51EA2338DA40}Prefabs/Props/Fabric/Flags/Flag_2_3_SovietArmy_01.et" {
+   ID "684773C28A209923"
+   coords 0.243 2.567 -1.456
+  }
+ }
+}

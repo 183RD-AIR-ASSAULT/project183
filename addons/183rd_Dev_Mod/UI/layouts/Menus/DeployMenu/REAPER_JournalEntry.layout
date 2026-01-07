@@ -1,0 +1,22 @@
+OverlayWidgetClass {
+ {
+  ImageWidgetClass "{618689A6C886A534}" {
+   Prefab "{618689A6C886A534}"
+   Texture "{E79D583573761B5F}Assets/backgrounds/fury1l.edds"
+  }
+  VerticalLayoutWidgetClass "{618689A41FA570AF}" {
+   Prefab "{618689A41FA570AF}"
+   {
+    SizeLayoutWidgetClass "{618689A457BB7251}" {
+     Prefab "{618689A457BB7251}"
+     {
+      ImageWidgetClass "{618689A417DDBE39}" {
+       Prefab "{618689A417DDBE39}"
+       "Is Visible" 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

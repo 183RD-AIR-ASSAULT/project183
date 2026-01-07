@@ -1,0 +1,12 @@
+GenericEntity : "{C62D15B74E2FB00A}Prefabs/Backpack/Breacher_Backpack/GRS_Modular_Backpanel_Base.et" {
+ ID "65CD429FE6DF99B3"
+ components {
+  BaseLoadoutClothComponent "{65CD429FDC9C44A2}" {
+   Slots {
+    LoadoutSlotInfo Pouch_Setup {
+     Prefab "{E92F57627422671F}Prefabs/Pouches/Backpack_Pouches/GRS_Backpanel_Medic_MC.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+Tank : "{1E3DA6C17580C0F1}T80/T80u_Olive.et" {
+ ID "BBCBA43A9778AE21"
+ {
+  GenericEntity : "{CB81BF6576E682D3}Prefabs/Props/Fabric/Flags/Flag_1_2_USSR_01.et" {
+   ID "684773C2E20A8891"
+   coords 0.286 4.557 -0.909
+  }
+ }
+}

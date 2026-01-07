@@ -1,0 +1,23 @@
+SizeLayoutWidgetClass {
+ {
+  VerticalLayoutWidgetClass "{619B3955BC328E11}" {
+   Prefab "{619B3955BC328E11}"
+   {
+    HorizontalLayoutWidgetClass "{61F47A1AEA27E753}" {
+     Prefab "{61F47A1AEA27E753}"
+     {
+      SizeLayoutWidgetClass "{619B39559D7F868F}" {
+       Prefab "{619B39559D7F868F}"
+       {
+        ImageWidgetClass "{619B3955807FE12D}" {
+         Prefab "{619B3955807FE12D}"
+         "Is Visible" 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

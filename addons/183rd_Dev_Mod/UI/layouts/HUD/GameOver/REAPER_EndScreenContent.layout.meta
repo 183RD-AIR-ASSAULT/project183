@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{725DD0D8B9D6F901}UI/Layouts/HUD/GameOver/REAPER_EndScreenContent.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass PS5 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

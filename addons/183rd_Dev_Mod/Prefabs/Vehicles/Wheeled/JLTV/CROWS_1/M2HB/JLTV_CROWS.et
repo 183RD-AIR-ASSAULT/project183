@@ -1,0 +1,10 @@
+Vehicle : "{A19889DD96914B75}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS.et" {
+ ID "BBCBA43A9778AE21"
+ coords 0 0 -0.457
+ {
+  GenericEntity : "{4FC4C959E2D79357}Prefabs/Props/Fabric/Flags/Flag_1_2_US_01_USA.et" {
+   ID "684773C296950F63"
+   coords -1.035 4.454 -2.016
+  }
+ }
+}

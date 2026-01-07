@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A376F3868F7F0031}Prefabs/Weapons/Attachments/Optics/Optic_TA11/Optic_TA11_68.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

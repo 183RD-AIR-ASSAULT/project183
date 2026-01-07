@@ -1,0 +1,13 @@
+GenericEntity : "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{A2BACDB11FFC4087}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/pouch_us_tako_MC.emat"
+   }
+   ItemMaterialsOverride {
+    "{A2BACDB11FFC4087}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/pouch_us_tako_MC.emat"
+   }
+  }
+ }
+}

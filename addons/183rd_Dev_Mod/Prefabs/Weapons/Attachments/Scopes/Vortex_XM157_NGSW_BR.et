@@ -1,0 +1,99 @@
+GameEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5D0CC83435B5584E}" {
+     Name "Vortex XM157 NGSW (1-8x24) BR"
+     Description "Vortex XM157 NGSW with Rangefinder - by. REAPER"
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOptics "{684B70CDE9F15E45}" {
+      }
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraOrbitAngles -20 -40 0
+      CameraDistanceToItem 0.65
+      LodModel 1
+     }
+     CharacterModifierAttributes "{5D0CC83435B5585C}" {
+      ADSSpeedLimit 2
+     }
+    }
+   }
+  }
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{4B6E07B966F7B008}Assets/Weapons/Attachments/Scopes/Vortex_XM157_NGSW/VORTEX_XM157_NGSW.xob"
+  }
+  REAPER_2DPIPSightComponent "{5D0CC83435B55855}" {
+   SightsPosition PointInfo "{5D0CC83435B55853}" {
+    Offset 0 0 -0.018
+   }
+   SightsRanges {
+    SightRangeInfo "{684B70CDE9F15E5B}" {
+     Range 0 0
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{684B70CDE9F15E58}" {
+    m_fZoomMax 8
+    m_fStepZoomSize 1
+    m_fInterpolationSpeed 20
+   }
+   SightsPointFront PointInfo "{684B70CDE9F15DA7}" {
+    PivotID "optic_front"
+   }
+   SightsPointRear PointInfo "{684B70CDE9F15DA5}" {
+    PivotID "optic_rear"
+   }
+   SightsPriority 1
+   m_sReticleTexture "{1C719C2B0D565718}Assets/Weapons/Attachments/Scopes/Vortex_XM157_NGSW/Data/xm157_reticle.edds"
+   m_sReticleGlowTexture "{1C719C2B0D565718}Assets/Weapons/Attachments/Scopes/Vortex_XM157_NGSW/Data/xm157_reticle.edds"
+   m_bHasIllumination 1
+   m_cReticleTextureIllumination 0.266 1 0 0.606
+   m_fReticleTextureGlowAlpha 0.134
+   m_fMagnification 1
+   m_fReticleAngularSize 2.2
+   m_fReticlePortion 0.45
+   m_fReticleBaseZoom -7
+   m_fObjectiveFov 18
+   m_fVignetteScale 1.1
+   m_fRotationDampingSpeed 2
+   m_fMovementDampingSpeed 1
+   m_fRollScale 0.5
+   m_fMisalignmentScale 0.5
+   m_fVignetteMoveSpeed 1
+   m_eZeroingType EPZ_CAMERA_TURN
+   m_vCameraOffset 0 0 0
+   m_fNearPlane 0.4
+   m_rScopeHDRMatrial "{15E00164FF113858}Assets/Weapons/Attachments/Scopes/Vortex_XM157_NGSW/Data/xm157_reticle_HDR.emat"
+   m_fVignetteParallaxScale 70
+   m_fReticlePIPScale 0.78
+   m_ScopeInnerReticleHDRMatResource "{9E2F865357DD2C41}Assets/Weapons/Attachments/Scopes/Vortex_XM157_NGSW/Data/xm157_inner_rangefinder_HDR.emat"
+   m_IsNVGCompatible 0
+   m_IsXM157 1
+   m_ZeroingCaliberInfo "7.62 x 51mm"
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     Position PointInfo "{5284E0EFC526E6F0}" {
+      Offset 0 0.0204 0.0297
+     }
+    }
+   }
+   additionalActions {
+    SCR_AttachItemFromInventoryAction "{5D0CC83435B55B88}" {
+     ParentContextList {
+      "user"
+     }
+    }
+    SCR_AttachementAction "{5D0CC83435B55B8D}" {
+     UIInfo SCR_ActionUIInfo "{5D0CC83435B55B8A}" {
+      Name "Detach: "
+     }
+    }
+   }
+  }
+ }
+}

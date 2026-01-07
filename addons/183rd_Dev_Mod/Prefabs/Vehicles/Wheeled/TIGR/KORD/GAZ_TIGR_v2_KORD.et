@@ -1,0 +1,9 @@
+Vehicle : "{34C6F46F067729EB}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD.et" {
+ ID "66AD1CB1AF790DA2"
+ {
+  GenericEntity : "{CB81BF6576E682D3}Prefabs/Props/Fabric/Flags/Flag_1_2_USSR_01.et" {
+   ID "684773C2E7262E81"
+   coords 0.561 2.792 -2.79
+  }
+ }
+}

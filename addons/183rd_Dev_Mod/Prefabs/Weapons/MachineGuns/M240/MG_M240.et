@@ -1,0 +1,14 @@
+GenericEntity : "{73C1C37B8A2A1545}Prefabs/Weapons/MachineGuns/M240/MG_M240_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60FF5961466DAFF8}" {
+     AttachmentType AttachmentOpticsRIS1913_762Medium "{611D08F8F2FC3540}" {
+     }
+    }
+   }
+  }
+ }
+ coords 1.125 -1.624 -0.58
+}

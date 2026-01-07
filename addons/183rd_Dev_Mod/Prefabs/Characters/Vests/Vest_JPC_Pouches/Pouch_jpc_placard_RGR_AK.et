@@ -1,0 +1,29 @@
+GenericEntity : "{0534AC82D876911C}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_MorphedEquipmentStorageSlot pouch0 {
+     Offset 0.0179 -0.0486 0.0078
+     Angles 19.7255 -87.99429 178.7532
+    }
+    RHS_MorphedEquipmentStorageSlot pouch1 {
+     Offset -0.0346 -0.0532 0.007
+     Angles 13.8911 -91.7566 177.40999
+    }
+    RHS_MorphedEquipmentStorageSlot pouch2 {
+     Offset -0.0916 -0.0589 0.0092
+     Angles 9.6129 -91.0468 176.7207
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{03FF6BF6ACB9C739}Assets/Characters/Vests/Vest_JPC/data/jpc_placard_RGR.emat"
+   }
+   ItemMaterialsOverride {
+    "{03FF6BF6ACB9C739}Assets/Characters/Vests/Vest_JPC/data/jpc_placard_RGR.emat"
+   }
+  }
+ }
+}

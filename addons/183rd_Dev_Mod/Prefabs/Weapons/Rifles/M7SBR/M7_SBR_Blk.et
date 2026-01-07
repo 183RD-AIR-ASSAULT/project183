@@ -1,0 +1,19 @@
+GenericEntity : "{AF6A55E64F3A0C71}Prefabs/Weapons/Rifles/M7SBR/M7_SBR.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64EA339FBB2954EF}" {
+     AttachmentSlot EquipmentStorageSlot RightSide {
+      Prefab "{C32EC74B4B0C8CA1}Prefabs/Weapons/Attachments/Lights/Light_m300c_blk.et"
+     }
+    }
+    AttachmentSlotComponent "{66E228D2E84BE9E2}" {
+     AttachmentSlot EquipmentStorageSlot LeftSide {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+   }
+  }
+ }
+}

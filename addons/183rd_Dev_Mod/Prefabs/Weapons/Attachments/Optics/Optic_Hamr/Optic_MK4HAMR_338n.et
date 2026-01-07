@@ -1,0 +1,15 @@
+GameEntity : "{5E6E1E6E0F903A0A}Prefabs/Weapons/Attachments/Optics/Optic_Hamr/Optic_MK4HAMR_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsRIS1913_338Medium "{6250318E361EF4F5}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

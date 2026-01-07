@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{54B7299FE2A57E3C}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_front_molle_MC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

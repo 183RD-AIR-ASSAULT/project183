@@ -122,7 +122,7 @@ GenericEntity {
    }
   }
   MeshObject "{6709439C35F51AF1}" {
-   Object "{BC3949B6660B68E9}Assets/Accessories/MPU5_Radio_New.xob"
+   Object "{1B87EEB229E13235}Assets/models/3DMA_MPU5_Radio.xob"
    LODFactors {
    }
    InheritVisibility 1
@@ -283,5 +283,5 @@ GenericEntity {
   Hierarchy "{6709439C35EA80B7}" {
   }
  }
- coords 0.105 0.168 0.204
+ coords 0 0.168 0.204
 }

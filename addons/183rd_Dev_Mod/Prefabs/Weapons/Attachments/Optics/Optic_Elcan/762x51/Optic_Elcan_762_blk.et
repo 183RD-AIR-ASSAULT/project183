@@ -1,0 +1,15 @@
+GameEntity : "{45849CE2189A47C9}Prefabs/Weapons/Attachments/Optics/Optic_Elcan/Optic_Elcan_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsRIS1913_762Medium "{658A608A5A2E1D13}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

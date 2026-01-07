@@ -1,0 +1,18 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6247411E22022563}" {
+     AttachmentType AttachmentOpticsRIS1913_68 "{6247411E2202257E}" {
+     }
+    }
+    AttachmentSlotComponent "{66E228CC8E301994}" {
+     AttachmentSlot EquipmentStorageSlot LeftSide {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+   }
+  }
+ }
+}

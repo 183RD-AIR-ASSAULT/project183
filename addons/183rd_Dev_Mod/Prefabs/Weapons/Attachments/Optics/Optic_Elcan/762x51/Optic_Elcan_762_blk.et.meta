@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4C6DBD8025FA77F2}Prefabs/Weapons/Attachments/Optics/Optic_Elcan/762x51/Optic_Elcan_762_blk.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
