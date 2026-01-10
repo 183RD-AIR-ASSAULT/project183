@@ -4,16 +4,16 @@ SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et"
   SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
    m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
     m_Image "{CDA09404A7C1E040}Assets/Logos/csb.edds"
-    m_sFaction "183_BRAVO"
+    m_sFaction "183_Bravo"
     m_aAuthoredLabels + {
-     TRAIT_SPAWNPOINT FACTION_183_BRAVO CONTENT_MODDED
+     FACTION_183_BRAVO CONTENT_MODDED
     }
    }
   }
   SCR_FactionAffiliationComponent "{5A5286F8ED58877B}" {
-   "faction affiliation" "183_Able"
+   "faction affiliation" "183_Bravo"
   }
  }
  coords -0.624 1.923 2.116
- m_sFaction "183_BRAVO"
+ m_sFaction "183_Bravo"
 }
