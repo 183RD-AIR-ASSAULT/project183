@@ -37,6 +37,13 @@ GenericEntity {
      "Max tunable frequency" 1999999
      "Frequency resolution" 100000
     }
+    RadioTransceiver "{68530C2A09CA5CF0}" {
+     ChannelFrequency 1000000
+     "Transmitting Range" 50000
+     "Min tunable frequency" 1000000
+     "Max tunable frequency" 1999999
+     "Frequency resolution" 100000
+    }
    }
   }
   InventoryItemComponent "{6710E6EDD778E91E}" {

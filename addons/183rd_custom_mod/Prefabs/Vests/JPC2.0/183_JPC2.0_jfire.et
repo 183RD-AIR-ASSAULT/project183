@@ -248,6 +248,7 @@ GenericEntity {
      Offset -0.1521 0.0394 0.0892
      Angles -7.1685 -56.5737 4.5729
      MergePhysics 1
+     Prefab "{5796512175D91FC1}Prefabs/Pouches/Base/GRS_Radio_MPU5_Pouch.et"
      DisablePhysicsInteraction 1
      DeactivatePhysicsOnAtaching 1
      InspectionWidgetOffset 0 -6 0
@@ -259,7 +260,7 @@ GenericEntity {
      Offset -0.1813 0.0499 0.0148
      Angles -3.5324 -77.0369 6.2191
      MergePhysics 1
-     Prefab "{CDCB8710ADB5ED6F}Prefabs/Pouches/Base/GRS_M18_Filbe_Pouch.et"
+     Prefab "{6782099D9CB61F3D}Prefabs/Pouches/Base/GRS_ARDual_G17_Pouch.et"
      DisablePhysicsInteraction 1
      DeactivatePhysicsOnAtaching 1
      InspectionWidgetOffset 0 -6 0
@@ -271,7 +272,6 @@ GenericEntity {
      Offset -0.1471 0.0419 0.0896
      Angles -3.596 -59.3994 5.403
      MergePhysics 1
-     Prefab "{6782099D9CB61F3D}Prefabs/Pouches/Base/GRS_ARDual_G17_Pouch.et"
      DisablePhysicsInteraction 1
      DeactivatePhysicsOnAtaching 1
      InspectionWidgetOffset 0 -6 0

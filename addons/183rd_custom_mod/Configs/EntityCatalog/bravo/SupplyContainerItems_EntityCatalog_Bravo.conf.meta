@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{18E684B5B7BC8430}Configs/EntityCatalog/base/SupplyContainerItems_EntityCatalog_Bravo.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

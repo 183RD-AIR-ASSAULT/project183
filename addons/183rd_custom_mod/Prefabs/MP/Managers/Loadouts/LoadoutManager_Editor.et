@@ -7,17 +7,53 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
    m_sAffiliatedFaction "183_Able"
   }
+  SCR_FactionPlayerLoadout "{684F787331C244C3}" {
+   m_sLoadoutName "RiflePerson"
+   m_sLoadoutResource "{4917802030B8EFD0}Prefabs/Characters/batt/183rd_batt_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Batt"
+  }
+  SCR_FactionPlayerLoadout "{684F7873D0BD3A00}" {
+   m_sLoadoutName "RiflePerson"
+   m_sLoadoutResource "{93234EE5883B5880}Prefabs/Characters/bravo/183rd_bravo_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
   SCR_PlayerArsenalLoadout "{66F33DB1159D070D}" {
    m_sLoadoutName "Custom"
    m_sLoadoutResource "{443E618AF5511494}Prefabs/Characters/able/183rd_able_rifleman.et"
    m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
    m_sAffiliatedFaction "183_Able"
   }
+  SCR_PlayerArsenalLoadout "{684F78733E2C505C}" {
+   m_sLoadoutName "Custom"
+   m_sLoadoutResource "{4917802030B8EFD0}Prefabs/Characters/batt/183rd_batt_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Batt"
+  }
+  SCR_PlayerArsenalLoadout "{684F7873CB80ADBF}" {
+   m_sLoadoutName "Custom"
+   m_sLoadoutResource "{93234EE5883B5880}Prefabs/Characters/bravo/183rd_bravo_rifleman.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
   SCR_FactionPlayerLoadout "{66F33DB1168EE9DD}" {
+   m_sLoadoutName "Medic"
+   m_sLoadoutResource "{0BD61639C3BF7737}Prefabs/Characters/batt/183rd_batt_medic.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Batt"
+  }
+  SCR_FactionPlayerLoadout "{684F787338CA7A4B}" {
    m_sLoadoutName "Medic"
    m_sLoadoutResource "{A53CE9D62F4AD5C5}Prefabs/Characters/able/183rd_able_medic.et"
    m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
    m_sAffiliatedFaction "183_Able"
+  }
+  SCR_FactionPlayerLoadout "{684F7873C1A046FD}" {
+   m_sLoadoutName "Medic"
+   m_sLoadoutResource "{13D6BEAD984E314E}Prefabs/Characters/bravo/183rd_bravo_medic.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
   }
   SCR_FactionPlayerLoadout "{66F33DB1086904A1}" {
    m_sLoadoutName "Leader"
@@ -25,11 +61,23 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
    m_sAffiliatedFaction "183_Able"
   }
+  SCR_FactionPlayerLoadout "{684F78730544A838}" {
+   m_sLoadoutName "Leader"
+   m_sLoadoutResource "{80B8B44D053509F7}Prefabs/Characters/batt/183rd_batt_leader.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Batt"
+  }
+  SCR_FactionPlayerLoadout "{684F7873F8459CEC}" {
+   m_sLoadoutName "Leader"
+   m_sLoadoutResource "{744B946378172CA6}Prefabs/Characters/bravo/183rd_bravo_leader.et"
+   m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
+   m_sAffiliatedFaction "183_Bravo"
+  }
   SCR_FactionPlayerLoadout "{66F33DB109EBE65E}" {
    m_sLoadoutName "jfire"
-   m_sLoadoutResource "{EBA29A576581B021}Prefabs/Characters/able/183rd_able_jfire.et"
+   m_sLoadoutResource "{454865B8897412D3}Prefabs/Characters/batt/183rd_batt_jfire.et"
    m_sLoadoutImage "{ED09155620051053}Assets/Props/183unit.edds"
-   m_sAffiliatedFaction "183_Able"
+   m_sAffiliatedFaction "183_Batt"
   }
   SCR_PlayerArsenalLoadout "{66F3518C88770B1E}" {
    m_sLoadoutName "Custom"

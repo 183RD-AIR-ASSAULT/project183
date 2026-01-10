@@ -302,9 +302,9 @@ $grp GenericEntity {
    MeshObject "{66EB2206ACFE2D59}" {
     Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
     Materials {
-     MaterialAssignClass "{66EB220228A255E4}" {
+     MaterialAssignClass "{684F7CD277F22175}" {
       SourceMaterial "billboard_Mat"
-      AssignedMaterial "{8D67405CCE73FD29}Assets/billboard183/183roadsignable.emat"
+      AssignedMaterial "{A0F1BF6EE7571DD4}Assets/billboard183/183roadsign.emat"
      }
     }
     PixelSizeScale 0.73
@@ -323,9 +323,9 @@ $grp GenericEntity {
    MeshObject "{66EB2206ACFE2D59}" {
     Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
     Materials {
-     MaterialAssignClass "{66EB2202D9CB3808}" {
+     MaterialAssignClass "{684F7CD42BA0C3C2}" {
       SourceMaterial "billboard_Mat"
-      AssignedMaterial "{EC4979CF7833CA76}Assets/billboard183/183roadsignnightmare.emat"
+      AssignedMaterial "{B04DF8794CA8A9A0}Assets/billboard183/ablecoys.emat"
      }
     }
     PixelSizeScale 0.73
@@ -343,9 +343,9 @@ $grp GenericEntity {
    MeshObject "{66EB2206ACFE2D59}" {
     Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
     Materials {
-     MaterialAssignClass "{66EB2202D130B82E}" {
+     MaterialAssignClass "{684F7CD51F166A58}" {
       SourceMaterial "billboard_Mat"
-      AssignedMaterial "{06ADB5C5583520A5}Assets/billboard183/183roadsignlancer.emat"
+      AssignedMaterial "{0197BF4B1036FEEB}Assets/billboard183/183roadsigncsb.emat"
      }
     }
     PixelSizeScale 0.73
@@ -364,9 +364,9 @@ $grp GenericEntity {
    MeshObject "{66EB2206ACFE2D59}" {
     Object "{AEAB1E89AE509953}Assets/billboard183/roadsign.xob"
     Materials {
-     MaterialAssignClass "{66EB2202C5C62AEF}" {
+     MaterialAssignClass "{684F7CD4827939E5}" {
       SourceMaterial "billboard_Mat"
-      AssignedMaterial "{0197BF4B1036FEEB}Assets/billboard183/183roadsigncsb.emat"
+      AssignedMaterial "{A0F1BF6EE7571DD4}Assets/billboard183/183roadsign.emat"
      }
     }
     PixelSizeScale 0.73

@@ -1,5 +1,5 @@
 SCR_SpawnPoint : "{0743DAAFA6AB5170}Prefabs/Systems/press/E_SpawnPoint_183rd_press.et" {
- coords 6705.959 600 3620.146
+ coords 6770.551 600 3607.332
  scale 0.5
 }
 $grp GenericEntity : "{160D661E89C85389}Prefabs/Systems/csb/ArsenalBox_183_csb.et" {
@@ -30,7 +30,8 @@ $grp GenericEntity : "{160D661E89C85389}Prefabs/Systems/csb/ArsenalBox_183_csb.e
     }
    }
   }
-  coords 6735 599.969 2549
+  coords 6775.532 599.969 3032.413
+  angles 0 90 0
  }
  {
   components {
@@ -59,18 +60,13 @@ $grp GenericEntity : "{160D661E89C85389}Prefabs/Systems/csb/ArsenalBox_183_csb.e
     }
    }
   }
-  coords 6730 599.969 2549
+  coords 6775.85 599.969 3028.337
+  angles 0 90 0
  }
 }
-$grp GenericEntity : "{1DD9AD7A6586B257}Prefabs/Systems/guest/ArsenalBox_183_guest.et" {
- {
-  coords 6729.665 600 3616.646
-  angles 0 180 0
- }
- {
-  coords 6727.458 600 3616.646
-  angles 0 180 0
- }
+GenericEntity : "{1DD9AD7A6586B257}Prefabs/Systems/guest/ArsenalBox_183_guest.et" {
+ coords 6693.549 600 3600.416
+ angles 0 90 0
 }
 $grp GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/aviation/ArsenalBox_183_211.et" {
  {
@@ -145,7 +141,7 @@ $grp GenericEntity : "{43E4371F76A8706A}PrefabLibrary/DefaultLibrary/Props/Indus
  }
 }
 SCR_SpawnPoint : "{5196636D43298B72}Prefabs/Systems/csb/E_SpawnPoint_183rd_csb.et" {
- coords 6705.532 599.969 2561.499
+ coords 6762.36 599.969 3030.099
 }
 $grp GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able.et" {
  {
@@ -175,7 +171,7 @@ $grp GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able
     }
    }
   }
-  coords 6736.094 600 3619
+  coords 6729.328 600 3117.731
  }
  {
   components {
@@ -204,7 +200,7 @@ $grp GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able
     }
    }
   }
-  coords 6740 600 3619
+  coords 6733.249 600 3117.733
   angles 0 -180 0
  }
 }
@@ -239,7 +235,8 @@ $grp GenericEntity : "{710095DC38176840}Prefabs/Systems/nightmare/ArsenalBox_183
     }
    }
   }
-  coords 6735 599.969 3117
+  coords 6693.013 599.969 3138.451
+  angles 0 90 0
  }
  {
   components {
@@ -268,14 +265,15 @@ $grp GenericEntity : "{710095DC38176840}Prefabs/Systems/nightmare/ArsenalBox_183
     }
    }
   }
-  coords 6730 599.969 3117
+  coords 6693.185 599.969 3134.563
+  angles 0 90 0
  }
 }
 SCR_SpawnPoint : "{9C9736E613CC62D5}Prefabs/Systems/able/E_SpawnPoint_183rd_able.et" {
- coords 6766.194 600 3607.442
+ coords 6735.705 599.02 3131.909
 }
 SCR_SpawnPoint : "{A056CDD1038A32A5}Prefabs/Systems/nightmare/E_SpawnPoint_183rd_nightmare.et" {
- coords 6705.164 599.969 3128.124
+ coords 6708.026 604.208 3137.378
 }
 $grp GenericEntity : "{A87BAE5F8FDFE95C}Prefabs/Systems/training/ArsenalBox_183_train.et" {
  {
@@ -348,7 +346,7 @@ $grp GenericEntity : "{A87BAE5F8FDFE95C}Prefabs/Systems/training/ArsenalBox_183_
  }
 }
 SCR_SpawnPoint : "{B2C3DC788CA15F71}Prefabs/Systems/lancer/E_SpawnPoint_183rd_lancer.et" {
- coords 6761.511 599.969 3035.744
+ coords 6762.293 599.969 3136.426
 }
 SCR_SpawnPoint : "{BAF567863815976A}Prefabs/Systems/training/E_SpawnPoint_183rd_train.et" {
  coords 6734.643 599.969 3693.885
@@ -382,8 +380,8 @@ $grp GenericEntity : "{DFD6BEE785EA81B8}Prefabs/Systems/lancer/ArsenalBox_183_la
     }
    }
   }
-  coords 6735 599.969 3050.111
-  angles 0 -180 0
+  coords 6776.216 599.969 3134.661
+  angles 0 90 0
  }
  {
   components {
@@ -412,14 +410,14 @@ $grp GenericEntity : "{DFD6BEE785EA81B8}Prefabs/Systems/lancer/ArsenalBox_183_la
     }
    }
   }
-  coords 6740 599.969 3050.111
-  angles 0 -180 0
+  coords 6776.294 599.969 3138.334
+  angles 0 90 0
  }
 }
 GenericEntity : "{E1BD10FFA47338E6}Prefabs/Systems/press/ArsenalBox_183_press.et" {
- coords 6725.542 600 3618.474
+ coords 6776.217 600 3598.317
  angles 0 270 0
 }
 SCR_SpawnPoint : "{F68A5DD75E534C63}Prefabs/Systems/guest/E_SpawnPoint_183rd_guest.et" {
- coords 6703.669 600 3609.522
+ coords 6708.862 600 3599.201
 }
