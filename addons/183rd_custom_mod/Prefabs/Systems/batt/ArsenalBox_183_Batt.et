@@ -35,7 +35,7 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
     Name "183rd Battalion Arsenal"
     Icon "{EA975C03DF5422AD}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal.edds"
     m_Image "{50757F3888C7A35C}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/US/E_ArsenalBox_US.edds"
-    m_sFaction "183_BATT"
+    m_sFaction "183_Batt"
     m_aAuthoredLabels {
      TRAIT_ARSENAL
     }
@@ -46,7 +46,7 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
    m_bAutoRegister ALWAYS
   }
   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
-   "faction affiliation" "183_BATT"
+   "faction affiliation" "183_Batt"
   }
  }
  coords 0.139 0 -2.188
