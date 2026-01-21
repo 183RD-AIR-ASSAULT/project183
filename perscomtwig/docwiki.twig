@@ -1,0 +1,320 @@
+{# templates/frontend/docs/viewer.html.twig #}
+{% extends '@Forumify/frontend/base.html.twig' %}
+
+{% block title_page %}{{ page_title|default('Unit Documents') }}{% endblock %}
+
+{% block body %}
+
+{# =========================
+   CSS – BULLETS (THEME-PROOF)
+   ========================= #}
+<style>
+#docsMenu ul { list-style:none !important; margin:0; padding-left:0; }
+#docsMenu ul { padding-left:18px; }
+#docsMenu ul ul { padding-left:22px; }
+#docsMenu ul ul ul { padding-left:26px; }
+
+#docsMenu li { position:relative; padding-left:14px; margin-top:4px; }
+#docsMenu li::before { content:"•"; position:absolute; left:0; top:0.25em; }
+
+#docsMenu summary::before { content:""; }
+#docsMenu summary { cursor:pointer; }
+
+#docsMenu > details > ul > li { margin-top:14px; }
+
+.copy-btn {
+  padding:6px 10px;
+  border:1px solid #888;
+  border-radius:4px;
+  text-decoration:none;
+  font-size:0.9em;
+}
+</style>
+
+{# =========================
+   GROUP / SUBGROUP ORDER
+   ========================= #}
+
+{% set group_order = [
+  'S-1 Personnel',
+  'S-2 Intelligence & Missions',
+  'S-3 Training',
+  'S-4 Operations',
+  'S-9 Public Relations'
+] %}
+
+{% set subgroup_order = {
+  'S-1 Personnel': ['Policies', 'Onboarding'],
+  'S-2 Intelligence & Missions': ['Current Ops', 'Templates'],
+  'S-3 Training': ['Basic Combat Training & Advanced Individual Training', 'Advance Courses', 'Smart Cards'],
+  'S-4 Operations': ['Procedures'],
+  'S-9 Public Relations': ['Communications']
+} %}
+
+{# =========================
+   ADD DOCUMENTS HERE
+   - type: - type: 'doc' (Google Docs) or 'slides' (Google Slides)
+   - Every page MUST have its own url
+   - copy: true  → shows “Make a copy” button
+   - Use /preview for Docs to avoid edit UI
+   - Use /embed?start=... for Slides to avoid edit UI
+   ========================= #}
+
+{% set items = [
+   {
+    title: 'Official Unit Policy Manual',
+    type: 'doc',
+    url: 'https://docs.google.com/document/d/1M8-WuOFYaYJmT0chV2R9f_oQ8I2VMtoyu17h8Sta5po/preview',
+    group: 'S-1 Personnel',
+    subgroup: 'Policies'
+  },
+  {
+    title: 'Mission Brief',
+    url: 'https://docs.google.com/presentation/d/1SwBJ-8yOcvzSs6BWdzmI9dzJPS81lLefn3YVUK8tEK8/embed?start=false&loop=false&delayms=3000',
+    group: 'S-2 Intelligence & Missions',
+    subgroup: 'Current Ops'
+  },
+{
+    title: 'METT-TCA',
+    type: 'doc',
+    url: 'https://docs.google.com/document/d/1kUpdA47R3htG6L_y0tT9WuJfz75kO95nt1wZVqTWHvs/preview',
+    group: 'S-2 Intelligence & Missions',
+    subgroup: 'Templates'
+  },
+   {
+    title: 'Basic Combat Training',
+    type: 'doc',
+    url: 'https://docs.google.com/document/d/17JfEwDVqVGqJHtU4fs01ehjJAiCT7hdj/preview',
+    group: 'S-3 Training',
+    subgroup: 'Basic Combat Training & Advanced Individual Training'
+  },
+  {
+    title: '11B Infantryman',
+    type: 'doc',
+    url: 'https://docs.google.com/document/d/1CDI4udNQajNJ7nN6dfUKikYKb8CRJywi/preview',
+    group: 'S-3 Training',
+    subgroup: 'Basic Combat Training & Advanced Individual Training'
+  },
+  {
+    title: '11C Indirect Fire Infantryman',
+    url: 'https://docs.google.com/presentation/d/1Rl5b9CXXN0LGqpVICdUeKPfIeXolK0gz/preview',
+    group: 'S-3 Training',
+    subgroup: 'Basic Combat Training & Advanced Individual Training'
+  },
+  {
+    title: '68-W Combat Medic',
+    type: 'doc',
+    url: 'https://docs.google.com/document/d/1yk1jedgHfk7_Lf-usakMyTYfPusHzSy0/preview',
+    group: 'S-3 Training',
+    subgroup: 'Basic Combat Training & Advanced Individual Training'
+  },
+  {
+    title: 'Radio Telephone Operator',
+    type: 'doc',
+    url: ' https://docs.google.com/document/d/166XBfIvSK6k3ymvMRKgw-e8lZGdB_yIn4v1tAPq2QM0/preview',
+    group: 'S-3 Training',
+    subgroup: 'Basic Combat Training & Advanced Individual Training'
+  },
+  {
+    title: 'Advanced Leadership Course',
+    url: 'https://docs.google.com/document/d/1EJsJVa7fxSWrOJnMo7o84PmJzw_nIwM0/preview',
+    group: 'S-3 Training',
+    subgroup: 'Advance Courses'
+  },
+  {
+    title: 'Officer Candidate School',
+    url: 'https://docs.google.com/document/d/1oGil5T79J_tMGTliZONq9SUH_CaahIXzK6xCL5GDQ4g/preview',
+    group: 'S-3 Training',
+    subgroup: 'Advance Courses'
+  },
+  {
+    title: 'CLS',
+    url: 'https://docs.google.com/presentation/d/1RexJ2EzaH5y1QsZkIU-aDPMxgPTxiuSZjpERMsU3Kg8/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'JFIRE CAS',
+    url: 'https://docs.google.com/presentation/d/1UjYolY1NV7D1YL9vt01wJvSb_EGVw3BxD-D7C_tLJ10/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'JFIRE LZ Operations',
+    url: 'https://docs.google.com/presentation/d/12ACD_iES26ib5_45Dw493RuVGGlDDvTLz93EwPA9XCs/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'JFIRE DZ Operations',
+    url: 'https://docs.google.com/presentation/d/1I21hmfBxQ1xGy1ajS8yamteZ0OZs-30v5RdXFD0hMPA/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'JFIRE MEDIVAC',
+    url: 'https://docs.google.com/presentation/d/1rsy3ya7cNQ5D1iFVWQcV9LXwTrbHeGKXTlMPYw6xAUg/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'JFIRE Artillery',
+    url: 'https://docs.google.com/presentation/d/1emSKqbZkkAtRDCUgwRkGjzpMTm5ffc9oDTLQRwVgMrk/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'Medical',
+    url: 'https://docs.google.com/presentation/d/1hirFiyaoZhPqI2wFm8qpUV1ZaAjQfNMp8puvOAJoGaE/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'Infantry',
+    url: 'https://docs.google.com/presentation/d/1uyC4BmP1wubNcRh5gwgrnDZYMUZEBPwJaZI4sQwVrEs/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'Engineer',
+    url: 'https://docs.google.com/presentation/d/1Tdqwl-YDKewjI9TEYrtOjIirqcV7c-A1e5TUdi0rBjs/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
+    title: 'Operations SOP',
+    url: 'https://docs.google.com/document/d/e/2PACX-1vQcRlLmtkT0T40QUYaHGNG4MNBIsQQId_8VYxllF338YDRyVeSV1XVg2UBqhYG7qaFA7G1WeujSfQiN/pub?embedded=true',
+    group: 'S-4 Operations',
+    subgroup: 'Procedures'
+  },
+  {
+    title: 'Media Guidelines',
+    url: 'https://docs.google.com/presentation/d/1SwBJ-8yOcvzSs6BWdzmI9dzJPS81lLefn3YVUK8tEK8/embed?start=false&loop=false&delayms=3000',
+    group: 'S-9 Public Relations',
+    subgroup: 'Communications'
+  }
+] %}
+
+{% set initial = items[0] %}
+
+{# =========================
+   HELPERS – COPY URL
+   ========================= #}
+{% macro file_id(url) %}
+  {% set p = url|split('/d/') %}
+  {% if p|length > 1 %}
+    {{ p[1]|split('/')|first }}
+  {% endif %}
+{% endmacro %}
+{% import _self as util %}
+
+<div style="height:88vh; width:90%; margin:0 auto; display:flex; flex-direction:column;">
+
+  <!-- HEADER -->
+  <header>
+    <table width="100%">
+      <tr>
+        <td>
+          <h2 id="docTitle">{{ initial.title }}</h2>
+        </td>
+        <td align="right">
+          <a id="copyBtn"
+             class="copy-btn"
+             href="#"
+             target="_blank"
+             style="display:none;">
+            Make a copy
+          </a>
+        </td>
+      </tr>
+    </table>
+  </header>
+
+  <!-- BODY -->
+  <div style="flex:1; min-height:0;">
+    <table width="100%" height="100%" cellpadding="6" cellspacing="0">
+      <tr>
+
+        <!-- MENU -->
+        <td valign="top" style="white-space:nowrap;">
+          <div id="docsMenu">
+            <details open>
+              <summary>Documents</summary>
+              <ul>
+
+                {% for group in group_order %}
+                  {% set has_group = false %}
+                  {% for i in items %}{% if i.group == group %}{% set has_group = true %}{% endif %}{% endfor %}
+                  {% if has_group %}
+                    <li>
+                      <details open>
+                        <summary style="font-weight:bold; font-size:18pt;">{{ group }}</summary>
+                        <ul>
+
+                          {% for sg in subgroup_order[group] %}
+                            {% set has_sg = false %}
+                            {% for i in items %}{% if i.group == group and i.subgroup == sg %}{% set has_sg = true %}{% endif %}{% endfor %}
+                            {% if has_sg %}
+                              <li>
+                                <details open>
+                                  <summary>{{ sg }}</summary>
+                                  <ul>
+                                    {% for doc in items %}
+                                      {% if doc.group == group and doc.subgroup == sg %}
+                                        {% set fid = util.file_id(doc.url) %}
+                                        {% if doc.type == 'slides' %}
+                                          {% set copy_url = 'https://docs.google.com/presentation/d/' ~ fid ~ '/copy' %}
+                                        {% else %}
+                                          {% set copy_url = 'https://docs.google.com/document/d/' ~ fid ~ '/copy' %}
+                                        {% endif %}
+                                        <li>
+                                          <a href="#"
+                                             onclick="loadDoc('{{ doc.url }}','{{ doc.title|e('js') }}','{{ doc.copy is defined and doc.copy ? copy_url : '' }}'); return false;">
+                                            {{ doc.title }}
+                                          </a>
+                                        </li>
+                                      {% endif %}
+                                    {% endfor %}
+                                  </ul>
+                                </details>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+
+                        </ul>
+                      </details>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+
+              </ul>
+            </details>
+          </div>
+        </td>
+
+        <!-- VIEWER -->
+        <td valign="top" width="100%">
+          <iframe id="viewer" src="{{ initial.url }}" width="100%" height="100%" frameborder="0"></iframe>
+        </td>
+
+      </tr>
+    </table>
+  </div>
+</div>
+
+<script>
+function loadDoc(url, title, copyUrl) {
+  document.getElementById('viewer').src = url;
+  document.getElementById('docTitle').textContent = title;
+
+  var btn = document.getElementById('copyBtn');
+  if (copyUrl && copyUrl.length) {
+    btn.href = copyUrl;
+    btn.style.display = 'inline-block';
+  } else {
+    btn.style.display = 'none';
+  }
+}
+</script>
+
+{% endblock %}
