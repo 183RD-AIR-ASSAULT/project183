@@ -5,35 +5,58 @@
 
 {% block body %}
 
-{# =========================
-   CSS – BULLETS (THEME-PROOF)
-   ========================= #}
+
 <style>
-#docsMenu ul { list-style:none !important; margin:0; padding-left:0; }
-#docsMenu ul { padding-left:18px; }
-#docsMenu ul ul { padding-left:22px; }
-#docsMenu ul ul ul { padding-left:26px; }
-
-#docsMenu li { position:relative; padding-left:14px; margin-top:4px; }
-#docsMenu li::before { content:"•"; position:absolute; left:0; top:0.25em; }
-
-#docsMenu summary::before { content:""; }
-#docsMenu summary { cursor:pointer; }
-
-#docsMenu > details > ul > li { margin-top:14px; }
-
-.copy-btn {
-  padding:6px 10px;
-  border:1px solid #888;
-  border-radius:4px;
-  text-decoration:none;
-  font-size:0.9em;
+/* Disable native bullets */
+#docsMenu ul {
+  list-style: none !important;
+  margin: 0;
+  padding-left: 0;
 }
-</style>
 
-{# =========================
-   GROUP / SUBGROUP ORDER
-   ========================= #}
+/* Controlled indentation per nesting level */
+#docsMenu ul { padding-left: 18px; }
+#docsMenu ul ul { padding-left: 22px; }
+#docsMenu ul ul ul { padding-left: 26px; }
+
+/* Each list item gets a fake bullet */
+#docsMenu li {
+  position: relative;
+  padding-left: 14px;
+  margin-top: 4px;
+}
+
+/* Bullet character */
+#docsMenu li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  line-height: 1;
+}
+
+/* Do not bullet <summary> text itself */
+#docsMenu summary::before { content: ""; }
+#docsMenu summary { cursor: pointer; }
+
+/* Slight spacing between groups */
+#docsMenu > details > ul > li { margin-top: 14px; }
+
+/* Header buttons */
+.doc-btn {
+  padding: 6px 10px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-left: 6px;
+  background: transparent;
+  color: inherit;
+}
+
+/* Make <button> match <a> styling */
+.doc-btn[type="button"] { cursor: pointer; }
+</style>
 
 {% set group_order = [
   'S-1 Personnel',
@@ -51,15 +74,11 @@
   'S-9 Public Relations': ['Communications']
 } %}
 
-{# =========================
-   ADD DOCUMENTS HERE
-   - type: - type: 'doc' (Google Docs) or 'slides' (Google Slides)
-   - Every page MUST have its own url
-   - copy: true  → shows “Make a copy” button
-   - Use /preview for Docs to avoid edit UI
-   - Use /embed?start=... for Slides to avoid edit UI
-   ========================= #}
-
+{# ======================================================================
+   DOCUMENTS (URLS UNCHANGED)
+   NOTE: You can optionally add: key: 'your-stable-key'
+         If you do not, we auto-generate a key from title.
+   ====================================================================== #}
 {% set items = [
    {
     title: 'Official Unit Policy Manual',
@@ -74,14 +93,14 @@
     group: 'S-2 Intelligence & Missions',
     subgroup: 'Current Ops'
   },
-{
+  {
     title: 'METT-TCA',
     type: 'doc',
     url: 'https://docs.google.com/document/d/1kUpdA47R3htG6L_y0tT9WuJfz75kO95nt1wZVqTWHvs/preview',
     group: 'S-2 Intelligence & Missions',
     subgroup: 'Templates'
   },
-   {
+  {
     title: 'Basic Combat Training',
     type: 'doc',
     url: 'https://docs.google.com/document/d/17JfEwDVqVGqJHtU4fs01ehjJAiCT7hdj/preview',
@@ -195,18 +214,61 @@
   }
 ] %}
 
-{% set initial = items[0] %}
-
-{# =========================
-   HELPERS – COPY URL
-   ========================= #}
-{% macro file_id(url) %}
+{# ======================================================================
+   HELPERS
+   ====================================================================== #}
+{% macro google_file_id(url) %}
   {% set p = url|split('/d/') %}
   {% if p|length > 1 %}
     {{ p[1]|split('/')|first }}
   {% endif %}
 {% endmacro %}
+
+{# slugify helper: makes a stable key from title, if doc.key missing #}
+{% macro slugify(s) %}
+  {# lowercase -> replace & with "and" -> remove non-word -> collapse dashes #}
+  {% set x = s|lower %}
+  {% set x = x|replace({'&':' and '}) %}
+  {% set x = x|replace({'/':' ', '\\':' ', ':':' ', ';':' ', ',':' ', '.':' ', '(':' ', ')':' ', '[':' ', ']':' ', '{':' ', '}':' ', "'":'', '"':''}) %}
+  {% set x = x|trim %}
+  {% set x = x|replace({'  ':' '}) %}
+  {% set x = x|replace({'  ':' '}) %}
+  {% set x = x|replace({'  ':' '}) %}
+  {# spaces -> dashes #}
+  {% set x = x|replace({' ':'-'}) %}
+  {{ x }}
+{% endmacro %}
+
 {% import _self as util %}
+
+{# ======================================================================
+   INITIAL DOC (supports deep link: ?doc=<key>)
+   If items have no key, we compare against slugified title.
+   ====================================================================== #}
+{% set selected_key = app.request.query.get('doc') %}
+{% set initial = items[0] %}
+{% set initial_key = initial.key is defined ? initial.key : util.slugify(initial.title) %}
+
+{% if selected_key %}
+  {% for d in items %}
+    {% set d_key = d.key is defined ? d.key : util.slugify(d.title) %}
+    {% if d_key == selected_key %}
+      {% set initial = d %}
+      {% set initial_key = d_key %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% set initial_type = initial.type|default('doc') %}
+{% set initial_fid = util.google_file_id(initial.url) %}
+{% set initial_copy_url = '' %}
+{% if initial.copy is defined and initial.copy and initial_fid %}
+  {% if initial_type == 'slides' %}
+    {% set initial_copy_url = 'https://docs.google.com/presentation/d/' ~ initial_fid ~ '/copy' %}
+  {% else %}
+    {% set initial_copy_url = 'https://docs.google.com/document/d/' ~ initial_fid ~ '/copy' %}
+  {% endif %}
+{% endif %}
 
 <div style="height:88vh; width:90%; margin:0 auto; display:flex; flex-direction:column;">
 
@@ -218,13 +280,25 @@
           <h2 id="docTitle">{{ initial.title }}</h2>
         </td>
         <td align="right">
-          <a id="copyBtn"
-             class="copy-btn"
-             href="#"
+          <a id="openBtn"
+             class="doc-btn"
+             href="{{ initial.url }}"
              target="_blank"
-             style="display:none;">
+             rel="noopener">
+            Open document
+          </a>
+
+          <a id="copyBtn"
+             class="doc-btn"
+             href="{{ initial_copy_url }}"
+             target="_blank"
+             rel="noopener"
+             style="{{ initial_copy_url ? '' : 'display:none;' }}">
             Make a copy
           </a>
+
+          <button id="copyLinkBtn" class="doc-btn" type="button">Copy link</button>
+          <button id="bookmarkBtn" class="doc-btn" type="button">Bookmark</button>
         </td>
       </tr>
     </table>
@@ -244,7 +318,10 @@
 
                 {% for group in group_order %}
                   {% set has_group = false %}
-                  {% for i in items %}{% if i.group == group %}{% set has_group = true %}{% endif %}{% endfor %}
+                  {% for i in items %}
+                    {% if i.group == group %}{% set has_group = true %}{% endif %}
+                  {% endfor %}
+
                   {% if has_group %}
                     <li>
                       <details open>
@@ -253,28 +330,46 @@
 
                           {% for sg in subgroup_order[group] %}
                             {% set has_sg = false %}
-                            {% for i in items %}{% if i.group == group and i.subgroup == sg %}{% set has_sg = true %}{% endif %}{% endfor %}
+                            {% for i in items %}
+                              {% if i.group == group and i.subgroup == sg %}{% set has_sg = true %}{% endif %}
+                            {% endfor %}
+
                             {% if has_sg %}
                               <li>
                                 <details open>
                                   <summary>{{ sg }}</summary>
                                   <ul>
+
                                     {% for doc in items %}
                                       {% if doc.group == group and doc.subgroup == sg %}
-                                        {% set fid = util.file_id(doc.url) %}
-                                        {% if doc.type == 'slides' %}
-                                          {% set copy_url = 'https://docs.google.com/presentation/d/' ~ fid ~ '/copy' %}
-                                        {% else %}
-                                          {% set copy_url = 'https://docs.google.com/document/d/' ~ fid ~ '/copy' %}
+                                        {% set doc_type = doc.type|default('doc') %}
+                                        {% set fid = util.google_file_id(doc.url) %}
+                                        {% set copy_url = '' %}
+
+                                        {% if doc.copy is defined and doc.copy and fid %}
+                                          {% if doc_type == 'slides' %}
+                                            {% set copy_url = 'https://docs.google.com/presentation/d/' ~ fid ~ '/copy' %}
+                                          {% else %}
+                                            {% set copy_url = 'https://docs.google.com/document/d/' ~ fid ~ '/copy' %}
+                                          {% endif %}
                                         {% endif %}
+
+                                        {% set doc_key = doc.key is defined ? doc.key : util.slugify(doc.title) %}
+
                                         <li>
                                           <a href="#"
-                                             onclick="loadDoc('{{ doc.url }}','{{ doc.title|e('js') }}','{{ doc.copy is defined and doc.copy ? copy_url : '' }}'); return false;">
+                                             onclick="loadDoc(
+                                               '{{ doc.url }}',
+                                               '{{ doc.title|e('js') }}',
+                                               '{{ copy_url }}',
+                                               '{{ doc_key|e('js') }}'
+                                             ); return false;">
                                             {{ doc.title }}
                                           </a>
                                         </li>
                                       {% endif %}
                                     {% endfor %}
+
                                   </ul>
                                 </details>
                               </li>
@@ -294,7 +389,11 @@
 
         <!-- VIEWER -->
         <td valign="top" width="100%">
-          <iframe id="viewer" src="{{ initial.url }}" width="100%" height="100%" frameborder="0"></iframe>
+          <iframe id="viewer"
+                  src="{{ initial.url }}"
+                  width="100%"
+                  height="100%"
+                  frameborder="0"></iframe>
         </td>
 
       </tr>
@@ -303,18 +402,72 @@
 </div>
 
 <script>
-function loadDoc(url, title, copyUrl) {
+/* This is now ALWAYS set (either doc.key or slugified title) */
+let currentDocKey = '{{ initial_key|e('js') }}';
+
+function loadDoc(url, title, copyUrl, docKey) {
+  currentDocKey = docKey || currentDocKey || null;
+
   document.getElementById('viewer').src = url;
   document.getElementById('docTitle').textContent = title;
 
-  var btn = document.getElementById('copyBtn');
+  // Open button always points to the current viewer URL
+  const openBtn = document.getElementById('openBtn');
+  openBtn.href = url;
+  openBtn.style.display = 'inline-block';
+
+  // Copy button only shows if configured and derivable
+  const copyBtn = document.getElementById('copyBtn');
   if (copyUrl && copyUrl.length) {
-    btn.href = copyUrl;
-    btn.style.display = 'inline-block';
+    copyBtn.href = copyUrl;
+    copyBtn.style.display = 'inline-block';
   } else {
-    btn.style.display = 'none';
+    copyBtn.style.display = 'none';
   }
 }
+
+function buildDeepLink(key) {
+  const url = new URL(window.location.href);
+  if (key) url.searchParams.set('doc', key);
+  return url.toString();
+}
+
+async function copyToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch (e) {
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'absolute';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e2) {
+      return false;
+    }
+  }
+}
+
+document.getElementById('copyLinkBtn').addEventListener('click', async function() {
+  if (!currentDocKey) { alert('Select a document first.'); return; }
+  const link = buildDeepLink(currentDocKey);
+  const ok = await copyToClipboard(link);
+  alert(ok ? 'Link copied to clipboard.' : 'Failed to copy link.');
+});
+
+document.getElementById('bookmarkBtn').addEventListener('click', function() {
+  if (!currentDocKey) { alert('Select a document first.'); return; }
+  const url = new URL(window.location.href);
+  url.searchParams.set('doc', currentDocKey);
+  history.replaceState({}, '', url.toString());
+  alert('Bookmarked (URL updated).');
+});
 </script>
 
 {% endblock %}
