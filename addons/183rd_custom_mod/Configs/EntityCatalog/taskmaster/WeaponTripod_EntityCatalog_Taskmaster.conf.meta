@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9FEB3879BE9759F4}Configs/EntityCatalog/base/WeaponTripod_EntityCatalog_Taskmaster.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

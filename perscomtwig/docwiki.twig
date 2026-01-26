@@ -5,45 +5,22 @@
 
 {% block body %}
 
-
 <style>
-/* Disable native bullets */
-#docsMenu ul {
-  list-style: none !important;
-  margin: 0;
-  padding-left: 0;
-}
-
-/* Controlled indentation per nesting level */
+/* ===== bullets ===== */
+#docsMenu ul { list-style: none !important; margin: 0; padding-left: 0; }
 #docsMenu ul { padding-left: 18px; }
 #docsMenu ul ul { padding-left: 22px; }
 #docsMenu ul ul ul { padding-left: 26px; }
-
-/* Each list item gets a fake bullet */
-#docsMenu li {
-  position: relative;
-  padding-left: 14px;
-  margin-top: 4px;
-}
-
-/* Bullet character */
-#docsMenu li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0.2em;
-  line-height: 1;
-}
-
-/* Do not bullet <summary> text itself */
+#docsMenu li { position: relative; padding-left: 14px; margin-top: 4px; }
+#docsMenu li::before { content: "•"; position: absolute; left: 0; top: 0.2em; line-height: 1; }
 #docsMenu summary::before { content: ""; }
 #docsMenu summary { cursor: pointer; }
-
-/* Slight spacing between groups */
 #docsMenu > details > ul > li { margin-top: 14px; }
+#docsMenu a{ display:inline-block; padding:6px 0; text-decoration:none; }
+#docsMenu a:hover{ text-decoration: underline; }
 
-/* Header buttons */
-.doc-btn {
+/* ===== buttons ===== */
+.doc-btn{
   padding: 6px 10px;
   border: 1px solid #888;
   border-radius: 4px;
@@ -52,10 +29,153 @@
   margin-left: 6px;
   background: transparent;
   color: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  line-height: 1.1;
+}
+.doc-btn[type="button"]{ cursor:pointer; }
+
+/* ===== layout (desktop) ===== */
+.docs-shell{
+  height: 88vh;
+  width: 90%;
+  margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  min-height:0;
+}
+.docs-header{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.docs-title{ margin:0; line-height:1.2; }
+.docs-actions{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:6px;
+  flex-wrap:wrap;
+}
+.docs-body{
+  flex:1;
+  min-height:0;
+  display:flex;
+  gap:12px;
+}
+.docs-menu-col{
+  width:340px;
+  max-width:40%;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
+  padding-right:6px;
+  white-space:normal;
+}
+.docs-group-title{ font-weight:bold; font-size:1.15rem; }
+
+.docs-viewer-col{
+  flex:1;
+  min-width:0;
+  min-height:0;
 }
 
-/* Make <button> match <a> styling */
-.doc-btn[type="button"] { cursor: pointer; }
+/* ===== viewer wrapper ===== */
+.viewer-wrap{
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+#viewer{
+  width:100%;
+  height:100%;
+  border:0;
+}
+
+/* ===== mobile ===== */
+.mobile-only{ display:none; }
+.viewer-resize-handle{ display:none; }
+
+@media (max-width: 900px){
+  .mobile-only{ display:inline-flex; }
+
+  .docs-shell{
+    width: 100%;
+    height: auto;
+    min-height: calc(100vh - 110px);
+    padding: 0 10px;
+  }
+
+  .docs-header{ flex-direction: column; align-items: stretch; }
+  .docs-actions{ justify-content: flex-start; }
+  .docs-body{ flex-direction: column; gap: 10px; }
+
+  .docs-menu-col{
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+    max-height: 38vh;
+    overflow: auto;
+    border: 1px solid rgba(136,136,136,0.35);
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  /* On mobile: wrapper becomes “paper” by default but resizable via JS */
+  .viewer-wrap{
+    width: 100%;
+    /* JS will set height; this is a sane default: 8x11 ratio */
+    height: calc(100vw * 11 / 8);
+    max-height: 85vh;
+    min-height: 45vh;
+    border: 1px solid rgba(136,136,136,0.35);
+    border-radius: 8px;
+    overflow: hidden;
+    background: transparent;
+  }
+
+  #viewer{
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* Touch drag bar */
+  .viewer-resize-handle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none; /* we handle the drag */
+    margin-top: 8px;
+    padding: 10px 12px;
+    border: 1px solid rgba(136,136,136,0.35);
+    border-radius: 8px;
+    cursor: ns-resize;
+  }
+
+  .viewer-resize-grip{
+    width: 44px;
+    height: 4px;
+    border-radius: 999px;
+    background: rgba(136,136,136,0.55);
+  }
+
+  .viewer-resize-text{
+    margin-left: 10px;
+    font-size: 0.9em;
+    opacity: 0.85;
+  }
+}
+
+@media (max-width: 520px){
+  .docs-actions{ flex-direction:column; align-items:stretch; }
+  .doc-btn{ width:100%; margin-left:0; }
+}
 </style>
 
 {% set group_order = [
@@ -76,8 +196,6 @@
 
 {# ======================================================================
    DOCUMENTS (URLS UNCHANGED)
-   NOTE: You can optionally add: key: 'your-stable-key'
-         If you do not, we auto-generate a key from title.
    ====================================================================== #}
 {% set items = [
    {
@@ -153,6 +271,12 @@
     subgroup: 'Smart Cards'
   },
   {
+    title: 'Reports',
+    url: 'https://docs.google.com/presentation/d/1NQlEN_x94L__Qh6TH2rxwZCVl9vVwqcuYWXgL0OWNmo/preview',
+    group: 'S-3 Training',
+    subgroup: 'Smart Cards'
+  },
+  {
     title: 'JFIRE CAS',
     url: 'https://docs.google.com/presentation/d/1UjYolY1NV7D1YL9vt01wJvSb_EGVw3BxD-D7C_tLJ10/preview',
     group: 'S-3 Training',
@@ -224,9 +348,7 @@
   {% endif %}
 {% endmacro %}
 
-{# slugify helper: makes a stable key from title, if doc.key missing #}
 {% macro slugify(s) %}
-  {# lowercase -> replace & with "and" -> remove non-word -> collapse dashes #}
   {% set x = s|lower %}
   {% set x = x|replace({'&':' and '}) %}
   {% set x = x|replace({'/':' ', '\\':' ', ':':' ', ';':' ', ',':' ', '.':' ', '(':' ', ')':' ', '[':' ', ']':' ', '{':' ', '}':' ', "'":'', '"':''}) %}
@@ -234,7 +356,6 @@
   {% set x = x|replace({'  ':' '}) %}
   {% set x = x|replace({'  ':' '}) %}
   {% set x = x|replace({'  ':' '}) %}
-  {# spaces -> dashes #}
   {% set x = x|replace({' ':'-'}) %}
   {{ x }}
 {% endmacro %}
@@ -243,7 +364,6 @@
 
 {# ======================================================================
    INITIAL DOC (supports deep link: ?doc=<key>)
-   If items have no key, we compare against slugified title.
    ====================================================================== #}
 {% set selected_key = app.request.query.get('doc') %}
 {% set initial = items[0] %}
@@ -270,139 +390,126 @@
   {% endif %}
 {% endif %}
 
-<div style="height:88vh; width:90%; margin:0 auto; display:flex; flex-direction:column;">
+<div class="docs-shell">
 
   <!-- HEADER -->
-  <header>
-    <table width="100%">
-      <tr>
-        <td>
-          <h2 id="docTitle">{{ initial.title }}</h2>
-        </td>
-        <td align="right">
-          <a id="openBtn"
-             class="doc-btn"
-             href="{{ initial.url }}"
-             target="_blank"
-             rel="noopener">
-            Open document
-          </a>
+  <header class="docs-header">
+    <h2 id="docTitle" class="docs-title">{{ initial.title }}</h2>
 
-          <a id="copyBtn"
-             class="doc-btn"
-             href="{{ initial_copy_url }}"
-             target="_blank"
-             rel="noopener"
-             style="{{ initial_copy_url ? '' : 'display:none;' }}">
-            Make a copy
-          </a>
+    <div class="docs-actions">
+      <a id="openBtn" class="doc-btn" href="{{ initial.url }}" target="_blank" rel="noopener">Open document</a>
 
-          <button id="copyLinkBtn" class="doc-btn" type="button">Copy link</button>
-          <button id="bookmarkBtn" class="doc-btn" type="button">Bookmark</button>
-        </td>
-      </tr>
-    </table>
+      <a id="copyBtn" class="doc-btn" href="{{ initial_copy_url }}" target="_blank" rel="noopener"
+         style="{{ initial_copy_url ? '' : 'display:none;' }}">Make a copy</a>
+
+      <button id="copyLinkBtn" class="doc-btn" type="button">Copy link</button>
+      <button id="bookmarkBtn" class="doc-btn" type="button">Bookmark</button>
+
+      <button id="fsBtn" class="doc-btn mobile-only" type="button" aria-label="Fullscreen document">Full screen</button>
+    </div>
   </header>
 
   <!-- BODY -->
-  <div style="flex:1; min-height:0;">
-    <table width="100%" height="100%" cellpadding="6" cellspacing="0">
-      <tr>
+  <div class="docs-body">
 
-        <!-- MENU -->
-        <td valign="top" style="white-space:nowrap;">
-          <div id="docsMenu">
-            <details open>
-              <summary>Documents</summary>
-              <ul>
+    <!-- MENU -->
+    <aside class="docs-menu-col">
+      <div id="docsMenu">
+        <details open>
+          <summary>Documents</summary>
+          <ul>
 
-                {% for group in group_order %}
-                  {% set has_group = false %}
-                  {% for i in items %}
-                    {% if i.group == group %}{% set has_group = true %}{% endif %}
-                  {% endfor %}
+            {% for group in group_order %}
+              {% set has_group = false %}
+              {% for i in items %}
+                {% if i.group == group %}{% set has_group = true %}{% endif %}
+              {% endfor %}
 
-                  {% if has_group %}
-                    <li>
-                      <details open>
-                        <summary style="font-weight:bold; font-size:18pt;">{{ group }}</summary>
-                        <ul>
+              {% if has_group %}
+                <li>
+                  <details open>
+                    <summary class="docs-group-title">{{ group }}</summary>
+                    <ul>
 
-                          {% for sg in subgroup_order[group] %}
-                            {% set has_sg = false %}
-                            {% for i in items %}
-                              {% if i.group == group and i.subgroup == sg %}{% set has_sg = true %}{% endif %}
-                            {% endfor %}
+                      {% for sg in subgroup_order[group] %}
+                        {% set has_sg = false %}
+                        {% for i in items %}
+                          {% if i.group == group and i.subgroup == sg %}{% set has_sg = true %}{% endif %}
+                        {% endfor %}
 
-                            {% if has_sg %}
-                              <li>
-                                <details open>
-                                  <summary>{{ sg }}</summary>
-                                  <ul>
+                        {% if has_sg %}
+                          <li>
+                            <details open>
+                              <summary>{{ sg }}</summary>
+                              <ul>
 
-                                    {% for doc in items %}
-                                      {% if doc.group == group and doc.subgroup == sg %}
-                                        {% set doc_type = doc.type|default('doc') %}
-                                        {% set fid = util.google_file_id(doc.url) %}
-                                        {% set copy_url = '' %}
+                                {% for doc in items %}
+                                  {% if doc.group == group and doc.subgroup == sg %}
+                                    {% set doc_type = doc.type|default('doc') %}
+                                    {% set fid = util.google_file_id(doc.url) %}
+                                    {% set copy_url = '' %}
 
-                                        {% if doc.copy is defined and doc.copy and fid %}
-                                          {% if doc_type == 'slides' %}
-                                            {% set copy_url = 'https://docs.google.com/presentation/d/' ~ fid ~ '/copy' %}
-                                          {% else %}
-                                            {% set copy_url = 'https://docs.google.com/document/d/' ~ fid ~ '/copy' %}
-                                          {% endif %}
-                                        {% endif %}
-
-                                        {% set doc_key = doc.key is defined ? doc.key : util.slugify(doc.title) %}
-
-                                        <li>
-                                          <a href="#"
-                                             onclick="loadDoc(
-                                               '{{ doc.url }}',
-                                               '{{ doc.title|e('js') }}',
-                                               '{{ copy_url }}',
-                                               '{{ doc_key|e('js') }}'
-                                             ); return false;">
-                                            {{ doc.title }}
-                                          </a>
-                                        </li>
+                                    {% if doc.copy is defined and doc.copy and fid %}
+                                      {% if doc_type == 'slides' %}
+                                        {% set copy_url = 'https://docs.google.com/presentation/d/' ~ fid ~ '/copy' %}
+                                      {% else %}
+                                        {% set copy_url = 'https://docs.google.com/document/d/' ~ fid ~ '/copy' %}
                                       {% endif %}
-                                    {% endfor %}
+                                    {% endif %}
 
-                                  </ul>
-                                </details>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
+                                    {% set doc_key = doc.key is defined ? doc.key : util.slugify(doc.title) %}
 
-                        </ul>
-                      </details>
-                    </li>
-                  {% endif %}
-                {% endfor %}
+                                    <li>
+                                      <a href="#"
+                                         onclick="loadDoc(
+                                           '{{ doc.url }}',
+                                           '{{ doc.title|e('js') }}',
+                                           '{{ copy_url }}',
+                                           '{{ doc_key|e('js') }}'
+                                         ); return false;">
+                                        {{ doc.title }}
+                                      </a>
+                                    </li>
+                                  {% endif %}
+                                {% endfor %}
 
-              </ul>
-            </details>
-          </div>
-        </td>
+                              </ul>
+                            </details>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
 
-        <!-- VIEWER -->
-        <td valign="top" width="100%">
-          <iframe id="viewer"
-                  src="{{ initial.url }}"
-                  width="100%"
-                  height="100%"
-                  frameborder="0"></iframe>
-        </td>
+                    </ul>
+                  </details>
+                </li>
+              {% endif %}
+            {% endfor %}
 
-      </tr>
-    </table>
+          </ul>
+        </details>
+      </div>
+    </aside>
+
+    <!-- VIEWER -->
+    <main class="docs-viewer-col">
+
+      {# Wrap iframe so we can resize the wrapper height on mobile #}
+      <div id="viewerWrap" class="viewer-wrap">
+        <iframe id="viewer" src="{{ initial.url }}" frameborder="0"></iframe>
+      </div>
+
+      {# Mobile drag handle to resize #}
+      <div id="viewerResizeHandle" class="viewer-resize-handle" aria-label="Resize document">
+        <div class="viewer-resize-grip"></div>
+        <div class="viewer-resize-text">Drag to resize</div>
+      </div>
+
+    </main>
+
   </div>
 </div>
 
 <script>
-/* This is now ALWAYS set (either doc.key or slugified title) */
 let currentDocKey = '{{ initial_key|e('js') }}';
 
 function loadDoc(url, title, copyUrl, docKey) {
@@ -411,16 +518,14 @@ function loadDoc(url, title, copyUrl, docKey) {
   document.getElementById('viewer').src = url;
   document.getElementById('docTitle').textContent = title;
 
-  // Open button always points to the current viewer URL
   const openBtn = document.getElementById('openBtn');
   openBtn.href = url;
-  openBtn.style.display = 'inline-block';
+  openBtn.style.display = 'inline-flex';
 
-  // Copy button only shows if configured and derivable
   const copyBtn = document.getElementById('copyBtn');
   if (copyUrl && copyUrl.length) {
     copyBtn.href = copyUrl;
-    copyBtn.style.display = 'inline-block';
+    copyBtn.style.display = 'inline-flex';
   } else {
     copyBtn.style.display = 'none';
   }
@@ -468,6 +573,138 @@ document.getElementById('bookmarkBtn').addEventListener('click', function() {
   history.replaceState({}, '', url.toString());
   alert('Bookmarked (URL updated).');
 });
+
+/* =========================
+   FULLSCREEN (mobile button)
+   ========================= */
+function isFullscreen() {
+  return !!(document.fullscreenElement || document.webkitFullscreenElement);
+}
+async function requestFullscreen(el) {
+  if (el.requestFullscreen) return el.requestFullscreen();
+  if (el.webkitRequestFullscreen) return el.webkitRequestFullscreen();
+}
+async function exitFullscreen() {
+  if (document.exitFullscreen) return document.exitFullscreen();
+  if (document.webkitExitFullscreen) return document.webkitExitFullscreen();
+}
+
+const fsBtn = document.getElementById('fsBtn');
+const viewer = document.getElementById('viewer');
+
+if (fsBtn && viewer) {
+  fsBtn.addEventListener('click', async function() {
+    try {
+      if (!isFullscreen()) await requestFullscreen(viewer);
+      else await exitFullscreen();
+    } catch (e) {
+      window.open(viewer.src, '_blank', 'noopener');
+    }
+  });
+
+  function syncFsButtonLabel() {
+    fsBtn.textContent = isFullscreen() ? 'Exit full screen' : 'Full screen';
+  }
+  document.addEventListener('fullscreenchange', syncFsButtonLabel);
+  document.addEventListener('webkitfullscreenchange', syncFsButtonLabel);
+  syncFsButtonLabel();
+}
+
+/* =========================
+   MOBILE RESIZE (touch drag handle)
+   - resizes #viewerWrap height
+   - saves in localStorage
+   ========================= */
+const viewerWrap = document.getElementById('viewerWrap');
+const resizeHandle = document.getElementById('viewerResizeHandle');
+
+function isMobileLayout() {
+  return window.matchMedia && window.matchMedia('(max-width: 900px)').matches;
+}
+
+function clamp(n, min, max) { return Math.max(min, Math.min(max, n)); }
+
+function applySavedViewerHeight() {
+  if (!viewerWrap || !isMobileLayout()) return;
+
+  const saved = parseInt(localStorage.getItem('docs_viewer_height_px') || '', 10);
+  if (!isNaN(saved) && saved > 0) {
+    const minH = Math.round(window.innerHeight * 0.45);
+    const maxH = Math.round(window.innerHeight * 0.85);
+    viewerWrap.style.height = clamp(saved, minH, maxH) + 'px';
+  } else {
+    // default = 8x11 based on width
+    const defaultH = Math.round(viewerWrap.getBoundingClientRect().width * (11/8));
+    const minH = Math.round(window.innerHeight * 0.45);
+    const maxH = Math.round(window.innerHeight * 0.85);
+    viewerWrap.style.height = clamp(defaultH, minH, maxH) + 'px';
+  }
+}
+
+applySavedViewerHeight();
+window.addEventListener('resize', applySavedViewerHeight);
+
+if (viewerWrap && resizeHandle) {
+  let startY = 0;
+  let startH = 0;
+  let dragging = false;
+
+  function onStart(clientY) {
+    if (!isMobileLayout()) return;
+    dragging = true;
+    startY = clientY;
+    startH = viewerWrap.getBoundingClientRect().height;
+    document.body.style.userSelect = 'none';
+    document.body.style.webkitUserSelect = 'none';
+  }
+
+  function onMove(clientY) {
+    if (!dragging) return;
+
+    const dy = clientY - startY;
+    const minH = Math.round(window.innerHeight * 0.45);
+    const maxH = Math.round(window.innerHeight * 0.85);
+    const newH = clamp(Math.round(startH + dy), minH, maxH);
+
+    viewerWrap.style.height = newH + 'px';
+    localStorage.setItem('docs_viewer_height_px', String(newH));
+  }
+
+  function onEnd() {
+    dragging = false;
+    document.body.style.userSelect = '';
+    document.body.style.webkitUserSelect = '';
+  }
+
+  // Touch
+  resizeHandle.addEventListener('touchstart', function(e){
+    if (!e.touches || !e.touches.length) return;
+    onStart(e.touches[0].clientY);
+    e.preventDefault();
+  }, { passive: false });
+
+  resizeHandle.addEventListener('touchmove', function(e){
+    if (!e.touches || !e.touches.length) return;
+    onMove(e.touches[0].clientY);
+    e.preventDefault();
+  }, { passive: false });
+
+  resizeHandle.addEventListener('touchend', function(){
+    onEnd();
+  });
+
+  // Mouse (useful for dev tools mobile emulator)
+  resizeHandle.addEventListener('mousedown', function(e){
+    onStart(e.clientY);
+    e.preventDefault();
+  });
+  window.addEventListener('mousemove', function(e){
+    onMove(e.clientY);
+  });
+  window.addEventListener('mouseup', function(){
+    onEnd();
+  });
+}
 </script>
 
 {% endblock %}

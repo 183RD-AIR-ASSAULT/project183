@@ -15,7 +15,10 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{684F787298E8F314}" : "{C4EB11632BAC132A}Configs/Factions/183rd_BRAVO.conf" {
   }
-  SCR_Faction "{66F402CD148EED04}" : "{63FCA86C3C638E7C}Configs/Factions/183rd_CSB.conf" {
+  SCR_Faction "{66F402CD148EED04}" : "{0859F35FD86C000C}Configs/Factions/183rd_Taskmaster.conf" {
+   m_iOrder 6
+  }
+  SCR_Faction "{686F07FC657FC9FB}" : "{8B7FC831EF218BDA}Configs/Factions/183rd_Posse.conf" {
    m_iOrder 6
   }
   SCR_Faction "{66F3518CF39DB5BE}" : "{4667887431BAD754}Configs/Factions/183rd_Aviation.conf" {

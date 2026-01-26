@@ -1,0 +1,19 @@
+SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et" {
+ ID "52E65E9446A3DC1D"
+ components {
+  SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+    m_Image "{CDA09404A7C1E040}Assets/Logos/csb.edds"
+    m_sFaction "183_Taskmaster"
+    m_aAuthoredLabels + {
+     TRAIT_SPAWNPOINT FACTION_183_TASKMASTER CONTENT_MODDED
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A5286F8ED58877B}" {
+   "faction affiliation" "183_Taskmaster"
+  }
+ }
+ coords -0.624 1.923 2.116
+ m_sFaction "183_Taskmaster"
+}

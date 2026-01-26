@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0FBAE83A32ED1F03}Configs/EntityCatalog/base/Groups_EntityCatalog_Posse.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
