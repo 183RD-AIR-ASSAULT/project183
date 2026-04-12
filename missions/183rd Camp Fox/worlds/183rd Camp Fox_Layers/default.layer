@@ -6,23 +6,41 @@ SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
+   WorldSettings NavmeshWorldParams "{50FC63B94224C505}" {
+    MapMaxY 2500
+   }
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{68B3521709054ECE}" {
-     NavmeshFile "{E8D3999E884E38AF}Navmesh/CampFox_soldiers.nmn"
+     NavmeshFile "{E8D3999E884E38B1}Navmesh/campfox_soldiers.nmn"
+    }
+    AbsoluteAreas +{
+     "Walkable"
     }
    }
   }
   NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   WorldSettings NavmeshWorldParams "{50FC63B94224C505}" {
+    MapMaxY 2500
+   }
    NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
-     NavmeshFile "{924D454621B31E24}Navmesh/CampFox_btr.nmn"
+     NavmeshFile "{924D454621B31E26}Navmesh/campfox_btr.nmn"
+    }
+    AbsoluteAreas +{
+     "Walkable"
     }
    }
   }
   NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   WorldSettings NavmeshWorldParams "{5C8C9B750CF2F846}" {
+    MapMaxY 2500
+   }
    NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
-     NavmeshFile "{BF8472051856B15F}Navmesh/CampFox_lowRes.nmn"
+     NavmeshFile "{BF8472051856B161}Navmesh/campfox_lowres.nmn"
+    }
+    AbsoluteAreas +{
+     "Walkable"
     }
    }
   }
@@ -33,57 +51,13 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
  coords 8184.993 1485.269 8182.092
 }
 SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ components {
+  OETA_MarkerShareConfigComponent "{68C8F90FF2F736E1}" {
+   m_SharedFactionKeys "183_Batt,183_Able,183_Bravo,183_Nightmare,183_Lancer,183_Aviation,183_Taskmaster,183_Train,183_Posse"
+  }
+  SCR_WelcomeScreenComponent "{5D7290AC8A3E657E}" {
+   Enabled 0
+  }
+ }
  coords 8184.993 1485.313 8181.092
-}
-GenericEntity : "{160D661E89C85389}Prefabs/Systems/taskmaster/ArsenalBox_183_taskmaster.et" {
- coords 13690.184 1107.312 8096.984
- angles 0 -44.499 0
-}
-GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/aviation/ArsenalBox_183_211.et" {
- coords 13556.696 1107.312 8144.958
- angles 0 -47.2 0
-}
-SCR_SpawnPoint : "{5196636D43298B72}Prefabs/Systems/taskmaster/E_SpawnPoint_183rd_taskmaster.et" {
- coords 13680.069 1107.312 8094.419
- scale 0.5
-}
-GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able.et" {
- coords 13644.658 1107.312 8121.491
- angles 0 132.777 0
-}
-SCR_SpawnPoint : "{65C4EEED439F3C28}Prefabs/Systems/aviation/E_SpawnPoint_183rd_211.et" {
- coords 13547.531 1107.312 8140.447
- scale 0.5
-}
-$grp GenericEntity : "{710095DC38176840}Prefabs/Systems/nightmare/ArsenalBox_183_nightmare.et" {
- {
-  coords 13624.991 1107.312 8044.85
-  angles 0 -138.949 0
- }
- {
-  coords 13690.021 1107.312 8183.879
-  angles 0 -138.949 0
- }
-}
-SCR_SpawnPoint : "{9C9736E613CC62D5}Prefabs/Systems/able/E_SpawnPoint_183rd_able.et" {
- coords 13651.276 1107.312 8120.882
- scale 0.5
-}
-SCR_SpawnPoint : "{A056CDD1038A32A5}Prefabs/Systems/nightmare/E_SpawnPoint_183rd_nightmare.et" {
- coords 13683.941 1107.312 8189.142
- scale 0.5
-}
-SCR_SpawnPoint : "{B2C3DC788CA15F71}Prefabs/Systems/lancer/E_SpawnPoint_183rd_lancer.et" {
- coords 13685.519 1107.312 8146.814
- scale 0.5
-}
-$grp GenericEntity : "{DFD6BEE785EA81B8}Prefabs/Systems/lancer/ArsenalBox_183_lancer.et" {
- {
-  coords 13689.619 1107.312 8136.995
-  angles 0 42.854 0
- }
- {
-  coords 13609.042 1107.312 8028.731
-  angles 0 42.854 0
- }
 }

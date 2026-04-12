@@ -1,0 +1,88 @@
+SCR_SpawnPoint : "{0743DAAFA6AB5170}Prefabs/Systems/press/E_SpawnPoint_183rd_press.et" {
+ coords 13643.195 1076.824 8110.752
+ scale 0.25
+}
+GenericEntity : "{160D661E89C85389}Prefabs/Systems/taskmaster/ArsenalBox_183_taskmaster.et" {
+ coords 13690.184 1076.824 8096.984
+ angles 0 -44.499 0
+}
+SCR_SpawnPoint : "{19095AAEC04287D4}Prefabs/Systems/bravo/E_SpawnPoint_183rd_bravo.et" {
+ coords 13685 1076.824 8109.927
+ scale 0.5
+}
+GenericEntity : "{225FEB9E897EE4D3}Prefabs/Systems/aviation/ArsenalBox_183_211.et" {
+ coords 13556.696 1076.433 8144.958
+ angles 0 -47.2 0
+}
+GenericEntity : "{2D60E4912CFC883B}Prefabs/Systems/bravo/ArsenalBox_183_bravo.et" {
+ coords 13690.205 1076.824 8112.284
+ angles 0 -90 0
+}
+SCR_SpawnPoint : "{5196636D43298B72}Prefabs/Systems/taskmaster/E_SpawnPoint_183rd_taskmaster.et" {
+ coords 13685 1076.824 8098.445
+ scale 0.5
+}
+GenericEntity : "{53B50340EC040F90}Prefabs/Systems/able/ArsenalBox_183_Able.et" {
+ coords 13654.742 1076.824 8117.273
+ angles 0 132.777 0
+}
+SCR_SpawnPoint : "{65C4EEED439F3C28}Prefabs/Systems/aviation/E_SpawnPoint_183rd_211.et" {
+ coords 13547.531 1076.613 8140.447
+ scale 0.5
+}
+$grp GenericEntity : "{710095DC38176840}Prefabs/Systems/nightmare/ArsenalBox_183_nightmare.et" {
+ {
+  coords 13690.786 1076.824 8175.514
+  angles 0 -138.949 0
+ }
+ {
+  coords 13690.021 1076.824 8183.879
+  angles 0 -138.949 0
+ }
+}
+GenericEntity : "{7C890527CCA07C53}Prefabs/Systems/posse/ArsenalBox_183_posse.et" {
+ coords 13690.541 1076.824 8088.037
+ angles 0 -90 0
+}
+SCR_SpawnPoint : "{87CF7928793816F0}Prefabs/Systems/posse/E_SpawnPoint_183rd_posse.et" {
+ coords 13685 1076.824 8088.192
+ scale 0.5
+}
+SCR_SpawnPoint : "{9C9736E613CC62D5}Prefabs/Systems/able/E_SpawnPoint_183rd_able.et" {
+ coords 13660 1080.199 8160.539
+ scale 0.5
+}
+SCR_SpawnPoint : "{A056CDD1038A32A5}Prefabs/Systems/nightmare/E_SpawnPoint_183rd_nightmare.et" {
+ coords 13685 1076.824 8189.142
+ scale 0.5
+}
+SCR_SpawnPoint : "{AA7DC1F0A24245CD}Prefabs/Systems/batt/E_SpawnPoint_183rd_batt.et" {
+ coords 13660 1076.824 8121.674
+ scale 0.5
+}
+SCR_SpawnPoint : "{B2C3DC788CA15F71}Prefabs/Systems/lancer/E_SpawnPoint_183rd_lancer.et" {
+ coords 13685 1076.824 8144.235
+ scale 0.5
+}
+GenericEntity : "{BA2F9536623E1A47}Prefabs/Systems/batt/ArsenalBox_183_Batt.et" {
+ coords 13655.147 1076.824 8162.142
+ angles 0 270 0
+}
+StaticModelEntity : "{C4C4DE9135340298}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_US_05.et" {
+ coords 13650 1076.824 8120
+ angles 0 -90 0
+}
+$grp GenericEntity : "{DFD6BEE785EA81B8}Prefabs/Systems/lancer/ArsenalBox_183_lancer.et" {
+ {
+  coords 13689.619 1076.824 8136.995
+  angles 0 42.854 0
+ }
+ {
+  coords 13690.262 1076.824 8144.78
+  angles 0 42.854 0
+ }
+}
+GenericEntity : "{E1BD10FFA47338E6}Prefabs/Systems/press/ArsenalBox_183_press.et" {
+ coords 13639.542 1076.824 8111.841
+ angles 0 90 0
+}

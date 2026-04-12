@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp"
    }
   }
-  
   SCR_CampaignBuildingComponent "{6724FCE8BBBC9E3A}" {
   }
   SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
@@ -70,12 +69,12 @@ SCR_ChimeraCharacter : "{41BF9FF9225C6D47}Prefabs/Characters/183rd_base_player.e
     LoadoutSlotInfo Vest {
      Prefab ""
     }
-    LoadoutSlotInfo NVS_NVGSlot {
-    }
     LoadoutSlotInfo GRS_Waist {
      Prefab "{6127D89BE50B60F8}Prefabs/Belts/Bison Belts/183_Bison_Belt_Base.et"
     }
     LoadoutSlotInfo GRS_Right_Drop_Leg {
+    }
+    LoadoutSlotInfo NVS_NVGSlot {
     }
    }
   }

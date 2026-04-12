@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{B8D37F3EF17E46EC}Prefabs/HeadGear/IHPS/183rd_IHPS.et"
+     Prefab "{3C49F07980C627E4}Prefabs/HeadGear/IHPS/183rd_IHPS.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{EDB998C9B424A3C7}Prefabs/Characters/Uniforms/Tops/Vergy_Crye/Vergy_Crye_OCP.et"
