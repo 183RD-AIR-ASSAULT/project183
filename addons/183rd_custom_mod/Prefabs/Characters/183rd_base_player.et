@@ -73,15 +73,15 @@ SCR_ChimeraCharacter : "{AAD8C80101DB8091}Prefabs/Characters/183rd_base.et" {
      Prefab "{A36613EAD646961D}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_MC_AMP.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{45B8F0FCE30EB23E}Prefabs/Characters/Uniforms/Jacket_US_ACU_01_OCP.et"
+     Prefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
     }
     LoadoutSlotInfo Pants {
-     Prefab "{62A135EEFF5B5150}Prefabs/Characters/Uniforms/Pants_US_ACU_OCP.et"
+     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{80E2511DB6FB719A}Prefabs/Characters/Footwear/ArmyCombatBoots_US_desert.et"
+     Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
     }
     LoadoutSlotInfo Vest {
      Prefab ""
